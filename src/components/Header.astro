@@ -1,0 +1,15 @@
+---
+const links = ['Styles', 'Rooms', 'Colors', 'Trends', 'Quiz'];
+---
+<header>
+  <div class="wrap nav">
+    <a href="/" class="logo">Imaginary Interiors</a>
+    <nav class="menu">
+      {links.map((l) => <a href={`/${l.toLowerCase()}`}>{l}</a>)}
+    </nav>
+    <div class="icons">
+      <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-label="Saved"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+      <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-label="Menu"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </div>
+  </div>
+</header>

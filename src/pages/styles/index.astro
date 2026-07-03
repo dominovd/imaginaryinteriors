@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Placeholder from '../../components/Placeholder.astro';
+import { styles } from '../../data/styles.js';
+---
+<BaseLayout title="Interior Design Styles — Imaginary Interiors" description="A visual index of interior design styles — compare, name and shop each look.">
+  <div class="wrap">
+    <section class="hero" style="grid-template-columns:1fr;padding-bottom:14px">
+      <div>
+        <div class="eyebrow">Style hubs</div>
+        <h1>Interior design styles</h1>
+        <p class="sub">A visual index for comparing and naming interior styles. Tap a hub to explore rooms, palettes and shop-the-look pieces.</p>
+      </div>
+    </section>
+    <section>
+      <div class="row4" style="row-gap:26px">
+        {styles.map((s) => (
+          <a class="hcard" href={`/styles/${s.slug}`}>
+            <Placeholder tone={s.tone} label={s.name} />
+            <div class="body"><div class="htop"><b>{s.name}</b><span class="arrow">→</span></div><p>{s.tagline}</p></div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

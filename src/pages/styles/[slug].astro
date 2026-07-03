@@ -1,0 +1,150 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Placeholder from '../../components/Placeholder.astro';
+import { styles, getStyle } from '../../data/styles.js';
+
+export function getStaticPaths() {
+  return styles.map((s) => ({ params: { slug: s.slug }, props: { style: s } }));
+}
+
+const { style } = Astro.props;
+const s = style;
+const related = (s.related || []).map(getStyle).filter(Boolean);
+
+const shopIcons = ['table','sofa','lamp','planter','rug','art'];
+function icon(kind) {
+  const map = {
+    table: '<path d="M4 18v-5a2 2 0 012-2h12a2 2 0 012 2v5M6 11V8a2 2 0 012-2h8a2 2 0 012 2v3M5 18h14"/>',
+    sofa: '<path d="M4 18v-5a2 2 0 012-2h12a2 2 0 012 2v5M6 11V8a2 2 0 012-2h8a2 2 0 012 2v3"/>',
+    lamp: '<path d="M9 3h6l2 6H7l2-6zM12 9v9M8 21h8"/>',
+    planter: '<path d="M6 10h12l-1 8a2 2 0 01-2 2H9a2 2 0 01-2-2l-1-8zM12 10c0-3 2-5 5-5"/>',
+    rug: '<rect x="4" y="6" width="16" height="12" rx="1"/><path d="M4 10h16M4 14h16"/>',
+    art: '<rect x="5" y="4" width="14" height="16" rx="1"/><path d="M8 14l3-3 5 5"/>',
+  };
+  return map[kind] || map.art;
+}
+---
+<BaseLayout title={`${s.title} — Imaginary Interiors`} description={s.tagline}>
+  <div class="wrap">
+    <div class="crumb"><a href="/styles">Styles</a> / {s.name}</div>
+
+    <!-- HERO -->
+    <section class="hubhero">
+      <div>
+        <div class="eyebrow">Style hub</div>
+        <h1>{s.title}</h1>
+        <p class="sub">{s.tagline}</p>
+        <div class="cta">
+          <button class="btn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h12v18l-6-4-6 4z"/></svg> Save style</button>
+          <a class="btn ghost" href="#shop">Shop the look →</a>
+        </div>
+      </div>
+      <div class="hubcollage">
+        <Placeholder tone={s.tone} label={s.name} class="big" />
+        <Placeholder tone="graphite" label="Kitchen" />
+        <Placeholder tone="stone" label="Corner" />
+        <Placeholder tone="cream" label="Detail" class="wide" />
+      </div>
+    </section>
+  </div>
+
+  <!-- FACTS -->
+  <div class="wrap">
+    <section style="padding-top:6px">
+      <div class="facts">
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg><div><div class="k">Mood</div><div class="v">{s.mood}</div></div></div>
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16M4 12h16M4 17h16"/></svg><div><div class="k">Materials</div><div class="v">{s.materials}</div></div></div>
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="8.5" cy="10" r="1"/><circle cx="15" cy="9" r="1"/><circle cx="15.5" cy="14" r="1"/></svg><div><div class="k">Palette</div><div class="v">{s.palette}</div></div></div>
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 11l8-6 8 6v9H4z"/></svg><div><div class="k">Best rooms</div><div class="v">{s.bestRooms}</div></div></div>
+      </div>
+    </section>
+  </div>
+
+  {s.features && s.features.length > 0 && (
+    <div class="wrap">
+      <section class="makes">
+        <div>
+          <h2>What makes it {s.name.toLowerCase()}?</h2>
+          {s.features.map((f) => (
+            <div class="feat">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16M4 12h10M4 17h16"/></svg>
+              <div><b>{f.title}</b><p>{f.desc}</p></div>
+            </div>
+          ))}
+        </div>
+        <div class="board"><Placeholder tone="dark" label="" /><div class="cap">Material board</div></div>
+      </section>
+    </div>
+  )}
+
+  {s.roomIdeas && s.roomIdeas.length > 0 && (
+    <div class="wrap">
+      <section>
+        <h2>{s.name} room ideas</h2>
+        <div class="ideas">
+          {s.roomIdeas.map((r) => (
+            <div class="idea"><Placeholder tone={r.tone} label={r.label} /><div class="cap"><span>{r.label}</span><span class="arrow">→</span></div></div>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  {s.swatches && s.swatches.length > 0 && (
+    <div class="wrap">
+      <section class="palmat">
+        <div>
+          <h2>Palette and materials</h2>
+          <div class="palcol">
+            {s.swatches.map((c) => (
+              <div class="c"><div class="chip-sw" style={`background:${c.hex}`}></div><small>{c.name}</small></div>
+            ))}
+          </div>
+        </div>
+        <div>
+          <div style="height:44px"></div>
+          <div class="mattiles">
+            {s.materialTiles.map((m) => (
+              <div class="m"><Placeholder tone={m.tone} label="" /><small>{m.label}</small></div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
+  )}
+
+  {s.shop && s.shop.length > 0 && (
+    <div class="wrap">
+      <section id="shop">
+        <h2>Shop the look</h2>
+        <div class="shopgrid">
+          {s.shop.map((name, i) => (
+            <div class="shopitem">
+              <div class="top">
+                <svg class="bm" viewBox="0 0 24 24" fill="none" stroke="#8a857c" stroke-width="1.6"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" set:html={icon(shopIcons[i % shopIcons.length])}></svg>
+              </div>
+              <div class="lbl">{name}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  {related.length > 0 && (
+    <div class="wrap">
+      <section style="padding-bottom:56px">
+        <h2>Explore related styles</h2>
+        <div class="row4">
+          {related.map((r) => (
+            <a class="scard" href={`/styles/${r.slug}`}>
+              <Placeholder tone={r.tone} label="AI render" />
+              <div class="cap"><b>{r.name}</b><span class="arrow">→</span></div>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+</BaseLayout>

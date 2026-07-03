@@ -1,0 +1,157 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Placeholder from '../components/Placeholder.astro';
+
+const chips = ['Interior design styles','Modern rustic','Interior design ideas','Gray paint','Trends 2026','70s interior','Small office','Small spaces','Traditional','Feng Shui','Contemporary','Sustainable'];
+
+const styleRow = [
+  { name: 'Modern Rustic', tone: 'walnut', href: '/styles/modern-rustic' },
+  { name: 'Gray Paint Interior', tone: 'dark', href: '/styles/contemporary' },
+  { name: 'Feng Shui', tone: 'sage', href: '/styles/feng-shui' },
+  { name: 'Small Office', tone: 'warmgrey', href: '/rooms' },
+];
+
+const hubs = [
+  { name: 'Interior Design Styles', tone: 'stone', desc: 'A visual index for comparing and naming interior styles.', href: '/styles' },
+  { name: 'Traditional', tone: 'cream', desc: 'Timeless rooms with layered furniture and rich materials.', href: '/styles/traditional' },
+  { name: 'Contemporary', tone: 'warmgrey', desc: 'Clean lines, open layouts and modern materials.', href: '/styles/contemporary' },
+  { name: 'Sustainable', tone: 'sage', desc: 'Eco-friendly materials and earth-conscious design.', href: '/styles/sustainable' },
+  { name: '70s Interior Design', tone: 'terra', desc: 'Retro tones, walnut, low silhouettes and warm texture.', href: '/styles' },
+  { name: 'Interior Design Ideas', tone: 'cream', desc: 'Room ideas for drawing rooms, cabins, corners and more.', href: '/styles' },
+  { name: 'Small Spaces', tone: 'stone', desc: 'Smart layouts and storage for compact living.', href: '/rooms' },
+  { name: 'Trends 2026', tone: 'dark', desc: 'The ideas and colors shaping interiors this year.', href: '/trends' },
+];
+
+const roomTabs = ['Home office','Living room','Studio apartment','Bedroom','Kitchen'];
+
+const palettes = [
+  { name: 'Warm Gray Interior', desc: 'The best warm gray paint colors and how to use them.', sw: ['#d8cfc0','#c3b8a6','#a99d8b','#7c7266','#413b32'] },
+  { name: 'Brass and Linen', desc: 'Linen, brass and wood tones that work in every room.', sw: ['#e7c58e','#efe4cf','#cba36a','#8a6238','#4c3720'] },
+  { name: 'Sage Eco Modern', desc: 'Sage greens, natural textures and sustainable materials.', sw: ['#aab694','#8a9a6f','#6f7d5f','#57633f','#3c4630'] },
+];
+---
+<BaseLayout title="Imaginary Interiors — AI Interior Style Atlas">
+  <div class="wrap">
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <div class="eyebrow">AI Interior Style Atlas</div>
+        <h1>Explore interior design styles by look, room and palette.</h1>
+        <p class="sub">Browse visual style hubs, save rooms you like, and shop the pieces that make the look work.</p>
+        <div class="search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+          Search modern rustic, gray paint, small office…
+        </div>
+        <div class="explore-lbl">Explore styles</div>
+        <div class="chips">{chips.map((c) => <span class="chip">{c}</span>)}</div>
+      </div>
+      <div class="collage">
+        <Placeholder tone="walnut" label="Modern rustic" class="c1" />
+        <Placeholder tone="dark" label="Dark lounge" />
+        <Placeholder tone="cream" label="Dining" class="c2" />
+        <Placeholder tone="sage" label="Biophilic" class="c5" />
+        <Placeholder tone="terra" label="70s curved" />
+        <Placeholder tone="stone" label="Feng shui" />
+        <Placeholder tone="dark" label="Home office" />
+      </div>
+    </section>
+  </div>
+
+  <!-- STYLE ROW -->
+  <div class="wrap">
+    <section class="row4">
+      {styleRow.map((s) => (
+        <a class="scard" href={s.href}>
+          <Placeholder tone={s.tone} label="AI render" />
+          <div class="cap"><b>{s.name}</b><span class="arrow">→</span></div>
+        </a>
+      ))}
+    </section>
+  </div>
+
+  <!-- VISUAL HUBS -->
+  <div class="wrap">
+    <section>
+      <h2>Visual hubs for the styles people search first.</h2>
+      <div class="row4" style="margin-bottom:18px">
+        {hubs.slice(0,4).map((h) => (
+          <a class="hcard" href={h.href}>
+            <Placeholder tone={h.tone} label="render" />
+            <div class="body"><div class="htop"><b>{h.name}</b><span class="arrow">→</span></div><p>{h.desc}</p></div>
+          </a>
+        ))}
+      </div>
+      <div class="row4">
+        {hubs.slice(4).map((h) => (
+          <a class="hcard" href={h.href}>
+            <Placeholder tone={h.tone} label="render" />
+            <div class="body"><div class="htop"><b>{h.name}</b><span class="arrow">→</span></div><p>{h.desc}</p></div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <!-- ROOMS + SHOP + PALETTE -->
+  <div class="wrap">
+    <section>
+      <h2>Rooms, palettes and shop-ready ideas.</h2>
+      <div class="rooms">
+        <div class="roompanel">
+          <div class="tabs">
+            {roomTabs.map((t, i) => (
+              <div class={`tab ${i === 0 ? 'active' : ''}`}>{t}{i === 0 && <span class="arrow">→</span>}</div>
+            ))}
+          </div>
+          <Placeholder tone="dark" label="Home office · AI render" />
+        </div>
+        <div class="side">
+          <div class="panelcard">
+            <div class="htop"><b>Shop the look</b><span class="arrow">→</span></div>
+            <div class="shoprow">
+              <div class="prod"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 18v-5a2 2 0 012-2h12a2 2 0 012 2v5M6 11V8a2 2 0 012-2h8a2 2 0 012 2v3M5 18h14"/></svg></div>
+              <div class="prod"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4h12l-1 6H7L6 4zM8 10v9M16 10v9"/></svg></div>
+              <div class="prod"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3c3 3 4 6 4 9a4 4 0 11-8 0c0-3 1-6 4-9zM12 21v-3"/></svg></div>
+              <div class="prod"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="5" width="16" height="14" rx="1"/><path d="M4 10h16"/></svg></div>
+            </div>
+          </div>
+          <div class="panelcard">
+            <div class="htop"><b>Palette</b><span class="arrow">→</span></div>
+            <div class="swatches">
+              <div class="sw" style="background:#2f2e2b"></div><div class="sw" style="background:#4d5a3f"></div>
+              <div class="sw" style="background:#9a6a3e"></div><div class="sw" style="background:#b9ab93"></div>
+              <div class="sw" style="background:#e7ddcb"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- COLOR PALETTES -->
+  <div class="wrap">
+    <section>
+      <h2>Gray paint and color palettes.</h2>
+      <div class="row3">
+        {palettes.map((p) => (
+          <div class="pcard">
+            <div class="swatches">{p.sw.map((c) => <div class="sw" style={`background:${c}`}></div>)}</div>
+            <div class="body"><div class="htop"><b>{p.name}</b><span class="arrow">→</span></div><p>{p.desc}</p></div>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <!-- QUIZ CTA -->
+  <div class="wrap">
+    <section class="quiz">
+      <div class="txt">
+        <h2>Find your interior style</h2>
+        <p>A quick visual quiz that matches your taste to the right style hubs and room ideas.</p>
+        <a class="btn" href="/quiz">Start the quiz →</a>
+      </div>
+      <Placeholder tone="cream" label="Quiz preview" />
+    </section>
+  </div>
+</BaseLayout>

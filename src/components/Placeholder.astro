@@ -1,0 +1,8 @@
+---
+// CSS-only stand-in for an AI render. Zero image weight until real assets land.
+// When swapping in real images, use <img loading="lazy" decoding="async" width height>
+// or Astro's <Image /> for automatic AVIF/WebP + responsive srcset.
+interface Props { tone?: string; label?: string; class?: string; }
+const { tone = 'stone', label = 'AI render', class: cls = '' } = Astro.props;
+---
+<div class={`ph t-${tone} ${cls}`} data-l={label} role="img" aria-label={label}></div>

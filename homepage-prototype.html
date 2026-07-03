@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imaginary Interiors — AI Interior Style Atlas</title>
+<style>
+  :root{
+    --bg:#ffffff; --ink:#1c1b19; --muted:#6f6b64; --line:#e7e4dd; --soft:#f4f2ec;
+    --walnut:#5a4632; --walnut-d:#3b2e21; --stone:#8f8a80; --sage:#6f7d5f; --sage-d:#4d5a3f;
+    --terra:#b56a3f; --cream:#e9e3d7; --graphite:#33322f; --sand:#cbb79a;
+    --radius:14px; --maxw:1180px;
+    --sans:'Helvetica Neue',Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:var(--sans);color:var(--ink);background:var(--bg);line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  a{color:inherit;text-decoration:none}
+  h2{font-size:26px;font-weight:600;letter-spacing:-0.4px;margin-bottom:18px}
+  .arrow{color:var(--ink)}
+
+  /* photo placeholders (stand-ins for AI renders) */
+  .ph{position:relative;background:var(--stone);overflow:hidden;border-radius:10px}
+  .ph::after{content:attr(data-l);position:absolute;left:10px;bottom:9px;font-size:10px;letter-spacing:.5px;
+    text-transform:uppercase;color:rgba(255,255,255,.82);font-weight:500}
+  .ph::before{content:"";position:absolute;inset:0;background:
+    radial-gradient(120% 90% at 75% 15%, rgba(255,255,255,.22), rgba(255,255,255,0) 55%),
+    radial-gradient(140% 120% at 20% 100%, rgba(0,0,0,.28), rgba(0,0,0,0) 60%)}
+  .t-walnut{background:var(--walnut)} .t-dark{background:var(--graphite)} .t-stone{background:var(--stone)}
+  .t-sage{background:var(--sage)} .t-terra{background:var(--terra)} .t-cream{background:#d8cdb8}
+  .t-sand{background:var(--sand)} .t-warmgrey{background:#a49e93}
+
+  /* header */
+  header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(6px);z-index:20}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-size:19px;font-weight:600;letter-spacing:-0.3px}
+  .menu{display:flex;gap:28px;align-items:center}
+  .menu a{font-size:14px;color:#2b2a27}
+  .menu a:hover{color:#000}
+  .icons{display:flex;gap:16px;align-items:center;color:#3a3934}
+  .icn{width:20px;height:20px;display:inline-block}
+
+  /* hero */
+  .hero{display:grid;grid-template-columns:1fr 1.12fr;gap:40px;padding:46px 0 40px;align-items:start}
+  .eyebrow{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:18px}
+  .hero h1{font-size:46px;line-height:1.08;font-weight:600;letter-spacing:-1.2px}
+  .hero p.sub{color:var(--muted);font-size:16px;margin:18px 0 22px;max-width:380px}
+  .search{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:10px;padding:13px 15px;max-width:400px;color:var(--muted);font-size:14px}
+  .search svg{flex:none}
+  .explore-lbl{font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);font-weight:600;margin:26px 0 12px}
+  .chips{display:flex;flex-wrap:wrap;gap:9px;max-width:440px}
+  .chip{font-size:12.5px;border:1px solid var(--line);border-radius:8px;padding:7px 12px;color:#3a3934;cursor:pointer;transition:.15s}
+  .chip:hover{border-color:#c9c4ba;background:var(--soft)}
+
+  /* hero collage */
+  .collage{display:grid;grid-template-columns:1.35fr 1fr 1fr;grid-template-rows:200px 200px;gap:10px;height:410px}
+  .collage .ph{width:100%;height:100%}
+  .c1{grid-row:1/3} .c2{grid-column:2/4} .c5{grid-row:1/3}
+
+  /* generic section */
+  section{padding:30px 0}
+  .row4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+
+  /* style row cards */
+  .scard .ph{height:150px;margin-bottom:12px}
+  .scard .cap{display:flex;align-items:center;justify-content:space-between}
+  .scard .cap b{font-size:15px;font-weight:600}
+
+  /* hub cards */
+  .hcard{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+  .hcard .ph{height:150px;border-radius:0}
+  .hcard .body{padding:14px 15px 16px}
+  .hcard .htop{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+  .hcard b{font-size:15px;font-weight:600}
+  .hcard p{font-size:13px;color:var(--muted);line-height:1.45}
+
+  /* rooms block */
+  .rooms{display:grid;grid-template-columns:1.55fr 1fr;gap:20px}
+  .roompanel{display:grid;grid-template-columns:210px 1fr;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .tabs{background:#faf9f6;border-right:1px solid var(--line)}
+  .tab{padding:16px 18px;font-size:14px;color:#3a3934;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);cursor:pointer}
+  .tab:last-child{border-bottom:0}
+  .tab.active{background:#fff;font-weight:600}
+  .roompanel .ph{height:100%;min-height:320px;border-radius:0}
+  .side{display:flex;flex-direction:column;gap:16px}
+  .panelcard{border:1px solid var(--line);border-radius:12px;padding:16px}
+  .panelcard .htop{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+  .panelcard .htop b{font-size:14px;font-weight:600}
+  .shoprow{display:flex;gap:12px}
+  .prod{flex:1;aspect-ratio:1;border:1px solid var(--line);border-radius:10px;display:flex;align-items:center;justify-content:center;background:#faf9f6}
+  .prod svg{width:34px;height:34px;color:#6b6459}
+  .swatches{display:flex;gap:0;border-radius:8px;overflow:hidden}
+  .sw{flex:1;height:52px}
+
+  /* color palette cards */
+  .pcard{border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .pcard .swatches{border-radius:0}
+  .pcard .body{padding:14px 16px 16px}
+  .pcard .htop{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px}
+  .pcard b{font-size:15px;font-weight:600}
+  .pcard p{font-size:13px;color:var(--muted);line-height:1.45}
+  .row3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+
+  /* quiz cta */
+  .quiz{background:#f4f2ec;border-radius:16px;display:grid;grid-template-columns:1.5fr 1fr;gap:24px;align-items:center;overflow:hidden;margin:20px 0 60px}
+  .quiz .txt{padding:38px 40px}
+  .quiz h2{margin-bottom:10px}
+  .quiz p{color:var(--muted);font-size:15px;max-width:360px;margin-bottom:22px}
+  .btn{display:inline-flex;align-items:center;gap:10px;background:#1c1b19;color:#fff;border:0;border-radius:10px;padding:14px 22px;font-size:14px;font-weight:500;cursor:pointer}
+  .quiz .ph{height:170px;margin:0 22px}
+
+  footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:13px}
+  .note{background:#fbfaf7;border:1px dashed var(--line);border-radius:10px;padding:12px 16px;font-size:12.5px;color:var(--muted);margin:8px 0 34px}
+
+  @media(max-width:900px){
+    .hero{grid-template-columns:1fr}.collage{height:340px}
+    .row4{grid-template-columns:repeat(2,1fr)}.rooms{grid-template-columns:1fr}
+    .row3{grid-template-columns:1fr}.quiz{grid-template-columns:1fr}.menu{display:none}
+    .hero h1{font-size:36px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">Imaginary Interiors</div>
+    <nav class="menu">
+      <a href="#">Styles</a><a href="#">Rooms</a><a href="#">Colors</a><a href="#">Trends</a><a href="#">Quiz</a>
+    </nav>
+    <div class="icons">
+      <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+      <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="wrap">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">AI Interior Style Atlas</div>
+      <h1>Explore interior design styles by look, room and palette.</h1>
+      <p class="sub">Browse visual style hubs, save rooms you like, and shop the pieces that make the look work.</p>
+      <div class="search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+        Search modern rustic, gray paint, small office…
+      </div>
+      <div class="explore-lbl">Explore styles</div>
+      <div class="chips">
+        <span class="chip">Interior design styles</span><span class="chip">Modern rustic</span>
+        <span class="chip">Interior design ideas</span><span class="chip">Gray paint</span>
+        <span class="chip">Trends 2026</span><span class="chip">70s interior</span>
+        <span class="chip">Small office</span><span class="chip">Small spaces</span>
+        <span class="chip">Traditional</span><span class="chip">Feng Shui</span>
+        <span class="chip">Contemporary</span><span class="chip">Sustainable</span>
+      </div>
+    </div>
+    <div class="collage">
+      <div class="ph c1 t-walnut" data-l="Modern rustic"></div>
+      <div class="ph t-dark" data-l="Dark lounge"></div>
+      <div class="ph c2 t-cream" data-l="Dining"></div>
+      <div class="ph c5 t-sage" data-l="Biophilic"></div>
+      <div class="ph t-terra" data-l="70s curved"></div>
+      <div class="ph t-stone" data-l="Feng shui"></div>
+      <div class="ph t-dark" data-l="Home office"></div>
+    </div>
+  </section>
+</div>
+
+<!-- STYLE ROW -->
+<div class="wrap">
+  <section class="row4">
+    <div class="scard"><div class="ph t-walnut" data-l="AI render"></div><div class="cap"><b>Modern Rustic</b><span class="arrow">→</span></div></div>
+    <div class="scard"><div class="ph t-dark" data-l="AI render"></div><div class="cap"><b>Gray Paint Interior</b><span class="arrow">→</span></div></div>
+    <div class="scard"><div class="ph t-sage" data-l="AI render"></div><div class="cap"><b>Feng Shui</b><span class="arrow">→</span></div></div>
+    <div class="scard"><div class="ph t-warmgrey" data-l="AI render"></div><div class="cap"><b>Small Office</b><span class="arrow">→</span></div></div>
+  </section>
+</div>
+
+<!-- VISUAL HUBS -->
+<div class="wrap">
+  <section>
+    <h2>Visual hubs for the styles people search first.</h2>
+    <div class="row4" style="margin-bottom:18px">
+      <div class="hcard"><div class="ph t-stone" data-l="render"></div><div class="body"><div class="htop"><b>Interior Design Styles</b><span class="arrow">→</span></div><p>A visual index for comparing and naming interior styles.</p></div></div>
+      <div class="hcard"><div class="ph t-cream" data-l="render"></div><div class="body"><div class="htop"><b>Traditional</b><span class="arrow">→</span></div><p>Timeless rooms with layered furniture and rich materials.</p></div></div>
+      <div class="hcard"><div class="ph t-warmgrey" data-l="render"></div><div class="body"><div class="htop"><b>Contemporary</b><span class="arrow">→</span></div><p>Clean lines, open layouts and modern materials.</p></div></div>
+      <div class="hcard"><div class="ph t-sage" data-l="render"></div><div class="body"><div class="htop"><b>Sustainable</b><span class="arrow">→</span></div><p>Eco-friendly materials and earth-conscious design.</p></div></div>
+    </div>
+    <div class="row4">
+      <div class="hcard"><div class="ph t-terra" data-l="render"></div><div class="body"><div class="htop"><b>70s Interior Design</b><span class="arrow">→</span></div><p>Retro tones, walnut, low silhouettes and warm texture.</p></div></div>
+      <div class="hcard"><div class="ph t-cream" data-l="render"></div><div class="body"><div class="htop"><b>Interior Design Ideas</b><span class="arrow">→</span></div><p>Room ideas for drawing rooms, cabins, corners and more.</p></div></div>
+      <div class="hcard"><div class="ph t-stone" data-l="render"></div><div class="body"><div class="htop"><b>Small Spaces</b><span class="arrow">→</span></div><p>Smart layouts and storage for compact living.</p></div></div>
+      <div class="hcard"><div class="ph t-dark" data-l="render"></div><div class="body"><div class="htop"><b>Trends 2026</b><span class="arrow">→</span></div><p>The ideas and colors shaping interiors this year.</p></div></div>
+    </div>
+  </section>
+</div>
+
+<!-- ROOMS + SHOP + PALETTE -->
+<div class="wrap">
+  <section>
+    <h2>Rooms, palettes and shop-ready ideas.</h2>
+    <div class="rooms">
+      <div class="roompanel">
+        <div class="tabs">
+          <div class="tab active">Home office <span class="arrow">→</span></div>
+          <div class="tab">Living room</div>
+          <div class="tab">Studio apartment</div>
+          <div class="tab">Bedroom</div>
+          <div class="tab">Kitchen</div>
+        </div>
+        <div class="ph t-dark" data-l="Home office · AI render"></div>
+      </div>
+      <div class="side">
+        <div class="panelcard">
+          <div class="htop"><b>Shop the look</b><span class="arrow">→</span></div>
+          <div class="shoprow">
+            <div class="prod"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 18v-5a2 2 0 012-2h12a2 2 0 012 2v5M6 11V8a2 2 0 012-2h8a2 2 0 012 2v3M5 18h14"/></svg></div>
+            <div class="prod"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 4h12l-1 6H7L6 4zM8 10v9M16 10v9"/></svg></div>
+            <div class="prod"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3c3 3 4 6 4 9a4 4 0 11-8 0c0-3 1-6 4-9zM12 21v-3"/></svg></div>
+            <div class="prod"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="5" width="16" height="14" rx="1"/><path d="M4 10h16"/></svg></div>
+          </div>
+        </div>
+        <div class="panelcard">
+          <div class="htop"><b>Palette</b><span class="arrow">→</span></div>
+          <div class="swatches">
+            <div class="sw" style="background:#2f2e2b"></div><div class="sw" style="background:#4d5a3f"></div>
+            <div class="sw" style="background:#9a6a3e"></div><div class="sw" style="background:#b9ab93"></div>
+            <div class="sw" style="background:#e7ddcb"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- COLOR PALETTES -->
+<div class="wrap">
+  <section>
+    <h2>Gray paint and color palettes.</h2>
+    <div class="row3">
+      <div class="pcard">
+        <div class="swatches">
+          <div class="sw" style="background:#d8cfc0"></div><div class="sw" style="background:#c3b8a6"></div>
+          <div class="sw" style="background:#a99d8b"></div><div class="sw" style="background:#7c7266"></div>
+          <div class="sw" style="background:#413b32"></div>
+        </div>
+        <div class="body"><div class="htop"><b>Warm Gray Interior</b><span class="arrow">→</span></div><p>The best warm gray paint colors and how to use them.</p></div>
+      </div>
+      <div class="pcard">
+        <div class="swatches">
+          <div class="sw" style="background:#e7c58e"></div><div class="sw" style="background:#efe4cf"></div>
+          <div class="sw" style="background:#cba36a"></div><div class="sw" style="background:#8a6238"></div>
+          <div class="sw" style="background:#4c3720"></div>
+        </div>
+        <div class="body"><div class="htop"><b>Brass and Linen</b><span class="arrow">→</span></div><p>Linen, brass and wood tones that work in every room.</p></div>
+      </div>
+      <div class="pcard">
+        <div class="swatches">
+          <div class="sw" style="background:#aab694"></div><div class="sw" style="background:#8a9a6f"></div>
+          <div class="sw" style="background:#6f7d5f"></div><div class="sw" style="background:#57633f"></div>
+          <div class="sw" style="background:#3c4630"></div>
+        </div>
+        <div class="body"><div class="htop"><b>Sage Eco Modern</b><span class="arrow">→</span></div><p>Sage greens, natural textures and sustainable materials.</p></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- QUIZ CTA -->
+<div class="wrap">
+  <section class="quiz">
+    <div class="txt">
+      <h2>Find your interior style</h2>
+      <p>A quick visual quiz that matches your taste to the right style hubs and room ideas.</p>
+      <button class="btn">Start the quiz →</button>
+    </div>
+    <div class="ph t-cream" data-l="Quiz preview"></div>
+  </section>
+</div>
+
+<div class="wrap">
+  <div class="note">Placeholder tiles stand in for AI-generated interior renders — replace with real imagery (vertical 2:3 crops work best for Pinterest).</div>
+</div>
+
+<footer>
+  <div class="wrap">© Imaginary Interiors — AI Interior Style Atlas · prototype</div>
+</footer>
+
+</body>
+</html>

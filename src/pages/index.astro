@@ -1,34 +1,67 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Placeholder from '../components/Placeholder.astro';
+import Photo from '../components/Photo.astro';
+import { styles } from '../data/styles.js';
 
-const chips = ['Interior design styles','Modern rustic','Interior design ideas','Gray paint','Trends 2026','70s interior','Small office','Small spaces','Traditional','Feng Shui','Contemporary','Sustainable'];
+const chips = [
+  { label: 'Interior design styles', href: '/styles' },
+  { label: 'Modern rustic', href: '/styles/modern-rustic' },
+  { label: 'Interior design ideas', href: '/ideas' },
+  { label: 'Gray paint', href: '/colors' },
+  { label: 'Trends 2026', href: '/trends' },
+  { label: '70s interior', href: '/styles/70s-interior-design' },
+  { label: 'Small office', href: '/rooms/home-office' },
+  { label: 'Small spaces', href: '/rooms/small-spaces' },
+  { label: 'Traditional', href: '/styles/traditional' },
+  { label: 'Feng Shui', href: '/styles/feng-shui' },
+  { label: 'Contemporary', href: '/styles/contemporary' },
+  { label: 'Sustainable', href: '/styles/sustainable' },
+];
+
+// Search index: every style hub + the main section pages.
+const searchIndex = [
+  ...styles.map((s) => ({ label: s.name, href: `/styles/${s.slug}`, kind: 'Style' })),
+  { label: 'All interior design styles', href: '/styles', kind: 'Styles' },
+  { label: 'Rooms', href: '/rooms', kind: 'Rooms' },
+  { label: 'Color palettes and paint', href: '/colors', kind: 'Colors' },
+  { label: 'Trends 2026', href: '/trends', kind: 'Trends' },
+  { label: 'Find your style quiz', href: '/quiz', kind: 'Quiz' },
+  { label: 'Saved styles', href: '/saved', kind: 'Saved' },
+];
 
 const styleRow = [
-  { name: 'Modern Rustic', tone: 'walnut', href: '/styles/modern-rustic' },
-  { name: 'Gray Paint Interior', tone: 'dark', href: '/styles/contemporary' },
-  { name: 'Feng Shui', tone: 'sage', href: '/styles/feng-shui' },
-  { name: 'Small Office', tone: 'warmgrey', href: '/rooms' },
+  { name: 'Modern Rustic', image: '/images/modern-rustic.webp', href: '/styles/modern-rustic' },
+  { name: 'Gray Paint Interior', image: '/images/gray-paint-interior.webp', href: '/styles/contemporary' },
+  { name: 'Feng Shui', image: '/images/feng-shui.webp', href: '/styles/feng-shui' },
+  { name: 'Small Office', image: '/images/small-office.webp', href: '/rooms' },
 ];
 
 const hubs = [
-  { name: 'Interior Design Styles', tone: 'stone', desc: 'A visual index for comparing and naming interior styles.', href: '/styles' },
-  { name: 'Traditional', tone: 'cream', desc: 'Timeless rooms with layered furniture and rich materials.', href: '/styles/traditional' },
-  { name: 'Contemporary', tone: 'warmgrey', desc: 'Clean lines, open layouts and modern materials.', href: '/styles/contemporary' },
-  { name: 'Sustainable', tone: 'sage', desc: 'Eco-friendly materials and earth-conscious design.', href: '/styles/sustainable' },
-  { name: '70s Interior Design', tone: 'terra', desc: 'Retro tones, walnut, low silhouettes and warm texture.', href: '/styles' },
-  { name: 'Interior Design Ideas', tone: 'cream', desc: 'Room ideas for drawing rooms, cabins, corners and more.', href: '/styles' },
-  { name: 'Small Spaces', tone: 'stone', desc: 'Smart layouts and storage for compact living.', href: '/rooms' },
-  { name: 'Trends 2026', tone: 'dark', desc: 'The ideas and colors shaping interiors this year.', href: '/trends' },
+  { name: 'Interior Design Styles', image: '/images/interior-design-styles.webp', desc: 'A visual index for comparing and naming interior styles.', href: '/styles' },
+  { name: 'Traditional', image: '/images/traditional.webp', desc: 'Timeless rooms with layered furniture and rich materials.', href: '/styles/traditional' },
+  { name: 'Contemporary', image: '/images/contemporary.webp', desc: 'Clean lines, open layouts and modern materials.', href: '/styles/contemporary' },
+  { name: 'Sustainable', image: '/images/sustainable.webp', desc: 'Eco-friendly materials and earth-conscious design.', href: '/styles/sustainable' },
+  { name: '70s Interior Design', image: '/images/70s-interior-design.webp', desc: 'Retro tones, walnut, low silhouettes and warm texture.', href: '/styles/70s-interior-design' },
+  { name: 'Interior Design Ideas', image: '/images/interior-design-ideas.webp', desc: 'Room ideas for drawing rooms, cabins, corners and more.', href: '/ideas' },
+  { name: 'Small Spaces', image: '/images/small-spaces.webp', desc: 'Smart layouts and storage for compact living.', href: '/rooms/small-spaces' },
+  { name: 'Trends 2026', image: '/images/trends-2026.webp', desc: 'The ideas and colors shaping interiors this year.', href: '/trends' },
 ];
 
-const roomTabs = ['Home office','Living room','Studio apartment','Bedroom','Kitchen'];
+const rooms = [
+  { name: 'Home office', img: '/images/home-office.webp', alt: 'Home office interior with dark built-in shelves', href: '/rooms/home-office' },
+  { name: 'Living room', img: '/images/living-room.webp', alt: 'Living room interior', href: '/rooms/living-room' },
+  { name: 'Studio apartment', img: '/images/studio-apartment.webp', alt: 'Studio apartment interior', href: '/rooms/studio-apartment' },
+  { name: 'Bedroom', img: '/images/bedroom.webp', alt: 'Bedroom interior', href: '/rooms/bedroom' },
+  { name: 'Kitchen', img: '/images/kitchen.webp', alt: 'Kitchen interior', href: '/rooms/kitchen' },
+];
 
 const palettes = [
   { name: 'Warm Gray Interior', desc: 'The best warm gray paint colors and how to use them.', sw: ['#d8cfc0','#c3b8a6','#a99d8b','#7c7266','#413b32'] },
   { name: 'Brass and Linen', desc: 'Linen, brass and wood tones that work in every room.', sw: ['#e7c58e','#efe4cf','#cba36a','#8a6238','#4c3720'] },
   { name: 'Sage Eco Modern', desc: 'Sage greens, natural textures and sustainable materials.', sw: ['#aab694','#8a9a6f','#6f7d5f','#57633f','#3c4630'] },
 ];
+
+const showShop = false; // temporarily hidden — flip to true to restore Shop the look
 ---
 <BaseLayout title="Imaginary Interiors — AI Interior Style Atlas">
   <div class="wrap">
@@ -38,21 +71,24 @@ const palettes = [
         <div class="eyebrow">AI Interior Style Atlas</div>
         <h1>Explore interior design styles by look, room and palette.</h1>
         <p class="sub">Browse visual style hubs, save rooms you like, and shop the pieces that make the look work.</p>
-        <div class="search">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
-          Search modern rustic, gray paint, small office…
+        <div class="searchbox">
+          <div class="search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+            <input id="sitesearch" type="text" placeholder="Search modern rustic, gray paint, small office…" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="searchresults" aria-label="Search styles and pages" />
+          </div>
+          <ul id="searchresults" class="search-results" role="listbox" hidden></ul>
         </div>
         <div class="explore-lbl">Explore styles</div>
-        <div class="chips">{chips.map((c) => <span class="chip">{c}</span>)}</div>
+        <div class="chips">{chips.map((c) => <a class="chip" href={c.href}>{c.label}</a>)}</div>
       </div>
       <div class="collage">
-        <Placeholder tone="walnut" label="Modern rustic" class="c1" />
-        <Placeholder tone="dark" label="Dark lounge" />
-        <Placeholder tone="cream" label="Dining" class="c2" />
-        <Placeholder tone="sage" label="Biophilic" class="c5" />
-        <Placeholder tone="terra" label="70s curved" />
-        <Placeholder tone="stone" label="Feng shui" />
-        <Placeholder tone="dark" label="Home office" />
+        <Photo src="/images/hero-modern-rustic.webp" alt="Modern rustic living room with stone fireplace" class="ca" loading="eager" />
+        <Photo src="/images/hero-gray-paint-interior.webp" alt="Dark gray painted lounge interior" class="cb" loading="eager" />
+        <Photo src="/images/hero-dining.webp" alt="Warm dining room with wood beams" class="cc" loading="eager" />
+        <Photo src="/images/hero-biophilic.webp" alt="Biophilic sitting room with green wall" class="cd" loading="eager" />
+        <Photo src="/images/hero-70s-interior-design.webp" alt="70s inspired orange curved living room" class="ce" loading="eager" />
+        <Photo src="/images/hero-feng-shui.webp" alt="Feng shui room with circular garden view" class="cf" loading="eager" />
+        <Photo src="/images/hero-small-office.webp" alt="Small office interior with built-in shelves" class="cg" loading="eager" />
       </div>
     </section>
   </div>
@@ -62,7 +98,7 @@ const palettes = [
     <section class="row4">
       {styleRow.map((s) => (
         <a class="scard" href={s.href}>
-          <Placeholder tone={s.tone} label="AI render" />
+          <Photo src={s.image} alt={`${s.name} interior design`} />
           <div class="cap"><b>{s.name}</b><span class="arrow">→</span></div>
         </a>
       ))}
@@ -76,7 +112,7 @@ const palettes = [
       <div class="row4" style="margin-bottom:18px">
         {hubs.slice(0,4).map((h) => (
           <a class="hcard" href={h.href}>
-            <Placeholder tone={h.tone} label="render" />
+            <Photo src={h.image} alt={`${h.name} interior design`} />
             <div class="body"><div class="htop"><b>{h.name}</b><span class="arrow">→</span></div><p>{h.desc}</p></div>
           </a>
         ))}
@@ -84,7 +120,7 @@ const palettes = [
       <div class="row4">
         {hubs.slice(4).map((h) => (
           <a class="hcard" href={h.href}>
-            <Placeholder tone={h.tone} label="render" />
+            <Photo src={h.image} alt={`${h.name} interior design`} />
             <div class="body"><div class="htop"><b>{h.name}</b><span class="arrow">→</span></div><p>{h.desc}</p></div>
           </a>
         ))}
@@ -97,15 +133,20 @@ const palettes = [
     <section>
       <h2>Rooms, palettes and shop-ready ideas.</h2>
       <div class="rooms">
-        <div class="roompanel">
-          <div class="tabs">
-            {roomTabs.map((t, i) => (
-              <div class={`tab ${i === 0 ? 'active' : ''}`}>{t}{i === 0 && <span class="arrow">→</span>}</div>
+        <div class="roompanel" id="roompanel">
+          <div class="tabs" id="roomtabs">
+            {rooms.map((r, i) => (
+              <button type="button" class={`tab ${i === 0 ? 'active' : ''}`} data-src={r.img} data-alt={r.alt} data-href={r.href}>
+                <span>{r.name}</span><span class="arrow">→</span>
+              </button>
             ))}
           </div>
-          <Placeholder tone="dark" label="Home office · AI render" />
+          <a id="roomlink" class="roomimglink" href={rooms[0].href} aria-label={`Open ${rooms[0].name} ideas`}>
+            <img id="roomimg" class="photo roomimg" src={rooms[0].img} alt={rooms[0].alt} loading="lazy" decoding="async" />
+          </a>
         </div>
         <div class="side">
+          {showShop && (
           <div class="panelcard">
             <div class="htop"><b>Shop the look</b><span class="arrow">→</span></div>
             <div class="shoprow">
@@ -115,14 +156,15 @@ const palettes = [
               <div class="prod"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="5" width="16" height="14" rx="1"/><path d="M4 10h16"/></svg></div>
             </div>
           </div>
-          <div class="panelcard">
+          )}
+          <a class="panelcard" href="/colors">
             <div class="htop"><b>Palette</b><span class="arrow">→</span></div>
             <div class="swatches">
               <div class="sw" style="background:#2f2e2b"></div><div class="sw" style="background:#4d5a3f"></div>
               <div class="sw" style="background:#9a6a3e"></div><div class="sw" style="background:#b9ab93"></div>
               <div class="sw" style="background:#e7ddcb"></div>
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </section>
@@ -134,10 +176,10 @@ const palettes = [
       <h2>Gray paint and color palettes.</h2>
       <div class="row3">
         {palettes.map((p) => (
-          <div class="pcard">
+          <a class="pcard" href="/colors">
             <div class="swatches">{p.sw.map((c) => <div class="sw" style={`background:${c}`}></div>)}</div>
             <div class="body"><div class="htop"><b>{p.name}</b><span class="arrow">→</span></div><p>{p.desc}</p></div>
-          </div>
+          </a>
         ))}
       </div>
     </section>
@@ -151,7 +193,68 @@ const palettes = [
         <p>A quick visual quiz that matches your taste to the right style hubs and room ideas.</p>
         <a class="btn" href="/quiz">Start the quiz →</a>
       </div>
-      <Placeholder tone="cream" label="Quiz preview" />
+      <Photo src="/images/quiz-preview.webp" alt="Neutral living room quiz preview" />
     </section>
   </div>
+
+  <script define:vars={{ searchIndex }}>
+    const input = document.getElementById('sitesearch');
+    const box = document.getElementById('searchresults');
+    if (input && box) {
+      let matches = [], active = -1;
+      const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+      const close = () => { box.hidden = true; box.innerHTML = ''; matches = []; active = -1; input.setAttribute('aria-expanded', 'false'); };
+      const paintActive = () => {
+        Array.from(box.querySelectorAll('a')).forEach((a, i) => a.classList.toggle('active', i === active));
+      };
+      const render = (q) => {
+        const query = q.trim().toLowerCase();
+        if (!query) return close();
+        matches = searchIndex.filter((it) => it.label.toLowerCase().includes(query)).slice(0, 6);
+        active = matches.length ? 0 : -1;
+        box.innerHTML = matches.length
+          ? matches.map((it, i) => `<li role="option"><a href="${it.href}" class="${i === 0 ? 'active' : ''}">${esc(it.label)}<span class="sr-kind">${esc(it.kind)}</span></a></li>`).join('')
+          : '<li class="sr-empty">No matches</li>';
+        box.hidden = false;
+        input.setAttribute('aria-expanded', 'true');
+      };
+      input.addEventListener('input', () => render(input.value));
+      input.addEventListener('focus', () => { if (input.value) render(input.value); });
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown' && matches.length) { e.preventDefault(); active = (active + 1) % matches.length; paintActive(); }
+        else if (e.key === 'ArrowUp' && matches.length) { e.preventDefault(); active = (active - 1 + matches.length) % matches.length; paintActive(); }
+        else if (e.key === 'Enter' && active >= 0 && matches[active]) { e.preventDefault(); location.href = matches[active].href; }
+        else if (e.key === 'Escape') { close(); input.blur(); }
+      });
+      document.addEventListener('click', (e) => { if (!e.target.closest('.searchbox')) close(); });
+    }
+  </script>
+
+  <script>
+    const tabs = Array.from(document.querySelectorAll('#roomtabs .tab'));
+    const img = document.getElementById('roomimg');
+    const panel = document.getElementById('roompanel');
+    const roomlink = document.getElementById('roomlink');
+    if (tabs.length && img) {
+      let cur = 0, timer = null;
+      const DELAY = 4000;
+      const show = (i) => {
+        cur = i;
+        tabs.forEach((t, k) => t.classList.toggle('active', k === i));
+        const src = tabs[i].dataset.src, alt = tabs[i].dataset.alt;
+        if (roomlink && tabs[i].dataset.href) roomlink.href = tabs[i].dataset.href;
+        if (img.getAttribute('src') === src) return;
+        img.style.opacity = '0';
+        const pre = new Image();
+        const swap = () => { img.src = src; img.alt = alt; img.style.opacity = '1'; };
+        pre.onload = swap; pre.onerror = swap; pre.src = src;
+      };
+      const next = () => show((cur + 1) % tabs.length);
+      const start = () => { stop(); timer = setInterval(next, DELAY); };
+      const stop = () => { if (timer) { clearInterval(timer); timer = null; } };
+      tabs.forEach((t, i) => t.addEventListener('click', () => { show(i); start(); }));
+      if (panel) { panel.addEventListener('mouseenter', stop); panel.addEventListener('mouseleave', start); }
+      start();
+    }
+  </script>
 </BaseLayout>

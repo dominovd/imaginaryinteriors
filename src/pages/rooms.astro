@@ -1,0 +1,87 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Placeholder from '../components/Placeholder.astro';
+import Photo from '../components/Photo.astro';
+import { rooms } from '../data/rooms.js';
+import { styles } from '../data/styles.js';
+import { combos, comboRoomList } from '../data/combos.js';
+---
+<BaseLayout title="Interior Design by Room — Imaginary Interiors" description="Room-by-room interior design ideas — filter living rooms, bedrooms, kitchens and home offices by style.">
+  <div class="wrap">
+    <section class="hero" style="grid-template-columns:1fr;padding-bottom:12px">
+      <div>
+        <div class="eyebrow">Rooms</div>
+        <h1>Interior design by room</h1>
+        <p class="sub">Filter room ideas by style and room type, or open a full room guide.</p>
+      </div>
+    </section>
+
+    <!-- FILTER -->
+    <section style="padding-top:8px">
+      <div class="roomfilter" id="roomfilter">
+        <div class="rf-group">
+          <span class="rf-label">Room</span>
+          <button class="rf-opt active" data-group="room" data-val="all">All rooms</button>
+          {comboRoomList.map((r) => <button class="rf-opt" data-group="room" data-val={r.slug}>{r.name}</button>)}
+        </div>
+        <div class="rf-group">
+          <span class="rf-label">Style</span>
+          <button class="rf-opt active" data-group="style" data-val="all">All styles</button>
+          {styles.map((s) => <button class="rf-opt" data-group="style" data-val={s.slug}>{s.name}</button>)}
+          <span class="rf-count" id="rfcount"></span>
+        </div>
+      </div>
+
+      <div class="ideas" id="combogrid">
+        {combos.map((c) => (
+          <a class="idea combocard" href={c.href} data-room={c.roomSlug} data-style={c.styleSlug}>
+            <Placeholder tone={c.tone} label={c.title} />
+            <div class="cap"><span>{c.title}</span><span class="arrow">→</span></div>
+          </a>
+        ))}
+      </div>
+      <p class="rf-empty" id="rfempty">No rooms match that combination yet.</p>
+    </section>
+
+    <!-- ROOM GUIDES -->
+    <section>
+      <h2>Full room guides</h2>
+      <div class="row4" style="row-gap:26px">
+        {rooms.map((r) => (
+          <a class="hcard" href={`/rooms/${r.slug}`}>
+            {r.image ? <Photo src={r.image} alt={`${r.name} interior`} /> : <Placeholder tone={r.tone} label={r.name} />}
+            <div class="body"><div class="htop"><b>{r.name}</b><span class="arrow">→</span></div><p>{r.tagline}</p></div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const fb = document.getElementById('roomfilter');
+    const cards = Array.from(document.querySelectorAll('#combogrid .combocard'));
+    const empty = document.getElementById('rfempty');
+    const count = document.getElementById('rfcount');
+    if (fb && cards.length) {
+      const sel = { room: 'all', style: 'all' };
+      const apply = () => {
+        let shown = 0;
+        cards.forEach((c) => {
+          const ok = (sel.room === 'all' || c.dataset.room === sel.room) &&
+                     (sel.style === 'all' || c.dataset.style === sel.style);
+          c.classList.toggle('hide', !ok);
+          if (ok) shown++;
+        });
+        if (empty) empty.classList.toggle('show', shown === 0);
+        if (count) count.textContent = `${shown} result${shown === 1 ? '' : 's'}`;
+      };
+      fb.querySelectorAll('.rf-opt').forEach((btn) => btn.addEventListener('click', () => {
+        const g = btn.dataset.group;
+        sel[g] = btn.dataset.val;
+        fb.querySelectorAll(`.rf-opt[data-group="${g}"]`).forEach((b) => b.classList.toggle('active', b === btn));
+        apply();
+      }));
+      apply();
+    }
+  </script>
+</BaseLayout>

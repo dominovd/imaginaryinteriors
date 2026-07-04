@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Placeholder from '../../components/Placeholder.astro';
+import Photo from '../../components/Photo.astro';
 import { styles } from '../../data/styles.js';
 ---
 <BaseLayout title="Interior Design Styles — Imaginary Interiors" description="A visual index of interior design styles — compare, name and shop each look.">
@@ -16,7 +17,7 @@ import { styles } from '../../data/styles.js';
       <div class="row4" style="row-gap:26px">
         {styles.map((s) => (
           <a class="hcard" href={`/styles/${s.slug}`}>
-            <Placeholder tone={s.tone} label={s.name} />
+            {s.image ? <Photo src={s.image} alt={`${s.name} interior design`} /> : <Placeholder tone={s.tone} label={s.name} />}
             <div class="body"><div class="htop"><b>{s.name}</b><span class="arrow">→</span></div><p>{s.tagline}</p></div>
           </a>
         ))}

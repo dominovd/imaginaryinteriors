@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Placeholder from '../components/Placeholder.astro';
+import Photo from '../components/Photo.astro';
+import { styles } from '../data/styles.js';
+import { rooms } from '../data/rooms.js';
+---
+<BaseLayout title="Interior Design Ideas — Imaginary Interiors" description="Interior design ideas by style and by room — browse visual hubs for every look and space.">
+  <div class="wrap">
+    <section class="hero" style="grid-template-columns:1fr;padding-bottom:12px">
+      <div>
+        <div class="eyebrow">Ideas</div>
+        <h1>Interior design ideas</h1>
+        <p class="sub">Browse ideas by style and by room — then dive into a hub for palettes, layouts and shop-the-look pieces.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Ideas by style</h2>
+      <div class="row4" style="row-gap:26px">
+        {styles.map((s) => (
+          <a class="hcard" href={`/styles/${s.slug}`}>
+            {s.image ? <Photo src={s.image} alt={`${s.name} interior design`} /> : <Placeholder tone={s.tone} label={s.name} />}
+            <div class="body"><div class="htop"><b>{s.name}</b><span class="arrow">→</span></div><p>{s.tagline}</p></div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section style="padding-bottom:56px">
+      <h2>Ideas by room</h2>
+      <div class="row4" style="row-gap:26px">
+        {rooms.map((r) => (
+          <a class="hcard" href={`/rooms/${r.slug}`}>
+            {r.image ? <Photo src={r.image} alt={`${r.name} interior`} /> : <Placeholder tone={r.tone} label={r.name} />}
+            <div class="body"><div class="htop"><b>{r.name}</b><span class="arrow">→</span></div><p>{r.tagline}</p></div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

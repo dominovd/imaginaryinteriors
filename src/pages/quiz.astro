@@ -1,0 +1,144 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { styles } from '../data/styles.js';
+
+// Pass minimal style info to the client script for the result card.
+const styleInfo = Object.fromEntries(styles.map((s) => [s.slug, { name: s.name, tagline: s.tagline }]));
+---
+<BaseLayout title="Find Your Interior Style — Quiz" description="A quick visual quiz that matches your taste to the right interior design style.">
+  <div class="wrap">
+    <section class="hero" style="grid-template-columns:1fr;padding-bottom:6px">
+      <div>
+        <div class="eyebrow">Quiz</div>
+        <h1>Find your interior style</h1>
+        <p class="sub">Answer four quick questions and we'll match you to a style hub to explore.</p>
+      </div>
+    </section>
+
+    <section>
+      <div id="quiz" class="qcard">
+        <div class="qhead">
+          <span id="qstep" class="qstep">Question 1 of 4</span>
+          <div class="qbar"><div id="qfill" class="qfill"></div></div>
+        </div>
+        <h2 id="qtitle" class="qtitle">…</h2>
+        <div id="qopts" class="qopts"></div>
+        <button id="qback" class="qback" hidden>← Back</button>
+      </div>
+    </section>
+  </div>
+
+  <style is:global>
+    /* is:global so JS-injected .qopt buttons pick up these rules
+       (Astro's scoped styles only tag elements that exist at build time) */
+    .qcard{border:1px solid var(--line);border-radius:16px;padding:26px 28px 26px;max-width:760px}
+    .qhead{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+    .qstep{font-size:12px;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+    .qbar{flex:1;height:6px;background:var(--soft);border-radius:6px;overflow:hidden}
+    .qfill{height:100%;width:25%;background:var(--ink);border-radius:6px;transition:width .25s ease}
+    .qtitle{font-size:22px;font-weight:600;letter-spacing:-0.3px;margin-bottom:20px}
+    .qopts{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .qopt{font-family:inherit;text-align:left;border:1px solid var(--line);border-radius:12px;padding:17px 18px;
+      font-size:15px;font-weight:500;background:#fff;color:var(--ink);cursor:pointer;transition:.15s;
+      display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .qopt::after{content:"→";color:var(--muted);opacity:0;transform:translateX(-4px);transition:.15s}
+    .qopt:hover{border-color:var(--ink);background:var(--soft)}
+    .qopt:hover::after{opacity:1;transform:translateX(0)}
+    .qback{margin-top:20px;background:none;border:0;color:var(--muted);font-size:14px;cursor:pointer;padding:4px 0}
+    .qback:hover{color:var(--ink)}
+    .qresult{text-align:left}
+    .qresult .rlead{font-size:12px;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+    .qresult h2{font-size:30px;letter-spacing:-.6px;margin-bottom:8px}
+    .qresult p{color:var(--muted);font-size:16px;max-width:460px;margin-bottom:22px}
+    .qresult .ractions{display:flex;gap:12px;flex-wrap:wrap}
+    @media(max-width:640px){.qopts{grid-template-columns:1fr}}
+  </style>
+
+  <script define:vars={{ styleInfo }}>
+    const questions = [
+      { q: 'Pick a palette you’re drawn to', opts: [
+        { t: 'Warm neutrals & wood', s: ['modern-rustic','japandi'] },
+        { t: 'Crisp white & black', s: ['contemporary','minimalist'] },
+        { t: 'Rich, classic tones', s: ['traditional'] },
+        { t: 'Earthy greens', s: ['sustainable','feng-shui'] },
+      ]},
+      { q: 'How should a room feel?', opts: [
+        { t: 'Calm and uncluttered', s: ['japandi','minimalist'] },
+        { t: 'Warm and grounded', s: ['modern-rustic','organic-modern'] },
+        { t: 'Elegant and layered', s: ['traditional'] },
+        { t: 'Bright and airy', s: ['scandinavian','contemporary'] },
+      ]},
+      { q: 'Choose a material', opts: [
+        { t: 'Reclaimed wood & stone', s: ['modern-rustic','sustainable'] },
+        { t: 'Glass & steel', s: ['contemporary'] },
+        { t: 'Velvet & brass', s: ['traditional'] },
+        { t: 'Linen & light oak', s: ['japandi','scandinavian'] },
+      ]},
+      { q: 'Your ideal finishing detail', opts: [
+        { t: 'Plants & natural light', s: ['feng-shui','sustainable'] },
+        { t: 'Clean, empty surfaces', s: ['minimalist','contemporary'] },
+        { t: 'Cozy textures & throws', s: ['organic-modern','modern-rustic'] },
+        { t: 'Classic art & symmetry', s: ['traditional'] },
+      ]},
+    ];
+
+    const scores = {};
+    const answers = [];
+    let step = 0;
+
+    const el = (id) => document.getElementById(id);
+    const quiz = el('quiz');
+
+    function render() {
+      const total = questions.length;
+      el('qstep').textContent = `Question ${step + 1} of ${total}`;
+      el('qfill').style.width = `${((step + 1) / total) * 100}%`;
+      el('qtitle').textContent = questions[step].q;
+      const box = el('qopts');
+      box.innerHTML = '';
+      questions[step].opts.forEach((o, i) => {
+        const b = document.createElement('button');
+        b.className = 'qopt';
+        b.textContent = o.t;
+        b.onclick = () => choose(i);
+        box.appendChild(b);
+      });
+      el('qback').hidden = step === 0;
+    }
+
+    function choose(i) {
+      answers[step] = i;
+      questions[step].opts[i].s.forEach((slug) => { scores[slug] = (scores[slug] || 0) + 1; });
+      if (step < questions.length - 1) { step++; render(); }
+      else result();
+    }
+
+    el('qback').onclick = () => {
+      if (step === 0) return;
+      step--;
+      const prev = answers[step];
+      if (prev != null) questions[step].opts[prev].s.forEach((slug) => { scores[slug] = Math.max(0, (scores[slug] || 0) - 1); });
+      render();
+    };
+
+    function result() {
+      let best = null, top = -1;
+      for (const slug in scores) { if (scores[slug] > top) { top = scores[slug]; best = slug; } }
+      const info = styleInfo[best] || { name: 'Modern Rustic', tagline: '' };
+      quiz.innerHTML = `
+        <div class="qresult">
+          <div class="rlead">Your interior style</div>
+          <h2>${info.name}</h2>
+          <p>${info.tagline}</p>
+          <div class="ractions">
+            <a class="btn" href="/styles/${best}">Explore ${info.name} →</a>
+            <button class="btn ghost" id="qretry">Retake quiz</button>
+          </div>
+        </div>`;
+      const retry = document.getElementById('qretry');
+      if (retry) retry.onclick = () => location.reload();
+    }
+
+    render();
+  </script>
+</BaseLayout>

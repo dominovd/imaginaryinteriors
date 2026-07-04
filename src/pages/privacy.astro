@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const email = 'info@imaginaryinteriors.com';
+---
+<BaseLayout title="Privacy Policy — Imaginary Interiors" description="How Imaginary Interiors handles your data.">
+  <div class="wrap">
+    <section class="hero" style="grid-template-columns:1fr;padding-bottom:10px">
+      <div>
+        <div class="eyebrow">Legal</div>
+        <h1>Privacy Policy</h1>
+      </div>
+    </section>
+
+    <section>
+      <div class="prose">
+        <p class="updated">Last updated: {/* TODO */} —</p>
+
+        <p>{/* TODO: replace this template with your finalized policy. */}
+          This Privacy Policy explains how Imaginary Interiors ("we", "us") collects, uses and
+          protects information when you use imaginaryinteriors.com.</p>
+
+        <h2>Information we collect</h2>
+        <p>Describe what you collect (e.g. analytics data, cookies, saved preferences stored in your browser).</p>
+
+        <h2>How we use information</h2>
+        <p>Explain how the data is used.</p>
+
+        <h2>Cookies and analytics</h2>
+        <p>Note any analytics or advertising cookies used on the site.</p>
+
+        <h2>Third-party links</h2>
+        <p>Our pages may link to third-party retailers and affiliate partners with their own policies.</p>
+
+        <h2>Your choices</h2>
+        <p>Explain how users can manage cookies or saved data.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about this policy? Email <a href={`mailto:${email}`}>{email}</a>.</p>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

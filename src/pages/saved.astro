@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { styles } from '../data/styles.js';
+
+const styleData = styles.map((s) => ({ slug: s.slug, name: s.name, tagline: s.tagline, tone: s.tone, image: s.image || null }));
+---
+<BaseLayout title="Saved styles — Imaginary Interiors" description="Your saved interior design styles.">
+  <div class="wrap">
+    <section class="hero" style="grid-template-columns:1fr;padding-bottom:14px">
+      <div>
+        <div class="eyebrow">Saved</div>
+        <h1>Your saved styles</h1>
+        <p class="sub">Styles you've saved on this device. Tap a hub to jump back in.</p>
+      </div>
+    </section>
+    <section>
+      <div id="savedgrid" class="row4" style="row-gap:26px"></div>
+      <p id="savedempty" style="color:var(--muted)" hidden>
+        You haven't saved any styles yet. Browse <a href="/styles" style="color:var(--ink);text-decoration:underline">all styles</a> and tap "Save style".
+      </p>
+    </section>
+  </div>
+
+  <script define:vars={{ styleData }}>
+    const KEY = 'ii_saved_styles';
+    let saved = [];
+    try { saved = JSON.parse(localStorage.getItem(KEY)) || []; } catch {}
+    const grid = document.getElementById('savedgrid');
+    const empty = document.getElementById('savedempty');
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const items = styleData.filter((s) => saved.includes(s.slug));
+    if (!items.length) {
+      empty.hidden = false;
+    } else {
+      grid.innerHTML = items.map((s) => `
+        <a class="hcard" href="/styles/${s.slug}">
+          ${s.image
+            ? `<img class="photo" src="${esc(s.image)}" alt="${esc(s.name)} interior design" loading="lazy" decoding="async">`
+            : `<div class="ph t-${esc(s.tone)}" data-l="${esc(s.name)}" role="img" aria-label="${esc(s.name)}"></div>`}
+          <div class="body"><div class="htop"><b>${esc(s.name)}</b><span class="arrow">→</span></div><p>${esc(s.tagline)}</p></div>
+        </a>`).join('');
+    }
+  </script>
+</BaseLayout>

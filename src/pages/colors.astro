@@ -1,0 +1,279 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Placeholder from '../components/Placeholder.astro';
+
+const heroCollage = [
+  { label: 'Warm Gray', tone: 'warmgrey', area: 'a' },
+  { label: 'Sage Green', tone: 'sage', area: 'b' },
+  { label: 'Black & White', tone: 'dark', area: 'c' },
+  { label: 'Warm White', tone: 'cream', area: 'd' },
+  { label: 'Pastel Bedroom', tone: 'sand', area: 'e' },
+];
+
+const chips = [
+  { label: 'Gray paint', href: '#popular' },
+  { label: 'Warm white', href: '#popular' },
+  { label: 'Sage green', href: '#popular' },
+  { label: 'Monochromatic', href: '#popular' },
+  { label: 'Pastel colors', href: '#popular' },
+  { label: 'Color wheel', href: '#howto' },
+  { label: 'Small rooms', href: '/rooms/studio-apartment' },
+  { label: 'Living room', href: '/rooms/living-room' },
+  { label: 'Bedroom', href: '/rooms/bedroom' },
+  { label: 'Kitchen', href: '/rooms/kitchen' },
+];
+
+const featured = [
+  { name: 'Warm Gray Interior', tone: 'warmgrey', desc: 'A soft neutral palette for calm rooms with stone, linen and black accents.',
+    sw: [{ n: 'Warm White', h: '#efe9dc' }, { n: 'Greige', h: '#cfc3b0' }, { n: 'Stone Gray', h: '#b7ad9e' }, { n: 'Charcoal', h: '#3a3a37' }, { n: 'Oak', h: '#b98a54' }] },
+  { name: 'Sage Eco Modern', tone: 'sage', desc: 'Earthy greens and warm neutrals for a natural, sustainable feel.',
+    sw: [{ n: 'Oat', h: '#e7e0cf' }, { n: 'Sage', h: '#8a9a6f' }, { n: 'Olive', h: '#5f6b4c' }, { n: 'Clay', h: '#b07d55' }, { n: 'Charcoal', h: '#33322f' }] },
+  { name: 'Warm Minimal', tone: 'cream', desc: 'Creamy neutrals and light wood for a bright, uncluttered look.',
+    sw: [{ n: 'Chalk', h: '#f1ece1' }, { n: 'Sand', h: '#e2d3ba' }, { n: 'Taupe', h: '#c3b4a0' }, { n: 'Walnut', h: '#7c5f43' }, { n: 'Ink', h: '#2f2c28' }] },
+  { name: 'Soft Retro', tone: 'terra', desc: 'Warm 70s-inspired tones with mustard, rust and cream.',
+    sw: [{ n: 'Cream', h: '#efe1c8' }, { n: 'Mustard', h: '#d0a24a' }, { n: 'Rust', h: '#b5643a' }, { n: 'Brown', h: '#6d4327' }, { n: 'Olive', h: '#7c7444' }] },
+  { name: 'Monochromatic', tone: 'graphite', desc: 'Layered grays from soft to deep for a quiet, modern room.',
+    sw: [{ n: 'Fog', h: '#e4e2dd' }, { n: 'Silver', h: '#c3c1ba' }, { n: 'Slate', h: '#8f8d86' }, { n: 'Graphite', h: '#514f4a' }, { n: 'Black', h: '#26251f' }] },
+  { name: 'Pastel Interior', tone: 'stone', desc: 'Gentle blush, sky and sage pastels for a light, airy space.',
+    sw: [{ n: 'Blush', h: '#ead7d3' }, { n: 'Sky', h: '#cdd7dc' }, { n: 'Mint', h: '#d3ded0' }, { n: 'Sand', h: '#e6ddcc' }, { n: 'Greige', h: '#c7bdae' }] },
+];
+
+const howto = [
+  { title: 'Start with natural light', desc: 'Observe how light moves through your room. North light is cooler, south light is warmer. Let that guide your palette.' },
+  { title: 'Choose one anchor material', desc: 'Pull a key tone from something you love — wood, stone, tile or fabric — and build your palette around it.' },
+  { title: 'Balance warm and cool tones', desc: 'Mix warm and cool hues so the room feels layered and timeless, not too yellow or too blue.' },
+  { title: 'Test contrast before paint', desc: 'Try your colors together on the wall. Check them at different times of day before you commit.' },
+];
+
+const roomIdeas = [
+  { name: 'Living room colors', href: '/rooms/living-room', tone: 'walnut' },
+  { name: 'Bedroom colors', href: '/rooms/bedroom', tone: 'sage' },
+  { name: 'Kitchen colors', href: '/rooms/kitchen', tone: 'cream' },
+  { name: 'Small room colors', href: '/rooms/studio-apartment', tone: 'stone' },
+  { name: 'Home office colors', href: '/rooms/home-office', tone: 'dark' },
+  { name: 'Bathroom colors', href: '/rooms/bathroom', tone: 'warmgrey' },
+];
+
+const directions = [
+  { name: 'Gray Paint Interior', href: '/styles/contemporary', sw: ['#d8cfc0', '#c3b8a6', '#a99d8b', '#7c7266'] },
+  { name: 'Sage Eco Modern', href: '/styles/sustainable', sw: ['#c9d2b6', '#8a9a6f', '#5f6b4c', '#3c4630'] },
+  { name: 'Warm Minimal', href: '/styles/minimalist', sw: ['#efe4cf', '#e0c79a', '#c99a63', '#8a6238'] },
+  { name: 'Soft Retro', href: '/trends', sw: ['#efe1c8', '#c9d3c0', '#d0a24a', '#b5643a'] },
+  { name: 'Monochromatic', href: '/styles/contemporary', sw: ['#d5d3ce', '#a6a49d', '#6f6d67', '#2f2e2b'] },
+  { name: 'Pastel Interior', href: '/styles', sw: ['#ead7dd', '#e7d9c6', '#cdd7dc', '#d3ded0'] },
+];
+
+const faqs = [
+  { q: 'What colors make a room feel bigger?', a: 'TODO — add your answer here.' },
+  { q: 'What is a good neutral palette for a living room?', a: 'TODO — add your answer here.' },
+  { q: 'How do I use gray paint without making a room cold?', a: 'TODO — add your answer here.' },
+  { q: 'Which colors work with natural wood?', a: 'TODO — add your answer here.' },
+  { q: 'How many colors should an interior palette have?', a: 'TODO — add your answer here.' },
+];
+
+const exploreMore = [
+  { name: 'Modern Rustic', href: '/styles/modern-rustic', tone: 'walnut' },
+  { name: 'Living Room', href: '/rooms/living-room', tone: 'stone' },
+  { name: 'Small Spaces', href: '/rooms/studio-apartment', tone: 'sand' },
+  { name: 'Trends 2026', href: '/trends', tone: 'dark' },
+];
+
+// Search suggestions for the color hub
+const colorIndex = [
+  ...featured.map((f) => ({ label: f.name, href: '#featured', kind: 'Palette' })),
+  ...directions.map((d) => ({ label: d.name, href: d.href, kind: 'Direction' })),
+  ...roomIdeas.map((r) => ({ label: r.name, href: r.href, kind: 'Room' })),
+  { label: 'All interior design styles', href: '/styles', kind: 'Styles' },
+  { label: 'Trends 2026', href: '/trends', kind: 'Trends' },
+];
+
+const total = String(featured.length).padStart(2, '0');
+---
+<BaseLayout title="Interior Design Color Palettes — Imaginary Interiors" description="Explore interior color palettes, paint colors and material pairings — warm gray, sage, monochromatic, pastel and more, with room examples.">
+  <div class="wrap">
+    <div class="crumb"><a href="/colors">Colors</a> / Interior Palettes</div>
+
+    <!-- HERO -->
+    <section class="hero" style="padding-top:16px">
+      <div>
+        <div class="eyebrow">Color hub</div>
+        <h1>Interior Design Color Palettes</h1>
+        <p class="sub">Explore paint colors, material pairings and room examples before you commit to a palette.</p>
+        <div class="searchbox">
+          <div class="search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+            <input id="colorsearch" type="text" placeholder="Search gray paint, sage green, warm white…" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="colorresults" aria-label="Search palettes" />
+          </div>
+          <ul id="colorresults" class="search-results" role="listbox" hidden></ul>
+        </div>
+        <div class="chips" style="margin-top:22px">{chips.map((c) => <a class="chip" href={c.href}>{c.label}</a>)}</div>
+      </div>
+      <div class="colorcollage">
+        {heroCollage.map((c) => (
+          <div class={`cc-cell cc-${c.area}`}>
+            <Placeholder tone={c.tone} label="" />
+            <span class="cc-label">{c.label}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <!-- FEATURED CAROUSEL -->
+  <div class="wrap">
+    <section id="featured">
+      <h2>Featured color palettes</h2>
+      <div class="featured-wrap" id="featuredwrap">
+        <button class="ft-nav ft-prev" aria-label="Previous palette"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <div class="featured">
+          {featured.map((f, i) => (
+            <div class={`ft-slide ${i === 0 ? 'active' : ''}`} data-i={i}>
+              <div class="ft-img"><Placeholder tone={f.tone} label="" /></div>
+              <div class="ft-panel">
+                <h3>{f.name}</h3>
+                <p class="ft-desc">{f.desc}</p>
+                <div class="ft-swatches">
+                  {f.sw.map((s) => <div class="ft-sw"><div class="chip-sw" style={`background:${s.h}`}></div><small>{s.n}</small></div>)}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <button class="ft-nav ft-next" aria-label="Next palette"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 5l7 7-7 7"/></svg></button>
+      </div>
+      <div class="ft-bar">
+        <div class="rg-dots" id="ftdots">{featured.map((_, i) => <button class={`rg-dot ${i === 0 ? 'active' : ''}`} data-i={i} aria-label={`Palette ${i + 1}`}></button>)}</div>
+        <span class="ft-count"><span id="ftnum">01</span> / {total}</span>
+      </div>
+    </section>
+  </div>
+
+  <!-- HOW TO CHOOSE -->
+  <div class="wrap">
+    <section id="howto">
+      <h2>How to choose an interior color palette</h2>
+      <div class="howto">
+        {howto.map((t) => (
+          <div class="howcard">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 000 18z"/></svg>
+            <b>{t.title}</b>
+            <p>{t.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <!-- PALETTE IDEAS BY ROOM -->
+  <div class="wrap">
+    <section>
+      <h2>Palette ideas by room</h2>
+      <div class="ideas">
+        {roomIdeas.map((r) => (
+          <a class="idea" href={r.href}>
+            <Placeholder tone={r.tone} label={r.name} />
+            <div class="cap"><span>{r.name}</span><span class="arrow">→</span></div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <!-- POPULAR COLOR DIRECTIONS -->
+  <div class="wrap">
+    <section id="popular">
+      <h2>Popular color directions</h2>
+      <div class="dirgrid">
+        {directions.map((d) => (
+          <a class="dircard" href={d.href}>
+            <div class="swatches">{d.sw.map((c) => <div class="sw" style={`background:${c}`}></div>)}</div>
+            <div class="dirbody"><b>{d.name}</b><span class="arrow">→</span></div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <!-- COLOR QUESTIONS -->
+  <div class="wrap">
+    <section>
+      <h2>Color questions</h2>
+      <div class="faqlist">
+        {faqs.map((f) => (
+          <details class="faq">
+            <summary>{f.q}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 9l6 6 6-6"/></svg></summary>
+            <div class="faq-a">{f.a}</div>
+          </details>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <!-- EXPLORE MORE -->
+  <div class="wrap">
+    <section style="padding-bottom:56px">
+      <h2>Explore more</h2>
+      <div class="row4">
+        {exploreMore.map((e) => (
+          <a class="scard" href={e.href}>
+            <Placeholder tone={e.tone} label={e.name} />
+            <div class="cap"><b>{e.name}</b><span class="arrow">→</span></div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <!-- Featured carousel -->
+  <script>
+    const wrap = document.getElementById('featuredwrap');
+    if (wrap) {
+      const slides = Array.from(wrap.querySelectorAll('.ft-slide'));
+      const dots = Array.from(document.querySelectorAll('#ftdots .rg-dot'));
+      const num = document.getElementById('ftnum');
+      let cur = 0;
+      const n = slides.length;
+      const go = (i) => {
+        cur = (i + n) % n;
+        slides.forEach((s, k) => s.classList.toggle('active', k === cur));
+        dots.forEach((d, k) => d.classList.toggle('active', k === cur));
+        if (num) num.textContent = String(cur + 1).padStart(2, '0');
+      };
+      wrap.querySelector('.ft-prev').addEventListener('click', () => go(cur - 1));
+      wrap.querySelector('.ft-next').addEventListener('click', () => go(cur + 1));
+      dots.forEach((d, i) => d.addEventListener('click', () => go(i)));
+    }
+  </script>
+
+  <!-- Color search suggestions -->
+  <script define:vars={{ colorIndex }}>
+    const input = document.getElementById('colorsearch');
+    const box = document.getElementById('colorresults');
+    if (input && box) {
+      let matches = [], active = -1;
+      const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+      const close = () => { box.hidden = true; box.innerHTML = ''; matches = []; active = -1; input.setAttribute('aria-expanded', 'false'); };
+      const paint = () => Array.from(box.querySelectorAll('a')).forEach((a, i) => a.classList.toggle('active', i === active));
+      const render = (q) => {
+        const query = q.trim().toLowerCase();
+        if (!query) return close();
+        matches = colorIndex.filter((it) => it.label.toLowerCase().includes(query)).slice(0, 6);
+        active = matches.length ? 0 : -1;
+        box.innerHTML = matches.length
+          ? matches.map((it, i) => `<li role="option"><a href="${it.href}" class="${i === 0 ? 'active' : ''}">${esc(it.label)}<span class="sr-kind">${esc(it.kind)}</span></a></li>`).join('')
+          : '<li class="sr-empty">No matches</li>';
+        box.hidden = false;
+        input.setAttribute('aria-expanded', 'true');
+      };
+      input.addEventListener('input', () => render(input.value));
+      input.addEventListener('focus', () => { if (input.value) render(input.value); });
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown' && matches.length) { e.preventDefault(); active = (active + 1) % matches.length; paint(); }
+        else if (e.key === 'ArrowUp' && matches.length) { e.preventDefault(); active = (active - 1 + matches.length) % matches.length; paint(); }
+        else if (e.key === 'Enter' && active >= 0 && matches[active]) { e.preventDefault(); location.href = matches[active].href; }
+        else if (e.key === 'Escape') { close(); input.blur(); }
+      });
+      document.addEventListener('click', (e) => { if (!e.target.closest('.searchbox')) close(); });
+    }
+  </script>
+</BaseLayout>

@@ -3,13 +3,27 @@ const links = ['Styles', 'Rooms', 'Colors', 'Trends', 'Quiz'];
 ---
 <header>
   <div class="wrap nav">
-    <a href="/" class="logo">Imaginary Interiors</a>
+    <a href="/" class="logo">
+      <img src="/images/imaginary-interiors-icon.webp" alt="" width="28" height="28" loading="eager" decoding="async" />
+      <span>Imaginary Interiors</span>
+    </a>
     <nav class="menu">
       {links.map((l) => <a href={`/${l.toLowerCase()}`}>{l}</a>)}
     </nav>
     <div class="icons">
-      <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-label="Saved"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+      <a href="/saved" class="savelink" aria-label="Saved styles">
+        <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+        <span id="savecount" class="savecount" hidden>0</span>
+      </a>
       <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-label="Menu"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
     </div>
   </div>
 </header>
+<script>
+  const badge = document.getElementById('savecount');
+  if (badge) {
+    let n = 0;
+    try { n = (JSON.parse(localStorage.getItem('ii_saved_styles')) || []).length; } catch {}
+    if (n > 0) { badge.textContent = String(n); badge.hidden = false; }
+  }
+</script>

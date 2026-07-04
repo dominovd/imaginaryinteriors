@@ -1,0 +1,264 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Placeholder from '../../components/Placeholder.astro';
+import Photo from '../../components/Photo.astro';
+import { rooms, getRoom } from '../../data/rooms.js';
+
+export function getStaticPaths() {
+  return rooms.map((r) => ({ params: { slug: r.slug }, props: { room: r } }));
+}
+
+const { room: r } = Astro.props;
+const related = (r.related || []).map(getRoom).filter(Boolean);
+const total = String(r.gallery.length).padStart(2, '0');
+
+const plans = {
+  openplan: '<rect x="7" y="7" width="74" height="46" rx="2"/><rect x="15" y="16" width="24" height="12"/><rect x="17" y="33" width="20" height="10"/><rect x="52" y="15" width="21" height="13"/><line x1="47" y1="7" x2="47" y2="53"/>',
+  apartment: '<rect x="10" y="8" width="50" height="44" rx="2"/><rect x="17" y="16" width="20" height="11"/><rect x="18" y="33" width="16" height="9"/><rect x="63" y="8" width="17" height="44" rx="2"/>',
+  fireplace: '<rect x="7" y="7" width="74" height="46" rx="2"/><rect x="34" y="7" width="20" height="5"/><rect x="22" y="22" width="18" height="11"/><rect x="48" y="22" width="18" height="11"/><rect x="34" y="40" width="20" height="8"/>',
+  tv: '<rect x="7" y="7" width="74" height="46" rx="2"/><rect x="30" y="7" width="28" height="4"/><rect x="20" y="34" width="20" height="12"/><rect x="48" y="34" width="20" height="12"/><rect x="38" y="20" width="12" height="8"/>',
+};
+---
+<BaseLayout title={`${r.title} — Imaginary Interiors`} description={r.tagline}>
+  <div class="wrap">
+    <div class="crumb"><a href="/rooms">Rooms</a> / {r.name}</div>
+
+    <!-- HERO + GALLERY -->
+    <section class="roomhero">
+      <div>
+        <div class="eyebrow">Room gallery</div>
+        <h1>{r.title}</h1>
+        <p class="sub">{r.tagline}</p>
+        {r.chips && r.chips.length > 0 && (
+          <div class="chips">{r.chips.map((c) => <a class="chip" href={c.href}>{c.label}</a>)}</div>
+        )}
+      </div>
+
+      <div class="roomgallery" id="roomgallery">
+        <div class="rg-stage">
+          <div class="rg-main">
+            <button class="rg-nav rg-prev" aria-label="Previous image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 5l-7 7 7 7"/></svg></button>
+            {r.gallery.map((g, i) => (
+              <div class={`rg-slide ${i === 0 ? 'active' : ''}`} data-cap={g.caption}>
+                {g.img ? <Photo src={g.img} alt={g.caption} loading={i === 0 ? 'eager' : 'lazy'} /> : <Placeholder tone={g.tone} label={g.caption} />}
+              </div>
+            ))}
+            <button class="rg-nav rg-next" aria-label="Next image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 5l7 7-7 7"/></svg></button>
+          </div>
+          {r.gallery.length > 1 && (
+            <div class="rg-thumbs">
+              {r.gallery.slice(0, 3).map((g, i) => (
+                <button class={`rg-thumb ${i === 0 ? 'active' : ''}`} data-i={i} aria-label={`Show ${g.caption}`}>
+                  {g.img ? <Photo src={g.img} alt={g.caption} /> : <Placeholder tone={g.tone} label="" />}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+        <div class="rg-bar">
+          <span class="rg-cap" id="rgcap">{r.gallery[0].caption}</span>
+          <div class="rg-center">
+            <span class="rg-count"><span id="rgnum">01</span> / {total}</span>
+            <div class="rg-dots" id="rgdots">
+              {r.gallery.map((_, i) => <button class={`rg-dot ${i === 0 ? 'active' : ''}`} data-i={i} aria-label={`Go to image ${i + 1}`}></button>)}
+            </div>
+          </div>
+          <button class="btn rg-save" id="saveroombtn" data-slug={r.slug}>
+            <span class="saveroomlbl">Save room</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 3h12v18l-6-4-6 4z"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- FILTER BAR -->
+  {r.filters && (
+    <div class="wrap">
+      <section style="padding-top:6px">
+        <div class="filterbar" id="filterbar">
+          <div class="fb-label">Narrow the gallery</div>
+          <div class="fb-tabs">
+            {r.filters.tabs.map((t, i) => (
+              <button class={`fb-tab ${i === 0 ? 'active' : ''}`}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 4v16M4 12h16"/></svg>
+                <span>{t}</span>
+              </button>
+            ))}
+          </div>
+          <div class="fb-active">
+            {r.filters.chips.map((c) => (
+              <span class="fb-chip">{c}<button class="fb-x" aria-label={`Remove ${c}`}>×</button></span>
+            ))}
+            <button class="fb-clear" id="fbclear">Clear all</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  )}
+
+  <!-- IDEAS BY STYLE -->
+  {r.styleIdeas && r.styleIdeas.length > 0 && (
+    <div class="wrap">
+      <section>
+        <h2>{r.name} ideas by style</h2>
+        <div class="ideas">
+          {r.styleIdeas.map((s) => (
+            <a class="idea" href={s.href}>
+              {s.img ? <Photo src={s.img} alt={`${s.name} ${r.name.toLowerCase()}`} /> : <Placeholder tone={s.tone} label={s.name} />}
+              <div class="cap"><span>{s.name}</span><span class="arrow">→</span></div>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  <!-- HOW TO CHOOSE -->
+  {r.tips && r.tips.length > 0 && (
+    <div class="wrap">
+      <section>
+        <h2>How to choose a {r.name.toLowerCase()} style</h2>
+        <div class="howto">
+          {r.tips.map((t) => (
+            <div class="howcard">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>
+              <b>{t.title}</b>
+              <p>{t.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  <!-- LAYOUTS -->
+  {r.layouts && r.layouts.length > 0 && (
+    <div class="wrap">
+      <section>
+        <h2>Layouts for common {r.name.toLowerCase()}s</h2>
+        <div class="laygrid">
+          {r.layouts.map((l) => (
+            <div class="laycard">
+              <div class="plan"><svg viewBox="0 0 88 60" fill="none" stroke="currentColor" stroke-width="1.4" set:html={plans[l.plan] || ''}></svg></div>
+              <b>{l.name}</b>
+              <p>{l.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  <!-- PALETTES -->
+  {r.palettes && r.palettes.length > 0 && (
+    <div class="wrap">
+      <section>
+        <h2>{r.name} color palettes</h2>
+        <div class="row3">
+          {r.palettes.map((p) => (
+            <div class="pcard">
+              <div class="swatches">{p.sw.map((c) => <div class="sw" style={`background:${c}`}></div>)}</div>
+              <div class="body"><div class="htop"><b>{p.name}</b></div><p>{p.desc}</p></div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  <!-- FAQ -->
+  {r.faqs && r.faqs.length > 0 && (
+    <div class="wrap">
+      <section>
+        <h2>{r.name} design questions</h2>
+        <div class="faqlist">
+          {r.faqs.map((f) => (
+            <details class="faq">
+              <summary>{f.q}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 9l6 6 6-6"/></svg></summary>
+              <div class="faq-a">{f.a}</div>
+            </details>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  <!-- EXPLORE MORE ROOMS -->
+  {related.length > 0 && (
+    <div class="wrap">
+      <section style="padding-bottom:56px">
+        <h2>Explore more rooms</h2>
+        <div class="row4">
+          {related.map((rm) => (
+            <a class="scard" href={`/rooms/${rm.slug}`}>
+              {rm.image ? <Photo src={rm.image} alt={`${rm.name} interior`} /> : <Placeholder tone={rm.tone} label={rm.name} />}
+              <div class="cap"><b>{rm.name}</b><span class="arrow">→</span></div>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  <script>
+    // Gallery carousel
+    const gal = document.getElementById('roomgallery');
+    if (gal) {
+      const slides = Array.from(gal.querySelectorAll('.rg-slide'));
+      const dots = Array.from(gal.querySelectorAll('.rg-dot'));
+      const thumbs = Array.from(gal.querySelectorAll('.rg-thumb'));
+      const cap = gal.querySelector('#rgcap');
+      const num = gal.querySelector('#rgnum');
+      let cur = 0;
+      const n = slides.length;
+      const go = (i) => {
+        cur = (i + n) % n;
+        slides.forEach((s, k) => s.classList.toggle('active', k === cur));
+        dots.forEach((d, k) => d.classList.toggle('active', k === cur));
+        thumbs.forEach((t, k) => t.classList.toggle('active', k === cur));
+        if (cap) cap.textContent = slides[cur].dataset.cap;
+        if (num) num.textContent = String(cur + 1).padStart(2, '0');
+      };
+      const prev = gal.querySelector('.rg-prev');
+      const next = gal.querySelector('.rg-next');
+      if (prev) prev.addEventListener('click', () => go(cur - 1));
+      if (next) next.addEventListener('click', () => go(cur + 1));
+      dots.forEach((d, i) => d.addEventListener('click', () => go(i)));
+      thumbs.forEach((t, i) => t.addEventListener('click', () => go(i)));
+    }
+
+    // Save room (localStorage)
+    const sbtn = document.getElementById('saveroombtn');
+    if (sbtn) {
+      const KEY = 'ii_saved_rooms';
+      const slug = sbtn.dataset.slug;
+      const lbl = sbtn.querySelector('.saveroomlbl');
+      const get = () => { try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; } };
+      const paint = () => {
+        const on = get().includes(slug);
+        sbtn.classList.toggle('saved', on);
+        if (lbl) lbl.textContent = on ? 'Saved' : 'Save room';
+      };
+      sbtn.addEventListener('click', () => {
+        let a = get();
+        a = a.includes(slug) ? a.filter((x) => x !== slug) : [...a, slug];
+        localStorage.setItem(KEY, JSON.stringify(a));
+        paint();
+      });
+      paint();
+    }
+
+    // Filter bar (visual: remove chips, clear all, switch active tab)
+    const fb = document.getElementById('filterbar');
+    if (fb) {
+      fb.querySelectorAll('.fb-x').forEach((x) => x.addEventListener('click', () => x.closest('.fb-chip').remove()));
+      const clear = document.getElementById('fbclear');
+      if (clear) clear.addEventListener('click', () => fb.querySelectorAll('.fb-chip').forEach((c) => c.remove()));
+      fb.querySelectorAll('.fb-tab').forEach((t) => t.addEventListener('click', () => {
+        fb.querySelectorAll('.fb-tab').forEach((x) => x.classList.remove('active'));
+        t.classList.add('active');
+      }));
+    }
+  </script>
+</BaseLayout>

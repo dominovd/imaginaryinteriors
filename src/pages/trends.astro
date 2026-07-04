@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Placeholder from '../components/Placeholder.astro';
+
+const trends = [
+  { name: 'Warm minimalism', tone: 'cream', desc: 'Pared-back rooms softened with texture and warm neutrals.' },
+  { name: 'Earthy tones', tone: 'terra', desc: 'Clay, rust and olive replacing cool grays.' },
+  { name: 'Curved furniture', tone: 'sand', desc: 'Rounded sofas, arches and soft silhouettes.' },
+  { name: 'Natural materials', tone: 'walnut', desc: 'Reclaimed wood, stone, linen and rattan.' },
+  { name: 'Statement lighting', tone: 'dark', desc: 'Sculptural pendants and warm, layered light.' },
+  { name: 'Biophilic design', tone: 'sage', desc: 'Plants, greenery and indoor-outdoor flow.' },
+  { name: 'Quiet luxury', tone: 'stone', desc: 'Understated, high-quality, timeless pieces.' },
+  { name: 'Dark moody rooms', tone: 'graphite', desc: 'Deep walls, rich contrast and cozy corners.' },
+];
+---
+<BaseLayout title="Interior Design Trends 2026 — Imaginary Interiors" description="The interior design trends shaping 2026 — warm minimalism, earthy tones, curves, natural materials and more.">
+  <div class="wrap">
+    <section class="hero" style="grid-template-columns:1fr;padding-bottom:14px">
+      <div>
+        <div class="eyebrow">Trends 2026</div>
+        <h1>Interior design trends 2026</h1>
+        <p class="sub">The looks, colors and materials shaping interiors this year — and the styles that carry them.</p>
+      </div>
+    </section>
+    <section>
+      <div class="row4" style="row-gap:26px">
+        {trends.map((t) => (
+          <div class="hcard">
+            <Placeholder tone={t.tone} label={t.name} />
+            <div class="body"><div class="htop"><b>{t.name}</b><span class="arrow">→</span></div><p>{t.desc}</p></div>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

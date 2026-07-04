@@ -1,0 +1,103 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Placeholder from '../../../components/Placeholder.astro';
+import { combos } from '../../../data/combos.js';
+import { getStyle } from '../../../data/styles.js';
+import { getRoom } from '../../../data/rooms.js';
+
+export function getStaticPaths() {
+  return combos.map((c) => ({ params: { style: c.styleSlug, room: c.roomSlug }, props: { combo: c } }));
+}
+
+const { combo: c } = Astro.props;
+const style = getStyle(c.styleSlug);
+const room = getRoom(c.roomSlug);
+
+// Sibling combos in the same style (other rooms) for related links.
+const siblings = combos.filter((x) => x.styleSlug === c.styleSlug && x.roomSlug !== c.roomSlug);
+---
+<BaseLayout title={c.metaTitle} description={c.metaDescription}>
+  <div class="wrap">
+    <div class="crumb">
+      <a href="/styles">Styles</a> / <a href={`/styles/${c.styleSlug}`}>{c.styleName}</a> / {c.roomName}
+    </div>
+
+    <!-- HERO -->
+    <section class="hubhero">
+      <div>
+        <div class="eyebrow">Style + room</div>
+        <h1>{c.styleName} {c.roomName} Interior Design</h1>
+        <p class="sub">Ideas, layouts, colors and materials for a {c.styleName.toLowerCase()} {c.roomName.toLowerCase()} — plus the pieces that make the look work.</p>
+        <div class="cta">
+          <a class="btn" href={`/styles/${c.styleSlug}`}>Explore {c.styleName} →</a>
+          <a class="btn ghost" href={`/rooms/${c.roomSlug}`}>All {c.roomName.toLowerCase()} ideas →</a>
+        </div>
+      </div>
+      <div class="hubcollage">
+        <Placeholder tone={c.tone} label={c.title} class="ga" />
+        <Placeholder tone="graphite" label="Detail" class="gb" />
+        <Placeholder tone="stone" label="Corner" class="gc" />
+        <Placeholder tone="cream" label="Palette" class="gd" />
+      </div>
+    </section>
+  </div>
+
+  <!-- FACTS -->
+  <div class="wrap">
+    <section style="padding-top:6px">
+      <div class="facts">
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg><div><div class="k">Style</div><div class="v">{c.styleName}</div></div></div>
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 11l8-6 8 6v9H4z"/></svg><div><div class="k">Room</div><div class="v">{c.roomName}</div></div></div>
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 7h16M4 12h16M4 17h16"/></svg><div><div class="k">Materials</div><div class="v">{style?.materials || '—'}</div></div></div>
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><circle cx="8.5" cy="10" r="1"/><circle cx="15" cy="9" r="1"/><circle cx="15.5" cy="14" r="1"/></svg><div><div class="k">Palette</div><div class="v">{style?.palette || '—'}</div></div></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- INTRO -->
+  <div class="wrap">
+    <section>
+      <div class="prose">
+        <h2>Designing a {c.styleName.toLowerCase()} {c.roomName.toLowerCase()}</h2>
+        <p>{/* TODO: replace with your own copy for this style + room combination. */}
+          A {c.styleName.toLowerCase()} {c.roomName.toLowerCase()} blends the {c.styleName.toLowerCase()} look —
+          {style?.mood ? ` ${style.mood.toLowerCase()},` : ''} {style?.materials?.toLowerCase() || 'natural materials'} —
+          with layouts and details that suit a {c.roomName.toLowerCase()}. Start with the palette,
+          anchor the room around a focal point, then layer in texture and lighting.</p>
+      </div>
+    </section>
+  </div>
+
+  {style?.swatches && style.swatches.length > 0 && (
+    <div class="wrap">
+      <section class="palmat">
+        <div>
+          <h2>{c.styleName} palette</h2>
+          <div class="palcol">
+            {style.swatches.map((sw) => (
+              <div class="c"><div class="chip-sw" style={`background:${sw.hex}`}></div><small>{sw.name}</small></div>
+            ))}
+          </div>
+        </div>
+        <div></div>
+      </section>
+    </div>
+  )}
+
+  <!-- RELATED COMBOS -->
+  {siblings.length > 0 && (
+    <div class="wrap">
+      <section style="padding-bottom:56px">
+        <h2>{c.styleName} in other rooms</h2>
+        <div class="row4">
+          {siblings.map((s) => (
+            <a class="scard" href={s.href}>
+              <Placeholder tone={s.tone} label={s.roomName} />
+              <div class="cap"><b>{s.roomName}</b><span class="arrow">→</span></div>
+            </a>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+</BaseLayout>

@@ -13,7 +13,7 @@ h2{font-size:26px;font-weight:600;letter-spacing:-0.4px;margin-bottom:18px}
 .arrow{color:var(--ink)}
 section{padding:30px 0}
 
-/* photo placeholders (stand-ins for AI renders) */
+/* photo placeholders (stand-ins for room renders) */
 .ph{position:relative;background:var(--stone);overflow:hidden;border-radius:10px}
 .photo{display:block;width:100%;height:100%;object-fit:cover;border-radius:10px;background:var(--soft)}
 .ph::after{content:attr(data-l);position:absolute;left:10px;bottom:9px;font-size:10px;letter-spacing:.5px;

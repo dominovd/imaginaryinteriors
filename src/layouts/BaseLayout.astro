@@ -4,8 +4,9 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
 interface Props { title: string; description?: string; noindex?: boolean; }
-const { title, description = 'Explore interior design styles by look, room and palette — a visual AI style atlas with shop-the-look ideas.', noindex = false } = Astro.props;
-const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const { title, description = 'Explore interior design styles by look, room and palette — a visual interior style atlas with shop-the-look ideas.', noindex = false } = Astro.props;
+// Canonical without a trailing slash (home = bare domain).
+const canonical = Astro.site.origin + Astro.url.pathname.replace(/\/+$/, '');
 const ogImage = new URL('/images/imaginary-interiors-icon.webp', Astro.site).href;
 ---
 <!DOCTYPE html>

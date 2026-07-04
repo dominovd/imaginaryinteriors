@@ -316,7 +316,7 @@ function icon(kind) {
         <div class="row4">
           {related.map((r) => (
             <a class="scard" href={`/styles/${r.slug}`}>
-              {r.image ? <Photo src={r.image} alt={`${r.name} interior design`} /> : <Placeholder tone={r.tone} label="AI render" />}
+              {r.image ? <Photo src={r.image} alt={`${r.name} interior design`} /> : <Placeholder tone={r.tone} label={r.name} />}
               <div class="cap"><b>{r.name}</b><span class="arrow">→</span></div>
             </a>
           ))}

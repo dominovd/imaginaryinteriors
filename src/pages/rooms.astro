@@ -35,7 +35,7 @@ import { combos, comboRoomList } from '../data/combos.js';
       <div class="ideas" id="combogrid">
         {combos.map((c) => (
           <a class="idea combocard" href={c.href} data-room={c.roomSlug} data-style={c.styleSlug}>
-            <Placeholder tone={c.tone} label={c.title} />
+            {c.image ? <Photo src={c.image} alt={`${c.title} interior`} /> : <Placeholder tone={c.tone} label={c.title} />}
             <div class="cap"><span>{c.title}</span><span class="arrow">→</span></div>
           </a>
         ))}

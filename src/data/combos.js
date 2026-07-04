@@ -18,6 +18,8 @@ export const combos = styles.flatMap((s) =>
       tone: s.tone,
       href: `/styles/${s.slug}/${r.slug}`,
       title: `${s.name} ${r.name}`,
+      indexed: false, // flip to true per combo as it gets real content
+
       metaTitle: `${s.name} ${r.name} Ideas — Imaginary Interiors`,
       metaDescription: `${s.name.toLowerCase()} ${r.name.toLowerCase()} ideas — layouts, colors, materials and shop-the-look inspiration for a ${s.name.toLowerCase()} ${r.name.toLowerCase()}.`,
     };

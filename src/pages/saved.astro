@@ -4,7 +4,7 @@ import { styles } from '../data/styles.js';
 
 const styleData = styles.map((s) => ({ slug: s.slug, name: s.name, tagline: s.tagline, tone: s.tone, image: s.image || null }));
 ---
-<BaseLayout title="Saved styles — Imaginary Interiors" description="Your saved interior design styles.">
+<BaseLayout title="Saved styles — Imaginary Interiors" description="Your saved interior design styles." noindex={true}>
   <div class="wrap">
     <section class="hero" style="grid-template-columns:1fr;padding-bottom:14px">
       <div>

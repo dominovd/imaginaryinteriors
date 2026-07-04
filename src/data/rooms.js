@@ -5,6 +5,7 @@
 export const rooms = [
   {
     slug: 'living-room',
+    indexed: true,
     name: 'Living Room',
     title: 'Living Room Interior Design',
     tagline: 'Browse living room ideas by style, color palette, room size and layout.',

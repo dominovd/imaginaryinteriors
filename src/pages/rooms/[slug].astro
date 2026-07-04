@@ -19,7 +19,7 @@ const plans = {
   tv: '<rect x="7" y="7" width="74" height="46" rx="2"/><rect x="30" y="7" width="28" height="4"/><rect x="20" y="34" width="20" height="12"/><rect x="48" y="34" width="20" height="12"/><rect x="38" y="20" width="12" height="8"/>',
 };
 ---
-<BaseLayout title={`${r.title} — Imaginary Interiors`} description={r.tagline}>
+<BaseLayout title={`${r.title} — Imaginary Interiors`} description={r.tagline} noindex={!r.indexed}>
   <div class="wrap">
     <div class="crumb"><a href="/rooms">Rooms</a> / {r.name}</div>
 

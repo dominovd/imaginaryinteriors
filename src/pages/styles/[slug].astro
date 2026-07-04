@@ -78,7 +78,7 @@ function icon(kind) {
   return map[kind] || map.art;
 }
 ---
-<BaseLayout title={`${s.title} — Imaginary Interiors`} description={s.seoDescription || s.tagline}>
+<BaseLayout title={`${s.title} — Imaginary Interiors`} description={s.seoDescription || s.tagline} noindex={!s.indexed}>
   {faqJson && <script type="application/ld+json" set:html={faqJson}></script>}
   <div class="wrap">
     <div class="crumb"><a href="/styles">Styles</a> / {s.name}</div>

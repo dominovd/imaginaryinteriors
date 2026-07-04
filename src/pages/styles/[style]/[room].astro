@@ -16,7 +16,7 @@ const room = getRoom(c.roomSlug);
 // Sibling combos in the same style (other rooms) for related links.
 const siblings = combos.filter((x) => x.styleSlug === c.styleSlug && x.roomSlug !== c.roomSlug);
 ---
-<BaseLayout title={c.metaTitle} description={c.metaDescription}>
+<BaseLayout title={c.metaTitle} description={c.metaDescription} noindex={!c.indexed}>
   <div class="wrap">
     <div class="crumb">
       <a href="/styles">Styles</a> / <a href={`/styles/${c.styleSlug}`}>{c.styleName}</a> / {c.roomName}

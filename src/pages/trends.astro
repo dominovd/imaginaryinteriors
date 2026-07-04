@@ -1,34 +1,204 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import Placeholder from '../components/Placeholder.astro';
+import Photo from '../components/Photo.astro';
+
+const heroStats = [
+  { label: 'Main mood', value: 'Warm, natural, edited' },
+  { label: 'Color shift', value: 'From cool gray to earth tones' },
+  { label: 'Material shift', value: 'From glossy to tactile' },
+  { label: 'Best approach', value: 'Add one trend at a time' },
+];
 
 const trends = [
-  { name: 'Warm minimalism', tone: 'cream', desc: 'Pared-back rooms softened with texture and warm neutrals.' },
-  { name: 'Earthy tones', tone: 'terra', desc: 'Clay, rust and olive replacing cool grays.' },
-  { name: 'Curved furniture', tone: 'sand', desc: 'Rounded sofas, arches and soft silhouettes.' },
-  { name: 'Natural materials', tone: 'walnut', desc: 'Reclaimed wood, stone, linen and rattan.' },
-  { name: 'Statement lighting', tone: 'dark', desc: 'Sculptural pendants and warm, layered light.' },
-  { name: 'Biophilic design', tone: 'sage', desc: 'Plants, greenery and indoor-outdoor flow.' },
-  { name: 'Quiet luxury', tone: 'stone', desc: 'Understated, high-quality, timeless pieces.' },
-  { name: 'Dark moody rooms', tone: 'graphite', desc: 'Deep walls, rich contrast and cozy corners.' },
+  {
+    name: 'Warm minimalism',
+    href: '/styles/minimalist',
+    image: '/images/minimalist-living-room.webp',
+    desc: 'Pared-back rooms are getting softer: warm white, pale oak, wool, linen and storage that hides daily clutter.',
+    use: 'Keep the layout simple, then add one warm wood tone and one tactile textile so the room feels calm instead of empty.',
+    palette: ['#f1ece1', '#d8c7ad', '#c3b4a0', '#3d3e3b'],
+  },
+  {
+    name: 'Earthy tones',
+    href: '/styles/70s-interior-design',
+    image: '/images/70s-living-room.webp',
+    desc: 'Clay, rust, ochre, olive and tobacco are replacing cool grays in rooms that need warmth and personality.',
+    use: 'Choose one dominant earth color and repeat it in two or three places instead of scattering many warm accents.',
+    palette: ['#eadfc9', '#c18a42', '#b45f3c', '#6f7447'],
+  },
+  {
+    name: 'Curved furniture',
+    href: '/styles/organic-modern',
+    image: '/images/organic-modern-curved-boucle-sofa.webp',
+    desc: 'Rounded sofas, oval tables, arched mirrors and softer corners make clean rooms feel more human.',
+    use: 'Use one curved anchor piece, then keep the rest of the room restrained so the shape can breathe.',
+    palette: ['#eee7dc', '#c8b8a5', '#a08f7d', '#6f6a61'],
+  },
+  {
+    name: 'Natural materials',
+    href: '/styles/sustainable',
+    image: '/images/sustainable-material-board.webp',
+    desc: 'Reclaimed wood, stone, linen, cork, jute and recycled glass are moving from niche detail to everyday foundation.',
+    use: 'Let materials do the decoration. A room with honest texture needs fewer small objects.',
+    palette: ['#e7e0cf', '#b98a54', '#8a9a6f', '#33322f'],
+  },
+  {
+    name: 'Statement lighting',
+    href: '/styles/contemporary',
+    image: '/images/contemporary-linear-pendant.webp',
+    desc: 'Lighting is becoming more sculptural, but the best rooms still use it for mood, scale and evening comfort.',
+    use: 'Pick one visible fixture, then support it with quieter lamps or sconces at lower levels.',
+    palette: ['#ede7dc', '#b8b1a5', '#3a3934', '#c7a26a'],
+  },
+  {
+    name: 'Biophilic design',
+    href: '/styles/feng-shui',
+    image: '/images/hero-biophilic.webp',
+    desc: 'Plants, natural light, fresh air cues and indoor-outdoor flow are becoming practical design decisions, not just decor.',
+    use: 'Start with light, circulation and healthy plants. Green accents work better when the room itself feels breathable.',
+    palette: ['#e7e0cf', '#8a9a6f', '#5f6b4c', '#8fa2a1'],
+  },
+  {
+    name: 'Quiet luxury',
+    href: '/styles/traditional',
+    image: '/images/traditional-living-room.webp',
+    desc: 'The polished version of timeless design: better upholstery, real materials, restrained color and fewer obvious statements.',
+    use: 'Spend visual attention on proportion, fabric, finish and lighting instead of logo-like pieces or busy decor.',
+    palette: ['#efe5d6', '#bfa47f', '#6d5b46', '#2f2e2b'],
+  },
+  {
+    name: 'Dark moody rooms',
+    href: '/styles/contemporary',
+    image: '/images/hero-gray-paint-interior.webp',
+    desc: 'Deep charcoal, brown-black, olive and smoky gray are being used to create cozy rooms with more contrast.',
+    use: 'Balance dark walls with warm lighting, pale textiles and natural wood so the room feels enveloping, not heavy.',
+    palette: ['#d8cfc0', '#7c7266', '#3a3a37', '#1f1f1d'],
+  },
+];
+
+const applySteps = [
+  { title: 'Start with the room problem', text: 'Use trends to solve something real: a cold room, weak lighting, clutter, flat color or uncomfortable furniture.' },
+  { title: 'Choose one anchor', text: 'One curved sofa, one earthy wall color or one sculptural light is usually stronger than a room full of trend cues.' },
+  { title: 'Repeat the idea quietly', text: 'A trend feels intentional when a color, shape or material appears in two or three places with restraint.' },
+  { title: 'Keep the permanent parts calmer', text: 'Use bolder choices on paint, textiles, lighting and art before committing them to tile, cabinets or expensive built-ins.' },
+];
+
+const directions = [
+  { title: 'Colors to watch', text: 'Mushroom, warm white, clay, rust, ochre, olive, tobacco, dusty blue and soft charcoal.', swatches: ['#dfd2bd', '#efe9dc', '#b45f3c', '#d0a24a', '#6f7447'] },
+  { title: 'Materials to watch', text: 'Pale oak, walnut, cork, jute, linen, wool, travertine, honed stone, recycled glass and matte ceramics.', swatches: ['#caa36f', '#6d4327', '#b99f6b', '#d8cfc0', '#8f8a80'] },
+  { title: 'Shapes to watch', text: 'Low sofas, rounded backs, oval tables, arched openings, simple benches and softer pendant forms.', swatches: ['#eee7dc', '#c8b8a5', '#a49e93', '#6b6459', '#2f2e2b'] },
+];
+
+const avoid = [
+  { title: 'Over-theming a trend', text: 'A room should not look like a checklist. Use a trend as a direction, then edit anything that feels too literal.' },
+  { title: 'Buying disposable decor', text: 'Trend accessories date fastest when they are cheap, tiny and unrelated to the room materials.' },
+  { title: 'Ignoring your architecture', text: 'A trend works best when it fits the room light, ceiling height, window style and existing finishes.' },
+];
+
+const faqs = [
+  { q: 'What are the biggest interior design trends for 2026?', a: 'The strongest directions are warm minimalism, earth tones, curved furniture, natural materials, statement lighting, biophilic design, quiet luxury and dark moody rooms.' },
+  { q: 'How do I use trends without making my home look dated?', a: 'Use trends through layers that can evolve: paint, textiles, lighting, art, rugs and small furniture. Keep expensive fixed finishes calmer unless the trend fits your home long-term.' },
+  { q: 'Are gray interiors still popular?', a: 'Gray is still useful, but cooler blue-gray rooms are being replaced by warmer grays, greige, mushroom, stone, clay and natural wood tones.' },
+  { q: 'Which trend is easiest to try first?', a: 'Warm minimalism is the easiest because it starts with decluttering, better storage, warm white, natural texture and softer lighting rather than a full redesign.' },
+  { q: 'What trend works best for small spaces?', a: 'Warm minimalism, Scandinavian ideas and biophilic touches work well in small rooms because they improve light, storage and comfort without adding visual clutter.' },
 ];
 ---
-<BaseLayout title="Interior Design Trends 2026 — Imaginary Interiors" description="The interior design trends shaping 2026 — warm minimalism, earthy tones, curves, natural materials and more.">
+<BaseLayout title="Interior Design Trends 2026 — Imaginary Interiors" description="The interior design trends shaping 2026 — warm minimalism, earthy tones, curves, natural materials, statement lighting, biophilic design and more.">
   <div class="wrap">
-    <section class="hero" style="grid-template-columns:1fr;padding-bottom:14px">
+    <div class="crumb"><a href="/trends">Trends</a> / 2026</div>
+
+    <section class="trend-hero">
       <div>
         <div class="eyebrow">Trends 2026</div>
         <h1>Interior design trends 2026</h1>
-        <p class="sub">The looks, colors and materials shaping interiors this year — and the styles that carry them.</p>
+        <p class="sub">The strongest rooms this year feel warm, tactile and edited. The trend is not more decoration; it is better color, better materials and choices that make a room easier to live in.</p>
+        <div class="trend-stats">
+          {heroStats.map((s) => (
+            <div><span>{s.label}</span><b>{s.value}</b></div>
+          ))}
+        </div>
+      </div>
+      <div class="trend-hero-photo">
+        <Photo src="/images/trends-2026.webp" alt="Interior design trends 2026 living room" loading="eager" />
       </div>
     </section>
+
     <section>
-      <div class="row4" style="row-gap:26px">
+      <div class="sectionhead">
+        <h2>Top interior design trends</h2>
+        <p>Each trend below links to a style direction where it naturally belongs, so you can move from inspiration to a fuller room guide.</p>
+      </div>
+      <div class="trend-grid">
         {trends.map((t) => (
-          <div class="hcard">
-            <Placeholder tone={t.tone} label={t.name} />
-            <div class="body"><div class="htop"><b>{t.name}</b><span class="arrow">→</span></div><p>{t.desc}</p></div>
+          <a class="trend-card" href={t.href}>
+            <Photo src={t.image} alt={`${t.name} interior trend`} />
+            <div class="trend-body">
+              <div class="trend-top"><b>{t.name}</b><span class="arrow">→</span></div>
+              <p>{t.desc}</p>
+              <div class="trend-use"><span>How to use it</span>{t.use}</div>
+              <div class="trend-palette">{t.palette.map((c) => <i style={`background:${c}`}></i>)}</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <div class="sectionhead">
+        <h2>How to apply a trend without overdoing it</h2>
+        <p>Trends work best as editing tools. Use them to sharpen a room, not to replace your whole taste at once.</p>
+      </div>
+      <div class="howto">
+        {applySteps.map((s) => (
+          <div class="howcard">
+            <b>{s.title}</b>
+            <p>{s.text}</p>
           </div>
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <div class="sectionhead">
+        <h2>Colors, materials and shapes to watch</h2>
+        <p>These are the details that make 2026 interiors feel current without needing a full renovation.</p>
+      </div>
+      <div class="direction-grid">
+        {directions.map((d) => (
+          <div class="direction-card">
+            <div class="swatches">{d.swatches.map((c) => <div class="sw" style={`background:${c}`}></div>)}</div>
+            <div class="direction-body">
+              <b>{d.title}</b>
+              <p>{d.text}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section>
+      <div class="sectionhead">
+        <h2>What to skip</h2>
+        <p>The fastest way to date a room is to copy a trend too literally. Keep the useful idea and leave the costume behind.</p>
+      </div>
+      <div class="mistake-grid">
+        {avoid.map((a) => (
+          <div class="mistake-card">
+            <b>{a.title}</b>
+            <p>{a.text}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section style="padding-bottom:56px">
+      <h2>Trend questions</h2>
+      <div class="faqlist">
+        {faqs.map((f) => (
+          <details class="faq">
+            <summary>{f.q}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 9l6 6 6-6"/></svg></summary>
+            <div class="faq-a">{f.a}</div>
+          </details>
         ))}
       </div>
     </section>

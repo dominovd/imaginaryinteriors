@@ -1,13 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Placeholder from '../components/Placeholder.astro';
+import Photo from '../components/Photo.astro';
 
 const heroCollage = [
-  { label: 'Warm Gray', tone: 'warmgrey', area: 'a' },
-  { label: 'Sage Green', tone: 'sage', area: 'b' },
-  { label: 'Black & White', tone: 'dark', area: 'c' },
-  { label: 'Warm White', tone: 'cream', area: 'd' },
-  { label: 'Pastel Bedroom', tone: 'sand', area: 'e' },
+  { label: 'Warm Gray', tone: 'warmgrey', area: 'a', image: '/images/gray-paint-interior.webp' },
+  { label: 'Sage Green', tone: 'sage', area: 'b', image: '/images/sustainable-living-room.webp' },
+  { label: 'Black & White', tone: 'dark', area: 'c', image: '/images/contemporary-living-room.webp' },
+  { label: 'Warm White', tone: 'cream', area: 'd', image: '/images/scandinavian-living-room.webp' },
+  { label: 'Soft Retro', tone: 'terra', area: 'e', image: '/images/70s-living-room.webp' },
 ];
 
 const chips = [
@@ -25,16 +26,34 @@ const chips = [
 
 const featured = [
   { name: 'Warm Gray Interior', tone: 'warmgrey', desc: 'A soft neutral palette for calm rooms with stone, linen and black accents.',
+    image: '/images/gray-paint-interior.webp',
+    best: 'Living rooms, bedrooms and offices that need calm without feeling cold.',
+    use: 'Keep walls warm, then use charcoal only for frames, lighting or small furniture.',
     sw: [{ n: 'Warm White', h: '#efe9dc' }, { n: 'Greige', h: '#cfc3b0' }, { n: 'Stone Gray', h: '#b7ad9e' }, { n: 'Charcoal', h: '#3a3a37' }, { n: 'Oak', h: '#b98a54' }] },
   { name: 'Sage Eco Modern', tone: 'sage', desc: 'Earthy greens and warm neutrals for a natural, sustainable feel.',
+    image: '/images/sustainable-living-room.webp',
+    best: 'Rooms with plants, recycled materials, linen, jute and visible wood grain.',
+    use: 'Let green act like a natural accent, not a theme. Repeat it in plants, textiles and art.',
     sw: [{ n: 'Oat', h: '#e7e0cf' }, { n: 'Sage', h: '#8a9a6f' }, { n: 'Olive', h: '#5f6b4c' }, { n: 'Clay', h: '#b07d55' }, { n: 'Charcoal', h: '#33322f' }] },
   { name: 'Warm Minimal', tone: 'cream', desc: 'Creamy neutrals and light wood for a bright, uncluttered look.',
+    image: '/images/minimalist-living-room.webp',
+    best: 'Small spaces, bedrooms and quiet rooms where storage matters more than decoration.',
+    use: 'Use one pale base, one wood tone and one soft contrast so the room feels edited, not empty.',
     sw: [{ n: 'Chalk', h: '#f1ece1' }, { n: 'Sand', h: '#e2d3ba' }, { n: 'Taupe', h: '#c3b4a0' }, { n: 'Walnut', h: '#7c5f43' }, { n: 'Ink', h: '#2f2c28' }] },
   { name: 'Soft Retro', tone: 'terra', desc: 'Warm 70s-inspired tones with mustard, rust and cream.',
+    image: '/images/70s-living-room.webp',
+    best: 'Relaxed living rooms, dining rooms and dens that can carry richer color.',
+    use: 'Pick one dominant retro color and keep the walls quiet so the palette feels current.',
     sw: [{ n: 'Cream', h: '#efe1c8' }, { n: 'Mustard', h: '#d0a24a' }, { n: 'Rust', h: '#b5643a' }, { n: 'Brown', h: '#6d4327' }, { n: 'Olive', h: '#7c7444' }] },
   { name: 'Monochromatic', tone: 'graphite', desc: 'Layered grays from soft to deep for a quiet, modern room.',
+    image: '/images/contemporary-living-room.webp',
+    best: 'Contemporary rooms with strong silhouettes, stone, black metal and good light.',
+    use: 'Vary texture more than color: plaster, wool, stone, metal and matte ceramics do the work.',
     sw: [{ n: 'Fog', h: '#e4e2dd' }, { n: 'Silver', h: '#c3c1ba' }, { n: 'Slate', h: '#8f8d86' }, { n: 'Graphite', h: '#514f4a' }, { n: 'Black', h: '#26251f' }] },
   { name: 'Pastel Interior', tone: 'stone', desc: 'Gentle blush, sky and sage pastels for a light, airy space.',
+    image: '/images/scandinavian-bedroom.webp',
+    best: 'Bedrooms, kids rooms and small rooms where softness matters more than drama.',
+    use: 'Ground pastels with greige, pale wood or soft gray so they do not feel sugary.',
     sw: [{ n: 'Blush', h: '#ead7d3' }, { n: 'Sky', h: '#cdd7dc' }, { n: 'Mint', h: '#d3ded0' }, { n: 'Sand', h: '#e6ddcc' }, { n: 'Greige', h: '#c7bdae' }] },
 ];
 
@@ -46,12 +65,25 @@ const howto = [
 ];
 
 const roomIdeas = [
-  { name: 'Living room colors', href: '/rooms/living-room', tone: 'walnut' },
-  { name: 'Bedroom colors', href: '/rooms/bedroom', tone: 'sage' },
-  { name: 'Kitchen colors', href: '/rooms/kitchen', tone: 'cream' },
-  { name: 'Small room colors', href: '/rooms/studio-apartment', tone: 'stone' },
-  { name: 'Home office colors', href: '/rooms/home-office', tone: 'dark' },
-  { name: 'Bathroom colors', href: '/rooms/bathroom', tone: 'warmgrey' },
+  { name: 'Living room colors', href: '/rooms/living-room', tone: 'walnut', image: '/images/living-room.webp' },
+  { name: 'Bedroom colors', href: '/rooms/bedroom', tone: 'sage', image: '/images/scandinavian-bedroom.webp' },
+  { name: 'Kitchen colors', href: '/rooms/kitchen', tone: 'cream', image: '/images/kitchen.webp' },
+  { name: 'Small room colors', href: '/rooms/studio-apartment', tone: 'stone', image: '/images/studio-apartment.webp' },
+  { name: 'Home office colors', href: '/rooms/home-office', tone: 'dark', image: '/images/home-office.webp' },
+  { name: 'Bathroom colors', href: '/rooms/bathroom', tone: 'warmgrey', image: '/images/bathroom.webp' },
+];
+
+const formulas = [
+  { title: '60% base', text: 'Walls, ceiling, large rugs and sofas. Choose the color you can live with across the biggest surfaces.', sw: '#efe9dc' },
+  { title: '30% material', text: 'Wood, stone, tile, cabinets or upholstery. This layer decides whether the room feels warm, cool, light or grounded.', sw: '#b98a54' },
+  { title: '10% accent', text: 'Art, pillows, lamps, ceramics and hardware. Use this layer to repeat a color, not introduce five new ones.', sw: '#6f7d5f' },
+];
+
+const mistakes = [
+  { title: 'Choosing paint before materials', text: 'Wood, stone and fabric already have undertones. Pick those first, then choose paint that supports them.' },
+  { title: 'Using only one temperature', text: 'All-warm rooms can look yellow, all-cool rooms can feel flat. Mix a warm base with one cooler balance point.' },
+  { title: 'Ignoring contrast', text: 'A room needs light, medium and dark values. Without contrast, even a good palette can look unfinished.' },
+  { title: 'Testing colors once', text: 'Paint changes from morning to evening. Test samples beside flooring, furniture and window light before committing.' },
 ];
 
 const directions = [
@@ -64,18 +96,18 @@ const directions = [
 ];
 
 const faqs = [
-  { q: 'What colors make a room feel bigger?', a: 'TODO — add your answer here.' },
-  { q: 'What is a good neutral palette for a living room?', a: 'TODO — add your answer here.' },
-  { q: 'How do I use gray paint without making a room cold?', a: 'TODO — add your answer here.' },
-  { q: 'Which colors work with natural wood?', a: 'TODO — add your answer here.' },
-  { q: 'How many colors should an interior palette have?', a: 'TODO — add your answer here.' },
+  { q: 'What colors make a room feel bigger?', a: 'Warm white, soft greige, pale gray, light oatmeal and muted pastels can make a room feel bigger when the trim, ceiling and large furniture stay low-contrast. The color matters less than keeping the values close and avoiding heavy visual breaks.' },
+  { q: 'What is a good neutral palette for a living room?', a: 'A reliable living room palette is warm white walls, oak or walnut wood, linen or oatmeal upholstery, stone gray textiles and a small amount of charcoal or muted green for contrast.' },
+  { q: 'How do I use gray paint without making a room cold?', a: 'Choose a warm gray or greige rather than blue-gray, then pair it with wood, linen, wool, brass, warm white trim and soft lighting. Avoid glossy white surfaces and cool LED light.' },
+  { q: 'Which colors work with natural wood?', a: 'Warm white, oatmeal, sage, olive, mushroom, stone gray, dusty blue, clay and charcoal all work well with natural wood. Lighter woods usually pair better with soft cool accents; darker woods often need cream or warm white to keep the room open.' },
+  { q: 'How many colors should an interior palette have?', a: 'Most rooms work best with three to five colors: one base, one or two material tones, one accent and one dark contrast. You can add depth through texture instead of adding more colors.' },
 ];
 
 const exploreMore = [
-  { name: 'Modern Rustic', href: '/styles/modern-rustic', tone: 'walnut' },
-  { name: 'Living Room', href: '/rooms/living-room', tone: 'stone' },
-  { name: 'Small Spaces', href: '/rooms/studio-apartment', tone: 'sand' },
-  { name: 'Trends 2026', href: '/trends', tone: 'dark' },
+  { name: 'Modern Rustic', href: '/styles/modern-rustic', tone: 'walnut', image: '/images/modern-rustic-living-room.webp' },
+  { name: 'Living Room', href: '/rooms/living-room', tone: 'stone', image: '/images/living-room.webp' },
+  { name: 'Small Spaces', href: '/rooms/studio-apartment', tone: 'sand', image: '/images/small-spaces.webp' },
+  { name: 'Trends 2026', href: '/trends', tone: 'dark', image: '/images/trends-2026.webp' },
 ];
 
 // Search suggestions for the color hub
@@ -111,7 +143,7 @@ const total = String(featured.length).padStart(2, '0');
       <div class="colorcollage">
         {heroCollage.map((c) => (
           <div class={`cc-cell cc-${c.area}`}>
-            <Placeholder tone={c.tone} label="" />
+            {c.image ? <Photo src={c.image} alt={`${c.label} interior color palette`} loading={c.area === 'a' ? 'eager' : 'lazy'} /> : <Placeholder tone={c.tone} label="" />}
             <span class="cc-label">{c.label}</span>
           </div>
         ))}
@@ -128,10 +160,14 @@ const total = String(featured.length).padStart(2, '0');
         <div class="featured">
           {featured.map((f, i) => (
             <div class={`ft-slide ${i === 0 ? 'active' : ''}`} data-i={i}>
-              <div class="ft-img"><Placeholder tone={f.tone} label="" /></div>
+              <div class="ft-img">{f.image ? <Photo src={f.image} alt={`${f.name} interior palette`} loading={i === 0 ? 'eager' : 'lazy'} /> : <Placeholder tone={f.tone} label="" />}</div>
               <div class="ft-panel">
                 <h3>{f.name}</h3>
                 <p class="ft-desc">{f.desc}</p>
+                <div class="ft-notes">
+                  <div><span>Best for</span><p>{f.best}</p></div>
+                  <div><span>Use it by</span><p>{f.use}</p></div>
+                </div>
                 <div class="ft-swatches">
                   {f.sw.map((s) => <div class="ft-sw"><div class="chip-sw" style={`background:${s.h}`}></div><small>{s.n}</small></div>)}
                 </div>
@@ -144,6 +180,27 @@ const total = String(featured.length).padStart(2, '0');
       <div class="ft-bar">
         <div class="rg-dots" id="ftdots">{featured.map((_, i) => <button class={`rg-dot ${i === 0 ? 'active' : ''}`} data-i={i} aria-label={`Palette ${i + 1}`}></button>)}</div>
         <span class="ft-count"><span id="ftnum">01</span> / {total}</span>
+      </div>
+    </section>
+  </div>
+
+  <!-- PALETTE FORMULA -->
+  <div class="wrap">
+    <section>
+      <div class="sectionhead">
+        <h2>A simple way to build a room palette</h2>
+        <p>Use color as a hierarchy. Big surfaces should be easy to live with, materials should carry warmth and texture, and accents should repeat with intention.</p>
+      </div>
+      <div class="formula-grid">
+        {formulas.map((f) => (
+          <div class="formula-card">
+            <div class="formula-swatch" style={`background:${f.sw}`}></div>
+            <div>
+              <b>{f.title}</b>
+              <p>{f.text}</p>
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   </div>
@@ -171,9 +228,27 @@ const total = String(featured.length).padStart(2, '0');
       <div class="ideas">
         {roomIdeas.map((r) => (
           <a class="idea" href={r.href}>
-            <Placeholder tone={r.tone} label={r.name} />
+            {r.image ? <Photo src={r.image} alt={`${r.name} interior palette`} /> : <Placeholder tone={r.tone} label={r.name} />}
             <div class="cap"><span>{r.name}</span><span class="arrow">→</span></div>
           </a>
+        ))}
+      </div>
+    </section>
+  </div>
+
+  <!-- COMMON MISTAKES -->
+  <div class="wrap">
+    <section>
+      <div class="sectionhead">
+        <h2>Common color mistakes</h2>
+        <p>Most palette problems come from undertones, lighting or missing contrast. Use these checks before buying paint or furniture.</p>
+      </div>
+      <div class="mistake-grid">
+        {mistakes.map((m) => (
+          <div class="mistake-card">
+            <b>{m.title}</b>
+            <p>{m.text}</p>
+          </div>
         ))}
       </div>
     </section>
@@ -216,7 +291,7 @@ const total = String(featured.length).padStart(2, '0');
       <div class="row4">
         {exploreMore.map((e) => (
           <a class="scard" href={e.href}>
-            <Placeholder tone={e.tone} label={e.name} />
+            {e.image ? <Photo src={e.image} alt={`${e.name} interior`} /> : <Placeholder tone={e.tone} label={e.name} />}
             <div class="cap"><b>{e.name}</b><span class="arrow">→</span></div>
           </a>
         ))}

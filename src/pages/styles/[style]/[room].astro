@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Placeholder from '../../../components/Placeholder.astro';
+import Photo from '../../../components/Photo.astro';
 import { combos } from '../../../data/combos.js';
 import { getStyle } from '../../../data/styles.js';
 import { getRoom } from '../../../data/rooms.js';
@@ -12,6 +13,13 @@ export function getStaticPaths() {
 const { combo: c } = Astro.props;
 const style = getStyle(c.styleSlug);
 const room = getRoom(c.roomSlug);
+const details = c.details || {};
+const heroImages = details.heroImages || [
+  { image: c.image, alt: `${c.title} interior`, class: 'ga' },
+  { image: style?.images?.detail, alt: `${c.styleName} detail`, class: 'gb' },
+  { image: style?.images?.corner, alt: `${c.styleName} room corner`, class: 'gc' },
+  { image: style?.images?.materialBoard, alt: `${c.styleName} palette and materials`, class: 'gd' },
+].filter((item) => item.image);
 
 // Sibling combos in the same style (other rooms) for related links.
 const siblings = combos.filter((x) => x.styleSlug === c.styleSlug && x.roomSlug !== c.roomSlug);
@@ -27,17 +35,18 @@ const siblings = combos.filter((x) => x.styleSlug === c.styleSlug && x.roomSlug 
       <div>
         <div class="eyebrow">Style + room</div>
         <h1>{c.styleName} {c.roomName} Interior Design</h1>
-        <p class="sub">Ideas, layouts, colors and materials for a {c.styleName.toLowerCase()} {c.roomName.toLowerCase()} — plus the pieces that make the look work.</p>
+        <p class="sub">{details.heroText || `Ideas, layouts, colors and materials for a ${c.styleName.toLowerCase()} ${c.roomName.toLowerCase()} — plus the pieces that make the look work.`}</p>
         <div class="cta">
           <a class="btn" href={`/styles/${c.styleSlug}`}>Explore {c.styleName} →</a>
           <a class="btn ghost" href={`/rooms/${c.roomSlug}`}>All {c.roomName.toLowerCase()} ideas →</a>
         </div>
       </div>
       <div class="hubcollage">
-        <Placeholder tone={c.tone} label={c.title} class="ga" />
-        <Placeholder tone="graphite" label="Detail" class="gb" />
-        <Placeholder tone="stone" label="Corner" class="gc" />
-        <Placeholder tone="cream" label="Palette" class="gd" />
+        {heroImages.map((img, i) => (
+          img.image
+            ? <Photo src={img.image} alt={img.alt || c.title} class={img.class} loading={i === 0 ? 'eager' : 'lazy'} />
+            : <Placeholder tone={i === 0 ? c.tone : 'stone'} label={i === 0 ? c.title : ''} class={img.class} />
+        ))}
       </div>
     </section>
   </div>
@@ -59,27 +68,167 @@ const siblings = combos.filter((x) => x.styleSlug === c.styleSlug && x.roomSlug 
     <section>
       <div class="prose">
         <h2>Designing a {c.styleName.toLowerCase()} {c.roomName.toLowerCase()}</h2>
-        <p>{/* TODO: replace with your own copy for this style + room combination. */}
-          A {c.styleName.toLowerCase()} {c.roomName.toLowerCase()} blends the {c.styleName.toLowerCase()} look —
-          {style?.mood ? ` ${style.mood.toLowerCase()},` : ''} {style?.materials?.toLowerCase() || 'natural materials'} —
-          with layouts and details that suit a {c.roomName.toLowerCase()}. Start with the palette,
-          anchor the room around a focal point, then layer in texture and lighting.</p>
+        {details.intro ? (
+          details.intro.map((p) => <p>{p}</p>)
+        ) : (
+          <p>
+            A {c.styleName.toLowerCase()} {c.roomName.toLowerCase()} blends the {c.styleName.toLowerCase()} look —
+            {style?.mood ? ` ${style.mood.toLowerCase()},` : ''} {style?.materials?.toLowerCase() || 'natural materials'} —
+            with layouts and details that suit a {c.roomName.toLowerCase()}. Start with the palette,
+            anchor the room around a focal point, then layer in texture and lighting.
+          </p>
+        )}
       </div>
     </section>
   </div>
 
-  {style?.swatches && style.swatches.length > 0 && (
+  {details.variations && details.variations.length > 0 && (
     <div class="wrap">
-      <section class="palmat">
-        <div>
-          <h2>{c.styleName} palette</h2>
-          <div class="palcol">
-            {style.swatches.map((sw) => (
-              <div class="c"><div class="chip-sw" style={`background:${sw.hex}`}></div><small>{sw.name}</small></div>
+      <section>
+        <div class="sectionhead">
+          <h2>{c.styleName} {c.roomName.toLowerCase()} variations</h2>
+          <p>Use these examples to choose the version of the style that fits your architecture, light and square footage.</p>
+        </div>
+        <div class="combo-slider" data-combo-slider>
+          <div class="combo-stage">
+            {details.variations.map((v, i) => (
+              <article class={`combo-slide ${i === 0 ? 'active' : ''}`} data-slide={i}>
+                <Photo src={v.image} alt={`${v.title} ${c.title}`} loading={i === 0 ? 'eager' : 'lazy'} />
+                <div class="combo-slide-caption">
+                  <span>{String(i + 1).padStart(2, '0')}</span>
+                  <div><b>{v.title}</b><p>{v.text}</p></div>
+                </div>
+              </article>
             ))}
+            <button class="combo-nav combo-prev" type="button" aria-label="Previous variation" data-prev>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 5l-7 7 7 7"/></svg>
+            </button>
+            <button class="combo-nav combo-next" type="button" aria-label="Next variation" data-next>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+          <div class="combo-slider-bar">
+            <div class="combo-dots">
+              {details.variations.map((v, i) => (
+                <button class={`combo-dot ${i === 0 ? 'active' : ''}`} type="button" data-dot={i} aria-label={`Show ${v.title}`}></button>
+              ))}
+            </div>
+            <div class="combo-count"><span data-current>01</span> / {String(details.variations.length).padStart(2, '0')}</div>
           </div>
         </div>
-        <div></div>
+      </section>
+    </div>
+  )}
+
+  {details.layout && details.layout.length > 0 && (
+    <div class="wrap">
+      <section>
+        <div class="sectionhead">
+          <h2>{c.roomName} layout rules for {c.styleName.toLowerCase()}</h2>
+          <p>Use the style where it helps the room work: seating, circulation, focal point and material balance.</p>
+        </div>
+        <div class="textgrid">
+          {details.layout.map((item) => (
+            <div class="textcard">
+              <b>{item.title}</b>
+              <p>{item.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  {style?.swatches && style.swatches.length > 0 && (
+    <div class="wrap">
+      <section class="combo-palette">
+        <div class="sectionhead">
+          <h2>{c.styleName} {c.roomName.toLowerCase()} palette</h2>
+          <p>{style.colorGuide?.intro || 'Use the palette as a room system: base colors first, material tones second and accents last.'}</p>
+        </div>
+        <div class="palette-material-grid">
+          <div>
+            <h3>Color roles</h3>
+            <div class="palette-roles">
+              {style.swatches.map((sw) => (
+                <div class="palette-role">
+                  <div class="chip-sw" style={`background:${sw.hex}`}></div>
+                  <div><b>{sw.name}</b><p>{sw.desc}</p></div>
+                </div>
+              ))}
+            </div>
+          </div>
+          {details.paletteRules && (
+            <div>
+              <h3>How it works in this room</h3>
+              <div class="material-roles">
+                {details.paletteRules.map((rule) => (
+                  <div class="combo-rule">
+                    <span>{rule.title}</span>
+                    <p>{rule.text}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </section>
+    </div>
+  )}
+
+  {details.materials && details.materials.length > 0 && (
+    <div class="wrap">
+      <section>
+        <div class="sectionhead">
+          <h2>Pieces and materials to prioritize</h2>
+          <p>For this room, a few strong choices can carry the style better than adding more decor.</p>
+        </div>
+        <div class="shopguide">
+          {details.materials.map((item) => (
+            <div class="piececard">
+              <Photo src={item.image} alt={`${item.title} for ${c.title}`} />
+              <div>
+                <b>{item.title}</b>
+                <p>{item.text}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  {details.mistakes && details.mistakes.length > 0 && (
+    <div class="wrap">
+      <section>
+        <div class="sectionhead">
+          <h2>Common mistakes in this room</h2>
+          <p>Modern rustic living rooms can become heavy fast. These checks keep the room grounded but still breathable.</p>
+        </div>
+        <div class="mistake-grid">
+          {details.mistakes.map((m) => (
+            <div class="mistake-card">
+              <b>{m.title}</b>
+              <p>{m.text}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  {details.faqs && details.faqs.length > 0 && (
+    <div class="wrap">
+      <section>
+        <h2>{c.styleName} {c.roomName.toLowerCase()} questions</h2>
+        <div class="faqlist">
+          {details.faqs.map((f) => (
+            <details class="faq">
+              <summary>{f.q}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 9l6 6 6-6"/></svg></summary>
+              <div class="faq-a">{f.a}</div>
+            </details>
+          ))}
+        </div>
       </section>
     </div>
   )}
@@ -92,12 +241,34 @@ const siblings = combos.filter((x) => x.styleSlug === c.styleSlug && x.roomSlug 
         <div class="row4">
           {siblings.map((s) => (
             <a class="scard" href={s.href}>
-              <Placeholder tone={s.tone} label={s.roomName} />
+              {s.image ? <Photo src={s.image} alt={`${s.title} interior`} /> : <Placeholder tone={s.tone} label={s.roomName} />}
               <div class="cap"><b>{s.roomName}</b><span class="arrow">→</span></div>
             </a>
           ))}
         </div>
       </section>
     </div>
+  )}
+
+  {details.variations && details.variations.length > 0 && (
+    <script>
+      document.querySelectorAll('[data-combo-slider]').forEach((slider) => {
+        const slides = Array.from(slider.querySelectorAll('[data-slide]'));
+        const dots = Array.from(slider.querySelectorAll('[data-dot]'));
+        const current = slider.querySelector('[data-current]');
+        const prev = slider.querySelector('[data-prev]');
+        const next = slider.querySelector('[data-next]');
+        let active = 0;
+        const go = (index) => {
+          active = (index + slides.length) % slides.length;
+          slides.forEach((slide, i) => slide.classList.toggle('active', i === active));
+          dots.forEach((dot, i) => dot.classList.toggle('active', i === active));
+          if (current) current.textContent = String(active + 1).padStart(2, '0');
+        };
+        prev?.addEventListener('click', () => go(active - 1));
+        next?.addEventListener('click', () => go(active + 1));
+        dots.forEach((dot, i) => dot.addEventListener('click', () => go(i)));
+      });
+    </script>
   )}
 </BaseLayout>

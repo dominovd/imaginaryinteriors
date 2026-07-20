@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Farmhouse
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Farmhouse Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: A working home made welcoming through painted furniture, useful storage and familiar materials that improve with daily life.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Farmhouse interior design hero" [ref=e34]
+          - img "Farmhouse kitchen interior" [ref=e35]
+          - img "Farmhouse styled corner" [ref=e36]
+          - img "Farmhouse detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Useful + welcoming
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Painted wood, pine, cotton, stoneware
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Milk white, dusty blue, sage, brick
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Kitchen, dining, entry
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Design around household routines
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: A freestanding worktable or cupboard
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Painted storage, natural working surface
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Decorating with farmhouse slogans
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is farmhouse interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Farmhouse design grew from rooms expected to work hard: kitchens for cooking and preserving, entries for wet boots, tables for meals and household tasks, and cupboards built wherever storage was needed. Its character comes from direct, repairable solutions—painted joinery, scrubbed pine, peg rails, cotton ticking, woven baskets and stoneware—rather than from one fixed historical look."
+        - paragraph [ref=e88]: The style feels hospitable because daily life remains visible but organized. A pitcher can stay on the table, coats can hang by the door and chairs need not match exactly. What matters is a shared scale, a limited paint palette and enough empty surface for the next task. This functional domestic rhythm separates Farmhouse from heavier Rustic interiors and from the polished black-and-white formula of Modern Farmhouse.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Plan from the task outward
+          - paragraph [ref=e92]: Place hooks, drawers, work surfaces and lighting where cooking, dressing or arriving actually happens.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Mix fitted and freestanding
+          - paragraph [ref=e95]: Built-in storage keeps order; a movable table, dresser or pantry cupboard makes the room feel accumulated and adaptable.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Repeat color, not sets
+          - paragraph [ref=e98]: Link mismatched useful furniture with two or three related paint colors instead of buying a coordinated collection.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of farmhouse interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Domestic work surfaces
+          - paragraph [ref=e108]: Pine tables, dressers and counters are sized for real tasks and allowed to develop even, useful wear.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Painted practical storage
+          - paragraph [ref=e114]: Cupboards, benches and peg rails use soft color to organize the room without looking like fitted showroom cabinetry.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Familiar washable textiles
+          - paragraph [ref=e120]: Ticking, checks and plain cotton appear on small, replaceable surfaces suited to everyday laundering.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Unmatched continuity
+          - paragraph [ref=e126]: Chairs and case pieces can differ in age when their scale, palette and level of simplicity remain related.
+      - generic [ref=e127]:
+        - img "Farmhouse material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Farmhouse room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Farmhouse Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/farmhouse/living-room
+          - img "Farmhouse Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Farmhouse Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/farmhouse/bedroom
+          - img "Farmhouse Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Farmhouse Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/farmhouse/dining-room
+          - img "Farmhouse Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Farmhouse Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/farmhouse/home-office
+          - img "Farmhouse Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Farmhouse Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/farmhouse/kitchen
+          - img "Farmhouse Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Farmhouse Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/farmhouse/entryway-hallway
+          - img "Farmhouse Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Use washable slipcovers and one pine table, then concentrate baskets near the activity they serve instead of scattering them as decoration.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Pair a simple iron bed with cotton checks, a braided rug and one dresser that can hold both clothing and a washstand-style display.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Let a scrubbed table take daily wear; connect mismatched spindle chairs through two muted paint colors and consistent seat height.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Adapt a pine desk with a comfortable chair, paperwork cupboard and peg rail so household craft does not crowd the working surface.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Use a freestanding prep table to separate washing, chopping and storage; keep frequently used tools within one step.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Sequence the room from threshold to bench, shoe space, hooks and closed cupboard, leaving the door swing completely clear.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Use warm white across the room, then assign blue or sage to one useful storage piece. Let pine and brick contribute their natural color, with red appearing only as a narrow accent.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Milk white
+              - paragraph [ref=e196]: A forgiving backdrop for beadboard, plaster and mixed furniture without becoming stark.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Dusty blue
+              - paragraph [ref=e201]: Gives pantry cupboards and small textiles a calm domestic anchor.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Faded sage
+              - paragraph [ref=e206]: Links painted chairs, utility storage and garden views in modest amounts.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Honey pine
+              - paragraph [ref=e211]: Keeps working tables and floors warm while showing ordinary use honestly.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Brick red
+              - paragraph [ref=e216]: Adds a small, durable note through floors, stripes or one painted object.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Scrubbed pine material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Scrubbed pine
+                - paragraph [ref=e224]: A matte work surface can be cleaned, lightly sanded and renewed rather than protected from every mark.
+            - generic [ref=e225]:
+              - img "Painted joinery material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Painted joinery
+                - paragraph [ref=e229]: Soft opaque paint unifies additions from different periods and is straightforward to repair.
+            - generic [ref=e230]:
+              - img "Cotton ticking material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Cotton ticking
+                - paragraph [ref=e234]: A narrow stripe provides washable pattern on cushions, runners and utility curtains.
+            - generic [ref=e235]:
+              - img "Stoneware material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Stoneware
+                - paragraph [ref=e239]: Bowls and crocks earn display space by remaining useful for preparation, serving or storage.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Begin with one repeated household routine, solve it clearly and let the visual character emerge from those useful choices.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Map the daily route
+            - paragraph [ref=e250]: Trace how groceries, coats, laundry or meals move through the room before placing storage.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Choose the work piece
+            - paragraph [ref=e255]: Add one table, dresser, settle or pantry cupboard sized to the task and available floor area.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Build a paint family
+            - paragraph [ref=e260]: Use warm white plus two faded colors to connect pieces without making them match.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Leave room for life
+            - paragraph [ref=e265]: Style only the items used each week and preserve clear space on tables, counters and benches.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every wall is covered in shiplap
+          - paragraph [ref=e274]: Keep paneling where it protects a wall or clarifies a built-in, and use plain plaster elsewhere.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The room is only white, black and wood
+          - paragraph [ref=e277]: Replace graphic black accents with dusty blue, sage, aged brass or a narrow red textile note.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Open storage becomes staged clutter
+          - paragraph [ref=e280]: Display only frequently used bowls and tools; move reserves and packaging behind painted doors.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Old-looking furniture feels artificial
+          - paragraph [ref=e283]: Choose sound secondhand pieces or plain new timber and allow wear to appear where hands and work naturally touch.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Farmhouse vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: "Farmhouse is not simply a collection of rural motifs. Its clearest identity comes from domestic infrastructure: movable work furniture, accessible storage, repairable finishes and a layout that supports recurring household tasks."
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Rustic" [ref=e293] [cursor=pointer]:
+              - /url: /styles/rustic
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: Heavier and more architectural, emphasizing exposed stone, hewn timber, forged iron and substantial forms.
+          - generic [ref=e296]:
+            - text: Choose Farmhouse if
+            - paragraph [ref=e297]: Choose Farmhouse for brighter paint, lighter furniture and a stronger focus on domestic work and storage.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Painted cupboards and cotton ticking replace fieldstone and visual mass.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Modern Farmhouse" [ref=e303] [cursor=pointer]:
+              - /url: /styles/modern-farmhouse
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Cleaner and more graphic, often using broad white fields, black frames, oversized islands and contemporary upholstery.
+          - generic [ref=e306]:
+            - text: Choose Farmhouse if
+            - paragraph [ref=e307]: Choose Farmhouse for mismatched furniture, softer color and a less polished relationship with everyday use.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Freestanding painted pieces replace high-contrast fitted compositions.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Country" [ref=e313] [cursor=pointer]:
+              - /url: /styles/country
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: Broader and more decorative, varying by region and using more florals, collected ornaments and traditional motifs.
+          - generic [ref=e316]:
+            - text: Choose Farmhouse if
+            - paragraph [ref=e317]: Choose Farmhouse when the room should be organized first around practical household tasks.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Peg rails, worktables and pantry storage lead before decorative rural references.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Cottagecore" [ref=e323] [cursor=pointer]:
+              - /url: /styles/cottagecore
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More romantic and narrative-led, with garden imagery, florals, craft displays and a nostalgic ideal of rural life.
+          - generic [ref=e326]:
+            - text: Choose Farmhouse if
+            - paragraph [ref=e327]: Choose Farmhouse for plainer textiles, stronger utility and less sentimental styling.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Washable ticking and clear work zones replace layered florals and pastoral display.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Look for useful proportions and repairable construction. A well-sized pine table or painted cupboard will carry the style more convincingly than a cart of farmhouse-themed accessories.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Painted iron bed for Farmhouse interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Painted iron bed
+            - paragraph [ref=e340]: Check frame stability and mattress dimensions, then keep bedding simple enough for frequent washing.
+        - article [ref=e341]:
+          - img "Freestanding pantry cupboard for Farmhouse interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Freestanding pantry cupboard
+            - paragraph [ref=e345]: Measure shelves around actual jars, cookware and small appliances rather than buying for display alone.
+        - article [ref=e346]:
+          - img "Scrubbed pine table for Farmhouse interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Scrubbed pine table
+            - paragraph [ref=e350]: Choose comfortable knee clearance and a repairable top that can serve meals, homework and preparation.
+        - article [ref=e351]:
+          - img "Painted paperwork cabinet for Farmhouse interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Painted paperwork cabinet
+            - paragraph [ref=e355]: A shallow cupboard keeps household administration close without turning the room into an office suite.
+        - article [ref=e356]:
+          - img "Settle bench for Farmhouse interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Settle bench
+            - paragraph [ref=e360]: Prioritize a comfortable seat, lift-up storage and open shoe clearance over decorative paneling.
+        - article [ref=e361]:
+          - img "Hand-thrown stoneware for Farmhouse interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Hand-thrown stoneware
+            - paragraph [ref=e365]: Buy bowls and pitchers with useful capacity, stable bases and glazes suited to food or water.
+    - generic [ref=e367]:
+      - heading "Farmhouse FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines farmhouse interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How is farmhouse different from modern farmhouse?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "Does a farmhouse interior need shiplap?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Which colors work in a farmhouse room?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Can farmhouse style work in an apartment?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you keep farmhouse decor from looking cliché?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Rustic interior design Rustic →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/rustic
+          - img "Rustic interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Rustic
+            - generic [ref=e402]: →
+        - link "Modern Farmhouse interior design Modern Farmhouse →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/modern-farmhouse
+          - img "Modern Farmhouse interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Modern Farmhouse
+            - generic [ref=e407]: →
+        - link "Country interior design Country →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/country
+          - img "Country interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Country
+            - generic [ref=e412]: →
+        - link "Cottagecore interior design Cottagecore →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/cottagecore
+          - img "Cottagecore interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Cottagecore
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

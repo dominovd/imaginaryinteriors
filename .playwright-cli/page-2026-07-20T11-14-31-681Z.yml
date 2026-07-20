@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Vintage
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Vintage Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: One anchor era, repairable furniture and quiet modern support turn old pieces into a coherent present-day home.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Vintage interior design hero" [ref=e34]
+          - img "Vintage kitchen interior" [ref=e35]
+          - img "Vintage styled corner" [ref=e36]
+          - img "Vintage detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Collected + usable
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Walnut veneer, brass, wool, linen
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Parchment, walnut, olive, dusty blue
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, dining, study
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Choose an anchor era
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: A restored storage piece
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Walnut beside olive wool
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: A room of unrelated decades
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Vintage interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Vintage interior design uses older furniture, lighting, art and textiles as working parts of a current home. It is not one historical style. Coherence comes from choosing a lead period, repeating its proportions and materials, then allowing a small number of earlier, later or contemporary pieces to support daily life.
+        - paragraph [ref=e88]: Condition matters more than theatrical age. Faded color, softened brass and a repaired veneer edge can be valuable patina; loose joints, unsafe wiring and persistent odors are faults to address. The most convincing rooms integrate a good mattress, ergonomic chair and discreet appliances without forcing those essentials to impersonate the past.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Set a date range
+          - paragraph [ref=e92]: Choose one anchor decade and allow most furniture to fall within roughly one generation around it.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Separate patina from damage
+          - paragraph [ref=e95]: Keep stable wear and color variation; repair loose joints, lifting veneer, wiring and compromised upholstery.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Modernize invisibly
+          - paragraph [ref=e98]: Let mattresses, task chairs, appliances and lighting performance be current while their visual presence stays quiet.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of vintage interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Clear period hierarchy
+          - paragraph [ref=e108]: One era controls the major silhouettes while smaller pieces introduce limited contrast.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Repair before refinishing
+          - paragraph [ref=e114]: Structural work and gentle cleaning preserve more character than stripping every surface.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Color carried by materials
+          - paragraph [ref=e120]: Olive wool, dusty ceramic and oxblood leather add depth without novelty retro palettes.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Contemporary support pieces
+          - paragraph [ref=e126]: New storage, seating and technology solve present-day needs without competing for attention.
+      - generic [ref=e127]:
+        - img "Vintage material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Vintage room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Vintage Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/vintage/living-room
+          - img "Vintage Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Vintage Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/vintage/bedroom
+          - img "Vintage Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Vintage Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/vintage/dining-room
+          - img "Vintage Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Vintage Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/vintage/home-office
+          - img "Vintage Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Vintage Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/vintage/kitchen
+          - img "Vintage Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Vintage Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/vintage/entryway-hallway
+          - img "Vintage Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Choose one strong sofa, chair or sideboard as the period anchor, then give it clear space and contemporary reading light.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Pair a restored bed with a new mattress, plain linen and functional sconces; avoid buying a full matching bedroom suite.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Keep the best table and chairs from one period, then use quieter art, rug and pendant to prevent the room becoming a showroom.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Use a vintage desk only if depth and legroom work; add an ergonomic chair, discreet monitor and safe rewired task lamp.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Retain useful cabinet proportions or a butcher table while modern appliances and work surfaces handle performance.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Let one restored chest provide real storage and use a slim new bench to preserve the path rather than filling the hall with finds.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Use parchment as the quiet field and let one walnut family dominate the furniture. Olive can carry upholstery, dusty blue cools a smaller plane and oxblood should appear only once.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Parchment
+              - paragraph [ref=e196]: A warm wall and linen neutral that connects several wood ages without looking yellow.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Tobacco walnut
+              - paragraph [ref=e201]: The principal furniture tone, strongest on one table, bed, desk or case piece.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Loden olive
+              - paragraph [ref=e206]: A grounded upholstery color that suits mid-century timber and older rugs.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Dusty blue
+              - paragraph [ref=e211]: A faded ceramic, painted door or bench note that cools the brown materials.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Oxblood
+              - paragraph [ref=e216]: A small leather or glazed-ceramic accent for controlled depth.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Repaired walnut veneer material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Repaired walnut veneer
+                - paragraph [ref=e224]: Look for stable substrate and honest edge repair; minor color variation is preferable to lifting veneer.
+            - generic [ref=e225]:
+              - img "Aged brass material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Aged brass
+                - paragraph [ref=e229]: Clean gently and rewire lighting where needed rather than polishing every surface to a new shine.
+            - generic [ref=e230]:
+              - img "Upholstery wool material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Upholstery wool
+                - paragraph [ref=e234]: A durable way to refresh sound chair frames while retaining period-appropriate texture.
+            - generic [ref=e235]:
+              - img "Glazed ceramic material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Glazed ceramic
+                - paragraph [ref=e239]: One muted vessel or tile note adds period color without turning shelves into a collection display.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Choose the anchor period, audit what must function today and restore one substantial piece first. Add contrast only after its proportions and palette are established.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Define the lead decade
+            - paragraph [ref=e250]: Name the period that will control the main furniture silhouettes and wood tone.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Audit condition
+            - paragraph [ref=e255]: Check joints, veneer, odor, wiring, upholstery and dimensions before budgeting for restoration.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Add modern performance
+            - paragraph [ref=e260]: Specify current comfort, storage and technology in forms that remain visually secondary.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Stop before the collection
+            - paragraph [ref=e265]: Leave walls and surfaces partly open so every old object does not demand equal attention.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every piece comes from a different era
+          - paragraph [ref=e274]: Choose one lead decade and repeat its timber tone, leg profile or upholstery scale.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Damage is mistaken for patina
+          - paragraph [ref=e277]: Repair structural, electrical and hygiene issues while preserving stable cosmetic wear.
+        - generic [ref=e278]:
+          - generic [ref=e279]: The room becomes a period set
+          - paragraph [ref=e280]: Add current comfort and technology without disguising every new necessity as antique.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Small finds overwhelm the furniture
+          - paragraph [ref=e283]: Keep one edited group of objects and clear at least half of each display surface.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Vintage vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Vintage is an age-and-condition strategy rather than one decorative vocabulary. Its coherence depends on an anchor era, credible restoration and enough modern support to keep the home usable.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Mid-Century Modern" [ref=e293] [cursor=pointer]:
+              - /url: /styles/mid-century-modern
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More historically and formally specific, centered on modernist furniture, clean geometry and postwar material innovation.
+          - generic [ref=e296]:
+            - text: Choose Vintage if
+            - paragraph [ref=e297]: Choose Vintage for a looser mix where one mid-century anchor can coexist with earlier art and later practical pieces.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Layered provenance replaces strict modernist consistency.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Eclectic" [ref=e303] [cursor=pointer]:
+              - /url: /styles/eclectic
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More deliberately contrast-driven, combining eras, colors and cultural references through personal composition.
+          - generic [ref=e306]:
+            - text: Choose Vintage if
+            - paragraph [ref=e307]: Choose Vintage when age, restoration and period relationships matter more than stylistic contrast.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: A narrow date range replaces broad visual collision.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Shabby Chic" [ref=e313] [cursor=pointer]:
+              - /url: /styles/shabby-chic
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: Paler and more romantic, favoring distressed white paint, loose linen, florals and intentionally faded surfaces.
+          - generic [ref=e316]:
+            - text: Choose Vintage if
+            - paragraph [ref=e317]: Choose Vintage for richer original timber, clearer period forms and less decorative distressing.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Restored walnut replaces painted artificial wear.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "New Traditional" [ref=e323] [cursor=pointer]:
+              - /url: /styles/new-traditional
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More tailored and current, updating familiar historical forms through sharper upholstery and controlled contrast.
+          - generic [ref=e326]:
+            - text: Choose Vintage if
+            - paragraph [ref=e327]: Choose Vintage for actual age, irregular patina and a more visible story of repair.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Original material evidence replaces newly interpreted tradition.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Inspect construction and dimensions before romance takes over. Restoration cost, odor, wiring and missing parts can matter more than the asking price.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Walnut panel bed for Vintage interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Walnut panel bed
+            - paragraph [ref=e340]: Confirm frame rigidity, mattress size and finish condition; budget for professional veneer work if edges are lifting.
+        - article [ref=e341]:
+          - img "Old butcher table for Vintage interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Old butcher table
+            - paragraph [ref=e345]: Check working height, movement at the joints and whether the surface treatment is suitable for its intended use.
+        - article [ref=e346]:
+          - img "Mid-century dining set for Vintage interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Mid-century dining set
+            - paragraph [ref=e350]: Inspect every chair joint and seat height; reupholster compatible frames together for visual continuity.
+        - article [ref=e351]:
+          - img "Vintage executive desk for Vintage interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Vintage executive desk
+            - paragraph [ref=e355]: Measure knee space, monitor depth and doorway access before committing to a large restored piece.
+        - article [ref=e356]:
+          - img "Restored walnut chest for Vintage interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Restored walnut chest
+            - paragraph [ref=e360]: Test drawers, veneer and tipping stability; use discreet restraint hardware where safety requires it.
+        - article [ref=e361]:
+          - img "Material restoration set for Vintage interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Material restoration set
+            - paragraph [ref=e365]: Compare wood, metal and textile samples under room light before selecting polish, repair tone or new upholstery.
+    - generic [ref=e367]:
+      - heading "Vintage FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Vintage interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How many eras can one Vintage room mix?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "What is the difference between patina and damage?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Can modern technology work in a Vintage room?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which colors suit Vintage interiors?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you prevent a Vintage room looking cluttered?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Mid-Century Modern interior design Mid-Century Modern →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/mid-century-modern
+          - img "Mid-Century Modern interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Mid-Century Modern
+            - generic [ref=e402]: →
+        - link "Eclectic interior design Eclectic →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/eclectic
+          - img "Eclectic interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Eclectic
+            - generic [ref=e407]: →
+        - link "Shabby Chic interior design Shabby Chic →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/shabby-chic
+          - img "Shabby Chic interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Shabby Chic
+            - generic [ref=e412]: →
+        - link "New Traditional interior design New Traditional →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/new-traditional
+          - img "New Traditional interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: New Traditional
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

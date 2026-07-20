@@ -1,0 +1,386 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Country
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Country Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Soft color, small pattern and furniture gathered across time create comfort that feels personal rather than coordinated.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Country interior design hero" [ref=e34]
+          - img "Country kitchen interior" [ref=e35]
+          - img "Country styled corner" [ref=e36]
+          - img "Country detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Collected + gentle
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Walnut, painted wood, cotton, ceramic
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Cream, sage, faded blue, berry
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, bedroom, dining
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Coordinate character, not matching sets
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: One adaptable antique case piece
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Floral, check and solid at three scales
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Turning every surface decorative
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Country interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Country design is a broad domestic style built from familiar furniture, garden-informed color and textiles that make a room feel settled over time. Walnut or oak tables, painted cupboards, floral cotton, gingham, glazed ceramics and shaded lamps matter less as individual motifs than as parts of a relaxed, readable whole.
+        - paragraph [ref=e88]: "Unlike Farmhouse, Country need not organize itself around agricultural work or utilitarian storage. It is more interested in furnished comfort: a floral sofa beside a checked chair, an antique desk made practical for current use, or a dresser that displays a small ceramic collection. Restraint comes from repeating colors while varying pattern scale, leaving floors and working surfaces visibly clear."
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Start with one patterned piece
+          - paragraph [ref=e92]: Let a sofa, curtain or wallpaper establish the palette, then support it with one smaller check and generous solid color.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Mix furniture by visual weight
+          - paragraph [ref=e95]: Different periods can coexist when seat heights, timber depth and overall scale feel related.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Create quiet between details
+          - paragraph [ref=e98]: Plain plaster, painted lower walls and clear tabletops prevent collected objects from becoming visual noise.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of country interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Layered small-scale pattern
+          - paragraph [ref=e108]: Florals, checks and stripes appear at different scales and share two or three recurring colors.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Mixed useful furniture
+          - paragraph [ref=e114]: Antique wood, painted storage and comfortable upholstery form a family without becoming a suite.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Soft enclosed color
+          - paragraph [ref=e120]: Sage, faded blue, ochre and berry make rooms feel furnished even when large surfaces stay simple.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Personal domestic display
+          - paragraph [ref=e126]: Ceramics, landscapes and books are grouped in a few purposeful zones rather than spread everywhere.
+      - generic [ref=e127]:
+        - img "Country material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Country room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Country Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/country/living-room
+          - img "Country Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Country Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/country/bedroom
+          - img "Country Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Country Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/country/dining-room
+          - img "Country Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Country Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/country/home-office
+          - img "Country Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Country Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/country/kitchen
+          - img "Country Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Country Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/country/entryway-hallway
+          - img "Country Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Let one floral upholstery plane lead, then use a smaller check, a plain wool rug and dark wood to keep the room grounded.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Pair a spindle bed and faded quilt with painted lower walls; keep the remaining bedding calm so the room stays restful.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Connect mismatched chairs through repeated blue or sage paint while a walnut table provides a stable center.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Use an antique desk at a workable height with a supportive checked chair and closed storage for papers.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Give display to one dresser only; let fitted cabinets remain quiet and use a patterned blind as the main textile note.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Combine an ordinary hall table, painted cupboard and striped bench, preserving the doorway and walking route.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Choose one faded blue or sage as the repeating thread, add warm cream for rest and walnut for depth. Use berry or ochre only inside small patterns and accents.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Warm cream
+              - paragraph [ref=e196]: A mellow field for plaster and larger upholstery that keeps mixed pieces connected.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Faded blue
+              - paragraph [ref=e201]: Carries checks, quilts and painted chairs without feeling crisp or coastal.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Garden sage
+              - paragraph [ref=e206]: Links cabinetry and wall paint to botanical pattern in a restrained way.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Walnut
+              - paragraph [ref=e211]: Adds depth through tables and case furniture, preventing the palette from becoming sugary.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Muted berry
+              - paragraph [ref=e216]: A warm accent for narrow stripes, rug flecks and small floral details.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Floral cotton material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Floral cotton
+                - paragraph [ref=e224]: A small, spaced repeat is easier to combine and less demanding than a dense oversized bloom.
+            - generic [ref=e225]:
+              - img "Blue gingham material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Blue gingham
+                - paragraph [ref=e229]: Use on one chair, piping edge or blind to give florals a clear geometric counterpoint.
+            - generic [ref=e230]:
+              - img "Painted wood material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Painted wood
+                - paragraph [ref=e234]: Soft opaque color links cupboards and chairs from different periods without hiding their profiles.
+            - generic [ref=e235]:
+              - img "Glazed ceramic material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Glazed ceramic
+                - paragraph [ref=e239]: A small useful collection adds variation in shape while a shared glaze family keeps it ordered.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Build the room around one patterned keeper and one useful wood piece, then connect everything else through color rather than exact matching.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Choose the lead pattern
+            - paragraph [ref=e250]: Start with the textile or wallpaper you genuinely like and identify its two quietest colors.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Set the furniture weights
+            - paragraph [ref=e255]: Balance one substantial wood piece with lighter painted furniture and comfortable upholstery.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Add a pattern counterpoint
+            - paragraph [ref=e260]: Pair floral with a smaller check or stripe, leaving the largest remaining surfaces plain.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Concentrate the collection
+            - paragraph [ref=e265]: Group ceramics, books or pictures in one or two display zones and clear daily working surfaces.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every textile has a different pattern
+          - paragraph [ref=e274]: Keep one lead floral, one small check and return at least half of the visible fabric area to solids.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The room feels old-fashioned rather than settled
+          - paragraph [ref=e277]: Add one current lamp or comfortable working chair while preserving the older furniture’s useful role.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Collections occupy every surface
+          - paragraph [ref=e280]: Group the best pieces inside one dresser or shelf bay and leave tables available for daily use.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Pastels lack visual weight
+          - paragraph [ref=e283]: Introduce walnut, aged brass or one deeper olive element to anchor cream, blue and floral tones.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Country vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: "Country is best understood as a flexible method of furnishing: mix eras, repeat soft color, vary pattern scale and preserve enough plain space for the room to remain useful."
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Farmhouse" [ref=e293] [cursor=pointer]:
+              - /url: /styles/farmhouse
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More utility-led, with worktables, pantry storage, peg rails and finishes chosen around recurring household tasks.
+          - generic [ref=e296]:
+            - text: Choose Country if
+            - paragraph [ref=e297]: Choose Country for more pattern, furnished comfort and decorative color beyond the working zones.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Floral upholstery and mixed occasional furniture replace the task-first layout.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Cottagecore" [ref=e303] [cursor=pointer]:
+              - /url: /styles/cottagecore
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More romantic and narrative-driven, emphasizing handmade craft, garden abundance and an idealized rural life.
+          - generic [ref=e306]:
+            - text: Choose Country if
+            - paragraph [ref=e307]: Choose Country for a more conventional furnished room, clearer editing and less pastoral storytelling.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Structured upholstery and grouped display replace whimsical handmade layering.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - generic [ref=e313]: English Country
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More specifically British and often denser, with deeper upholstery, antiques, patterned walls and an estate-house reference.
+          - generic [ref=e316]:
+            - text: Choose Country if
+            - paragraph [ref=e317]: Choose Country for a broader, lighter interpretation adaptable to many regional homes.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: A simpler mix replaces strongly historic British layering.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Grandmillennial" [ref=e323] [cursor=pointer]:
+              - /url: /styles/grandmillennial
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Brighter and more knowingly nostalgic, with tailored trim, chintz, wicker and sharper old-new contrast.
+          - generic [ref=e326]:
+            - text: Choose Country if
+            - paragraph [ref=e327]: Choose Country for softer evolution, quieter color and less self-conscious decoration.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Faded inherited comfort replaces playful revival and lacquered accents.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Shop for individual pieces with compatible scale and color rather than a country collection. Comfort, function and an honest finish matter more than decorative age.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Spindle bed for Country interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Spindle bed
+            - paragraph [ref=e340]: Choose a stable timber frame with a clear silhouette that can carry patterned textiles without additional ornament.
+        - article [ref=e341]:
+          - img "Painted kitchen dresser for Country interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Painted kitchen dresser
+            - paragraph [ref=e345]: Use one dresser for frequently used ceramics and keep the rest of the kitchen visually quieter.
+        - article [ref=e346]:
+          - img "Oval walnut table for Country interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Oval walnut table
+            - paragraph [ref=e350]: An oval top softens circulation and works with chairs collected from more than one source.
+        - article [ref=e351]:
+          - img "Antique writing desk for Country interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Antique writing desk
+            - paragraph [ref=e355]: Verify knee space and height, then pair historical character with a genuinely supportive chair.
+        - article [ref=e356]:
+          - img "Hall table for Country interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Hall table
+            - paragraph [ref=e360]: A shallow piece should hold keys and a lamp without narrowing the arrival route.
+        - article [ref=e361]:
+          - img "Small-pattern cotton for Country interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Small-pattern cotton
+            - paragraph [ref=e365]: Compare repeat scale against the actual chair, curtain or cushion before ordering yardage.
+    - generic [ref=e367]:
+      - heading "Country FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Country interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How is Country different from Farmhouse?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "Can Country style work without florals?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "How do you mix patterns in a Country room?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which colors suit Country interiors?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you keep Country decor from feeling cluttered?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Farmhouse interior design Farmhouse →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/farmhouse
+          - img "Farmhouse interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Farmhouse
+            - generic [ref=e402]: →
+        - link "Cottagecore interior design Cottagecore →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/cottagecore
+          - img "Cottagecore interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Cottagecore
+            - generic [ref=e407]: →
+        - link "Grandmillennial interior design Grandmillennial →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/grandmillennial
+          - img "Grandmillennial interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Grandmillennial
+            - generic [ref=e412]: →
+  - contentinfo [ref=e413]:
+    - generic [ref=e414]:
+      - navigation [ref=e415]:
+        - link "About" [ref=e416] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e417] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e418] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e419] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e420]: © 2026 Imaginary Interiors — Interior Style Atlas

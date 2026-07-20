@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / IKEA-Inspired
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "IKEA-Inspired Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Measure first, give every module a job and spend more on the surfaces and mechanisms you touch every day.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "IKEA-Inspired interior design hero" [ref=e34]
+          - img "IKEA-Inspired kitchen interior" [ref=e35]
+          - img "IKEA-Inspired styled corner" [ref=e36]
+          - img "IKEA-Inspired detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Flexible + attainable
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Birch veneer, laminate, powder-coated steel, cotton, wool blend
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Warm white, birch, grey, cornflower, leaf green
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Small apartments, rentals, multipurpose rooms
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: One job per module
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Accurate measurements
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Open + closed rhythm
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Copying a showroom
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is IKEA-inspired interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "IKEA-inspired design applies accessible Scandinavian ideas to the logistics of ordinary homes: standardized storage, flat-pack pieces, simple forms and furniture that can perform more than one job. The result should feel planned around the resident, not copied from a catalog. This is an independent design guide and is not affiliated with or endorsed by IKEA."
+        - paragraph [ref=e88]: "Start with belongings, circulation and future moves, then choose a small family of compatible modules. Flat-pack construction has real limits: exposed board edges dislike moisture, fixings can loosen and some pieces tolerate repeated assembly better than others. Put more of the budget into the mattress, sofa, work chair, worktops and frequently used hardware; use color, lighting, art and secondhand pieces to prevent a generic showroom effect."
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Measure the route too
+          - paragraph [ref=e92]: Record walls, skirting, sockets and door swings, then confirm that every package and assembled piece can reach its room.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Choose a lifespan
+          - paragraph [ref=e95]: Ask whether a system must survive one lease, repeated moves or a decade of daily use before deciding its material and price.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Anchor tall furniture
+          - paragraph [ref=e98]: Use suitable wall restraints and follow the manufacturer’s instructions, especially around children and uneven floors.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of ikea-inspired interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Repeatable modules
+          - paragraph [ref=e108]: A few compatible widths make storage easier to extend, rearrange and visually calm.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Open and closed storage
+          - paragraph [ref=e114]: Doors hide visual noise while selected shelves keep books and daily objects within reach.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Surfaces that transform
+          - paragraph [ref=e120]: Drop leaves, nesting tables and mobile units let one room change task without staying crowded.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Replaceable soft layers
+          - paragraph [ref=e126]: Washable covers, curtains and rugs carry color and can be renewed without replacing the furniture frame.
+      - generic [ref=e127]:
+        - img "IKEA-Inspired material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "IKEA-Inspired room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "IKEA-Inspired Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/ikea/living-room
+          - img "IKEA-Inspired Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "IKEA-Inspired Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/ikea/bedroom
+          - img "IKEA-Inspired Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "IKEA-Inspired Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/ikea/dining-room
+          - img "IKEA-Inspired Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "IKEA-Inspired Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/ikea/home-office
+          - img "IKEA-Inspired Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "IKEA-Inspired Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/ikea/kitchen
+          - img "IKEA-Inspired Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "IKEA-Inspired Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/ikea/entryway-hallway
+          - img "IKEA-Inspired Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Use closed base cabinets for cables and games, leave one shelf open and keep enough clear floor for a second activity.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Prioritize mattress comfort and both-side access; use under-bed storage only for items that can stay clean and ventilated.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Choose an extendable top only if there is space to open it and store the extra chairs without blocking circulation.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Fit the desk to the user, not just the alcove; include task light, cable management and a curtain when the room must switch off.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Protect panel edges from water, specify durable hinges and keep frequently used tools between shoulder and knee height.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Give shoes, coats, keys and bags separate landing points, then anchor every tall or shallow storage unit securely.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Build most of the room from warm white, pale wood and grey. Repeat cornflower or leaf green in two or three small, useful items; avoid buying a coordinated accessory set simply to fill every shelf.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Warm white
+              - paragraph [ref=e196]: A forgiving wall and cabinet base that softens mass-produced white finishes.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Birch veneer
+              - paragraph [ref=e201]: Light visible grain for tops and fronts, repeated sparingly rather than mixed with many wood tones.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Soft grey
+              - paragraph [ref=e206]: A practical neutral for upholstery, rugs and work chairs.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Cornflower
+              - paragraph [ref=e211]: A clear blue accent for one textile, tray or storage box family.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Leaf green
+              - paragraph [ref=e216]: A muted second accent that works in washable fabric and recycled-plastic accessories.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Veneer over a stable core material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Veneer over a stable core
+                - paragraph [ref=e224]: Check the edge construction, veneer thickness and repair options before treating every wood-look surface as equivalent.
+            - generic [ref=e225]:
+              - img "Melamine or laminate material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Melamine or laminate
+                - paragraph [ref=e229]: Useful for wipeable fronts and shelves when cut edges, sink joints and heat exposure are properly protected.
+            - generic [ref=e230]:
+              - img "Powder-coated steel material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Powder-coated steel
+                - paragraph [ref=e234]: Slim frames and rails add strength; inspect welds, coating coverage, load limits and replacement hardware.
+            - generic [ref=e235]:
+              - img "Washable textile layers material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Washable textile layers
+                - paragraph [ref=e239]: Removable cotton and wool-blend covers extend useful life and bring texture without committing the whole room to a trend.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Treat the room as an inventory and circulation problem before shopping. A short plan reduces duplicate storage, incompatible widths and pieces that never fit the route home.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Audit what you own
+            - paragraph [ref=e250]: Count hanging clothes, folded items, books, equipment and awkward objects; measure the largest groups.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Measure room and route
+            - paragraph [ref=e255]: Draw walls, doors, sockets, radiators and skirting, then check stairs, lifts and turning points.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Select a few systems
+            - paragraph [ref=e260]: Limit the main widths, finishes and handle language so additions remain calm and compatible.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Buy in working stages
+            - paragraph [ref=e265]: Install the essential storage and seating first, live with it, then add only what solves a proven gap.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: The room copies a showroom
+          - paragraph [ref=e274]: Keep the useful layout, then add personal art, inherited pieces and one non-matching light or chair.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Every object stays visible
+          - paragraph [ref=e277]: Reserve open shelves for edited daily items and put household bulk behind doors.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Tall units are left unrestrained
+          - paragraph [ref=e280]: Level and anchor them with hardware suitable for the wall, following the product instructions.
+        - generic [ref=e281]:
+          - generic [ref=e282]: The cheapest option takes the most wear
+          - paragraph [ref=e283]: Upgrade the mattress, work chair, sofa cushion, worktop and high-cycle hinges before decorative extras.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "IKEA-Inspired vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: "IKEA-inspired is not a synonym for Scandinavian or minimalist. Its distinctive layer is operational: standardized dimensions, transportable parts and affordable components must solve storage, movement and changing uses."
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Scandinavian" [ref=e293] [cursor=pointer]:
+              - /url: /styles/scandinavian
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: A broader regional tradition that can emphasize craft, natural materials and long-lived designer furniture.
+          - generic [ref=e296]:
+            - text: Choose IKEA-Inspired if
+            - paragraph [ref=e297]: Choose IKEA-inspired when modular planning, accessible pricing and flat-pack logistics are central.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: System thinking replaces regional breadth.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Minimalist" [ref=e303] [cursor=pointer]:
+              - /url: /styles/minimalist
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Reduces visual and material excess but does not necessarily organize a room around standardized storage or small-space functions.
+          - generic [ref=e306]:
+            - text: Choose IKEA-Inspired if
+            - paragraph [ref=e307]: Choose IKEA-inspired when real belongings must fit into a flexible, attainable plan.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Practical capacity replaces reduction alone.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Japandi" [ref=e313] [cursor=pointer]:
+              - /url: /styles/japandi
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More restrained and material-focused, often using lower forms, crafted detail and a quieter earth palette.
+          - generic [ref=e316]:
+            - text: Choose IKEA-Inspired if
+            - paragraph [ref=e317]: Choose IKEA-inspired for easier reconfiguration, brighter accents and less precious everyday surfaces.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Adaptability replaces contemplative refinement.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "West Elm Modern" [ref=e323] [cursor=pointer]:
+              - /url: /styles/west-elm-modern
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More decorative and urban, with stronger mid-century silhouettes, walnut, brass and richer upholstery.
+          - generic [ref=e326]:
+            - text: Choose IKEA-Inspired if
+            - paragraph [ref=e327]: Choose IKEA-inspired for lighter woods, standardized storage and a lower entry budget.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Modularity replaces statement furniture.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Shop by function, wear and repairability instead of collecting a branded room. Compare dimensions, load limits, spare-part access, cover care and the number of moves each item is likely to face.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Modular closed storage for IKEA-Inspired interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Modular closed storage
+            - paragraph [ref=e340]: Map interior dimensions to actual belongings and confirm leveling, wall restraint and future extension options.
+        - article [ref=e341]:
+          - img "Supportive bed and mattress for IKEA-Inspired interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Supportive bed and mattress
+            - paragraph [ref=e345]: Test comfort first; verify ventilation, slat compatibility and access to any under-bed compartment.
+        - article [ref=e346]:
+          - img "Extendable dining table for IKEA-Inspired interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Extendable dining table
+            - paragraph [ref=e350]: Measure the fully open footprint and check leaf hardware, wobble and where spare chairs will live.
+        - article [ref=e351]:
+          - img "Adjustable work setup for IKEA-Inspired interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Adjustable work setup
+            - paragraph [ref=e355]: Prioritize chair fit, monitor height, task lighting and replaceable cable management over a tiny decorative desk.
+        - article [ref=e356]:
+          - img "Durable kitchen fronts for IKEA-Inspired interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Durable kitchen fronts
+            - paragraph [ref=e360]: Inspect edge sealing, hinge cycles, handle grip and replacement availability at the most frequently used cabinets.
+        - article [ref=e361]:
+          - img "Assembly sample kit for IKEA-Inspired interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Assembly sample kit
+            - paragraph [ref=e365]: Compare veneer, board core, coating, textile and fixings together; keep spare fasteners and the instructions after assembly.
+    - generic [ref=e367]:
+      - heading "IKEA-Inspired FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What makes an interior IKEA-inspired?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Does every item need to come from IKEA?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How do you keep flat-pack furniture from looking cheap?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Is this approach suitable for rentals?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Can flat-pack furniture be disassembled and rebuilt?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "Is this page affiliated with IKEA?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Scandinavian interior design Scandinavian →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/scandinavian
+          - img "Scandinavian interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Scandinavian
+            - generic [ref=e402]: →
+        - link "Minimalist interior design Minimalist →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/minimalist
+          - img "Minimalist interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Minimalist
+            - generic [ref=e407]: →
+        - link "Japandi interior design Japandi →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/japandi
+          - img "Japandi interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Japandi
+            - generic [ref=e412]: →
+        - link "West Elm Modern interior design West Elm Modern →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/west-elm-modern
+          - img "West Elm Modern interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: West Elm Modern
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

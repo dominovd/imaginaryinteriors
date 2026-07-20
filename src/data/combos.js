@@ -3103,6 +3103,18 @@ const comboDetails = {
   },
 };
 
+const roomIdeaLabels = {
+  'living-room': 'Living room',
+  'home-office': 'Home office',
+  bedroom: 'Bedroom',
+  kitchen: 'Kitchen',
+  'dining-room': 'Dining room',
+  'entryway-hallway': 'Entryway',
+};
+
+const getRoomIdeaImage = (style, roomSlug) =>
+  style.roomIdeas?.find((idea) => idea.label === roomIdeaLabels[roomSlug])?.image;
+
 export const combos = styles.flatMap((s) =>
   comboRooms.map((roomSlug) => {
     const r = rooms.find((x) => x.slug === roomSlug);
@@ -3114,7 +3126,7 @@ export const combos = styles.flatMap((s) =>
       roomSlug: r.slug,
       roomName: r.name,
       tone: s.tone,
-      image: comboImages[key] || s.image || '',
+      image: comboImages[key] || getRoomIdeaImage(s, roomSlug) || s.image || '',
       href: `/styles/${s.slug}/${r.slug}`,
       title: `${s.name} ${r.name}`,
       indexed: details.indexed || false, // flip to true per combo as it gets real content

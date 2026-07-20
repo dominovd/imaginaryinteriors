@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Southwestern
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Southwestern Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Deep shade, thermal mass and regional materials create comfort first; desert color follows from the building rather than themed décor.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Southwestern interior design hero" [ref=e34]
+          - img "Southwestern kitchen interior" [ref=e35]
+          - img "Southwestern styled corner" [ref=e36]
+          - img "Southwestern detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Shaded + grounded
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Earth plaster, clay tile, mesquite, local stone, wool
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Adobe chalk, terracotta, mesquite, stone, blue-green glaze
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living room, kitchen, entryway
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Climate before motif
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Exterior solar shading
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Bright court, cool interior
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Anonymous “tribal” décor
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Southwestern interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Southwestern interior design is a broad regional category shaped by the dry landscapes and layered building cultures of the American Southwest and northern Mexico. It should not be reduced to one Indigenous pattern, a cactus and turquoise accessories. For a clear working example, this guide uses a contemporary Sonoran Desert home near Tucson, where deep shade, thick mineral surfaces and sheltered outdoor rooms manage intense sun and daily temperature swings.
+        - paragraph [ref=e88]: Earth-toned plaster, clay tile, mesquite, local stone and wool make a tactile base, but each material needs technical judgment. Earthen and lime finishes must suit the wall assembly and rainfall exposure; tile needs appropriate slip and sealing performance; timber should be responsibly sourced. Indigenous textiles and pottery belong only when maker, Nation or community, technique and source are known—not as anonymous style shorthand.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Name the desert region
+          - paragraph [ref=e92]: Sonoran, Chihuahuan and high-desert environments differ in plants, temperature, rainfall and material traditions.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Shade glass from outside
+          - paragraph [ref=e95]: Use deep eaves, ramadas, shutters or exterior screens before relying on interior curtains to stop heat.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Require real provenance
+          - paragraph [ref=e98]: For Indigenous work, seek the artist, Nation or community, material, technique and an accountable selling source.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of southwestern interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: A bright-to-shade sequence
+          - paragraph [ref=e108]: Recessed entries and covered courts create a gradual thermal and visual transition indoors.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Mineral mass and soft corners
+          - paragraph [ref=e114]: Compatible plaster and masonry moderate temperature while shaping light without added ornament.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Regionally useful timber
+          - paragraph [ref=e120]: Mesquite or another suitable local wood gives doors, tables and storage durable visual weight.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Color used as a small signal
+          - paragraph [ref=e126]: Rust wool and one blue-green glaze sharpen a base of plaster, clay, timber and stone.
+      - generic [ref=e127]:
+        - img "Southwestern material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Southwestern room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Southwestern Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/southwestern/living-room
+          - img "Southwestern Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Southwestern Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/southwestern/bedroom
+          - img "Southwestern Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Southwestern Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/southwestern/dining-room
+          - img "Southwestern Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Southwestern Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/southwestern/home-office
+          - img "Southwestern Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Southwestern Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/southwestern/kitchen
+          - img "Southwestern Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Southwestern Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/southwestern/entryway-hallway
+          - img "Southwestern Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Protect the main glazing with exterior shade, keep the center path clear and let one plain wool rug soften the clay floor.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Use a deep shaded opening, breathable linen and closed mesquite storage; keep strong rust to one blanket.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Connect the table to a covered outdoor room and allow a direct service route without exposing chairs to hard western sun.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Set the monitor perpendicular to the window, use exterior shade and close away papers and equipment in built-in storage.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Choose durable stone and deep drawers, integrate extraction and reserve glazed color for one useful vessel.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Make the recessed threshold a cooling pause with a bench, closed storage and a clear view toward the shaded court.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Build the room from adobe chalk, clay and mesquite, with stone in hard-working zones. Add rust through one plain wool piece and keep blue-green glaze to a single vessel or narrow ceramic moment.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Adobe chalk
+              - paragraph [ref=e196]: A warm mineral wall color that reflects harsh daylight without becoming stark white.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Clay terracotta
+              - paragraph [ref=e201]: A naturally varied floor and textile note, muted rather than uniformly orange.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Mesquite brown
+              - paragraph [ref=e206]: A dense grounding tone for doors, cabinets, tables and structural timber.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Desert stone
+              - paragraph [ref=e211]: A cool counterweight for worktops, thresholds and exterior retaining walls.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Blue-green glaze
+              - paragraph [ref=e216]: A small ceramic accent that works best once, not as a room-wide turquoise theme.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Compatible earth plaster material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Compatible earth plaster
+                - paragraph [ref=e224]: Match the finish to substrate, vapor behavior, splash exposure and maintenance instead of applying a synthetic adobe effect.
+            - generic [ref=e225]:
+              - img "Clay floor tile material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Clay floor tile
+                - paragraph [ref=e229]: Approve variation, grout, sealing and slip resistance for each indoor or sheltered exterior location.
+            - generic [ref=e230]:
+              - img "Mesquite and wool material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Mesquite and wool
+                - paragraph [ref=e234]: Use responsibly sourced timber and plain traceable fiber before adding patterned craft.
+            - generic [ref=e235]:
+              - img "Stone, copper and glaze material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Stone, copper and glaze
+                - paragraph [ref=e239]: Let local stone lead, allow copper to patinate and restrict blue-green glaze to a precise accent.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Study sun, shade and temperature before choosing color. Define the regional frame, specify the wall and floor systems, then add furniture and documented craft only where daily use calls for it.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Map seasonal sun
+            - paragraph [ref=e250]: Record the hottest windows, useful winter gain and the outdoor areas that need permanent shade.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Choose the regional frame
+            - paragraph [ref=e255]: Name the desert and research its climate, ordinary building materials and contemporary local practice.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Specify the envelope
+            - paragraph [ref=e260]: Coordinate shading, insulation, thermal mass, ventilation and compatible mineral finishes.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Add one sourced accent
+            - paragraph [ref=e265]: Choose a documented textile, ceramic or metal work and leave enough quiet material around it.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Turquoise appears everywhere
+          - paragraph [ref=e274]: Return walls and furniture to plaster, clay and timber; keep blue-green to one ceramic family.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The room becomes cowboy themed
+          - paragraph [ref=e277]: Remove skulls, saddles and saloon objects; develop place through shade, material and landscape.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Indigenous motifs lose their source
+          - paragraph [ref=e280]: Buy directly or through accountable sellers and retain the maker, Nation or community and technique.
+        - generic [ref=e281]:
+          - generic [ref=e282]: The desert room still overheats
+          - paragraph [ref=e283]: Improve exterior shade, glazing, roof performance and night ventilation before changing interior finishes.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Southwestern vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Southwestern design is strongest when it names a landscape and responds to its heat, light and material supply. It differs from a generic earthy interior through climate performance, regional building knowledge and accountable craft sourcing.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Desert Modern" [ref=e293] [cursor=pointer]:
+              - /url: /styles/desert-modern
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More abstract and reduced, using planar volumes, broad glazing and a neutral mineral palette with fewer historical references.
+          - generic [ref=e296]:
+            - text: Choose Southwestern if
+            - paragraph [ref=e297]: Choose Southwestern when regional craft, clay floors, mesquite and shaded vernacular transitions should remain visible.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Layered regional continuity replaces abstract desert minimalism.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Rustic" [ref=e303] [cursor=pointer]:
+              - /url: /styles/rustic
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: A broad material-first style centered on aged timber, stone and robust furniture without a particular desert climate.
+          - generic [ref=e306]:
+            - text: Choose Southwestern if
+            - paragraph [ref=e307]: Choose Southwestern when solar control, earth construction and desert-specific thresholds should guide the room.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Climate specificity replaces general rural roughness.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Mediterranean" [ref=e313] [cursor=pointer]:
+              - /url: /styles/mediterranean
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: Shares mineral mass, shade and indoor-outdoor living but draws from distinct coastal regions, materials and craft traditions.
+          - generic [ref=e316]:
+            - text: Choose Southwestern if
+            - paragraph [ref=e317]: Choose Southwestern for the landscapes and building cultures of the American Southwest and northern Mexico.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Desert regional context replaces a Mediterranean coastal frame.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Organic Modern" [ref=e323] [cursor=pointer]:
+              - /url: /styles/organic-modern
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Uses smooth contemporary forms and natural materials in a broadly place-neutral, softly minimalist composition.
+          - generic [ref=e326]:
+            - text: Choose Southwestern if
+            - paragraph [ref=e327]: Choose Southwestern when local climate and regional construction should be legible rather than simply natural-looking.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Place-based performance replaces universal organic calm.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Ask where materials come from and how they perform. For Indigenous work, provenance is essential; for plaster, tile, stone and timber, installation and maintenance matter as much as appearance.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Supportive woven chair for Southwestern interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Supportive woven chair
+            - paragraph [ref=e340]: Check frame joints, seat tension and repair options; use plain fiber unless a patterned work has clear provenance.
+        - article [ref=e341]:
+          - img "Mesquite platform bed for Southwestern interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Mesquite platform bed
+            - paragraph [ref=e345]: Verify responsible timber source, mattress ventilation, stable joinery and enough clearance around the bed.
+        - article [ref=e346]:
+          - img "Honed stone worktop for Southwestern interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Honed stone worktop
+            - paragraph [ref=e350]: Test porosity, sealing, heat response and edge durability using the actual stone batch.
+        - article [ref=e351]:
+          - img "Woven-seat dining chair for Southwestern interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Woven-seat dining chair
+            - paragraph [ref=e355]: Choose a comfortable back and replaceable seat suited to dust, dry air and frequent use.
+        - article [ref=e356]:
+          - img "Closed entry storage for Southwestern interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Closed entry storage
+            - paragraph [ref=e360]: Size for boots, hats and outdoor gear, with ventilation and a durable base beside the clay floor.
+        - article [ref=e361]:
+          - img "Regional material sample set for Southwestern interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Regional material sample set
+            - paragraph [ref=e365]: Review plaster, clay, mesquite, wool, stone, copper and one glaze together in hard midday light.
+    - generic [ref=e367]:
+      - heading "Southwestern FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Southwestern interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Does Southwestern design need turquoise?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is Southwestern different from Desert Modern?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Can adobe finishes work outside the Southwest?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "How should Indigenous textiles or pottery be sourced?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you avoid a themed room?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Desert Modern interior design Desert Modern →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/desert-modern
+          - img "Desert Modern interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Desert Modern
+            - generic [ref=e402]: →
+        - link "Rustic interior design Rustic →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/rustic
+          - img "Rustic interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Rustic
+            - generic [ref=e407]: →
+        - link "Mediterranean interior design Mediterranean →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/mediterranean
+          - img "Mediterranean interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Mediterranean
+            - generic [ref=e412]: →
+        - link "Organic Modern interior design Organic Modern →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/organic-modern
+          - img "Organic Modern interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Organic Modern
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Pottery Barn-Inspired
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Pottery Barn-Inspired Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Start with one generous comfort piece, leave room around it and let oak, linen, leather and faded navy acquire character slowly.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Pottery Barn-Inspired interior design hero" [ref=e34]
+          - img "Pottery Barn-Inspired kitchen interior" [ref=e35]
+          - img "Pottery Barn-Inspired styled corner" [ref=e36]
+          - img "Pottery Barn-Inspired detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Relaxed + substantial
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Aged oak, washed linen, full-grain leather, wool, stone
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Warm ivory, tobacco oak, faded navy, cognac, iron
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living room, dining room, bedroom
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Comfort with visual weight
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Sofa frame + upholstery
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: One weathered wood anchor
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: A matching furniture suite
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Pottery Barn-inspired interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Pottery Barn-inspired design is a relaxed American classic look built from generous seating, familiar furniture forms, warm timber and quiet natural textiles. The room feels established but not formal: a deep sofa may sit beside an older leather chair, a sturdy oak table and a faded rug rather than a perfectly matched suite. This is an independent editorial guide and is not affiliated with or endorsed by Pottery Barn."
+        - paragraph [ref=e88]: Scale is the real discipline. Rolled arms, deep seats and substantial casegoods can overwhelm an average room, so measure the fully furnished footprint and preserve circulation before choosing color. Spend on the sofa frame, cushion resilience, upholstery performance and frequently handled hardware. Then introduce patina with vintage wood, real leather, wool and ceramic rather than simulated distressing across every surface.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Tape the full footprint
+          - paragraph [ref=e92]: Mark the sofa, chair and table on the floor, including recline, drawers and the space needed to walk or pull out a seat.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Read the upholstery spec
+          - paragraph [ref=e95]: Match fiber, weave, cleaning code, seam placement and cushion fill to children, pets, sunlight and actual daily use.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Vary age, not quality
+          - paragraph [ref=e98]: Combine one genuinely worn or vintage piece with simpler new furniture instead of applying the same artificial distress to everything.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of pottery barn-inspired interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Deep, tailored comfort
+          - paragraph [ref=e108]: Generous cushions and familiar arms feel inviting, but the frame remains composed rather than overstuffed.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Grounded wood furniture
+          - paragraph [ref=e114]: Oak tables, chests and consoles add weight through grain and proportion, not ornate carving.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Faded textile color
+          - paragraph [ref=e120]: Washed linen, wool and muted navy create depth without sharp pattern contrast.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Light at several heights
+          - paragraph [ref=e126]: Ceramic table lamps, shaded pendants and discreet sconces make large furniture feel warmer after dark.
+      - generic [ref=e127]:
+        - img "Pottery Barn-Inspired material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Pottery Barn-Inspired room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Pottery Barn-Inspired Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/pottery-barn/living-room
+          - img "Pottery Barn-Inspired Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Pottery Barn-Inspired Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/pottery-barn/bedroom
+          - img "Pottery Barn-Inspired Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Pottery Barn-Inspired Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/pottery-barn/dining-room
+          - img "Pottery Barn-Inspired Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Pottery Barn-Inspired Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/pottery-barn/home-office
+          - img "Pottery Barn-Inspired Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Pottery Barn-Inspired Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/pottery-barn/kitchen
+          - img "Pottery Barn-Inspired Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Pottery Barn-Inspired Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/pottery-barn/entryway-hallway
+          - img "Pottery Barn-Inspired Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Center the plan on conversation, not the fireplace alone; keep 16–18 inches between sofa and coffee table and a clear route past the seating.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Pair a substantial bed with lighter bedside tables or open floor around it, then use washable bedding and one dark textile layer for contrast.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Allow roughly 36 inches behind occupied chairs where circulation continues and use a rug large enough to keep chair legs on it.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Balance a weighty wood desk with closed lower storage, an adjustable chair and task light aimed below eye level.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Reserve aged wood for the island or one cabinet zone, while durable counters, sealed joints and reliable hardware carry the daily workload.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Use a shallow drawer console, proper shoe landing and a runner with low pile; the passage should remain visually and physically open.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Keep walls and the largest upholstery warm ivory, let tobacco oak establish the middle value and use faded navy near the floor. Cognac and iron work as smaller, harder accents; avoid turning every surface brown or every textile beige.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Warm ivory
+              - paragraph [ref=e196]: A softly reflective wall and upholstery base that keeps heavy wood from darkening the room.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Tobacco oak
+              - paragraph [ref=e201]: A mid-depth brown with visible grain for one or two substantial furniture anchors.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Faded navy
+              - paragraph [ref=e206]: A quiet grounding color for a wool rug, quilt or small group of accessories.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Cognac leather
+              - paragraph [ref=e211]: A warm, aging surface best used on one chair or desk seat rather than a complete set.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Blackened iron
+              - paragraph [ref=e216]: A restrained line for lighting and hardware that sharpens the soft palette.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Open-grain oak material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Open-grain oak
+                - paragraph [ref=e224]: Look for real grain, stable joinery and a finish that can tolerate rings, cleaning and future touch-ups.
+            - generic [ref=e225]:
+              - img "Washed upholstery linen material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Washed upholstery linen
+                - paragraph [ref=e229]: Request a large sample, rub and cleaning data, then test it against denim transfer, pets and direct sun.
+            - generic [ref=e230]:
+              - img "Leather and wool material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Leather and wool
+                - paragraph [ref=e234]: Natural patina and dense fiber bring age and acoustic softness without printed vintage effects.
+            - generic [ref=e235]:
+              - img "Stone, brass and iron material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Stone, brass and iron
+                - paragraph [ref=e239]: Use honed stone and living-metal accents where wear can look intentional, but confirm maintenance and sealers first.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Build from scale and use rather than a catalog image. One correctly sized comfort anchor, a durable rug and a measured lighting plan do more than a room full of coordinated accessories.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Draw the conversation zone
+            - paragraph [ref=e250]: Place sofa and chairs within comfortable speaking distance, then preserve the route to doors and adjacent rooms.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Choose one visual anchor
+            - paragraph [ref=e255]: Let the sofa, table or bed carry the greatest scale; keep neighboring pieces lighter or more open.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Specify for wear
+            - paragraph [ref=e260]: Compare upholstery, cushion, finish and hardware performance against the household’s real spills, pets and sunlight.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Layer in collected pieces
+            - paragraph [ref=e265]: Add a vintage chest, personal art, ceramic lamp and faded textile slowly instead of buying one matching set.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: The seating consumes the room
+          - paragraph [ref=e274]: Reduce seat depth or remove a chair; preserve the main path before adding side tables.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Every wood piece is dark and chunky
+          - paragraph [ref=e277]: Keep one substantial oak anchor and mix in painted, open-legged or genuinely older pieces.
+        - generic [ref=e278]:
+          - generic [ref=e279]: The neutral palette looks flat
+          - paragraph [ref=e280]: Create value contrast with navy, cognac and iron, then vary weave, grain and sheen.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Casual classic turns farmhouse
+          - paragraph [ref=e283]: Remove signs, shiplap and repeated rustic props; retain tailored upholstery and straightforward traditional forms.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Pottery Barn-Inspired vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: "Pottery Barn-inspired rooms share traditional DNA with several adjacent styles, but their center of gravity is distinct: generous comfort, approachable American forms and finishes that can look better after ordinary use."
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Modern Farmhouse" [ref=e293] [cursor=pointer]:
+              - /url: /styles/modern-farmhouse
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More architectural and rural, often using black-and-white contrast, utilitarian forms and explicit farmhouse references.
+          - generic [ref=e296]:
+            - text: Choose Pottery Barn-Inspired if
+            - paragraph [ref=e297]: Choose Pottery Barn-inspired for deeper seating, richer timber and a more broadly American classic room.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Upholstered comfort replaces rural shorthand.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Transitional" [ref=e303] [cursor=pointer]:
+              - /url: /styles/transitional
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Cleaner and more edited, blending traditional proportions with smoother finishes and fewer visibly aged surfaces.
+          - generic [ref=e306]:
+            - text: Choose Pottery Barn-Inspired if
+            - paragraph [ref=e307]: Choose Pottery Barn-inspired when patina, generous scale and a collected family-room feeling matter more.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Relaxed weight replaces polished balance.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "New Traditional" [ref=e313] [cursor=pointer]:
+              - /url: /styles/new-traditional
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More tailored and pattern-aware, with historical references, antiques and stronger decorative composition.
+          - generic [ref=e316]:
+            - text: Choose Pottery Barn-Inspired if
+            - paragraph [ref=e317]: Choose Pottery Barn-inspired for simpler motifs, softer seating and lower formality.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Casual familiarity replaces decorative precision.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Coastal Grandmother" [ref=e323] [cursor=pointer]:
+              - /url: /styles/coastal-grandmother
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Lighter and breezier, using coastal blues, slipcovers, pale woods and an explicitly seaside ease.
+          - generic [ref=e326]:
+            - text: Choose Pottery Barn-Inspired if
+            - paragraph [ref=e327]: Choose Pottery Barn-inspired for tobacco oak, leather and greater visual weight without a coastal story.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Inland warmth replaces seaside lightness.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Judge the large pieces by scale, construction and care before color. The strongest room can come from a few well-specified anchors, vintage additions and personal objects rather than a coordinated branded set.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Deep but measured sofa for Pottery Barn-Inspired interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Deep but measured sofa
+            - paragraph [ref=e340]: Check frame joinery, seat depth, cushion recovery, removable-cover access and whether delivery can clear every turn.
+        - article [ref=e341]:
+          - img "Substantial wood table for Pottery Barn-Inspired interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Substantial wood table
+            - paragraph [ref=e345]: Inspect grain, extension hardware, leg clearance and finish repairability; avoid fake distress repeated by machine.
+        - article [ref=e346]:
+          - img "Supportive upholstered bed for Pottery Barn-Inspired interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Supportive upholstered bed
+            - paragraph [ref=e350]: Confirm mattress fit, slat support, side clearance and how fabric near the headboard will be cleaned.
+        - article [ref=e351]:
+          - img "Faded wool rug for Pottery Barn-Inspired interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Faded wool rug
+            - paragraph [ref=e355]: Size it to connect the furniture, then compare pile, shedding, pad needs and spot-cleaning behavior.
+        - article [ref=e356]:
+          - img "Shaded ceramic lighting for Pottery Barn-Inspired interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Shaded ceramic lighting
+            - paragraph [ref=e360]: Use lamps to place warm light at seated eye level and verify shade scale, switch access and cord route.
+        - article [ref=e361]:
+          - img "Finish sample board for Pottery Barn-Inspired interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Finish sample board
+            - paragraph [ref=e365]: Review oak, linen, leather, navy wool, stone and metal together in both daylight and evening light.
+    - generic [ref=e367]:
+      - heading "Pottery Barn-Inspired FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Pottery Barn-inspired interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How do you avoid copying a catalog room?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "Can this style work in a small room?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Is a white sofa practical for families?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "How is this different from Modern Farmhouse?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "Is this page affiliated with Pottery Barn?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Modern Farmhouse interior design Modern Farmhouse →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/modern-farmhouse
+          - img "Modern Farmhouse interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Modern Farmhouse
+            - generic [ref=e402]: →
+        - link "Transitional interior design Transitional →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/transitional
+          - img "Transitional interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Transitional
+            - generic [ref=e407]: →
+        - link "New Traditional interior design New Traditional →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/new-traditional
+          - img "New Traditional interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: New Traditional
+            - generic [ref=e412]: →
+        - link "Coastal Grandmother interior design Coastal Grandmother →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/coastal-grandmother
+          - img "Coastal Grandmother interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Coastal Grandmother
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

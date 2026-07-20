@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Cottagecore
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Cottagecore Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Garden rhythms, useful old furniture and visible handwork make the home feel tended rather than styled.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Cottagecore interior design hero" [ref=e34]
+          - img "Cottagecore kitchen interior" [ref=e35]
+          - img "Cottagecore styled corner" [ref=e36]
+          - img "Cottagecore detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Tender + handmade
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Old oak, linen, limewash, pottery
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Cream, celadon, herb green, faded rose
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Kitchen, bedroom, making room
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Let daily rituals shape the room
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: A useful old oak table
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: One mended textile in plain linen
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: A costume of tiny florals
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Cottagecore interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Cottagecore translates an ideal of slower domestic life into rooms for cooking, growing, reading, repairing and gathering. Its character comes from evidence of use: an old table with a sound frame, linen that can be mended, garden tools near the back door and pottery made to be handled."
+        - paragraph [ref=e88]: Florals can belong, but they are not the foundation. Quiet plaster, faded paint and warm oak create enough calm for a quilt, botanical print or garden posy to feel personal. This keeps Cottagecore distinct from polished Grandmillennial pattern and from the workmanlike architecture of Farmhouse style.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Begin with an activity
+          - paragraph [ref=e92]: Design a place to bake, mend, pot seedlings or read before adding objects that merely symbolize those activities.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Keep age credible
+          - paragraph [ref=e95]: Mix one or two genuinely old pieces with simple new basics instead of distressing every surface.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Give pattern a boundary
+          - paragraph [ref=e98]: Concentrate florals on one quilt, chair or curtain and let surrounding linen stay quiet.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of cottagecore interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Rooms tied to the garden
+          - paragraph [ref=e108]: Herbs, flowers and practical outdoor gear appear where they are grown, cut, cleaned or stored.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Furniture with a second chapter
+          - paragraph [ref=e114]: Old tables and chairs contribute patina, while sound proportions keep them useful.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Visible care and repair
+          - paragraph [ref=e120]: Patches, darning and handmade ceramics show attention without becoming decorative clutter.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Soft, breathable backdrop
+          - paragraph [ref=e126]: Limewash, linen and faded paint temper pattern and make changing seasonal details easy.
+      - generic [ref=e127]:
+        - img "Cottagecore material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Cottagecore room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Cottagecore Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/cottagecore/living-room
+          - img "Cottagecore Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Cottagecore Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/cottagecore/bedroom
+          - img "Cottagecore Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Cottagecore Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/cottagecore/dining-room
+          - img "Cottagecore Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Cottagecore Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/cottagecore/home-office
+          - img "Cottagecore Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Cottagecore Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/cottagecore/kitchen
+          - img "Cottagecore Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Cottagecore Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/cottagecore/entryway-hallway
+          - img "Cottagecore Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Let one floral sofa or chair lead, then surround it with plain linen, an honest wood table and useful reading light.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Choose a simple wood bed and one restrained quilt; leave enough clear space that washing, dressing and making the bed stay easy.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Use a table that tolerates daily meals and making projects, with compatible odd chairs rather than a decorative matched suite.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Pair an old writing desk with proper legroom, task lighting and closed storage for supplies that are not in active use.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Keep the sink, range and worktable route clear; place garden produce and useful crocks where they support preparation.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Give boots, coats and secateurs deliberate places near the garden door, then preserve an uncluttered path indoors.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Use cream as breathing room and old oak as the anchor. Celadon can connect doors and storage; keep herb green and faded rose to small living or textile notes.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Lime cream
+              - paragraph [ref=e196]: A soft wall field that holds old timber and small botanical color together.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Faded celadon
+              - paragraph [ref=e201]: A calm painted finish for joinery, doors or one storage piece.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Herb green
+              - paragraph [ref=e206]: A living accent carried by plants and repeated sparingly in textiles.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Madder rose
+              - paragraph [ref=e211]: A weathered pink note for a quilt fragment, rug or single cushion.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Old oak
+              - paragraph [ref=e216]: The grounding brown for tables and beds with real grain and wear.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Washed printed linen material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Washed printed linen
+                - paragraph [ref=e224]: Choose a breathable cloth with a restrained repeat and enough strength to accept future repair.
+            - generic [ref=e225]:
+              - img "Old oak material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Old oak
+                - paragraph [ref=e229]: Look for stable joints and a maintainable surface; irregular color matters less than sound construction.
+            - generic [ref=e230]:
+              - img "Handmade pottery material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Handmade pottery
+                - paragraph [ref=e234]: Small variations add life when bowls, jugs and cups remain useful rather than purely displayed.
+            - generic [ref=e235]:
+              - img "Terracotta tile material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Terracotta tile
+                - paragraph [ref=e239]: A forgiving garden-side floor that improves with honest wear and simple maintenance.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Choose one domestic activity, one old workhorse piece and one controlled pattern. Build clear storage around them before adding seasonal finds.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Name the ritual
+            - paragraph [ref=e250]: Decide whether the room should support cooking, mending, reading, growing or gathering first.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Anchor with use
+            - paragraph [ref=e255]: Add one sturdy old table, bed or cupboard whose dimensions fit the actual routine.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Set a pattern limit
+            - paragraph [ref=e260]: Keep the main floral or quilted surface contained and repeat only one of its colors elsewhere.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Leave room to change
+            - paragraph [ref=e265]: Keep shelves and tabletops partly open for garden cuttings and seasonal objects that rotate naturally.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every surface becomes floral
+          - paragraph [ref=e274]: Keep one patterned lead and replace secondary prints with plain washed linen.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The room looks artificially aged
+          - paragraph [ref=e277]: Stop distressing new finishes; introduce one genuinely old, structurally sound piece.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Baskets become decorative clutter
+          - paragraph [ref=e280]: Use closed storage for most supplies and reserve baskets for active, visible tasks.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Romance defeats practicality
+          - paragraph [ref=e283]: Restore work light, washable surfaces and clear routes before adding another soft layer.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Cottagecore vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Cottagecore is best recognized by what the room enables. Gardening, cooking and handwork create its story; pattern and vintage furniture support that life rather than impersonate it.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Country" [ref=e293] [cursor=pointer]:
+              - /url: /styles/country
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: Broader and more regionally flexible, with comfortable traditional furniture, checks and familiar rural references.
+          - generic [ref=e296]:
+            - text: Choose Cottagecore if
+            - paragraph [ref=e297]: Choose Cottagecore for a more narrative focus on gardening, making, repair and seasonal domestic life.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Mended linen and botanical work replace general country comfort.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Farmhouse" [ref=e303] [cursor=pointer]:
+              - /url: /styles/farmhouse
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More architectural and workmanlike, favoring practical millwork, apron sinks and larger communal furniture.
+          - generic [ref=e306]:
+            - text: Choose Cottagecore if
+            - paragraph [ref=e307]: Choose Cottagecore when intimacy, handwork and a softer garden relationship matter more than utility-house structure.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Small-scale making replaces broad agrarian architecture.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Grandmillennial" [ref=e313] [cursor=pointer]:
+              - /url: /styles/grandmillennial
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More polished and decorative, mixing classic upholstery, trims, ceramics and layered traditional pattern.
+          - generic [ref=e316]:
+            - text: Choose Cottagecore if
+            - paragraph [ref=e317]: Choose Cottagecore for quieter materials, visible wear and less formal composition.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: A repaired quilt replaces coordinated chintz and trim.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Shabby Chic" [ref=e323] [cursor=pointer]:
+              - /url: /styles/shabby-chic
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Paler and more romantic, often built around distressed white furniture, ruffles and intentionally faded surfaces.
+          - generic [ref=e326]:
+            - text: Choose Cottagecore if
+            - paragraph [ref=e327]: Choose Cottagecore for natural wood, productive garden references and believable repair.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Old oak and useful tools replace decorative distressing.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Favor repairable objects with a clear job. One sturdy old table, washable textile and useful pot will carry more meaning than a shelf of imitation antiques.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Simple oak bed for Cottagecore interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Simple oak bed
+            - paragraph [ref=e340]: Check rail joints and mattress dimensions; let a removable quilt provide the changing pattern.
+        - article [ref=e341]:
+          - img "Garden-side worktable for Cottagecore interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Garden-side worktable
+            - paragraph [ref=e345]: Choose a stable, scrub-friendly top at a useful height with clearance around the main cooking route.
+        - article [ref=e346]:
+          - img "Odd spindle chairs for Cottagecore interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Odd spindle chairs
+            - paragraph [ref=e350]: Match seat height and structural condition rather than finish; repeat one paint or wood tone for cohesion.
+        - article [ref=e351]:
+          - img "Old writing desk for Cottagecore interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Old writing desk
+            - paragraph [ref=e355]: Confirm knee space and surface depth, then add modern task light and seating support discreetly.
+        - article [ref=e356]:
+          - img "Painted garden cupboard for Cottagecore interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Painted garden cupboard
+            - paragraph [ref=e360]: Look for ventilation and enough internal depth for outdoor gear without narrowing the doorway.
+        - article [ref=e361]:
+          - img "Mendable linen for Cottagecore interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Mendable linen
+            - paragraph [ref=e365]: Choose natural fiber with a durable weave; small stains and tears should be washable or repairable.
+    - generic [ref=e367]:
+      - heading "Cottagecore FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Cottagecore interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Does Cottagecore require floral wallpaper?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is Cottagecore different from Farmhouse?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Can Cottagecore work in an apartment?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which colors suit Cottagecore interiors?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you keep Cottagecore from looking cluttered?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Country interior design Country →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/country
+          - img "Country interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Country
+            - generic [ref=e402]: →
+        - link "Farmhouse interior design Farmhouse →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/farmhouse
+          - img "Farmhouse interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Farmhouse
+            - generic [ref=e407]: →
+        - link "Grandmillennial interior design Grandmillennial →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/grandmillennial
+          - img "Grandmillennial interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Grandmillennial
+            - generic [ref=e412]: →
+        - link "Shabby Chic interior design Shabby Chic →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/shabby-chic
+          - img "Shabby Chic interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Shabby Chic
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

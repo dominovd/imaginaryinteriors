@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Shabby Chic
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Shabby Chic Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Washed textiles, chalky color and one or two gently worn pieces create softness without turning the room into a decorative theme.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Shabby Chic interior design hero" [ref=e34]
+          - img "Shabby Chic kitchen interior" [ref=e35]
+          - img "Shabby Chic styled corner" [ref=e36]
+          - img "Shabby Chic detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Faded + relaxed
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Washed linen, painted timber, pine, creamware
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Chalk, flax, dusty rose, faded sage
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Bedroom, dining, entryway
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Wear one layer, not every layer
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: A sound painted dresser
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Loose linen beside worn timber
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Artificial distress on everything
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Shabby Chic interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Shabby Chic combines pale, comfortable rooms with furniture and textiles that show softened age. Its character comes from contrast: a scrubbed pine table against chalky walls, loose linen beside a stable painted cabinet, or one faded floral among mostly plain fabrics. The room should feel eased by use, not manufactured to look neglected."
+        - paragraph [ref=e88]: The style works best when wear is selective. Preserve thin paint, rounded edges and washed color on structurally sound pieces; repair loose joints, sharp chips and failing finishes. Current mattresses, task lighting and storage can remain visually quiet while delivering the comfort an older room often lacks.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Limit visible wear
+          - paragraph [ref=e92]: Let one substantial cabinet, table or bed show patina while most surrounding surfaces remain calm.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Build softness through cloth
+          - paragraph [ref=e95]: Use washed linen, aged cotton and a modest faded weave instead of adding more decorative objects.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Keep pink subordinate
+          - paragraph [ref=e98]: Treat dusty rose as a small textile note; chalk, flax and wood should carry most of the room.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of shabby chic interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Selective painted patina
+          - paragraph [ref=e108]: Natural wear appears at handles and edges, supported by sound construction and clean surfaces.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Relaxed textile layers
+          - paragraph [ref=e114]: Washed linen, cotton and wool soften rooms without lace-heavy or overly formal dressing.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Pale but warm color
+          - paragraph [ref=e120]: Cream, putty and flax prevent the washed palette from becoming cold or overexposed.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Useful collected furniture
+          - paragraph [ref=e126]: A dresser, scrubbed table or narrow console earns its place through storage and daily function.
+      - generic [ref=e127]:
+        - img "Shabby Chic material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Shabby Chic room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Shabby Chic Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/shabby-chic/living-room
+          - img "Shabby Chic Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Shabby Chic Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/shabby-chic/bedroom
+          - img "Shabby Chic Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Shabby Chic Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/shabby-chic/dining-room
+          - img "Shabby Chic Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Shabby Chic Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/shabby-chic/home-office
+          - img "Shabby Chic Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Shabby Chic Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/shabby-chic/kitchen
+          - img "Shabby Chic Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Shabby Chic Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/shabby-chic/entryway-hallway
+          - img "Shabby Chic Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Keep the upholstered pieces plain and comfortable; let one painted table or cabinet carry the visible age.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Pair a simple iron or timber bed with washed linen and one small floral rather than a coordinated romantic set.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Mix compatible chair shapes around a sound old table, then repeat one paint color to hold the group together.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Check desk height and drawer function first; a clean task lamp and ergonomic chair can be quietly contemporary.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Reserve worn timber for a worktable or shelf while cabinetry, worktops and plumbing remain durable and easy to clean.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Use a narrow console, basket and hooks for actual routines; keep the walkway and most of the wall visually open.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let warm chalk and flax occupy most large surfaces. Weathered pine supplies structure, faded sage can define one cabinet and dusty rose should appear in only a few washable textile accents.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Warm chalk
+              - paragraph [ref=e196]: A creamy wall color that stays soft without reading as brilliant or bridal white.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Natural flax
+              - paragraph [ref=e201]: The grounding neutral for linen, rush, rugs and unbleached cotton.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Dusty rose
+              - paragraph [ref=e206]: A restrained accent for one cushion, faded print or bedside textile.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Faded sage
+              - paragraph [ref=e211]: A useful painted-furniture color that cools cream and warm timber.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Weathered pine
+              - paragraph [ref=e216]: The natural wood note that prevents the pale scheme from losing depth.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Washed linen material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Washed linen
+                - paragraph [ref=e224]: Choose a visible weave and relaxed drape; softness should come from laundering, not piles of trim.
+            - generic [ref=e225]:
+              - img "Thin painted patina material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Thin painted patina
+                - paragraph [ref=e229]: Keep stable edge wear that follows use, but seal powdering paint and repair sharp or loose areas.
+            - generic [ref=e230]:
+              - img "Scrubbed pine material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Scrubbed pine
+                - paragraph [ref=e234]: A warm counterpoint to pale paint, best concentrated on one table, chest or shelf.
+            - generic [ref=e235]:
+              - img "Creamware and dull brass material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Creamware and dull brass
+                - paragraph [ref=e239]: Simple handmade forms add age and utility without filling every surface with collectibles.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Start with a warm pale shell, choose one functional piece worth preserving and introduce softness through washable textiles. Add pattern only after the room works in solids.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Choose the worn anchor
+            - paragraph [ref=e250]: Select one sound table, dresser, bed or console whose age will lead the room.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Calm the background
+            - paragraph [ref=e255]: Use warm chalk or putty on large planes and leave some clean, undecorated wall.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Layer washable softness
+            - paragraph [ref=e260]: Add linen, cotton and a low-pile rug in related faded neutrals.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Add one quiet pattern
+            - paragraph [ref=e265]: Introduce a small floral or stripe once, then repeat only one of its muted colors.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every surface is distressed
+          - paragraph [ref=e274]: Keep visible wear on one or two pieces and let the architecture remain clean.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The palette becomes sugary
+          - paragraph [ref=e277]: Replace half the pink with flax, sage or natural timber and remove glossy white.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Softness turns into clutter
+          - paragraph [ref=e280]: Use textile texture instead of adding more cushions, flowers and small ornaments.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Old furniture does not function
+          - paragraph [ref=e283]: Repair joints, drawers and finishes before styling; retire pieces that cannot serve safely.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Shabby Chic vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Shabby Chic is defined less by the age of an object than by a carefully edited language of pale surfaces, softened cloth and credible wear. Its strongest rooms remain functional and visually light.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Vintage" [ref=e293] [cursor=pointer]:
+              - /url: /styles/vintage
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: Broader in period and usually richer in original timber, saturated upholstery and visible historical provenance.
+          - generic [ref=e296]:
+            - text: Choose Shabby Chic if
+            - paragraph [ref=e297]: Choose Shabby Chic for a paler, softer room where painted furniture and washable textiles matter more than decade accuracy.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Faded ease replaces period-led collecting.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "French Country" [ref=e303] [cursor=pointer]:
+              - /url: /styles/french-country
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More architectural and rustic, with stone, substantial timber, provincial forms and stronger warm color.
+          - generic [ref=e306]:
+            - text: Choose Shabby Chic if
+            - paragraph [ref=e307]: Choose Shabby Chic for lighter furniture, more washed cloth and less emphasis on regional French character.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Airy painted layers replace grounded provincial weight.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Cottagecore" [ref=e313] [cursor=pointer]:
+              - /url: /styles/cottagecore
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More narrative and nature-led, often using handmade objects, botanical abundance and rural domestic references.
+          - generic [ref=e316]:
+            - text: Choose Shabby Chic if
+            - paragraph [ref=e317]: Choose Shabby Chic for an edited interior language centered on pale patina rather than pastoral storytelling.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Controlled fading replaces cottage abundance.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Farmhouse" [ref=e323] [cursor=pointer]:
+              - /url: /styles/farmhouse
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More robust and workmanlike, favoring large tables, practical storage, black iron and stronger architectural utility.
+          - generic [ref=e326]:
+            - text: Choose Shabby Chic if
+            - paragraph [ref=e327]: Choose Shabby Chic when the desired effect is lighter, more delicate and textile-driven.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Soft scale replaces agricultural heft.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Look beyond paint color. Test joints and drawers, check old coatings, measure the piece and decide whether the wear is stable before paying for its romantic appearance.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Simple iron bed for Shabby Chic interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Simple iron bed
+            - paragraph [ref=e340]: Check rail connections and mattress size; use current bedding and let only the frame carry a little age.
+        - article [ref=e341]:
+          - img "Scrubbed pine table for Shabby Chic interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Scrubbed pine table
+            - paragraph [ref=e345]: Inspect movement, working height and finish suitability before using an old surface for food preparation.
+        - article [ref=e346]:
+          - img "Painted dining dresser for Shabby Chic interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Painted dining dresser
+            - paragraph [ref=e350]: Favor stable paint, useful shelf depth and working doors over dramatic but fragile peeling.
+        - article [ref=e351]:
+          - img "Compact writing desk for Shabby Chic interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Compact writing desk
+            - paragraph [ref=e355]: Measure knee clearance and monitor depth; add task performance through discreet modern lighting.
+        - article [ref=e356]:
+          - img "Narrow hall console for Shabby Chic interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Narrow hall console
+            - paragraph [ref=e360]: Choose shallow storage with secure legs and drawers that can handle keys, mail and daily use.
+        - article [ref=e361]:
+          - img "Linen and finish samples for Shabby Chic interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Linen and finish samples
+            - paragraph [ref=e365]: Compare cloth, paint and timber under room light before committing to a faded palette.
+    - generic [ref=e367]:
+      - heading "Shabby Chic FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Shabby Chic interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Does Shabby Chic have to be pink?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How much distressed furniture should a room contain?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "How is Shabby Chic different from Vintage?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Can Shabby Chic work in a modern home?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you keep Shabby Chic from looking cluttered?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Vintage interior design Vintage →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/vintage
+          - img "Vintage interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Vintage
+            - generic [ref=e402]: →
+        - link "French Country interior design French Country →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/french-country
+          - img "French Country interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: French Country
+            - generic [ref=e407]: →
+        - link "Cottagecore interior design Cottagecore →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/cottagecore
+          - img "Cottagecore interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Cottagecore
+            - generic [ref=e412]: →
+        - link "Farmhouse interior design Farmhouse →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/farmhouse
+          - img "Farmhouse interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Farmhouse
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

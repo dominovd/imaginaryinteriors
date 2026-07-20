@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Mediterranean
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Mediterranean Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Choose one regional anchor, design for sun and airflow, then let lime, clay and timber express the climate without resort clichés.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Mediterranean interior design hero" [ref=e34]
+          - img "Mediterranean kitchen interior" [ref=e35]
+          - img "Mediterranean styled corner" [ref=e36]
+          - img "Mediterranean detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Shaded + sun-warmed
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Lime plaster, terracotta, chestnut, rush, limestone
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Warm lime, clay, chestnut, olive, cobalt
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Kitchen, dining, entryway
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Climate before decoration
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Operable exterior shading
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Bright threshold, cool interior
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Mixing every coastal region
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Mediterranean interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Mediterranean interior design is a broad family of regional traditions shaped by hot dry summers, strong sunlight and life between interior rooms, courtyards and terraces. Thick mineral walls, shutters, tile floors, timber and shaded openings are not decorative effects alone; they manage heat, glare, airflow and hard daily use.
+        - paragraph [ref=e88]: Because the Mediterranean spans distinct places across Southern Europe, North Africa and the eastern basin, coherence begins with a regional anchor rather than a collage. A Balearic scheme might emphasize lime plaster, terracotta, chestnut and rush; another location will have different stone, joinery, ceramics and color. Borrow the climate logic and research the regional materials instead of combining every arch, tile and blue motif.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Choose a regional anchor
+          - paragraph [ref=e92]: Name one place or material tradition and let it guide joinery, floor, pottery and color choices.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Control sun at the opening
+          - paragraph [ref=e95]: Use shutters, deep reveals, exterior shade and curtains before relying on dark glass or heavy cooling.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Keep mineral surfaces breathable
+          - paragraph [ref=e98]: Specify compatible lime-based finishes where the wall construction requires vapor movement.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of mediterranean interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: A bright-to-shade sequence
+          - paragraph [ref=e108]: Deep openings and transitional halls make intense exterior light comfortable indoors.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Mineral thermal mass
+          - paragraph [ref=e114]: Stone, terracotta and lime moderate temperature while giving the room tactile depth.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Operable airflow
+          - paragraph [ref=e120]: Shutters, opposing openings and ceiling fans support ventilation before decorative styling.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Regionally edited color
+          - paragraph [ref=e126]: Clay, timber and plant green lead; cobalt or another local accent appears in small amounts.
+      - generic [ref=e127]:
+        - img "Mediterranean material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Mediterranean room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Mediterranean Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/mediterranean/living-room
+          - img "Mediterranean Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Mediterranean Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/mediterranean/bedroom
+          - img "Mediterranean Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Mediterranean Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/mediterranean/dining-room
+          - img "Mediterranean Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Mediterranean Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/mediterranean/home-office
+          - img "Mediterranean Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Mediterranean Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/mediterranean/kitchen
+          - img "Mediterranean Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Mediterranean Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/mediterranean/entryway-hallway
+          - img "Mediterranean Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Keep main upholstery pale and washable, preserve shaded openings and let clay flooring and timber provide most of the warmth.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Use shutters, breathable linen and a quiet ceiling fan; reserve blue for one narrow textile or ceramic accent.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Place the table near a shaded courtyard threshold and choose rush seating that stays comfortable in warm weather.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Position the screen away from direct glare, retain adjustable shutters and add a fan before relying on decorative mood.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Use durable stone and tile in work zones, quiet integrated appliances and only a few everyday terracotta vessels.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Treat the hall as a thermal and visual transition with a clear path, built-in bench and controlled view toward daylight.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let lime, clay and chestnut dominate the envelope. Use olive where the room meets planting, and keep cobalt to a stripe, cup, painted edge or single artwork rather than repeating blue everywhere.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Warm lime
+              - paragraph [ref=e196]: A soft mineral white that reflects daylight without producing a cold, glaring interior.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Terracotta clay
+              - paragraph [ref=e201]: The principal floor and pottery note, naturally varied rather than uniformly orange.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Aged chestnut
+              - paragraph [ref=e206]: A substantial joinery tone for shutters, doors, tables and kitchen cabinetry.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Olive leaf
+              - paragraph [ref=e211]: A shaded green for one wall, glaze or textile connection to courtyard planting.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Cobalt edge
+              - paragraph [ref=e216]: A narrow cooling accent, strongest when it appears only once or twice.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Breathable lime plaster material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Breathable lime plaster
+                - paragraph [ref=e224]: Match the finish system to the substrate; avoid sealing traditional walls beneath incompatible impervious coatings.
+            - generic [ref=e225]:
+              - img "Terracotta tile material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Terracotta tile
+                - paragraph [ref=e229]: Expect tonal variation and specify the right finish, sealing and slip performance for each room.
+            - generic [ref=e230]:
+              - img "Chestnut and rush material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Chestnut and rush
+                - paragraph [ref=e234]: Durable regional furniture materials add warmth without requiring ornate silhouettes.
+            - generic [ref=e235]:
+              - img "Stone, glaze and iron material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Stone, glaze and iron
+                - paragraph [ref=e239]: Use local stone broadly, glaze selectively and blackened iron only where hardware needs definition.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Select the regional reference, map sun and airflow, then choose the wall and floor assemblies. Furniture and color should reinforce those decisions rather than simulate a holiday villa.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Map heat and glare
+            - paragraph [ref=e250]: Track direct sun, prevailing breeze and the hottest openings before specifying furniture or color.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Choose the regional base
+            - paragraph [ref=e255]: Research one place’s plaster, floor, joinery and everyday craft instead of mixing landmarks.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Build the mineral envelope
+            - paragraph [ref=e260]: Specify compatible wall, floor and stone finishes with the required moisture and slip performance.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Add one cooling accent
+            - paragraph [ref=e265]: Use olive, cobalt or another regional color in a limited, repeatable role.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Blue becomes the whole identity
+          - paragraph [ref=e274]: Return large surfaces to lime, clay and timber; keep blue on one textile or ceramic family.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Regions are mixed as motifs
+          - paragraph [ref=e277]: Choose one geographic anchor and research its architecture, joinery and everyday materials.
+        - generic [ref=e278]:
+          - generic [ref=e279]: The room looks sunny but overheats
+          - paragraph [ref=e280]: Add exterior shading, operable shutters, cross-ventilation and fans before styling the windows.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Rustic surfaces fail in use
+          - paragraph [ref=e283]: Specify sealing, food safety, slip resistance and cleaning needs for tile, stone and pottery.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Mediterranean vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Mediterranean design is best understood through climate and region, not a universal white-and-blue look. Its coherence comes from one material geography and the way rooms mediate heat, light and outdoor life.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Coastal" [ref=e293] [cursor=pointer]:
+              - /url: /styles/coastal
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More broadly seaside and relaxed, often using pale timber, blue-grey textiles and references to water without a specific hot-climate building tradition.
+          - generic [ref=e296]:
+            - text: Choose Mediterranean if
+            - paragraph [ref=e297]: Choose Mediterranean when mineral mass, shade, courtyards and regional materials should lead.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Climate-responsive masonry replaces general seaside lightness.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Tuscan" [ref=e303] [cursor=pointer]:
+              - /url: /styles/tuscan
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: A more specific central-Italian expression with heavier timber, ochre plaster, aged stone and robust rustic furniture.
+          - generic [ref=e306]:
+            - text: Choose Mediterranean if
+            - paragraph [ref=e307]: Choose Mediterranean for a broader umbrella that can be lighter and anchored to another coastal region.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Regional flexibility replaces Tuscan specificity.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Moroccan" [ref=e313] [cursor=pointer]:
+              - /url: /styles/moroccan
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: A distinct North African tradition with its own spatial customs, plasterwork, tile, carved timber and metal craft.
+          - generic [ref=e316]:
+            - text: Choose Mediterranean if
+            - paragraph [ref=e317]: Choose Mediterranean as an umbrella only when you are not attempting to reproduce Moroccan design without its context.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Shared climate logic replaces one cultural vocabulary.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Desert Modern" [ref=e323] [cursor=pointer]:
+              - /url: /styles/desert-modern
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More contemporary and reduced, using stark volumes, controlled glazing and desert-toned materials with minimal historical reference.
+          - generic [ref=e326]:
+            - text: Choose Mediterranean if
+            - paragraph [ref=e327]: Choose Mediterranean for visible regional craft, shaded thresholds and older courtyard relationships.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Layered regional continuity replaces abstract reduction.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Prioritize material suitability over decorative effect. Ask where stone and clay come from, how finishes breathe, whether tiles slip and how timber or metal will age in strong sun.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Chestnut platform bed for Mediterranean interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Chestnut platform bed
+            - paragraph [ref=e340]: Choose simple solid joinery, standard mattress support and enough floor clearance for a cool uncluttered room.
+        - article [ref=e341]:
+          - img "Stone kitchen worktop for Mediterranean interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Stone kitchen worktop
+            - paragraph [ref=e345]: Verify porosity, sealing, edge durability and maintenance rather than selecting stone by rustic appearance alone.
+        - article [ref=e346]:
+          - img "Rush-seat dining chairs for Mediterranean interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Rush-seat dining chairs
+            - paragraph [ref=e350]: Check frame joints, seat height and replaceability of the woven seat for long-term everyday use.
+        - article [ref=e351]:
+          - img "Adjustable shutters for Mediterranean interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Adjustable shutters
+            - paragraph [ref=e355]: Specify operable louvers and suitable exterior finish so light and airflow can be tuned through the day.
+        - article [ref=e356]:
+          - img "Entryway clay tile for Mediterranean interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Entryway clay tile
+            - paragraph [ref=e360]: Confirm slip resistance, installation bed and sealing for the transition between exterior dust and interior use.
+        - article [ref=e361]:
+          - img "Regional material set for Mediterranean interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Regional material set
+            - paragraph [ref=e365]: Compare plaster, tile, stone, rush, glaze and iron together before committing to a mixed supplier palette.
+    - generic [ref=e367]:
+      - heading "Mediterranean FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Mediterranean interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Does a Mediterranean interior have to be blue and white?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How do you choose a Mediterranean regional direction?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Which materials work best?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "How can the style work outside a hot climate?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you avoid a resort look?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Coastal interior design Coastal →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/coastal
+          - img "Coastal interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Coastal
+            - generic [ref=e402]: →
+        - link "Tuscan interior design Tuscan →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/tuscan
+          - img "Tuscan interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Tuscan
+            - generic [ref=e407]: →
+        - link "Moroccan interior design Moroccan →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/moroccan
+          - img "Moroccan interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Moroccan
+            - generic [ref=e412]: →
+        - link "Desert Modern interior design Desert Modern →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/desert-modern
+          - img "Desert Modern interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Desert Modern
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

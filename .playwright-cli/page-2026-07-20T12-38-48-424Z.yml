@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Moroccan
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Moroccan Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Courtyard light, smooth tadelakt, measured zellige and cedar joinery create depth before a single decorative object is added.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Moroccan interior design hero" [ref=e34]
+          - img "Moroccan kitchen interior" [ref=e35]
+          - img "Moroccan styled corner" [ref=e36]
+          - img "Moroccan detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Inward + luminous
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Tadelakt, zellige, cedar, wool, aged brass
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Bone, Marrakesh rose, cedar, bottle green, saffron
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Courtyard, entryway, bath, dining room
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Space before ornament
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Skilled tadelakt application
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Zellige at one threshold
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Pan-Arabic palace styling
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Moroccan interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Moroccan interior design grows from several regional building and craft traditions rather than one decorative formula. In a Marrakesh riad, an inward-facing courtyard organizes daylight, air and privacy; a bent entrance delays the view from the street, while shaded rooms, galleries and roof terraces form a deliberate sequence.
+        - paragraph [ref=e88]: Tadelakt, zellige and carved cedar are skilled building techniques, not interchangeable surface effects. Tadelakt makes continuous water-resistant lime planes, zellige brings precise geometry to selected fields and borders, and timber joinery gives openings weight. A current home can borrow these principles honestly when services stay quiet, craft is specified correctly and objects do not compete for attention.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Name the place and building type
+          - paragraph [ref=e92]: A Marrakesh riad, Fez townhouse and coastal home do not share one palette or decorative script.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Concentrate geometry
+          - paragraph [ref=e95]: Use zellige as one field, dado or threshold instead of sprinkling small patterned moments around the room.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Specify craft technically
+          - paragraph [ref=e98]: Hire installers experienced with the substrate, curing, joints, sealing and maintenance each traditional finish requires.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of moroccan interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: An inward spatial sequence
+          - paragraph [ref=e108]: A discreet entry opens gradually toward the courtyard, making movement and privacy part of the design.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Continuous mineral surfaces
+          - paragraph [ref=e114]: Lime and tadelakt soften corners, hold changing light and reduce the need for added decoration.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Precise crafted geometry
+          - paragraph [ref=e120]: Zellige, plaster carving and timber screens create measured focal zones rather than all-over spectacle.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Low, shaded furnishing
+          - paragraph [ref=e126]: Deep seating, rugs and compact tables support long conversation without blocking circulation or courtyard views.
+      - generic [ref=e127]:
+        - img "Moroccan material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Moroccan room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Moroccan Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/moroccan/living-room
+          - img "Moroccan Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Moroccan Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/moroccan/bedroom
+          - img "Moroccan Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Moroccan Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/moroccan/dining-room
+          - img "Moroccan Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Moroccan Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/moroccan/home-office
+          - img "Moroccan Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Moroccan Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/moroccan/kitchen
+          - img "Moroccan Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Moroccan Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/moroccan/entryway-hallway
+          - img "Moroccan Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Keep the main seating low and plain, then give one rug, carved opening or zellige panel enough space to read clearly.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Use lime walls, cedar storage and washed linen; let a narrow woven textile carry the room’s strongest color.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Place robust timber seating beside the courtyard and choose a pendant that lights the table rather than filling the ceiling with pattern.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Set the desk perpendicular to filtered daylight and use built-in cedar storage to keep equipment visually quiet.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Reserve zellige for a cleanable backsplash, use durable worktops and integrate appliances behind simple cedar fronts.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Preserve the turn and delayed view; add a shallow bench, one wall light and closed storage without crowding the passage.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let bone lime and rose shape the architecture, with cedar anchoring openings and storage. Keep green inside one glazed zone and allow saffron to arrive through aged metal or fiber rather than bright paint.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Bone lime
+              - paragraph [ref=e196]: A warm reflective base for walls and ceilings that keeps deep rooms from feeling heavy.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Marrakesh rose
+              - paragraph [ref=e201]: A muted clay-red drawn from mineral walls, strongest on one continuous plane.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Cedar brown
+              - paragraph [ref=e206]: The grounding tone for doors, ceilings, cabinetry and substantial furniture.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Bottle green
+              - paragraph [ref=e211]: A concentrated glazed accent for a backsplash, fountain edge or narrow tile field.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Aged saffron
+              - paragraph [ref=e216]: A small warm note supplied by old brass, wool or a single ceramic detail.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Polished tadelakt material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Polished tadelakt
+                - paragraph [ref=e224]: Specify the full lime system and an experienced applicator; subtle tonal movement is part of the finish.
+            - generic [ref=e225]:
+              - img "Hand-cut zellige material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Hand-cut zellige
+                - paragraph [ref=e229]: Expect irregular edges and glaze variation, while requiring a deliberate layout, suitable grout and clean junctions.
+            - generic [ref=e230]:
+              - img "Cedar and woven wool material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Cedar and woven wool
+                - paragraph [ref=e234]: Use solid joinery and traceable fiber for warmth, acoustics and daily comfort rather than decorative overload.
+            - generic [ref=e235]:
+              - img "Clay and aged brass material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Clay and aged brass
+                - paragraph [ref=e239]: Choose a few useful vessels and fittings whose patina can develop naturally through handling.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Map privacy, shade and the route to daylight first. Choose one architectural craft to lead, coordinate it with the building trades, then add only the furniture and textiles the room needs.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Draw the sequence
+            - paragraph [ref=e250]: Mark the entrance turn, principal sightline, shaded sitting area and brightest courtyard or window.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Choose one lead craft
+            - paragraph [ref=e255]: Let tadelakt, zellige or cedar define the main surface relationship instead of using all three everywhere.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Coordinate the substrate
+            - paragraph [ref=e260]: Resolve waterproofing, services, movement joints and lighting before specialist finish work begins.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Edit the furnishing layer
+            - paragraph [ref=e265]: Add low seating, one substantial weave and a few useful objects, leaving architecture visible.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Tile covers every available surface
+          - paragraph [ref=e274]: Restrict zellige to one functional field or architectural edge and let lime carry the larger planes.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Lanterns become the whole style
+          - paragraph [ref=e277]: Choose one correctly scaled light and build character through spatial sequence, plaster and joinery.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Synthetic coating imitates tadelakt
+          - paragraph [ref=e280]: Use a properly specified lime system and experienced craftsperson, especially in wet areas.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Arches appear without spatial logic
+          - paragraph [ref=e283]: Use shaped openings only where they frame a threshold, view or structural transition.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Moroccan vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Moroccan design should not be treated as a shortcut for exotic color or generalized “Arabic” luxury. Its identity is clearest when regional architecture, specialist finishes and everyday craft work as one restrained system.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Mediterranean" [ref=e293] [cursor=pointer]:
+              - /url: /styles/mediterranean
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: A wider climate-based family that may use lime, clay and shaded outdoor living without Moroccan spatial or craft specificity.
+          - generic [ref=e296]:
+            - text: Choose Moroccan if
+            - paragraph [ref=e297]: Choose Moroccan when riad sequence, tadelakt, zellige and cedar should form a coherent regional vocabulary.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Specific craft and inward planning replace a broad coastal umbrella.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Global" [ref=e303] [cursor=pointer]:
+              - /url: /styles/global
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Combines traceable craft from more than one region inside a neutral contemporary framework.
+          - generic [ref=e306]:
+            - text: Choose Moroccan if
+            - paragraph [ref=e307]: Choose Moroccan when one place and its related building traditions should guide the whole room.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: One regional system replaces multi-source curation.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Bohemian" [ref=e313] [cursor=pointer]:
+              - /url: /styles/bohemian
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More personal and improvisational, using abundant plants, textiles and collected objects with looser spatial rules.
+          - generic [ref=e316]:
+            - text: Choose Moroccan if
+            - paragraph [ref=e317]: Choose Moroccan when architecture and disciplined craft should lead instead of free-form layering.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Built surfaces replace accessory density.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Arabic" [ref=e323] [cursor=pointer]:
+              - /url: /styles/arabic
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: A broad label spanning many distinct design cultures and often interpreted through formal symmetry, luxury materials and geometric ornament.
+          - generic [ref=e326]:
+            - text: Choose Moroccan if
+            - paragraph [ref=e327]: Choose Moroccan when the reference is specifically North African and can be supported by its own materials, makers and spatial customs.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Regional specificity replaces a generalized Middle Eastern look.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Buy fewer pieces and ask technical questions. For finishes, verify installer experience and maintenance; for rugs, timber and ceramics, seek material, maker, region and intended use.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Cedar platform bed for Moroccan interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Cedar platform bed
+            - paragraph [ref=e340]: Check solid joinery, ventilation beneath the mattress and low-odor finishing rather than choosing carving alone.
+        - article [ref=e341]:
+          - img "Zellige backsplash for Moroccan interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Zellige backsplash
+            - paragraph [ref=e345]: Request a sample board showing edge variation, grout width, corner treatment and the actual glaze batch.
+        - article [ref=e346]:
+          - img "Courtyard dining set for Moroccan interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Courtyard dining set
+            - paragraph [ref=e350]: Choose stable timber and repairable woven seats suited to shade, dust and occasional humidity.
+        - article [ref=e351]:
+          - img "Cedar writing desk for Moroccan interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Cedar writing desk
+            - paragraph [ref=e355]: Prioritize a comfortable height, cable route and usable drawer depth before decorative detailing.
+        - article [ref=e356]:
+          - img "Aged brass wall light for Moroccan interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Aged brass wall light
+            - paragraph [ref=e360]: Confirm electrical certification, glare control and access for rewiring; one well-scaled fitting is enough.
+        - article [ref=e361]:
+          - img "Tadelakt sample panel for Moroccan interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Tadelakt sample panel
+            - paragraph [ref=e365]: Approve color, sheen, corner profile and water response on the intended substrate before installation.
+    - generic [ref=e367]:
+      - heading "Moroccan FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Moroccan interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Is Moroccan design always colorful?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "What is the difference between tadelakt and ordinary plaster?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Where should zellige be used?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "How can a modern home reference a riad?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you avoid a themed Moroccan room?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Mediterranean interior design Mediterranean →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/mediterranean
+          - img "Mediterranean interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Mediterranean
+            - generic [ref=e402]: →
+        - link "Global interior design Global →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/global
+          - img "Global interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Global
+            - generic [ref=e407]: →
+        - link "Bohemian interior design Bohemian →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/bohemian
+          - img "Bohemian interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Bohemian
+            - generic [ref=e412]: →
+        - link "Arabic interior design Arabic →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/arabic
+          - img "Arabic interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Arabic
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

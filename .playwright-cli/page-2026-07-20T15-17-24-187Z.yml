@@ -1,0 +1,2358 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: Rooms
+        - heading "Interior design by room" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Filter room ideas by style and room type, or open a full room guide.
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: Room
+            - button "All rooms" [ref=e30] [cursor=pointer]
+            - button "Living Room" [ref=e31] [cursor=pointer]
+            - button "Home Office" [ref=e32] [cursor=pointer]
+            - button "Bedroom" [ref=e33] [cursor=pointer]
+            - button "Kitchen" [ref=e34] [cursor=pointer]
+            - button "Dining Room" [ref=e35] [cursor=pointer]
+            - button "Entryway & Hallway" [ref=e36] [cursor=pointer]
+          - generic [ref=e37]:
+            - generic [ref=e38]: Style
+            - button "All styles" [ref=e39] [cursor=pointer]
+            - button "Modern Rustic" [ref=e40] [cursor=pointer]
+            - button "Japandi" [ref=e41] [cursor=pointer]
+            - button "Traditional" [ref=e42] [cursor=pointer]
+            - button "Contemporary" [ref=e43] [cursor=pointer]
+            - button "Sustainable" [ref=e44] [cursor=pointer]
+            - button "Organic Modern" [ref=e45] [cursor=pointer]
+            - button "Feng Shui" [ref=e46] [cursor=pointer]
+            - button "Minimalist" [ref=e47] [cursor=pointer]
+            - button "Scandinavian" [ref=e48] [cursor=pointer]
+            - button "70s Interior Design" [ref=e49] [cursor=pointer]
+            - button "Warm Minimalist" [ref=e50] [cursor=pointer]
+            - button "Wabi-Sabi" [ref=e51] [cursor=pointer]
+            - button "Modern" [ref=e52] [cursor=pointer]
+            - button "Mid-Century Modern" [ref=e53] [cursor=pointer]
+            - button "Urban Modern" [ref=e54] [cursor=pointer]
+            - button "Luxe Modern" [ref=e55] [cursor=pointer]
+            - button "High-Tech" [ref=e56] [cursor=pointer]
+            - button "Retrofuturism" [ref=e57] [cursor=pointer]
+            - button "Industrial" [ref=e58] [cursor=pointer]
+            - button "Industrial Chic" [ref=e59] [cursor=pointer]
+            - button "Modern Glam" [ref=e60] [cursor=pointer]
+            - button "Transitional Glam" [ref=e61] [cursor=pointer]
+            - button "Art Deco" [ref=e62] [cursor=pointer]
+            - button "Hollywood Regency" [ref=e63] [cursor=pointer]
+            - button "Maximalist" [ref=e64] [cursor=pointer]
+            - button "Transitional" [ref=e65] [cursor=pointer]
+            - button "New Traditional" [ref=e66] [cursor=pointer]
+            - button "Neo-Traditional" [ref=e67] [cursor=pointer]
+            - button "European Classic" [ref=e68] [cursor=pointer]
+            - button "Victorian" [ref=e69] [cursor=pointer]
+            - button "Gothic" [ref=e70] [cursor=pointer]
+            - button "Art Nouveau" [ref=e71] [cursor=pointer]
+            - button "Bauhaus" [ref=e72] [cursor=pointer]
+            - button "Grandmillennial" [ref=e73] [cursor=pointer]
+            - button "Rustic" [ref=e74] [cursor=pointer]
+            - button "Farmhouse" [ref=e75] [cursor=pointer]
+            - button "Modern Farmhouse" [ref=e76] [cursor=pointer]
+            - button "Country" [ref=e77] [cursor=pointer]
+            - button "French Country" [ref=e78] [cursor=pointer]
+            - button "Tuscan" [ref=e79] [cursor=pointer]
+            - button "Cabin" [ref=e80] [cursor=pointer]
+            - button "Cottagecore" [ref=e81] [cursor=pointer]
+            - button "Coastal" [ref=e82] [cursor=pointer]
+            - button "Coastal Grandmother" [ref=e83] [cursor=pointer]
+            - button "Tropical" [ref=e84] [cursor=pointer]
+            - button "Vintage" [ref=e85] [cursor=pointer]
+            - button "Shabby Chic" [ref=e86] [cursor=pointer]
+            - button "Bohemian" [ref=e87] [cursor=pointer]
+            - button "Eclectic" [ref=e88] [cursor=pointer]
+            - button "Global" [ref=e89] [cursor=pointer]
+            - button "Mediterranean" [ref=e90] [cursor=pointer]
+            - button "Moroccan" [ref=e91] [cursor=pointer]
+            - button "Arabic" [ref=e92] [cursor=pointer]
+            - button "Asian Zen" [ref=e93] [cursor=pointer]
+            - button "Southwestern" [ref=e94] [cursor=pointer]
+            - button "Desert Modern" [ref=e95] [cursor=pointer]
+            - button "IKEA-Inspired" [ref=e96] [cursor=pointer]
+            - button "Pottery Barn-Inspired" [ref=e97] [cursor=pointer]
+            - button "West Elm Modern" [ref=e98] [cursor=pointer]
+            - button "Elven Fantasy" [ref=e99] [cursor=pointer]
+            - generic [ref=e100]: 360 results
+        - generic [ref=e101]:
+          - link "Modern Rustic Living Room interior Modern Rustic Living Room →" [ref=e102] [cursor=pointer]:
+            - /url: /styles/modern-rustic/living-room
+            - img "Modern Rustic Living Room interior" [ref=e103]
+            - generic [ref=e104]:
+              - generic [ref=e105]: Modern Rustic Living Room
+              - generic [ref=e106]: →
+          - link "Modern Rustic Home Office interior Modern Rustic Home Office →" [ref=e107] [cursor=pointer]:
+            - /url: /styles/modern-rustic/home-office
+            - img "Modern Rustic Home Office interior" [ref=e108]
+            - generic [ref=e109]:
+              - generic [ref=e110]: Modern Rustic Home Office
+              - generic [ref=e111]: →
+          - link "Modern Rustic Bedroom interior Modern Rustic Bedroom →" [ref=e112] [cursor=pointer]:
+            - /url: /styles/modern-rustic/bedroom
+            - img "Modern Rustic Bedroom interior" [ref=e113]
+            - generic [ref=e114]:
+              - generic [ref=e115]: Modern Rustic Bedroom
+              - generic [ref=e116]: →
+          - link "Modern Rustic Kitchen interior Modern Rustic Kitchen →" [ref=e117] [cursor=pointer]:
+            - /url: /styles/modern-rustic/kitchen
+            - img "Modern Rustic Kitchen interior" [ref=e118]
+            - generic [ref=e119]:
+              - generic [ref=e120]: Modern Rustic Kitchen
+              - generic [ref=e121]: →
+          - link "Modern Rustic Dining Room interior Modern Rustic Dining Room →" [ref=e122] [cursor=pointer]:
+            - /url: /styles/modern-rustic/dining-room
+            - img "Modern Rustic Dining Room interior" [ref=e123]
+            - generic [ref=e124]:
+              - generic [ref=e125]: Modern Rustic Dining Room
+              - generic [ref=e126]: →
+          - link "Modern Rustic Entryway & Hallway interior Modern Rustic Entryway & Hallway →" [ref=e127] [cursor=pointer]:
+            - /url: /styles/modern-rustic/entryway-hallway
+            - img "Modern Rustic Entryway & Hallway interior" [ref=e128]
+            - generic [ref=e129]:
+              - generic [ref=e130]: Modern Rustic Entryway & Hallway
+              - generic [ref=e131]: →
+          - link "Japandi Living Room interior Japandi Living Room →" [ref=e132] [cursor=pointer]:
+            - /url: /styles/japandi/living-room
+            - img "Japandi Living Room interior" [ref=e133]
+            - generic [ref=e134]:
+              - generic [ref=e135]: Japandi Living Room
+              - generic [ref=e136]: →
+          - link "Japandi Home Office interior Japandi Home Office →" [ref=e137] [cursor=pointer]:
+            - /url: /styles/japandi/home-office
+            - img "Japandi Home Office interior" [ref=e138]
+            - generic [ref=e139]:
+              - generic [ref=e140]: Japandi Home Office
+              - generic [ref=e141]: →
+          - link "Japandi Bedroom interior Japandi Bedroom →" [ref=e142] [cursor=pointer]:
+            - /url: /styles/japandi/bedroom
+            - img "Japandi Bedroom interior" [ref=e143]
+            - generic [ref=e144]:
+              - generic [ref=e145]: Japandi Bedroom
+              - generic [ref=e146]: →
+          - link "Japandi Kitchen interior Japandi Kitchen →" [ref=e147] [cursor=pointer]:
+            - /url: /styles/japandi/kitchen
+            - img "Japandi Kitchen interior" [ref=e148]
+            - generic [ref=e149]:
+              - generic [ref=e150]: Japandi Kitchen
+              - generic [ref=e151]: →
+          - link "Japandi Dining Room interior Japandi Dining Room →" [ref=e152] [cursor=pointer]:
+            - /url: /styles/japandi/dining-room
+            - img "Japandi Dining Room interior" [ref=e153]
+            - generic [ref=e154]:
+              - generic [ref=e155]: Japandi Dining Room
+              - generic [ref=e156]: →
+          - link "Japandi Entryway & Hallway interior Japandi Entryway & Hallway →" [ref=e157] [cursor=pointer]:
+            - /url: /styles/japandi/entryway-hallway
+            - img "Japandi Entryway & Hallway interior" [ref=e158]
+            - generic [ref=e159]:
+              - generic [ref=e160]: Japandi Entryway & Hallway
+              - generic [ref=e161]: →
+          - link "Traditional Living Room interior Traditional Living Room →" [ref=e162] [cursor=pointer]:
+            - /url: /styles/traditional/living-room
+            - img "Traditional Living Room interior" [ref=e163]
+            - generic [ref=e164]:
+              - generic [ref=e165]: Traditional Living Room
+              - generic [ref=e166]: →
+          - link "Traditional Home Office interior Traditional Home Office →" [ref=e167] [cursor=pointer]:
+            - /url: /styles/traditional/home-office
+            - img "Traditional Home Office interior" [ref=e168]
+            - generic [ref=e169]:
+              - generic [ref=e170]: Traditional Home Office
+              - generic [ref=e171]: →
+          - link "Traditional Bedroom interior Traditional Bedroom →" [ref=e172] [cursor=pointer]:
+            - /url: /styles/traditional/bedroom
+            - img "Traditional Bedroom interior" [ref=e173]
+            - generic [ref=e174]:
+              - generic [ref=e175]: Traditional Bedroom
+              - generic [ref=e176]: →
+          - link "Traditional Kitchen interior Traditional Kitchen →" [ref=e177] [cursor=pointer]:
+            - /url: /styles/traditional/kitchen
+            - img "Traditional Kitchen interior" [ref=e178]
+            - generic [ref=e179]:
+              - generic [ref=e180]: Traditional Kitchen
+              - generic [ref=e181]: →
+          - link "Traditional Dining Room interior Traditional Dining Room →" [ref=e182] [cursor=pointer]:
+            - /url: /styles/traditional/dining-room
+            - img "Traditional Dining Room interior" [ref=e183]
+            - generic [ref=e184]:
+              - generic [ref=e185]: Traditional Dining Room
+              - generic [ref=e186]: →
+          - link "Traditional Entryway & Hallway interior Traditional Entryway & Hallway →" [ref=e187] [cursor=pointer]:
+            - /url: /styles/traditional/entryway-hallway
+            - img "Traditional Entryway & Hallway interior" [ref=e188]
+            - generic [ref=e189]:
+              - generic [ref=e190]: Traditional Entryway & Hallway
+              - generic [ref=e191]: →
+          - link "Contemporary Living Room interior Contemporary Living Room →" [ref=e192] [cursor=pointer]:
+            - /url: /styles/contemporary/living-room
+            - img "Contemporary Living Room interior" [ref=e193]
+            - generic [ref=e194]:
+              - generic [ref=e195]: Contemporary Living Room
+              - generic [ref=e196]: →
+          - link "Contemporary Home Office interior Contemporary Home Office →" [ref=e197] [cursor=pointer]:
+            - /url: /styles/contemporary/home-office
+            - img "Contemporary Home Office interior" [ref=e198]
+            - generic [ref=e199]:
+              - generic [ref=e200]: Contemporary Home Office
+              - generic [ref=e201]: →
+          - link "Contemporary Bedroom interior Contemporary Bedroom →" [ref=e202] [cursor=pointer]:
+            - /url: /styles/contemporary/bedroom
+            - img "Contemporary Bedroom interior" [ref=e203]
+            - generic [ref=e204]:
+              - generic [ref=e205]: Contemporary Bedroom
+              - generic [ref=e206]: →
+          - link "Contemporary Kitchen interior Contemporary Kitchen →" [ref=e207] [cursor=pointer]:
+            - /url: /styles/contemporary/kitchen
+            - img "Contemporary Kitchen interior" [ref=e208]
+            - generic [ref=e209]:
+              - generic [ref=e210]: Contemporary Kitchen
+              - generic [ref=e211]: →
+          - link "Contemporary Dining Room interior Contemporary Dining Room →" [ref=e212] [cursor=pointer]:
+            - /url: /styles/contemporary/dining-room
+            - img "Contemporary Dining Room interior" [ref=e213]
+            - generic [ref=e214]:
+              - generic [ref=e215]: Contemporary Dining Room
+              - generic [ref=e216]: →
+          - link "Contemporary Entryway & Hallway interior Contemporary Entryway & Hallway →" [ref=e217] [cursor=pointer]:
+            - /url: /styles/contemporary/entryway-hallway
+            - img "Contemporary Entryway & Hallway interior" [ref=e218]
+            - generic [ref=e219]:
+              - generic [ref=e220]: Contemporary Entryway & Hallway
+              - generic [ref=e221]: →
+          - link "Sustainable Living Room interior Sustainable Living Room →" [ref=e222] [cursor=pointer]:
+            - /url: /styles/sustainable/living-room
+            - img "Sustainable Living Room interior" [ref=e223]
+            - generic [ref=e224]:
+              - generic [ref=e225]: Sustainable Living Room
+              - generic [ref=e226]: →
+          - link "Sustainable Home Office interior Sustainable Home Office →" [ref=e227] [cursor=pointer]:
+            - /url: /styles/sustainable/home-office
+            - img "Sustainable Home Office interior" [ref=e228]
+            - generic [ref=e229]:
+              - generic [ref=e230]: Sustainable Home Office
+              - generic [ref=e231]: →
+          - link "Sustainable Bedroom interior Sustainable Bedroom →" [ref=e232] [cursor=pointer]:
+            - /url: /styles/sustainable/bedroom
+            - img "Sustainable Bedroom interior" [ref=e233]
+            - generic [ref=e234]:
+              - generic [ref=e235]: Sustainable Bedroom
+              - generic [ref=e236]: →
+          - link "Sustainable Kitchen interior Sustainable Kitchen →" [ref=e237] [cursor=pointer]:
+            - /url: /styles/sustainable/kitchen
+            - img "Sustainable Kitchen interior" [ref=e238]
+            - generic [ref=e239]:
+              - generic [ref=e240]: Sustainable Kitchen
+              - generic [ref=e241]: →
+          - link "Sustainable Dining Room interior Sustainable Dining Room →" [ref=e242] [cursor=pointer]:
+            - /url: /styles/sustainable/dining-room
+            - img "Sustainable Dining Room interior" [ref=e243]
+            - generic [ref=e244]:
+              - generic [ref=e245]: Sustainable Dining Room
+              - generic [ref=e246]: →
+          - link "Sustainable Entryway & Hallway interior Sustainable Entryway & Hallway →" [ref=e247] [cursor=pointer]:
+            - /url: /styles/sustainable/entryway-hallway
+            - img "Sustainable Entryway & Hallway interior" [ref=e248]
+            - generic [ref=e249]:
+              - generic [ref=e250]: Sustainable Entryway & Hallway
+              - generic [ref=e251]: →
+          - link "Organic Modern Living Room interior Organic Modern Living Room →" [ref=e252] [cursor=pointer]:
+            - /url: /styles/organic-modern/living-room
+            - img "Organic Modern Living Room interior" [ref=e253]
+            - generic [ref=e254]:
+              - generic [ref=e255]: Organic Modern Living Room
+              - generic [ref=e256]: →
+          - link "Organic Modern Home Office interior Organic Modern Home Office →" [ref=e257] [cursor=pointer]:
+            - /url: /styles/organic-modern/home-office
+            - img "Organic Modern Home Office interior" [ref=e258]
+            - generic [ref=e259]:
+              - generic [ref=e260]: Organic Modern Home Office
+              - generic [ref=e261]: →
+          - link "Organic Modern Bedroom interior Organic Modern Bedroom →" [ref=e262] [cursor=pointer]:
+            - /url: /styles/organic-modern/bedroom
+            - img "Organic Modern Bedroom interior" [ref=e263]
+            - generic [ref=e264]:
+              - generic [ref=e265]: Organic Modern Bedroom
+              - generic [ref=e266]: →
+          - link "Organic Modern Kitchen interior Organic Modern Kitchen →" [ref=e267] [cursor=pointer]:
+            - /url: /styles/organic-modern/kitchen
+            - img "Organic Modern Kitchen interior" [ref=e268]
+            - generic [ref=e269]:
+              - generic [ref=e270]: Organic Modern Kitchen
+              - generic [ref=e271]: →
+          - link "Organic Modern Dining Room interior Organic Modern Dining Room →" [ref=e272] [cursor=pointer]:
+            - /url: /styles/organic-modern/dining-room
+            - img "Organic Modern Dining Room interior" [ref=e273]
+            - generic [ref=e274]:
+              - generic [ref=e275]: Organic Modern Dining Room
+              - generic [ref=e276]: →
+          - link "Organic Modern Entryway & Hallway interior Organic Modern Entryway & Hallway →" [ref=e277] [cursor=pointer]:
+            - /url: /styles/organic-modern/entryway-hallway
+            - img "Organic Modern Entryway & Hallway interior" [ref=e278]
+            - generic [ref=e279]:
+              - generic [ref=e280]: Organic Modern Entryway & Hallway
+              - generic [ref=e281]: →
+          - link "Feng Shui Living Room interior Feng Shui Living Room →" [ref=e282] [cursor=pointer]:
+            - /url: /styles/feng-shui/living-room
+            - img "Feng Shui Living Room interior" [ref=e283]
+            - generic [ref=e284]:
+              - generic [ref=e285]: Feng Shui Living Room
+              - generic [ref=e286]: →
+          - link "Feng Shui Home Office interior Feng Shui Home Office →" [ref=e287] [cursor=pointer]:
+            - /url: /styles/feng-shui/home-office
+            - img "Feng Shui Home Office interior" [ref=e288]
+            - generic [ref=e289]:
+              - generic [ref=e290]: Feng Shui Home Office
+              - generic [ref=e291]: →
+          - link "Feng Shui Bedroom interior Feng Shui Bedroom →" [ref=e292] [cursor=pointer]:
+            - /url: /styles/feng-shui/bedroom
+            - img "Feng Shui Bedroom interior" [ref=e293]
+            - generic [ref=e294]:
+              - generic [ref=e295]: Feng Shui Bedroom
+              - generic [ref=e296]: →
+          - link "Feng Shui Kitchen interior Feng Shui Kitchen →" [ref=e297] [cursor=pointer]:
+            - /url: /styles/feng-shui/kitchen
+            - img "Feng Shui Kitchen interior" [ref=e298]
+            - generic [ref=e299]:
+              - generic [ref=e300]: Feng Shui Kitchen
+              - generic [ref=e301]: →
+          - link "Feng Shui Dining Room interior Feng Shui Dining Room →" [ref=e302] [cursor=pointer]:
+            - /url: /styles/feng-shui/dining-room
+            - img "Feng Shui Dining Room interior" [ref=e303]
+            - generic [ref=e304]:
+              - generic [ref=e305]: Feng Shui Dining Room
+              - generic [ref=e306]: →
+          - link "Feng Shui Entryway & Hallway interior Feng Shui Entryway & Hallway →" [ref=e307] [cursor=pointer]:
+            - /url: /styles/feng-shui/entryway-hallway
+            - img "Feng Shui Entryway & Hallway interior" [ref=e308]
+            - generic [ref=e309]:
+              - generic [ref=e310]: Feng Shui Entryway & Hallway
+              - generic [ref=e311]: →
+          - link "Minimalist Living Room interior Minimalist Living Room →" [ref=e312] [cursor=pointer]:
+            - /url: /styles/minimalist/living-room
+            - img "Minimalist Living Room interior" [ref=e313]
+            - generic [ref=e314]:
+              - generic [ref=e315]: Minimalist Living Room
+              - generic [ref=e316]: →
+          - link "Minimalist Home Office interior Minimalist Home Office →" [ref=e317] [cursor=pointer]:
+            - /url: /styles/minimalist/home-office
+            - img "Minimalist Home Office interior" [ref=e318]
+            - generic [ref=e319]:
+              - generic [ref=e320]: Minimalist Home Office
+              - generic [ref=e321]: →
+          - link "Minimalist Bedroom interior Minimalist Bedroom →" [ref=e322] [cursor=pointer]:
+            - /url: /styles/minimalist/bedroom
+            - img "Minimalist Bedroom interior" [ref=e323]
+            - generic [ref=e324]:
+              - generic [ref=e325]: Minimalist Bedroom
+              - generic [ref=e326]: →
+          - link "Minimalist Kitchen interior Minimalist Kitchen →" [ref=e327] [cursor=pointer]:
+            - /url: /styles/minimalist/kitchen
+            - img "Minimalist Kitchen interior" [ref=e328]
+            - generic [ref=e329]:
+              - generic [ref=e330]: Minimalist Kitchen
+              - generic [ref=e331]: →
+          - link "Minimalist Dining Room interior Minimalist Dining Room →" [ref=e332] [cursor=pointer]:
+            - /url: /styles/minimalist/dining-room
+            - img "Minimalist Dining Room interior" [ref=e333]
+            - generic [ref=e334]:
+              - generic [ref=e335]: Minimalist Dining Room
+              - generic [ref=e336]: →
+          - link "Minimalist Entryway & Hallway interior Minimalist Entryway & Hallway →" [ref=e337] [cursor=pointer]:
+            - /url: /styles/minimalist/entryway-hallway
+            - img "Minimalist Entryway & Hallway interior" [ref=e338]
+            - generic [ref=e339]:
+              - generic [ref=e340]: Minimalist Entryway & Hallway
+              - generic [ref=e341]: →
+          - link "Scandinavian Living Room interior Scandinavian Living Room →" [ref=e342] [cursor=pointer]:
+            - /url: /styles/scandinavian/living-room
+            - img "Scandinavian Living Room interior" [ref=e343]
+            - generic [ref=e344]:
+              - generic [ref=e345]: Scandinavian Living Room
+              - generic [ref=e346]: →
+          - link "Scandinavian Home Office interior Scandinavian Home Office →" [ref=e347] [cursor=pointer]:
+            - /url: /styles/scandinavian/home-office
+            - img "Scandinavian Home Office interior" [ref=e348]
+            - generic [ref=e349]:
+              - generic [ref=e350]: Scandinavian Home Office
+              - generic [ref=e351]: →
+          - link "Scandinavian Bedroom interior Scandinavian Bedroom →" [ref=e352] [cursor=pointer]:
+            - /url: /styles/scandinavian/bedroom
+            - img "Scandinavian Bedroom interior" [ref=e353]
+            - generic [ref=e354]:
+              - generic [ref=e355]: Scandinavian Bedroom
+              - generic [ref=e356]: →
+          - link "Scandinavian Kitchen interior Scandinavian Kitchen →" [ref=e357] [cursor=pointer]:
+            - /url: /styles/scandinavian/kitchen
+            - img "Scandinavian Kitchen interior" [ref=e358]
+            - generic [ref=e359]:
+              - generic [ref=e360]: Scandinavian Kitchen
+              - generic [ref=e361]: →
+          - link "Scandinavian Dining Room interior Scandinavian Dining Room →" [ref=e362] [cursor=pointer]:
+            - /url: /styles/scandinavian/dining-room
+            - img "Scandinavian Dining Room interior" [ref=e363]
+            - generic [ref=e364]:
+              - generic [ref=e365]: Scandinavian Dining Room
+              - generic [ref=e366]: →
+          - link "Scandinavian Entryway & Hallway interior Scandinavian Entryway & Hallway →" [ref=e367] [cursor=pointer]:
+            - /url: /styles/scandinavian/entryway-hallway
+            - img "Scandinavian Entryway & Hallway interior" [ref=e368]
+            - generic [ref=e369]:
+              - generic [ref=e370]: Scandinavian Entryway & Hallway
+              - generic [ref=e371]: →
+          - link "70s Interior Design Living Room interior 70s Interior Design Living Room →" [ref=e372] [cursor=pointer]:
+            - /url: /styles/70s-interior-design/living-room
+            - img "70s Interior Design Living Room interior" [ref=e373]
+            - generic [ref=e374]:
+              - generic [ref=e375]: 70s Interior Design Living Room
+              - generic [ref=e376]: →
+          - link "70s Interior Design Home Office interior 70s Interior Design Home Office →" [ref=e377] [cursor=pointer]:
+            - /url: /styles/70s-interior-design/home-office
+            - img "70s Interior Design Home Office interior" [ref=e378]
+            - generic [ref=e379]:
+              - generic [ref=e380]: 70s Interior Design Home Office
+              - generic [ref=e381]: →
+          - link "70s Interior Design Bedroom interior 70s Interior Design Bedroom →" [ref=e382] [cursor=pointer]:
+            - /url: /styles/70s-interior-design/bedroom
+            - img "70s Interior Design Bedroom interior" [ref=e383]
+            - generic [ref=e384]:
+              - generic [ref=e385]: 70s Interior Design Bedroom
+              - generic [ref=e386]: →
+          - link "70s Interior Design Kitchen interior 70s Interior Design Kitchen →" [ref=e387] [cursor=pointer]:
+            - /url: /styles/70s-interior-design/kitchen
+            - img "70s Interior Design Kitchen interior" [ref=e388]
+            - generic [ref=e389]:
+              - generic [ref=e390]: 70s Interior Design Kitchen
+              - generic [ref=e391]: →
+          - link "70s Interior Design Dining Room interior 70s Interior Design Dining Room →" [ref=e392] [cursor=pointer]:
+            - /url: /styles/70s-interior-design/dining-room
+            - img "70s Interior Design Dining Room interior" [ref=e393]
+            - generic [ref=e394]:
+              - generic [ref=e395]: 70s Interior Design Dining Room
+              - generic [ref=e396]: →
+          - link "70s Interior Design Entryway & Hallway interior 70s Interior Design Entryway & Hallway →" [ref=e397] [cursor=pointer]:
+            - /url: /styles/70s-interior-design/entryway-hallway
+            - img "70s Interior Design Entryway & Hallway interior" [ref=e398]
+            - generic [ref=e399]:
+              - generic [ref=e400]: 70s Interior Design Entryway & Hallway
+              - generic [ref=e401]: →
+          - link "Warm Minimalist Living Room interior Warm Minimalist Living Room →" [ref=e402] [cursor=pointer]:
+            - /url: /styles/warm-minimalist/living-room
+            - img "Warm Minimalist Living Room interior" [ref=e403]
+            - generic [ref=e404]:
+              - generic [ref=e405]: Warm Minimalist Living Room
+              - generic [ref=e406]: →
+          - link "Warm Minimalist Home Office interior Warm Minimalist Home Office →" [ref=e407] [cursor=pointer]:
+            - /url: /styles/warm-minimalist/home-office
+            - img "Warm Minimalist Home Office interior" [ref=e408]
+            - generic [ref=e409]:
+              - generic [ref=e410]: Warm Minimalist Home Office
+              - generic [ref=e411]: →
+          - link "Warm Minimalist Bedroom interior Warm Minimalist Bedroom →" [ref=e412] [cursor=pointer]:
+            - /url: /styles/warm-minimalist/bedroom
+            - img "Warm Minimalist Bedroom interior" [ref=e413]
+            - generic [ref=e414]:
+              - generic [ref=e415]: Warm Minimalist Bedroom
+              - generic [ref=e416]: →
+          - link "Warm Minimalist Kitchen interior Warm Minimalist Kitchen →" [ref=e417] [cursor=pointer]:
+            - /url: /styles/warm-minimalist/kitchen
+            - img "Warm Minimalist Kitchen interior" [ref=e418]
+            - generic [ref=e419]:
+              - generic [ref=e420]: Warm Minimalist Kitchen
+              - generic [ref=e421]: →
+          - link "Warm Minimalist Dining Room interior Warm Minimalist Dining Room →" [ref=e422] [cursor=pointer]:
+            - /url: /styles/warm-minimalist/dining-room
+            - img "Warm Minimalist Dining Room interior" [ref=e423]
+            - generic [ref=e424]:
+              - generic [ref=e425]: Warm Minimalist Dining Room
+              - generic [ref=e426]: →
+          - link "Warm Minimalist Entryway & Hallway interior Warm Minimalist Entryway & Hallway →" [ref=e427] [cursor=pointer]:
+            - /url: /styles/warm-minimalist/entryway-hallway
+            - img "Warm Minimalist Entryway & Hallway interior" [ref=e428]
+            - generic [ref=e429]:
+              - generic [ref=e430]: Warm Minimalist Entryway & Hallway
+              - generic [ref=e431]: →
+          - link "Wabi-Sabi Living Room interior Wabi-Sabi Living Room →" [ref=e432] [cursor=pointer]:
+            - /url: /styles/wabi-sabi/living-room
+            - img "Wabi-Sabi Living Room interior" [ref=e433]
+            - generic [ref=e434]:
+              - generic [ref=e435]: Wabi-Sabi Living Room
+              - generic [ref=e436]: →
+          - link "Wabi-Sabi Home Office interior Wabi-Sabi Home Office →" [ref=e437] [cursor=pointer]:
+            - /url: /styles/wabi-sabi/home-office
+            - img "Wabi-Sabi Home Office interior" [ref=e438]
+            - generic [ref=e439]:
+              - generic [ref=e440]: Wabi-Sabi Home Office
+              - generic [ref=e441]: →
+          - link "Wabi-Sabi Bedroom interior Wabi-Sabi Bedroom →" [ref=e442] [cursor=pointer]:
+            - /url: /styles/wabi-sabi/bedroom
+            - img "Wabi-Sabi Bedroom interior" [ref=e443]
+            - generic [ref=e444]:
+              - generic [ref=e445]: Wabi-Sabi Bedroom
+              - generic [ref=e446]: →
+          - link "Wabi-Sabi Kitchen interior Wabi-Sabi Kitchen →" [ref=e447] [cursor=pointer]:
+            - /url: /styles/wabi-sabi/kitchen
+            - img "Wabi-Sabi Kitchen interior" [ref=e448]
+            - generic [ref=e449]:
+              - generic [ref=e450]: Wabi-Sabi Kitchen
+              - generic [ref=e451]: →
+          - link "Wabi-Sabi Dining Room interior Wabi-Sabi Dining Room →" [ref=e452] [cursor=pointer]:
+            - /url: /styles/wabi-sabi/dining-room
+            - img "Wabi-Sabi Dining Room interior" [ref=e453]
+            - generic [ref=e454]:
+              - generic [ref=e455]: Wabi-Sabi Dining Room
+              - generic [ref=e456]: →
+          - link "Wabi-Sabi Entryway & Hallway interior Wabi-Sabi Entryway & Hallway →" [ref=e457] [cursor=pointer]:
+            - /url: /styles/wabi-sabi/entryway-hallway
+            - img "Wabi-Sabi Entryway & Hallway interior" [ref=e458]
+            - generic [ref=e459]:
+              - generic [ref=e460]: Wabi-Sabi Entryway & Hallway
+              - generic [ref=e461]: →
+          - link "Modern Living Room interior Modern Living Room →" [ref=e462] [cursor=pointer]:
+            - /url: /styles/modern/living-room
+            - img "Modern Living Room interior" [ref=e463]
+            - generic [ref=e464]:
+              - generic [ref=e465]: Modern Living Room
+              - generic [ref=e466]: →
+          - link "Modern Home Office interior Modern Home Office →" [ref=e467] [cursor=pointer]:
+            - /url: /styles/modern/home-office
+            - img "Modern Home Office interior" [ref=e468]
+            - generic [ref=e469]:
+              - generic [ref=e470]: Modern Home Office
+              - generic [ref=e471]: →
+          - link "Modern Bedroom interior Modern Bedroom →" [ref=e472] [cursor=pointer]:
+            - /url: /styles/modern/bedroom
+            - img "Modern Bedroom interior" [ref=e473]
+            - generic [ref=e474]:
+              - generic [ref=e475]: Modern Bedroom
+              - generic [ref=e476]: →
+          - link "Modern Kitchen interior Modern Kitchen →" [ref=e477] [cursor=pointer]:
+            - /url: /styles/modern/kitchen
+            - img "Modern Kitchen interior" [ref=e478]
+            - generic [ref=e479]:
+              - generic [ref=e480]: Modern Kitchen
+              - generic [ref=e481]: →
+          - link "Modern Dining Room interior Modern Dining Room →" [ref=e482] [cursor=pointer]:
+            - /url: /styles/modern/dining-room
+            - img "Modern Dining Room interior" [ref=e483]
+            - generic [ref=e484]:
+              - generic [ref=e485]: Modern Dining Room
+              - generic [ref=e486]: →
+          - link "Modern Entryway & Hallway interior Modern Entryway & Hallway →" [ref=e487] [cursor=pointer]:
+            - /url: /styles/modern/entryway-hallway
+            - img "Modern Entryway & Hallway interior" [ref=e488]
+            - generic [ref=e489]:
+              - generic [ref=e490]: Modern Entryway & Hallway
+              - generic [ref=e491]: →
+          - link "Mid-Century Modern Living Room interior Mid-Century Modern Living Room →" [ref=e492] [cursor=pointer]:
+            - /url: /styles/mid-century-modern/living-room
+            - img "Mid-Century Modern Living Room interior" [ref=e493]
+            - generic [ref=e494]:
+              - generic [ref=e495]: Mid-Century Modern Living Room
+              - generic [ref=e496]: →
+          - link "Mid-Century Modern Home Office interior Mid-Century Modern Home Office →" [ref=e497] [cursor=pointer]:
+            - /url: /styles/mid-century-modern/home-office
+            - img "Mid-Century Modern Home Office interior" [ref=e498]
+            - generic [ref=e499]:
+              - generic [ref=e500]: Mid-Century Modern Home Office
+              - generic [ref=e501]: →
+          - link "Mid-Century Modern Bedroom interior Mid-Century Modern Bedroom →" [ref=e502] [cursor=pointer]:
+            - /url: /styles/mid-century-modern/bedroom
+            - img "Mid-Century Modern Bedroom interior" [ref=e503]
+            - generic [ref=e504]:
+              - generic [ref=e505]: Mid-Century Modern Bedroom
+              - generic [ref=e506]: →
+          - link "Mid-Century Modern Kitchen interior Mid-Century Modern Kitchen →" [ref=e507] [cursor=pointer]:
+            - /url: /styles/mid-century-modern/kitchen
+            - img "Mid-Century Modern Kitchen interior" [ref=e508]
+            - generic [ref=e509]:
+              - generic [ref=e510]: Mid-Century Modern Kitchen
+              - generic [ref=e511]: →
+          - link "Mid-Century Modern Dining Room interior Mid-Century Modern Dining Room →" [ref=e512] [cursor=pointer]:
+            - /url: /styles/mid-century-modern/dining-room
+            - img "Mid-Century Modern Dining Room interior" [ref=e513]
+            - generic [ref=e514]:
+              - generic [ref=e515]: Mid-Century Modern Dining Room
+              - generic [ref=e516]: →
+          - link "Mid-Century Modern Entryway & Hallway interior Mid-Century Modern Entryway & Hallway →" [ref=e517] [cursor=pointer]:
+            - /url: /styles/mid-century-modern/entryway-hallway
+            - img "Mid-Century Modern Entryway & Hallway interior" [ref=e518]
+            - generic [ref=e519]:
+              - generic [ref=e520]: Mid-Century Modern Entryway & Hallway
+              - generic [ref=e521]: →
+          - link "Urban Modern Living Room interior Urban Modern Living Room →" [ref=e522] [cursor=pointer]:
+            - /url: /styles/urban-modern/living-room
+            - img "Urban Modern Living Room interior" [ref=e523]
+            - generic [ref=e524]:
+              - generic [ref=e525]: Urban Modern Living Room
+              - generic [ref=e526]: →
+          - link "Urban Modern Home Office interior Urban Modern Home Office →" [ref=e527] [cursor=pointer]:
+            - /url: /styles/urban-modern/home-office
+            - img "Urban Modern Home Office interior" [ref=e528]
+            - generic [ref=e529]:
+              - generic [ref=e530]: Urban Modern Home Office
+              - generic [ref=e531]: →
+          - link "Urban Modern Bedroom interior Urban Modern Bedroom →" [ref=e532] [cursor=pointer]:
+            - /url: /styles/urban-modern/bedroom
+            - img "Urban Modern Bedroom interior" [ref=e533]
+            - generic [ref=e534]:
+              - generic [ref=e535]: Urban Modern Bedroom
+              - generic [ref=e536]: →
+          - link "Urban Modern Kitchen interior Urban Modern Kitchen →" [ref=e537] [cursor=pointer]:
+            - /url: /styles/urban-modern/kitchen
+            - img "Urban Modern Kitchen interior" [ref=e538]
+            - generic [ref=e539]:
+              - generic [ref=e540]: Urban Modern Kitchen
+              - generic [ref=e541]: →
+          - link "Urban Modern Dining Room interior Urban Modern Dining Room →" [ref=e542] [cursor=pointer]:
+            - /url: /styles/urban-modern/dining-room
+            - img "Urban Modern Dining Room interior" [ref=e543]
+            - generic [ref=e544]:
+              - generic [ref=e545]: Urban Modern Dining Room
+              - generic [ref=e546]: →
+          - link "Urban Modern Entryway & Hallway interior Urban Modern Entryway & Hallway →" [ref=e547] [cursor=pointer]:
+            - /url: /styles/urban-modern/entryway-hallway
+            - img "Urban Modern Entryway & Hallway interior" [ref=e548]
+            - generic [ref=e549]:
+              - generic [ref=e550]: Urban Modern Entryway & Hallway
+              - generic [ref=e551]: →
+          - link "Luxe Modern Living Room interior Luxe Modern Living Room →" [ref=e552] [cursor=pointer]:
+            - /url: /styles/luxe-modern/living-room
+            - img "Luxe Modern Living Room interior" [ref=e553]
+            - generic [ref=e554]:
+              - generic [ref=e555]: Luxe Modern Living Room
+              - generic [ref=e556]: →
+          - link "Luxe Modern Home Office interior Luxe Modern Home Office →" [ref=e557] [cursor=pointer]:
+            - /url: /styles/luxe-modern/home-office
+            - img "Luxe Modern Home Office interior" [ref=e558]
+            - generic [ref=e559]:
+              - generic [ref=e560]: Luxe Modern Home Office
+              - generic [ref=e561]: →
+          - link "Luxe Modern Bedroom interior Luxe Modern Bedroom →" [ref=e562] [cursor=pointer]:
+            - /url: /styles/luxe-modern/bedroom
+            - img "Luxe Modern Bedroom interior" [ref=e563]
+            - generic [ref=e564]:
+              - generic [ref=e565]: Luxe Modern Bedroom
+              - generic [ref=e566]: →
+          - link "Luxe Modern Kitchen interior Luxe Modern Kitchen →" [ref=e567] [cursor=pointer]:
+            - /url: /styles/luxe-modern/kitchen
+            - img "Luxe Modern Kitchen interior" [ref=e568]
+            - generic [ref=e569]:
+              - generic [ref=e570]: Luxe Modern Kitchen
+              - generic [ref=e571]: →
+          - link "Luxe Modern Dining Room interior Luxe Modern Dining Room →" [ref=e572] [cursor=pointer]:
+            - /url: /styles/luxe-modern/dining-room
+            - img "Luxe Modern Dining Room interior" [ref=e573]
+            - generic [ref=e574]:
+              - generic [ref=e575]: Luxe Modern Dining Room
+              - generic [ref=e576]: →
+          - link "Luxe Modern Entryway & Hallway interior Luxe Modern Entryway & Hallway →" [ref=e577] [cursor=pointer]:
+            - /url: /styles/luxe-modern/entryway-hallway
+            - img "Luxe Modern Entryway & Hallway interior" [ref=e578]
+            - generic [ref=e579]:
+              - generic [ref=e580]: Luxe Modern Entryway & Hallway
+              - generic [ref=e581]: →
+          - link "High-Tech Living Room interior High-Tech Living Room →" [ref=e582] [cursor=pointer]:
+            - /url: /styles/high-tech/living-room
+            - img "High-Tech Living Room interior" [ref=e583]
+            - generic [ref=e584]:
+              - generic [ref=e585]: High-Tech Living Room
+              - generic [ref=e586]: →
+          - link "High-Tech Home Office interior High-Tech Home Office →" [ref=e587] [cursor=pointer]:
+            - /url: /styles/high-tech/home-office
+            - img "High-Tech Home Office interior" [ref=e588]
+            - generic [ref=e589]:
+              - generic [ref=e590]: High-Tech Home Office
+              - generic [ref=e591]: →
+          - link "High-Tech Bedroom interior High-Tech Bedroom →" [ref=e592] [cursor=pointer]:
+            - /url: /styles/high-tech/bedroom
+            - img "High-Tech Bedroom interior" [ref=e593]
+            - generic [ref=e594]:
+              - generic [ref=e595]: High-Tech Bedroom
+              - generic [ref=e596]: →
+          - link "High-Tech Kitchen interior High-Tech Kitchen →" [ref=e597] [cursor=pointer]:
+            - /url: /styles/high-tech/kitchen
+            - img "High-Tech Kitchen interior" [ref=e598]
+            - generic [ref=e599]:
+              - generic [ref=e600]: High-Tech Kitchen
+              - generic [ref=e601]: →
+          - link "High-Tech Dining Room interior High-Tech Dining Room →" [ref=e602] [cursor=pointer]:
+            - /url: /styles/high-tech/dining-room
+            - img "High-Tech Dining Room interior" [ref=e603]
+            - generic [ref=e604]:
+              - generic [ref=e605]: High-Tech Dining Room
+              - generic [ref=e606]: →
+          - link "High-Tech Entryway & Hallway interior High-Tech Entryway & Hallway →" [ref=e607] [cursor=pointer]:
+            - /url: /styles/high-tech/entryway-hallway
+            - img "High-Tech Entryway & Hallway interior" [ref=e608]
+            - generic [ref=e609]:
+              - generic [ref=e610]: High-Tech Entryway & Hallway
+              - generic [ref=e611]: →
+          - link "Retrofuturism Living Room interior Retrofuturism Living Room →" [ref=e612] [cursor=pointer]:
+            - /url: /styles/retrofuturism/living-room
+            - img "Retrofuturism Living Room interior" [ref=e613]
+            - generic [ref=e614]:
+              - generic [ref=e615]: Retrofuturism Living Room
+              - generic [ref=e616]: →
+          - link "Retrofuturism Home Office interior Retrofuturism Home Office →" [ref=e617] [cursor=pointer]:
+            - /url: /styles/retrofuturism/home-office
+            - img "Retrofuturism Home Office interior" [ref=e618]
+            - generic [ref=e619]:
+              - generic [ref=e620]: Retrofuturism Home Office
+              - generic [ref=e621]: →
+          - link "Retrofuturism Bedroom interior Retrofuturism Bedroom →" [ref=e622] [cursor=pointer]:
+            - /url: /styles/retrofuturism/bedroom
+            - img "Retrofuturism Bedroom interior" [ref=e623]
+            - generic [ref=e624]:
+              - generic [ref=e625]: Retrofuturism Bedroom
+              - generic [ref=e626]: →
+          - link "Retrofuturism Kitchen interior Retrofuturism Kitchen →" [ref=e627] [cursor=pointer]:
+            - /url: /styles/retrofuturism/kitchen
+            - img "Retrofuturism Kitchen interior" [ref=e628]
+            - generic [ref=e629]:
+              - generic [ref=e630]: Retrofuturism Kitchen
+              - generic [ref=e631]: →
+          - link "Retrofuturism Dining Room interior Retrofuturism Dining Room →" [ref=e632] [cursor=pointer]:
+            - /url: /styles/retrofuturism/dining-room
+            - img "Retrofuturism Dining Room interior" [ref=e633]
+            - generic [ref=e634]:
+              - generic [ref=e635]: Retrofuturism Dining Room
+              - generic [ref=e636]: →
+          - link "Retrofuturism Entryway & Hallway interior Retrofuturism Entryway & Hallway →" [ref=e637] [cursor=pointer]:
+            - /url: /styles/retrofuturism/entryway-hallway
+            - img "Retrofuturism Entryway & Hallway interior" [ref=e638]
+            - generic [ref=e639]:
+              - generic [ref=e640]: Retrofuturism Entryway & Hallway
+              - generic [ref=e641]: →
+          - link "Industrial Living Room interior Industrial Living Room →" [ref=e642] [cursor=pointer]:
+            - /url: /styles/industrial/living-room
+            - img "Industrial Living Room interior" [ref=e643]
+            - generic [ref=e644]:
+              - generic [ref=e645]: Industrial Living Room
+              - generic [ref=e646]: →
+          - link "Industrial Home Office interior Industrial Home Office →" [ref=e647] [cursor=pointer]:
+            - /url: /styles/industrial/home-office
+            - img "Industrial Home Office interior" [ref=e648]
+            - generic [ref=e649]:
+              - generic [ref=e650]: Industrial Home Office
+              - generic [ref=e651]: →
+          - link "Industrial Bedroom interior Industrial Bedroom →" [ref=e652] [cursor=pointer]:
+            - /url: /styles/industrial/bedroom
+            - img "Industrial Bedroom interior" [ref=e653]
+            - generic [ref=e654]:
+              - generic [ref=e655]: Industrial Bedroom
+              - generic [ref=e656]: →
+          - link "Industrial Kitchen interior Industrial Kitchen →" [ref=e657] [cursor=pointer]:
+            - /url: /styles/industrial/kitchen
+            - img "Industrial Kitchen interior" [ref=e658]
+            - generic [ref=e659]:
+              - generic [ref=e660]: Industrial Kitchen
+              - generic [ref=e661]: →
+          - link "Industrial Dining Room interior Industrial Dining Room →" [ref=e662] [cursor=pointer]:
+            - /url: /styles/industrial/dining-room
+            - img "Industrial Dining Room interior" [ref=e663]
+            - generic [ref=e664]:
+              - generic [ref=e665]: Industrial Dining Room
+              - generic [ref=e666]: →
+          - link "Industrial Entryway & Hallway interior Industrial Entryway & Hallway →" [ref=e667] [cursor=pointer]:
+            - /url: /styles/industrial/entryway-hallway
+            - img "Industrial Entryway & Hallway interior" [ref=e668]
+            - generic [ref=e669]:
+              - generic [ref=e670]: Industrial Entryway & Hallway
+              - generic [ref=e671]: →
+          - link "Industrial Chic Living Room interior Industrial Chic Living Room →" [ref=e672] [cursor=pointer]:
+            - /url: /styles/industrial-chic/living-room
+            - img "Industrial Chic Living Room interior" [ref=e673]
+            - generic [ref=e674]:
+              - generic [ref=e675]: Industrial Chic Living Room
+              - generic [ref=e676]: →
+          - link "Industrial Chic Home Office interior Industrial Chic Home Office →" [ref=e677] [cursor=pointer]:
+            - /url: /styles/industrial-chic/home-office
+            - img "Industrial Chic Home Office interior" [ref=e678]
+            - generic [ref=e679]:
+              - generic [ref=e680]: Industrial Chic Home Office
+              - generic [ref=e681]: →
+          - link "Industrial Chic Bedroom interior Industrial Chic Bedroom →" [ref=e682] [cursor=pointer]:
+            - /url: /styles/industrial-chic/bedroom
+            - img "Industrial Chic Bedroom interior" [ref=e683]
+            - generic [ref=e684]:
+              - generic [ref=e685]: Industrial Chic Bedroom
+              - generic [ref=e686]: →
+          - link "Industrial Chic Kitchen interior Industrial Chic Kitchen →" [ref=e687] [cursor=pointer]:
+            - /url: /styles/industrial-chic/kitchen
+            - img "Industrial Chic Kitchen interior" [ref=e688]
+            - generic [ref=e689]:
+              - generic [ref=e690]: Industrial Chic Kitchen
+              - generic [ref=e691]: →
+          - link "Industrial Chic Dining Room interior Industrial Chic Dining Room →" [ref=e692] [cursor=pointer]:
+            - /url: /styles/industrial-chic/dining-room
+            - img "Industrial Chic Dining Room interior" [ref=e693]
+            - generic [ref=e694]:
+              - generic [ref=e695]: Industrial Chic Dining Room
+              - generic [ref=e696]: →
+          - link "Industrial Chic Entryway & Hallway interior Industrial Chic Entryway & Hallway →" [ref=e697] [cursor=pointer]:
+            - /url: /styles/industrial-chic/entryway-hallway
+            - img "Industrial Chic Entryway & Hallway interior" [ref=e698]
+            - generic [ref=e699]:
+              - generic [ref=e700]: Industrial Chic Entryway & Hallway
+              - generic [ref=e701]: →
+          - link "Modern Glam Living Room interior Modern Glam Living Room →" [ref=e702] [cursor=pointer]:
+            - /url: /styles/modern-glam/living-room
+            - img "Modern Glam Living Room interior" [ref=e703]
+            - generic [ref=e704]:
+              - generic [ref=e705]: Modern Glam Living Room
+              - generic [ref=e706]: →
+          - link "Modern Glam Home Office interior Modern Glam Home Office →" [ref=e707] [cursor=pointer]:
+            - /url: /styles/modern-glam/home-office
+            - img "Modern Glam Home Office interior" [ref=e708]
+            - generic [ref=e709]:
+              - generic [ref=e710]: Modern Glam Home Office
+              - generic [ref=e711]: →
+          - link "Modern Glam Bedroom interior Modern Glam Bedroom →" [ref=e712] [cursor=pointer]:
+            - /url: /styles/modern-glam/bedroom
+            - img "Modern Glam Bedroom interior" [ref=e713]
+            - generic [ref=e714]:
+              - generic [ref=e715]: Modern Glam Bedroom
+              - generic [ref=e716]: →
+          - link "Modern Glam Kitchen interior Modern Glam Kitchen →" [ref=e717] [cursor=pointer]:
+            - /url: /styles/modern-glam/kitchen
+            - img "Modern Glam Kitchen interior" [ref=e718]
+            - generic [ref=e719]:
+              - generic [ref=e720]: Modern Glam Kitchen
+              - generic [ref=e721]: →
+          - link "Modern Glam Dining Room interior Modern Glam Dining Room →" [ref=e722] [cursor=pointer]:
+            - /url: /styles/modern-glam/dining-room
+            - img "Modern Glam Dining Room interior" [ref=e723]
+            - generic [ref=e724]:
+              - generic [ref=e725]: Modern Glam Dining Room
+              - generic [ref=e726]: →
+          - link "Modern Glam Entryway & Hallway interior Modern Glam Entryway & Hallway →" [ref=e727] [cursor=pointer]:
+            - /url: /styles/modern-glam/entryway-hallway
+            - img "Modern Glam Entryway & Hallway interior" [ref=e728]
+            - generic [ref=e729]:
+              - generic [ref=e730]: Modern Glam Entryway & Hallway
+              - generic [ref=e731]: →
+          - link "Transitional Glam Living Room interior Transitional Glam Living Room →" [ref=e732] [cursor=pointer]:
+            - /url: /styles/transitional-glam/living-room
+            - img "Transitional Glam Living Room interior" [ref=e733]
+            - generic [ref=e734]:
+              - generic [ref=e735]: Transitional Glam Living Room
+              - generic [ref=e736]: →
+          - link "Transitional Glam Home Office interior Transitional Glam Home Office →" [ref=e737] [cursor=pointer]:
+            - /url: /styles/transitional-glam/home-office
+            - img "Transitional Glam Home Office interior" [ref=e738]
+            - generic [ref=e739]:
+              - generic [ref=e740]: Transitional Glam Home Office
+              - generic [ref=e741]: →
+          - link "Transitional Glam Bedroom interior Transitional Glam Bedroom →" [ref=e742] [cursor=pointer]:
+            - /url: /styles/transitional-glam/bedroom
+            - img "Transitional Glam Bedroom interior" [ref=e743]
+            - generic [ref=e744]:
+              - generic [ref=e745]: Transitional Glam Bedroom
+              - generic [ref=e746]: →
+          - link "Transitional Glam Kitchen interior Transitional Glam Kitchen →" [ref=e747] [cursor=pointer]:
+            - /url: /styles/transitional-glam/kitchen
+            - img "Transitional Glam Kitchen interior" [ref=e748]
+            - generic [ref=e749]:
+              - generic [ref=e750]: Transitional Glam Kitchen
+              - generic [ref=e751]: →
+          - link "Transitional Glam Dining Room interior Transitional Glam Dining Room →" [ref=e752] [cursor=pointer]:
+            - /url: /styles/transitional-glam/dining-room
+            - img "Transitional Glam Dining Room interior" [ref=e753]
+            - generic [ref=e754]:
+              - generic [ref=e755]: Transitional Glam Dining Room
+              - generic [ref=e756]: →
+          - link "Transitional Glam Entryway & Hallway interior Transitional Glam Entryway & Hallway →" [ref=e757] [cursor=pointer]:
+            - /url: /styles/transitional-glam/entryway-hallway
+            - img "Transitional Glam Entryway & Hallway interior" [ref=e758]
+            - generic [ref=e759]:
+              - generic [ref=e760]: Transitional Glam Entryway & Hallway
+              - generic [ref=e761]: →
+          - link "Art Deco Living Room interior Art Deco Living Room →" [ref=e762] [cursor=pointer]:
+            - /url: /styles/art-deco/living-room
+            - img "Art Deco Living Room interior" [ref=e763]
+            - generic [ref=e764]:
+              - generic [ref=e765]: Art Deco Living Room
+              - generic [ref=e766]: →
+          - link "Art Deco Home Office interior Art Deco Home Office →" [ref=e767] [cursor=pointer]:
+            - /url: /styles/art-deco/home-office
+            - img "Art Deco Home Office interior" [ref=e768]
+            - generic [ref=e769]:
+              - generic [ref=e770]: Art Deco Home Office
+              - generic [ref=e771]: →
+          - link "Art Deco Bedroom interior Art Deco Bedroom →" [ref=e772] [cursor=pointer]:
+            - /url: /styles/art-deco/bedroom
+            - img "Art Deco Bedroom interior" [ref=e773]
+            - generic [ref=e774]:
+              - generic [ref=e775]: Art Deco Bedroom
+              - generic [ref=e776]: →
+          - link "Art Deco Kitchen interior Art Deco Kitchen →" [ref=e777] [cursor=pointer]:
+            - /url: /styles/art-deco/kitchen
+            - img "Art Deco Kitchen interior" [ref=e778]
+            - generic [ref=e779]:
+              - generic [ref=e780]: Art Deco Kitchen
+              - generic [ref=e781]: →
+          - link "Art Deco Dining Room interior Art Deco Dining Room →" [ref=e782] [cursor=pointer]:
+            - /url: /styles/art-deco/dining-room
+            - img "Art Deco Dining Room interior" [ref=e783]
+            - generic [ref=e784]:
+              - generic [ref=e785]: Art Deco Dining Room
+              - generic [ref=e786]: →
+          - link "Art Deco Entryway & Hallway interior Art Deco Entryway & Hallway →" [ref=e787] [cursor=pointer]:
+            - /url: /styles/art-deco/entryway-hallway
+            - img "Art Deco Entryway & Hallway interior" [ref=e788]
+            - generic [ref=e789]:
+              - generic [ref=e790]: Art Deco Entryway & Hallway
+              - generic [ref=e791]: →
+          - link "Hollywood Regency Living Room interior Hollywood Regency Living Room →" [ref=e792] [cursor=pointer]:
+            - /url: /styles/hollywood-regency/living-room
+            - img "Hollywood Regency Living Room interior" [ref=e793]
+            - generic [ref=e794]:
+              - generic [ref=e795]: Hollywood Regency Living Room
+              - generic [ref=e796]: →
+          - link "Hollywood Regency Home Office interior Hollywood Regency Home Office →" [ref=e797] [cursor=pointer]:
+            - /url: /styles/hollywood-regency/home-office
+            - img "Hollywood Regency Home Office interior" [ref=e798]
+            - generic [ref=e799]:
+              - generic [ref=e800]: Hollywood Regency Home Office
+              - generic [ref=e801]: →
+          - link "Hollywood Regency Bedroom interior Hollywood Regency Bedroom →" [ref=e802] [cursor=pointer]:
+            - /url: /styles/hollywood-regency/bedroom
+            - img "Hollywood Regency Bedroom interior" [ref=e803]
+            - generic [ref=e804]:
+              - generic [ref=e805]: Hollywood Regency Bedroom
+              - generic [ref=e806]: →
+          - link "Hollywood Regency Kitchen interior Hollywood Regency Kitchen →" [ref=e807] [cursor=pointer]:
+            - /url: /styles/hollywood-regency/kitchen
+            - img "Hollywood Regency Kitchen interior" [ref=e808]
+            - generic [ref=e809]:
+              - generic [ref=e810]: Hollywood Regency Kitchen
+              - generic [ref=e811]: →
+          - link "Hollywood Regency Dining Room interior Hollywood Regency Dining Room →" [ref=e812] [cursor=pointer]:
+            - /url: /styles/hollywood-regency/dining-room
+            - img "Hollywood Regency Dining Room interior" [ref=e813]
+            - generic [ref=e814]:
+              - generic [ref=e815]: Hollywood Regency Dining Room
+              - generic [ref=e816]: →
+          - link "Hollywood Regency Entryway & Hallway interior Hollywood Regency Entryway & Hallway →" [ref=e817] [cursor=pointer]:
+            - /url: /styles/hollywood-regency/entryway-hallway
+            - img "Hollywood Regency Entryway & Hallway interior" [ref=e818]
+            - generic [ref=e819]:
+              - generic [ref=e820]: Hollywood Regency Entryway & Hallway
+              - generic [ref=e821]: →
+          - link "Maximalist Living Room interior Maximalist Living Room →" [ref=e822] [cursor=pointer]:
+            - /url: /styles/maximalist/living-room
+            - img "Maximalist Living Room interior" [ref=e823]
+            - generic [ref=e824]:
+              - generic [ref=e825]: Maximalist Living Room
+              - generic [ref=e826]: →
+          - link "Maximalist Home Office interior Maximalist Home Office →" [ref=e827] [cursor=pointer]:
+            - /url: /styles/maximalist/home-office
+            - img "Maximalist Home Office interior" [ref=e828]
+            - generic [ref=e829]:
+              - generic [ref=e830]: Maximalist Home Office
+              - generic [ref=e831]: →
+          - link "Maximalist Bedroom interior Maximalist Bedroom →" [ref=e832] [cursor=pointer]:
+            - /url: /styles/maximalist/bedroom
+            - img "Maximalist Bedroom interior" [ref=e833]
+            - generic [ref=e834]:
+              - generic [ref=e835]: Maximalist Bedroom
+              - generic [ref=e836]: →
+          - link "Maximalist Kitchen interior Maximalist Kitchen →" [ref=e837] [cursor=pointer]:
+            - /url: /styles/maximalist/kitchen
+            - img "Maximalist Kitchen interior" [ref=e838]
+            - generic [ref=e839]:
+              - generic [ref=e840]: Maximalist Kitchen
+              - generic [ref=e841]: →
+          - link "Maximalist Dining Room interior Maximalist Dining Room →" [ref=e842] [cursor=pointer]:
+            - /url: /styles/maximalist/dining-room
+            - img "Maximalist Dining Room interior" [ref=e843]
+            - generic [ref=e844]:
+              - generic [ref=e845]: Maximalist Dining Room
+              - generic [ref=e846]: →
+          - link "Maximalist Entryway & Hallway interior Maximalist Entryway & Hallway →" [ref=e847] [cursor=pointer]:
+            - /url: /styles/maximalist/entryway-hallway
+            - img "Maximalist Entryway & Hallway interior" [ref=e848]
+            - generic [ref=e849]:
+              - generic [ref=e850]: Maximalist Entryway & Hallway
+              - generic [ref=e851]: →
+          - link "Transitional Living Room interior Transitional Living Room →" [ref=e852] [cursor=pointer]:
+            - /url: /styles/transitional/living-room
+            - img "Transitional Living Room interior" [ref=e853]
+            - generic [ref=e854]:
+              - generic [ref=e855]: Transitional Living Room
+              - generic [ref=e856]: →
+          - link "Transitional Home Office interior Transitional Home Office →" [ref=e857] [cursor=pointer]:
+            - /url: /styles/transitional/home-office
+            - img "Transitional Home Office interior" [ref=e858]
+            - generic [ref=e859]:
+              - generic [ref=e860]: Transitional Home Office
+              - generic [ref=e861]: →
+          - link "Transitional Bedroom interior Transitional Bedroom →" [ref=e862] [cursor=pointer]:
+            - /url: /styles/transitional/bedroom
+            - img "Transitional Bedroom interior" [ref=e863]
+            - generic [ref=e864]:
+              - generic [ref=e865]: Transitional Bedroom
+              - generic [ref=e866]: →
+          - link "Transitional Kitchen interior Transitional Kitchen →" [ref=e867] [cursor=pointer]:
+            - /url: /styles/transitional/kitchen
+            - img "Transitional Kitchen interior" [ref=e868]
+            - generic [ref=e869]:
+              - generic [ref=e870]: Transitional Kitchen
+              - generic [ref=e871]: →
+          - link "Transitional Dining Room interior Transitional Dining Room →" [ref=e872] [cursor=pointer]:
+            - /url: /styles/transitional/dining-room
+            - img "Transitional Dining Room interior" [ref=e873]
+            - generic [ref=e874]:
+              - generic [ref=e875]: Transitional Dining Room
+              - generic [ref=e876]: →
+          - link "Transitional Entryway & Hallway interior Transitional Entryway & Hallway →" [ref=e877] [cursor=pointer]:
+            - /url: /styles/transitional/entryway-hallway
+            - img "Transitional Entryway & Hallway interior" [ref=e878]
+            - generic [ref=e879]:
+              - generic [ref=e880]: Transitional Entryway & Hallway
+              - generic [ref=e881]: →
+          - link "New Traditional Living Room interior New Traditional Living Room →" [ref=e882] [cursor=pointer]:
+            - /url: /styles/new-traditional/living-room
+            - img "New Traditional Living Room interior" [ref=e883]
+            - generic [ref=e884]:
+              - generic [ref=e885]: New Traditional Living Room
+              - generic [ref=e886]: →
+          - link "New Traditional Home Office interior New Traditional Home Office →" [ref=e887] [cursor=pointer]:
+            - /url: /styles/new-traditional/home-office
+            - img "New Traditional Home Office interior" [ref=e888]
+            - generic [ref=e889]:
+              - generic [ref=e890]: New Traditional Home Office
+              - generic [ref=e891]: →
+          - link "New Traditional Bedroom interior New Traditional Bedroom →" [ref=e892] [cursor=pointer]:
+            - /url: /styles/new-traditional/bedroom
+            - img "New Traditional Bedroom interior" [ref=e893]
+            - generic [ref=e894]:
+              - generic [ref=e895]: New Traditional Bedroom
+              - generic [ref=e896]: →
+          - link "New Traditional Kitchen interior New Traditional Kitchen →" [ref=e897] [cursor=pointer]:
+            - /url: /styles/new-traditional/kitchen
+            - img "New Traditional Kitchen interior" [ref=e898]
+            - generic [ref=e899]:
+              - generic [ref=e900]: New Traditional Kitchen
+              - generic [ref=e901]: →
+          - link "New Traditional Dining Room interior New Traditional Dining Room →" [ref=e902] [cursor=pointer]:
+            - /url: /styles/new-traditional/dining-room
+            - img "New Traditional Dining Room interior" [ref=e903]
+            - generic [ref=e904]:
+              - generic [ref=e905]: New Traditional Dining Room
+              - generic [ref=e906]: →
+          - link "New Traditional Entryway & Hallway interior New Traditional Entryway & Hallway →" [ref=e907] [cursor=pointer]:
+            - /url: /styles/new-traditional/entryway-hallway
+            - img "New Traditional Entryway & Hallway interior" [ref=e908]
+            - generic [ref=e909]:
+              - generic [ref=e910]: New Traditional Entryway & Hallway
+              - generic [ref=e911]: →
+          - link "Neo-Traditional Living Room interior Neo-Traditional Living Room →" [ref=e912] [cursor=pointer]:
+            - /url: /styles/neo-traditional/living-room
+            - img "Neo-Traditional Living Room interior" [ref=e913]
+            - generic [ref=e914]:
+              - generic [ref=e915]: Neo-Traditional Living Room
+              - generic [ref=e916]: →
+          - link "Neo-Traditional Home Office interior Neo-Traditional Home Office →" [ref=e917] [cursor=pointer]:
+            - /url: /styles/neo-traditional/home-office
+            - img "Neo-Traditional Home Office interior" [ref=e918]
+            - generic [ref=e919]:
+              - generic [ref=e920]: Neo-Traditional Home Office
+              - generic [ref=e921]: →
+          - link "Neo-Traditional Bedroom interior Neo-Traditional Bedroom →" [ref=e922] [cursor=pointer]:
+            - /url: /styles/neo-traditional/bedroom
+            - img "Neo-Traditional Bedroom interior" [ref=e923]
+            - generic [ref=e924]:
+              - generic [ref=e925]: Neo-Traditional Bedroom
+              - generic [ref=e926]: →
+          - link "Neo-Traditional Kitchen interior Neo-Traditional Kitchen →" [ref=e927] [cursor=pointer]:
+            - /url: /styles/neo-traditional/kitchen
+            - img "Neo-Traditional Kitchen interior" [ref=e928]
+            - generic [ref=e929]:
+              - generic [ref=e930]: Neo-Traditional Kitchen
+              - generic [ref=e931]: →
+          - link "Neo-Traditional Dining Room interior Neo-Traditional Dining Room →" [ref=e932] [cursor=pointer]:
+            - /url: /styles/neo-traditional/dining-room
+            - img "Neo-Traditional Dining Room interior" [ref=e933]
+            - generic [ref=e934]:
+              - generic [ref=e935]: Neo-Traditional Dining Room
+              - generic [ref=e936]: →
+          - link "Neo-Traditional Entryway & Hallway interior Neo-Traditional Entryway & Hallway →" [ref=e937] [cursor=pointer]:
+            - /url: /styles/neo-traditional/entryway-hallway
+            - img "Neo-Traditional Entryway & Hallway interior" [ref=e938]
+            - generic [ref=e939]:
+              - generic [ref=e940]: Neo-Traditional Entryway & Hallway
+              - generic [ref=e941]: →
+          - link "European Classic Living Room interior European Classic Living Room →" [ref=e942] [cursor=pointer]:
+            - /url: /styles/european-classic/living-room
+            - img "European Classic Living Room interior" [ref=e943]
+            - generic [ref=e944]:
+              - generic [ref=e945]: European Classic Living Room
+              - generic [ref=e946]: →
+          - link "European Classic Home Office interior European Classic Home Office →" [ref=e947] [cursor=pointer]:
+            - /url: /styles/european-classic/home-office
+            - img "European Classic Home Office interior" [ref=e948]
+            - generic [ref=e949]:
+              - generic [ref=e950]: European Classic Home Office
+              - generic [ref=e951]: →
+          - link "European Classic Bedroom interior European Classic Bedroom →" [ref=e952] [cursor=pointer]:
+            - /url: /styles/european-classic/bedroom
+            - img "European Classic Bedroom interior" [ref=e953]
+            - generic [ref=e954]:
+              - generic [ref=e955]: European Classic Bedroom
+              - generic [ref=e956]: →
+          - link "European Classic Kitchen interior European Classic Kitchen →" [ref=e957] [cursor=pointer]:
+            - /url: /styles/european-classic/kitchen
+            - img "European Classic Kitchen interior" [ref=e958]
+            - generic [ref=e959]:
+              - generic [ref=e960]: European Classic Kitchen
+              - generic [ref=e961]: →
+          - link "European Classic Dining Room interior European Classic Dining Room →" [ref=e962] [cursor=pointer]:
+            - /url: /styles/european-classic/dining-room
+            - img "European Classic Dining Room interior" [ref=e963]
+            - generic [ref=e964]:
+              - generic [ref=e965]: European Classic Dining Room
+              - generic [ref=e966]: →
+          - link "European Classic Entryway & Hallway interior European Classic Entryway & Hallway →" [ref=e967] [cursor=pointer]:
+            - /url: /styles/european-classic/entryway-hallway
+            - img "European Classic Entryway & Hallway interior" [ref=e968]
+            - generic [ref=e969]:
+              - generic [ref=e970]: European Classic Entryway & Hallway
+              - generic [ref=e971]: →
+          - link "Victorian Living Room interior Victorian Living Room →" [ref=e972] [cursor=pointer]:
+            - /url: /styles/victorian/living-room
+            - img "Victorian Living Room interior" [ref=e973]
+            - generic [ref=e974]:
+              - generic [ref=e975]: Victorian Living Room
+              - generic [ref=e976]: →
+          - link "Victorian Home Office interior Victorian Home Office →" [ref=e977] [cursor=pointer]:
+            - /url: /styles/victorian/home-office
+            - img "Victorian Home Office interior" [ref=e978]
+            - generic [ref=e979]:
+              - generic [ref=e980]: Victorian Home Office
+              - generic [ref=e981]: →
+          - link "Victorian Bedroom interior Victorian Bedroom →" [ref=e982] [cursor=pointer]:
+            - /url: /styles/victorian/bedroom
+            - img "Victorian Bedroom interior" [ref=e983]
+            - generic [ref=e984]:
+              - generic [ref=e985]: Victorian Bedroom
+              - generic [ref=e986]: →
+          - link "Victorian Kitchen interior Victorian Kitchen →" [ref=e987] [cursor=pointer]:
+            - /url: /styles/victorian/kitchen
+            - img "Victorian Kitchen interior" [ref=e988]
+            - generic [ref=e989]:
+              - generic [ref=e990]: Victorian Kitchen
+              - generic [ref=e991]: →
+          - link "Victorian Dining Room interior Victorian Dining Room →" [ref=e992] [cursor=pointer]:
+            - /url: /styles/victorian/dining-room
+            - img "Victorian Dining Room interior" [ref=e993]
+            - generic [ref=e994]:
+              - generic [ref=e995]: Victorian Dining Room
+              - generic [ref=e996]: →
+          - link "Victorian Entryway & Hallway interior Victorian Entryway & Hallway →" [ref=e997] [cursor=pointer]:
+            - /url: /styles/victorian/entryway-hallway
+            - img "Victorian Entryway & Hallway interior" [ref=e998]
+            - generic [ref=e999]:
+              - generic [ref=e1000]: Victorian Entryway & Hallway
+              - generic [ref=e1001]: →
+          - link "Gothic Living Room interior Gothic Living Room →" [ref=e1002] [cursor=pointer]:
+            - /url: /styles/gothic/living-room
+            - img "Gothic Living Room interior" [ref=e1003]
+            - generic [ref=e1004]:
+              - generic [ref=e1005]: Gothic Living Room
+              - generic [ref=e1006]: →
+          - link "Gothic Home Office interior Gothic Home Office →" [ref=e1007] [cursor=pointer]:
+            - /url: /styles/gothic/home-office
+            - img "Gothic Home Office interior" [ref=e1008]
+            - generic [ref=e1009]:
+              - generic [ref=e1010]: Gothic Home Office
+              - generic [ref=e1011]: →
+          - link "Gothic Bedroom interior Gothic Bedroom →" [ref=e1012] [cursor=pointer]:
+            - /url: /styles/gothic/bedroom
+            - img "Gothic Bedroom interior" [ref=e1013]
+            - generic [ref=e1014]:
+              - generic [ref=e1015]: Gothic Bedroom
+              - generic [ref=e1016]: →
+          - link "Gothic Kitchen interior Gothic Kitchen →" [ref=e1017] [cursor=pointer]:
+            - /url: /styles/gothic/kitchen
+            - img "Gothic Kitchen interior" [ref=e1018]
+            - generic [ref=e1019]:
+              - generic [ref=e1020]: Gothic Kitchen
+              - generic [ref=e1021]: →
+          - link "Gothic Dining Room interior Gothic Dining Room →" [ref=e1022] [cursor=pointer]:
+            - /url: /styles/gothic/dining-room
+            - img "Gothic Dining Room interior" [ref=e1023]
+            - generic [ref=e1024]:
+              - generic [ref=e1025]: Gothic Dining Room
+              - generic [ref=e1026]: →
+          - link "Gothic Entryway & Hallway interior Gothic Entryway & Hallway →" [ref=e1027] [cursor=pointer]:
+            - /url: /styles/gothic/entryway-hallway
+            - img "Gothic Entryway & Hallway interior" [ref=e1028]
+            - generic [ref=e1029]:
+              - generic [ref=e1030]: Gothic Entryway & Hallway
+              - generic [ref=e1031]: →
+          - link "Art Nouveau Living Room interior Art Nouveau Living Room →" [ref=e1032] [cursor=pointer]:
+            - /url: /styles/art-nouveau/living-room
+            - img "Art Nouveau Living Room interior" [ref=e1033]
+            - generic [ref=e1034]:
+              - generic [ref=e1035]: Art Nouveau Living Room
+              - generic [ref=e1036]: →
+          - link "Art Nouveau Home Office interior Art Nouveau Home Office →" [ref=e1037] [cursor=pointer]:
+            - /url: /styles/art-nouveau/home-office
+            - img "Art Nouveau Home Office interior" [ref=e1038]
+            - generic [ref=e1039]:
+              - generic [ref=e1040]: Art Nouveau Home Office
+              - generic [ref=e1041]: →
+          - link "Art Nouveau Bedroom interior Art Nouveau Bedroom →" [ref=e1042] [cursor=pointer]:
+            - /url: /styles/art-nouveau/bedroom
+            - img "Art Nouveau Bedroom interior" [ref=e1043]
+            - generic [ref=e1044]:
+              - generic [ref=e1045]: Art Nouveau Bedroom
+              - generic [ref=e1046]: →
+          - link "Art Nouveau Kitchen interior Art Nouveau Kitchen →" [ref=e1047] [cursor=pointer]:
+            - /url: /styles/art-nouveau/kitchen
+            - img "Art Nouveau Kitchen interior" [ref=e1048]
+            - generic [ref=e1049]:
+              - generic [ref=e1050]: Art Nouveau Kitchen
+              - generic [ref=e1051]: →
+          - link "Art Nouveau Dining Room interior Art Nouveau Dining Room →" [ref=e1052] [cursor=pointer]:
+            - /url: /styles/art-nouveau/dining-room
+            - img "Art Nouveau Dining Room interior" [ref=e1053]
+            - generic [ref=e1054]:
+              - generic [ref=e1055]: Art Nouveau Dining Room
+              - generic [ref=e1056]: →
+          - link "Art Nouveau Entryway & Hallway interior Art Nouveau Entryway & Hallway →" [ref=e1057] [cursor=pointer]:
+            - /url: /styles/art-nouveau/entryway-hallway
+            - img "Art Nouveau Entryway & Hallway interior" [ref=e1058]
+            - generic [ref=e1059]:
+              - generic [ref=e1060]: Art Nouveau Entryway & Hallway
+              - generic [ref=e1061]: →
+          - link "Bauhaus Living Room interior Bauhaus Living Room →" [ref=e1062] [cursor=pointer]:
+            - /url: /styles/bauhaus/living-room
+            - img "Bauhaus Living Room interior" [ref=e1063]
+            - generic [ref=e1064]:
+              - generic [ref=e1065]: Bauhaus Living Room
+              - generic [ref=e1066]: →
+          - link "Bauhaus Home Office interior Bauhaus Home Office →" [ref=e1067] [cursor=pointer]:
+            - /url: /styles/bauhaus/home-office
+            - img "Bauhaus Home Office interior" [ref=e1068]
+            - generic [ref=e1069]:
+              - generic [ref=e1070]: Bauhaus Home Office
+              - generic [ref=e1071]: →
+          - link "Bauhaus Bedroom interior Bauhaus Bedroom →" [ref=e1072] [cursor=pointer]:
+            - /url: /styles/bauhaus/bedroom
+            - img "Bauhaus Bedroom interior" [ref=e1073]
+            - generic [ref=e1074]:
+              - generic [ref=e1075]: Bauhaus Bedroom
+              - generic [ref=e1076]: →
+          - link "Bauhaus Kitchen interior Bauhaus Kitchen →" [ref=e1077] [cursor=pointer]:
+            - /url: /styles/bauhaus/kitchen
+            - img "Bauhaus Kitchen interior" [ref=e1078]
+            - generic [ref=e1079]:
+              - generic [ref=e1080]: Bauhaus Kitchen
+              - generic [ref=e1081]: →
+          - link "Bauhaus Dining Room interior Bauhaus Dining Room →" [ref=e1082] [cursor=pointer]:
+            - /url: /styles/bauhaus/dining-room
+            - img "Bauhaus Dining Room interior" [ref=e1083]
+            - generic [ref=e1084]:
+              - generic [ref=e1085]: Bauhaus Dining Room
+              - generic [ref=e1086]: →
+          - link "Bauhaus Entryway & Hallway interior Bauhaus Entryway & Hallway →" [ref=e1087] [cursor=pointer]:
+            - /url: /styles/bauhaus/entryway-hallway
+            - img "Bauhaus Entryway & Hallway interior" [ref=e1088]
+            - generic [ref=e1089]:
+              - generic [ref=e1090]: Bauhaus Entryway & Hallway
+              - generic [ref=e1091]: →
+          - link "Grandmillennial Living Room interior Grandmillennial Living Room →" [ref=e1092] [cursor=pointer]:
+            - /url: /styles/grandmillennial/living-room
+            - img "Grandmillennial Living Room interior" [ref=e1093]
+            - generic [ref=e1094]:
+              - generic [ref=e1095]: Grandmillennial Living Room
+              - generic [ref=e1096]: →
+          - link "Grandmillennial Home Office interior Grandmillennial Home Office →" [ref=e1097] [cursor=pointer]:
+            - /url: /styles/grandmillennial/home-office
+            - img "Grandmillennial Home Office interior" [ref=e1098]
+            - generic [ref=e1099]:
+              - generic [ref=e1100]: Grandmillennial Home Office
+              - generic [ref=e1101]: →
+          - link "Grandmillennial Bedroom interior Grandmillennial Bedroom →" [ref=e1102] [cursor=pointer]:
+            - /url: /styles/grandmillennial/bedroom
+            - img "Grandmillennial Bedroom interior" [ref=e1103]
+            - generic [ref=e1104]:
+              - generic [ref=e1105]: Grandmillennial Bedroom
+              - generic [ref=e1106]: →
+          - link "Grandmillennial Kitchen interior Grandmillennial Kitchen →" [ref=e1107] [cursor=pointer]:
+            - /url: /styles/grandmillennial/kitchen
+            - img "Grandmillennial Kitchen interior" [ref=e1108]
+            - generic [ref=e1109]:
+              - generic [ref=e1110]: Grandmillennial Kitchen
+              - generic [ref=e1111]: →
+          - link "Grandmillennial Dining Room interior Grandmillennial Dining Room →" [ref=e1112] [cursor=pointer]:
+            - /url: /styles/grandmillennial/dining-room
+            - img "Grandmillennial Dining Room interior" [ref=e1113]
+            - generic [ref=e1114]:
+              - generic [ref=e1115]: Grandmillennial Dining Room
+              - generic [ref=e1116]: →
+          - link "Grandmillennial Entryway & Hallway interior Grandmillennial Entryway & Hallway →" [ref=e1117] [cursor=pointer]:
+            - /url: /styles/grandmillennial/entryway-hallway
+            - img "Grandmillennial Entryway & Hallway interior" [ref=e1118]
+            - generic [ref=e1119]:
+              - generic [ref=e1120]: Grandmillennial Entryway & Hallway
+              - generic [ref=e1121]: →
+          - link "Rustic Living Room interior Rustic Living Room →" [ref=e1122] [cursor=pointer]:
+            - /url: /styles/rustic/living-room
+            - img "Rustic Living Room interior" [ref=e1123]
+            - generic [ref=e1124]:
+              - generic [ref=e1125]: Rustic Living Room
+              - generic [ref=e1126]: →
+          - link "Rustic Home Office interior Rustic Home Office →" [ref=e1127] [cursor=pointer]:
+            - /url: /styles/rustic/home-office
+            - img "Rustic Home Office interior" [ref=e1128]
+            - generic [ref=e1129]:
+              - generic [ref=e1130]: Rustic Home Office
+              - generic [ref=e1131]: →
+          - link "Rustic Bedroom interior Rustic Bedroom →" [ref=e1132] [cursor=pointer]:
+            - /url: /styles/rustic/bedroom
+            - img "Rustic Bedroom interior" [ref=e1133]
+            - generic [ref=e1134]:
+              - generic [ref=e1135]: Rustic Bedroom
+              - generic [ref=e1136]: →
+          - link "Rustic Kitchen interior Rustic Kitchen →" [ref=e1137] [cursor=pointer]:
+            - /url: /styles/rustic/kitchen
+            - img "Rustic Kitchen interior" [ref=e1138]
+            - generic [ref=e1139]:
+              - generic [ref=e1140]: Rustic Kitchen
+              - generic [ref=e1141]: →
+          - link "Rustic Dining Room interior Rustic Dining Room →" [ref=e1142] [cursor=pointer]:
+            - /url: /styles/rustic/dining-room
+            - img "Rustic Dining Room interior" [ref=e1143]
+            - generic [ref=e1144]:
+              - generic [ref=e1145]: Rustic Dining Room
+              - generic [ref=e1146]: →
+          - link "Rustic Entryway & Hallway interior Rustic Entryway & Hallway →" [ref=e1147] [cursor=pointer]:
+            - /url: /styles/rustic/entryway-hallway
+            - img "Rustic Entryway & Hallway interior" [ref=e1148]
+            - generic [ref=e1149]:
+              - generic [ref=e1150]: Rustic Entryway & Hallway
+              - generic [ref=e1151]: →
+          - link "Farmhouse Living Room interior Farmhouse Living Room →" [ref=e1152] [cursor=pointer]:
+            - /url: /styles/farmhouse/living-room
+            - img "Farmhouse Living Room interior" [ref=e1153]
+            - generic [ref=e1154]:
+              - generic [ref=e1155]: Farmhouse Living Room
+              - generic [ref=e1156]: →
+          - link "Farmhouse Home Office interior Farmhouse Home Office →" [ref=e1157] [cursor=pointer]:
+            - /url: /styles/farmhouse/home-office
+            - img "Farmhouse Home Office interior" [ref=e1158]
+            - generic [ref=e1159]:
+              - generic [ref=e1160]: Farmhouse Home Office
+              - generic [ref=e1161]: →
+          - link "Farmhouse Bedroom interior Farmhouse Bedroom →" [ref=e1162] [cursor=pointer]:
+            - /url: /styles/farmhouse/bedroom
+            - img "Farmhouse Bedroom interior" [ref=e1163]
+            - generic [ref=e1164]:
+              - generic [ref=e1165]: Farmhouse Bedroom
+              - generic [ref=e1166]: →
+          - link "Farmhouse Kitchen interior Farmhouse Kitchen →" [ref=e1167] [cursor=pointer]:
+            - /url: /styles/farmhouse/kitchen
+            - img "Farmhouse Kitchen interior" [ref=e1168]
+            - generic [ref=e1169]:
+              - generic [ref=e1170]: Farmhouse Kitchen
+              - generic [ref=e1171]: →
+          - link "Farmhouse Dining Room interior Farmhouse Dining Room →" [ref=e1172] [cursor=pointer]:
+            - /url: /styles/farmhouse/dining-room
+            - img "Farmhouse Dining Room interior" [ref=e1173]
+            - generic [ref=e1174]:
+              - generic [ref=e1175]: Farmhouse Dining Room
+              - generic [ref=e1176]: →
+          - link "Farmhouse Entryway & Hallway interior Farmhouse Entryway & Hallway →" [ref=e1177] [cursor=pointer]:
+            - /url: /styles/farmhouse/entryway-hallway
+            - img "Farmhouse Entryway & Hallway interior" [ref=e1178]
+            - generic [ref=e1179]:
+              - generic [ref=e1180]: Farmhouse Entryway & Hallway
+              - generic [ref=e1181]: →
+          - link "Modern Farmhouse Living Room interior Modern Farmhouse Living Room →" [ref=e1182] [cursor=pointer]:
+            - /url: /styles/modern-farmhouse/living-room
+            - img "Modern Farmhouse Living Room interior" [ref=e1183]
+            - generic [ref=e1184]:
+              - generic [ref=e1185]: Modern Farmhouse Living Room
+              - generic [ref=e1186]: →
+          - link "Modern Farmhouse Home Office interior Modern Farmhouse Home Office →" [ref=e1187] [cursor=pointer]:
+            - /url: /styles/modern-farmhouse/home-office
+            - img "Modern Farmhouse Home Office interior" [ref=e1188]
+            - generic [ref=e1189]:
+              - generic [ref=e1190]: Modern Farmhouse Home Office
+              - generic [ref=e1191]: →
+          - link "Modern Farmhouse Bedroom interior Modern Farmhouse Bedroom →" [ref=e1192] [cursor=pointer]:
+            - /url: /styles/modern-farmhouse/bedroom
+            - img "Modern Farmhouse Bedroom interior" [ref=e1193]
+            - generic [ref=e1194]:
+              - generic [ref=e1195]: Modern Farmhouse Bedroom
+              - generic [ref=e1196]: →
+          - link "Modern Farmhouse Kitchen interior Modern Farmhouse Kitchen →" [ref=e1197] [cursor=pointer]:
+            - /url: /styles/modern-farmhouse/kitchen
+            - img "Modern Farmhouse Kitchen interior" [ref=e1198]
+            - generic [ref=e1199]:
+              - generic [ref=e1200]: Modern Farmhouse Kitchen
+              - generic [ref=e1201]: →
+          - link "Modern Farmhouse Dining Room interior Modern Farmhouse Dining Room →" [ref=e1202] [cursor=pointer]:
+            - /url: /styles/modern-farmhouse/dining-room
+            - img "Modern Farmhouse Dining Room interior" [ref=e1203]
+            - generic [ref=e1204]:
+              - generic [ref=e1205]: Modern Farmhouse Dining Room
+              - generic [ref=e1206]: →
+          - link "Modern Farmhouse Entryway & Hallway interior Modern Farmhouse Entryway & Hallway →" [ref=e1207] [cursor=pointer]:
+            - /url: /styles/modern-farmhouse/entryway-hallway
+            - img "Modern Farmhouse Entryway & Hallway interior" [ref=e1208]
+            - generic [ref=e1209]:
+              - generic [ref=e1210]: Modern Farmhouse Entryway & Hallway
+              - generic [ref=e1211]: →
+          - link "Country Living Room interior Country Living Room →" [ref=e1212] [cursor=pointer]:
+            - /url: /styles/country/living-room
+            - img "Country Living Room interior" [ref=e1213]
+            - generic [ref=e1214]:
+              - generic [ref=e1215]: Country Living Room
+              - generic [ref=e1216]: →
+          - link "Country Home Office interior Country Home Office →" [ref=e1217] [cursor=pointer]:
+            - /url: /styles/country/home-office
+            - img "Country Home Office interior" [ref=e1218]
+            - generic [ref=e1219]:
+              - generic [ref=e1220]: Country Home Office
+              - generic [ref=e1221]: →
+          - link "Country Bedroom interior Country Bedroom →" [ref=e1222] [cursor=pointer]:
+            - /url: /styles/country/bedroom
+            - img "Country Bedroom interior" [ref=e1223]
+            - generic [ref=e1224]:
+              - generic [ref=e1225]: Country Bedroom
+              - generic [ref=e1226]: →
+          - link "Country Kitchen interior Country Kitchen →" [ref=e1227] [cursor=pointer]:
+            - /url: /styles/country/kitchen
+            - img "Country Kitchen interior" [ref=e1228]
+            - generic [ref=e1229]:
+              - generic [ref=e1230]: Country Kitchen
+              - generic [ref=e1231]: →
+          - link "Country Dining Room interior Country Dining Room →" [ref=e1232] [cursor=pointer]:
+            - /url: /styles/country/dining-room
+            - img "Country Dining Room interior" [ref=e1233]
+            - generic [ref=e1234]:
+              - generic [ref=e1235]: Country Dining Room
+              - generic [ref=e1236]: →
+          - link "Country Entryway & Hallway interior Country Entryway & Hallway →" [ref=e1237] [cursor=pointer]:
+            - /url: /styles/country/entryway-hallway
+            - img "Country Entryway & Hallway interior" [ref=e1238]
+            - generic [ref=e1239]:
+              - generic [ref=e1240]: Country Entryway & Hallway
+              - generic [ref=e1241]: →
+          - link "French Country Living Room interior French Country Living Room →" [ref=e1242] [cursor=pointer]:
+            - /url: /styles/french-country/living-room
+            - img "French Country Living Room interior" [ref=e1243]
+            - generic [ref=e1244]:
+              - generic [ref=e1245]: French Country Living Room
+              - generic [ref=e1246]: →
+          - link "French Country Home Office interior French Country Home Office →" [ref=e1247] [cursor=pointer]:
+            - /url: /styles/french-country/home-office
+            - img "French Country Home Office interior" [ref=e1248]
+            - generic [ref=e1249]:
+              - generic [ref=e1250]: French Country Home Office
+              - generic [ref=e1251]: →
+          - link "French Country Bedroom interior French Country Bedroom →" [ref=e1252] [cursor=pointer]:
+            - /url: /styles/french-country/bedroom
+            - img "French Country Bedroom interior" [ref=e1253]
+            - generic [ref=e1254]:
+              - generic [ref=e1255]: French Country Bedroom
+              - generic [ref=e1256]: →
+          - link "French Country Kitchen interior French Country Kitchen →" [ref=e1257] [cursor=pointer]:
+            - /url: /styles/french-country/kitchen
+            - img "French Country Kitchen interior" [ref=e1258]
+            - generic [ref=e1259]:
+              - generic [ref=e1260]: French Country Kitchen
+              - generic [ref=e1261]: →
+          - link "French Country Dining Room interior French Country Dining Room →" [ref=e1262] [cursor=pointer]:
+            - /url: /styles/french-country/dining-room
+            - img "French Country Dining Room interior" [ref=e1263]
+            - generic [ref=e1264]:
+              - generic [ref=e1265]: French Country Dining Room
+              - generic [ref=e1266]: →
+          - link "French Country Entryway & Hallway interior French Country Entryway & Hallway →" [ref=e1267] [cursor=pointer]:
+            - /url: /styles/french-country/entryway-hallway
+            - img "French Country Entryway & Hallway interior" [ref=e1268]
+            - generic [ref=e1269]:
+              - generic [ref=e1270]: French Country Entryway & Hallway
+              - generic [ref=e1271]: →
+          - link "Tuscan Living Room interior Tuscan Living Room →" [ref=e1272] [cursor=pointer]:
+            - /url: /styles/tuscan/living-room
+            - img "Tuscan Living Room interior" [ref=e1273]
+            - generic [ref=e1274]:
+              - generic [ref=e1275]: Tuscan Living Room
+              - generic [ref=e1276]: →
+          - link "Tuscan Home Office interior Tuscan Home Office →" [ref=e1277] [cursor=pointer]:
+            - /url: /styles/tuscan/home-office
+            - img "Tuscan Home Office interior" [ref=e1278]
+            - generic [ref=e1279]:
+              - generic [ref=e1280]: Tuscan Home Office
+              - generic [ref=e1281]: →
+          - link "Tuscan Bedroom interior Tuscan Bedroom →" [ref=e1282] [cursor=pointer]:
+            - /url: /styles/tuscan/bedroom
+            - img "Tuscan Bedroom interior" [ref=e1283]
+            - generic [ref=e1284]:
+              - generic [ref=e1285]: Tuscan Bedroom
+              - generic [ref=e1286]: →
+          - link "Tuscan Kitchen interior Tuscan Kitchen →" [ref=e1287] [cursor=pointer]:
+            - /url: /styles/tuscan/kitchen
+            - img "Tuscan Kitchen interior" [ref=e1288]
+            - generic [ref=e1289]:
+              - generic [ref=e1290]: Tuscan Kitchen
+              - generic [ref=e1291]: →
+          - link "Tuscan Dining Room interior Tuscan Dining Room →" [ref=e1292] [cursor=pointer]:
+            - /url: /styles/tuscan/dining-room
+            - img "Tuscan Dining Room interior" [ref=e1293]
+            - generic [ref=e1294]:
+              - generic [ref=e1295]: Tuscan Dining Room
+              - generic [ref=e1296]: →
+          - link "Tuscan Entryway & Hallway interior Tuscan Entryway & Hallway →" [ref=e1297] [cursor=pointer]:
+            - /url: /styles/tuscan/entryway-hallway
+            - img "Tuscan Entryway & Hallway interior" [ref=e1298]
+            - generic [ref=e1299]:
+              - generic [ref=e1300]: Tuscan Entryway & Hallway
+              - generic [ref=e1301]: →
+          - link "Cabin Living Room interior Cabin Living Room →" [ref=e1302] [cursor=pointer]:
+            - /url: /styles/cabin/living-room
+            - img "Cabin Living Room interior" [ref=e1303]
+            - generic [ref=e1304]:
+              - generic [ref=e1305]: Cabin Living Room
+              - generic [ref=e1306]: →
+          - link "Cabin Home Office interior Cabin Home Office →" [ref=e1307] [cursor=pointer]:
+            - /url: /styles/cabin/home-office
+            - img "Cabin Home Office interior" [ref=e1308]
+            - generic [ref=e1309]:
+              - generic [ref=e1310]: Cabin Home Office
+              - generic [ref=e1311]: →
+          - link "Cabin Bedroom interior Cabin Bedroom →" [ref=e1312] [cursor=pointer]:
+            - /url: /styles/cabin/bedroom
+            - img "Cabin Bedroom interior" [ref=e1313]
+            - generic [ref=e1314]:
+              - generic [ref=e1315]: Cabin Bedroom
+              - generic [ref=e1316]: →
+          - link "Cabin Kitchen interior Cabin Kitchen →" [ref=e1317] [cursor=pointer]:
+            - /url: /styles/cabin/kitchen
+            - img "Cabin Kitchen interior" [ref=e1318]
+            - generic [ref=e1319]:
+              - generic [ref=e1320]: Cabin Kitchen
+              - generic [ref=e1321]: →
+          - link "Cabin Dining Room interior Cabin Dining Room →" [ref=e1322] [cursor=pointer]:
+            - /url: /styles/cabin/dining-room
+            - img "Cabin Dining Room interior" [ref=e1323]
+            - generic [ref=e1324]:
+              - generic [ref=e1325]: Cabin Dining Room
+              - generic [ref=e1326]: →
+          - link "Cabin Entryway & Hallway interior Cabin Entryway & Hallway →" [ref=e1327] [cursor=pointer]:
+            - /url: /styles/cabin/entryway-hallway
+            - img "Cabin Entryway & Hallway interior" [ref=e1328]
+            - generic [ref=e1329]:
+              - generic [ref=e1330]: Cabin Entryway & Hallway
+              - generic [ref=e1331]: →
+          - link "Cottagecore Living Room interior Cottagecore Living Room →" [ref=e1332] [cursor=pointer]:
+            - /url: /styles/cottagecore/living-room
+            - img "Cottagecore Living Room interior" [ref=e1333]
+            - generic [ref=e1334]:
+              - generic [ref=e1335]: Cottagecore Living Room
+              - generic [ref=e1336]: →
+          - link "Cottagecore Home Office interior Cottagecore Home Office →" [ref=e1337] [cursor=pointer]:
+            - /url: /styles/cottagecore/home-office
+            - img "Cottagecore Home Office interior" [ref=e1338]
+            - generic [ref=e1339]:
+              - generic [ref=e1340]: Cottagecore Home Office
+              - generic [ref=e1341]: →
+          - link "Cottagecore Bedroom interior Cottagecore Bedroom →" [ref=e1342] [cursor=pointer]:
+            - /url: /styles/cottagecore/bedroom
+            - img "Cottagecore Bedroom interior" [ref=e1343]
+            - generic [ref=e1344]:
+              - generic [ref=e1345]: Cottagecore Bedroom
+              - generic [ref=e1346]: →
+          - link "Cottagecore Kitchen interior Cottagecore Kitchen →" [ref=e1347] [cursor=pointer]:
+            - /url: /styles/cottagecore/kitchen
+            - img "Cottagecore Kitchen interior" [ref=e1348]
+            - generic [ref=e1349]:
+              - generic [ref=e1350]: Cottagecore Kitchen
+              - generic [ref=e1351]: →
+          - link "Cottagecore Dining Room interior Cottagecore Dining Room →" [ref=e1352] [cursor=pointer]:
+            - /url: /styles/cottagecore/dining-room
+            - img "Cottagecore Dining Room interior" [ref=e1353]
+            - generic [ref=e1354]:
+              - generic [ref=e1355]: Cottagecore Dining Room
+              - generic [ref=e1356]: →
+          - link "Cottagecore Entryway & Hallway interior Cottagecore Entryway & Hallway →" [ref=e1357] [cursor=pointer]:
+            - /url: /styles/cottagecore/entryway-hallway
+            - img "Cottagecore Entryway & Hallway interior" [ref=e1358]
+            - generic [ref=e1359]:
+              - generic [ref=e1360]: Cottagecore Entryway & Hallway
+              - generic [ref=e1361]: →
+          - link "Coastal Living Room interior Coastal Living Room →" [ref=e1362] [cursor=pointer]:
+            - /url: /styles/coastal/living-room
+            - img "Coastal Living Room interior" [ref=e1363]
+            - generic [ref=e1364]:
+              - generic [ref=e1365]: Coastal Living Room
+              - generic [ref=e1366]: →
+          - link "Coastal Home Office interior Coastal Home Office →" [ref=e1367] [cursor=pointer]:
+            - /url: /styles/coastal/home-office
+            - img "Coastal Home Office interior" [ref=e1368]
+            - generic [ref=e1369]:
+              - generic [ref=e1370]: Coastal Home Office
+              - generic [ref=e1371]: →
+          - link "Coastal Bedroom interior Coastal Bedroom →" [ref=e1372] [cursor=pointer]:
+            - /url: /styles/coastal/bedroom
+            - img "Coastal Bedroom interior" [ref=e1373]
+            - generic [ref=e1374]:
+              - generic [ref=e1375]: Coastal Bedroom
+              - generic [ref=e1376]: →
+          - link "Coastal Kitchen interior Coastal Kitchen →" [ref=e1377] [cursor=pointer]:
+            - /url: /styles/coastal/kitchen
+            - img "Coastal Kitchen interior" [ref=e1378]
+            - generic [ref=e1379]:
+              - generic [ref=e1380]: Coastal Kitchen
+              - generic [ref=e1381]: →
+          - link "Coastal Dining Room interior Coastal Dining Room →" [ref=e1382] [cursor=pointer]:
+            - /url: /styles/coastal/dining-room
+            - img "Coastal Dining Room interior" [ref=e1383]
+            - generic [ref=e1384]:
+              - generic [ref=e1385]: Coastal Dining Room
+              - generic [ref=e1386]: →
+          - link "Coastal Entryway & Hallway interior Coastal Entryway & Hallway →" [ref=e1387] [cursor=pointer]:
+            - /url: /styles/coastal/entryway-hallway
+            - img "Coastal Entryway & Hallway interior" [ref=e1388]
+            - generic [ref=e1389]:
+              - generic [ref=e1390]: Coastal Entryway & Hallway
+              - generic [ref=e1391]: →
+          - link "Coastal Grandmother Living Room interior Coastal Grandmother Living Room →" [ref=e1392] [cursor=pointer]:
+            - /url: /styles/coastal-grandmother/living-room
+            - img "Coastal Grandmother Living Room interior" [ref=e1393]
+            - generic [ref=e1394]:
+              - generic [ref=e1395]: Coastal Grandmother Living Room
+              - generic [ref=e1396]: →
+          - link "Coastal Grandmother Home Office interior Coastal Grandmother Home Office →" [ref=e1397] [cursor=pointer]:
+            - /url: /styles/coastal-grandmother/home-office
+            - img "Coastal Grandmother Home Office interior" [ref=e1398]
+            - generic [ref=e1399]:
+              - generic [ref=e1400]: Coastal Grandmother Home Office
+              - generic [ref=e1401]: →
+          - link "Coastal Grandmother Bedroom interior Coastal Grandmother Bedroom →" [ref=e1402] [cursor=pointer]:
+            - /url: /styles/coastal-grandmother/bedroom
+            - img "Coastal Grandmother Bedroom interior" [ref=e1403]
+            - generic [ref=e1404]:
+              - generic [ref=e1405]: Coastal Grandmother Bedroom
+              - generic [ref=e1406]: →
+          - link "Coastal Grandmother Kitchen interior Coastal Grandmother Kitchen →" [ref=e1407] [cursor=pointer]:
+            - /url: /styles/coastal-grandmother/kitchen
+            - img "Coastal Grandmother Kitchen interior" [ref=e1408]
+            - generic [ref=e1409]:
+              - generic [ref=e1410]: Coastal Grandmother Kitchen
+              - generic [ref=e1411]: →
+          - link "Coastal Grandmother Dining Room interior Coastal Grandmother Dining Room →" [ref=e1412] [cursor=pointer]:
+            - /url: /styles/coastal-grandmother/dining-room
+            - img "Coastal Grandmother Dining Room interior" [ref=e1413]
+            - generic [ref=e1414]:
+              - generic [ref=e1415]: Coastal Grandmother Dining Room
+              - generic [ref=e1416]: →
+          - link "Coastal Grandmother Entryway & Hallway interior Coastal Grandmother Entryway & Hallway →" [ref=e1417] [cursor=pointer]:
+            - /url: /styles/coastal-grandmother/entryway-hallway
+            - img "Coastal Grandmother Entryway & Hallway interior" [ref=e1418]
+            - generic [ref=e1419]:
+              - generic [ref=e1420]: Coastal Grandmother Entryway & Hallway
+              - generic [ref=e1421]: →
+          - link "Tropical Living Room interior Tropical Living Room →" [ref=e1422] [cursor=pointer]:
+            - /url: /styles/tropical/living-room
+            - img "Tropical Living Room interior" [ref=e1423]
+            - generic [ref=e1424]:
+              - generic [ref=e1425]: Tropical Living Room
+              - generic [ref=e1426]: →
+          - link "Tropical Home Office interior Tropical Home Office →" [ref=e1427] [cursor=pointer]:
+            - /url: /styles/tropical/home-office
+            - img "Tropical Home Office interior" [ref=e1428]
+            - generic [ref=e1429]:
+              - generic [ref=e1430]: Tropical Home Office
+              - generic [ref=e1431]: →
+          - link "Tropical Bedroom interior Tropical Bedroom →" [ref=e1432] [cursor=pointer]:
+            - /url: /styles/tropical/bedroom
+            - img "Tropical Bedroom interior" [ref=e1433]
+            - generic [ref=e1434]:
+              - generic [ref=e1435]: Tropical Bedroom
+              - generic [ref=e1436]: →
+          - link "Tropical Kitchen interior Tropical Kitchen →" [ref=e1437] [cursor=pointer]:
+            - /url: /styles/tropical/kitchen
+            - img "Tropical Kitchen interior" [ref=e1438]
+            - generic [ref=e1439]:
+              - generic [ref=e1440]: Tropical Kitchen
+              - generic [ref=e1441]: →
+          - link "Tropical Dining Room interior Tropical Dining Room →" [ref=e1442] [cursor=pointer]:
+            - /url: /styles/tropical/dining-room
+            - img "Tropical Dining Room interior" [ref=e1443]
+            - generic [ref=e1444]:
+              - generic [ref=e1445]: Tropical Dining Room
+              - generic [ref=e1446]: →
+          - link "Tropical Entryway & Hallway interior Tropical Entryway & Hallway →" [ref=e1447] [cursor=pointer]:
+            - /url: /styles/tropical/entryway-hallway
+            - img "Tropical Entryway & Hallway interior" [ref=e1448]
+            - generic [ref=e1449]:
+              - generic [ref=e1450]: Tropical Entryway & Hallway
+              - generic [ref=e1451]: →
+          - link "Vintage Living Room interior Vintage Living Room →" [ref=e1452] [cursor=pointer]:
+            - /url: /styles/vintage/living-room
+            - img "Vintage Living Room interior" [ref=e1453]
+            - generic [ref=e1454]:
+              - generic [ref=e1455]: Vintage Living Room
+              - generic [ref=e1456]: →
+          - link "Vintage Home Office interior Vintage Home Office →" [ref=e1457] [cursor=pointer]:
+            - /url: /styles/vintage/home-office
+            - img "Vintage Home Office interior" [ref=e1458]
+            - generic [ref=e1459]:
+              - generic [ref=e1460]: Vintage Home Office
+              - generic [ref=e1461]: →
+          - link "Vintage Bedroom interior Vintage Bedroom →" [ref=e1462] [cursor=pointer]:
+            - /url: /styles/vintage/bedroom
+            - img "Vintage Bedroom interior" [ref=e1463]
+            - generic [ref=e1464]:
+              - generic [ref=e1465]: Vintage Bedroom
+              - generic [ref=e1466]: →
+          - link "Vintage Kitchen interior Vintage Kitchen →" [ref=e1467] [cursor=pointer]:
+            - /url: /styles/vintage/kitchen
+            - img "Vintage Kitchen interior" [ref=e1468]
+            - generic [ref=e1469]:
+              - generic [ref=e1470]: Vintage Kitchen
+              - generic [ref=e1471]: →
+          - link "Vintage Dining Room interior Vintage Dining Room →" [ref=e1472] [cursor=pointer]:
+            - /url: /styles/vintage/dining-room
+            - img "Vintage Dining Room interior" [ref=e1473]
+            - generic [ref=e1474]:
+              - generic [ref=e1475]: Vintage Dining Room
+              - generic [ref=e1476]: →
+          - link "Vintage Entryway & Hallway interior Vintage Entryway & Hallway →" [ref=e1477] [cursor=pointer]:
+            - /url: /styles/vintage/entryway-hallway
+            - img "Vintage Entryway & Hallway interior" [ref=e1478]
+            - generic [ref=e1479]:
+              - generic [ref=e1480]: Vintage Entryway & Hallway
+              - generic [ref=e1481]: →
+          - link "Shabby Chic Living Room interior Shabby Chic Living Room →" [ref=e1482] [cursor=pointer]:
+            - /url: /styles/shabby-chic/living-room
+            - img "Shabby Chic Living Room interior" [ref=e1483]
+            - generic [ref=e1484]:
+              - generic [ref=e1485]: Shabby Chic Living Room
+              - generic [ref=e1486]: →
+          - link "Shabby Chic Home Office interior Shabby Chic Home Office →" [ref=e1487] [cursor=pointer]:
+            - /url: /styles/shabby-chic/home-office
+            - img "Shabby Chic Home Office interior" [ref=e1488]
+            - generic [ref=e1489]:
+              - generic [ref=e1490]: Shabby Chic Home Office
+              - generic [ref=e1491]: →
+          - link "Shabby Chic Bedroom interior Shabby Chic Bedroom →" [ref=e1492] [cursor=pointer]:
+            - /url: /styles/shabby-chic/bedroom
+            - img "Shabby Chic Bedroom interior" [ref=e1493]
+            - generic [ref=e1494]:
+              - generic [ref=e1495]: Shabby Chic Bedroom
+              - generic [ref=e1496]: →
+          - link "Shabby Chic Kitchen interior Shabby Chic Kitchen →" [ref=e1497] [cursor=pointer]:
+            - /url: /styles/shabby-chic/kitchen
+            - img "Shabby Chic Kitchen interior" [ref=e1498]
+            - generic [ref=e1499]:
+              - generic [ref=e1500]: Shabby Chic Kitchen
+              - generic [ref=e1501]: →
+          - link "Shabby Chic Dining Room interior Shabby Chic Dining Room →" [ref=e1502] [cursor=pointer]:
+            - /url: /styles/shabby-chic/dining-room
+            - img "Shabby Chic Dining Room interior" [ref=e1503]
+            - generic [ref=e1504]:
+              - generic [ref=e1505]: Shabby Chic Dining Room
+              - generic [ref=e1506]: →
+          - link "Shabby Chic Entryway & Hallway interior Shabby Chic Entryway & Hallway →" [ref=e1507] [cursor=pointer]:
+            - /url: /styles/shabby-chic/entryway-hallway
+            - img "Shabby Chic Entryway & Hallway interior" [ref=e1508]
+            - generic [ref=e1509]:
+              - generic [ref=e1510]: Shabby Chic Entryway & Hallway
+              - generic [ref=e1511]: →
+          - link "Bohemian Living Room interior Bohemian Living Room →" [ref=e1512] [cursor=pointer]:
+            - /url: /styles/bohemian/living-room
+            - img "Bohemian Living Room interior" [ref=e1513]
+            - generic [ref=e1514]:
+              - generic [ref=e1515]: Bohemian Living Room
+              - generic [ref=e1516]: →
+          - link "Bohemian Home Office interior Bohemian Home Office →" [ref=e1517] [cursor=pointer]:
+            - /url: /styles/bohemian/home-office
+            - img "Bohemian Home Office interior" [ref=e1518]
+            - generic [ref=e1519]:
+              - generic [ref=e1520]: Bohemian Home Office
+              - generic [ref=e1521]: →
+          - link "Bohemian Bedroom interior Bohemian Bedroom →" [ref=e1522] [cursor=pointer]:
+            - /url: /styles/bohemian/bedroom
+            - img "Bohemian Bedroom interior" [ref=e1523]
+            - generic [ref=e1524]:
+              - generic [ref=e1525]: Bohemian Bedroom
+              - generic [ref=e1526]: →
+          - link "Bohemian Kitchen interior Bohemian Kitchen →" [ref=e1527] [cursor=pointer]:
+            - /url: /styles/bohemian/kitchen
+            - img "Bohemian Kitchen interior" [ref=e1528]
+            - generic [ref=e1529]:
+              - generic [ref=e1530]: Bohemian Kitchen
+              - generic [ref=e1531]: →
+          - link "Bohemian Dining Room interior Bohemian Dining Room →" [ref=e1532] [cursor=pointer]:
+            - /url: /styles/bohemian/dining-room
+            - img "Bohemian Dining Room interior" [ref=e1533]
+            - generic [ref=e1534]:
+              - generic [ref=e1535]: Bohemian Dining Room
+              - generic [ref=e1536]: →
+          - link "Bohemian Entryway & Hallway interior Bohemian Entryway & Hallway →" [ref=e1537] [cursor=pointer]:
+            - /url: /styles/bohemian/entryway-hallway
+            - img "Bohemian Entryway & Hallway interior" [ref=e1538]
+            - generic [ref=e1539]:
+              - generic [ref=e1540]: Bohemian Entryway & Hallway
+              - generic [ref=e1541]: →
+          - link "Eclectic Living Room interior Eclectic Living Room →" [ref=e1542] [cursor=pointer]:
+            - /url: /styles/eclectic/living-room
+            - img "Eclectic Living Room interior" [ref=e1543]
+            - generic [ref=e1544]:
+              - generic [ref=e1545]: Eclectic Living Room
+              - generic [ref=e1546]: →
+          - link "Eclectic Home Office interior Eclectic Home Office →" [ref=e1547] [cursor=pointer]:
+            - /url: /styles/eclectic/home-office
+            - img "Eclectic Home Office interior" [ref=e1548]
+            - generic [ref=e1549]:
+              - generic [ref=e1550]: Eclectic Home Office
+              - generic [ref=e1551]: →
+          - link "Eclectic Bedroom interior Eclectic Bedroom →" [ref=e1552] [cursor=pointer]:
+            - /url: /styles/eclectic/bedroom
+            - img "Eclectic Bedroom interior" [ref=e1553]
+            - generic [ref=e1554]:
+              - generic [ref=e1555]: Eclectic Bedroom
+              - generic [ref=e1556]: →
+          - link "Eclectic Kitchen interior Eclectic Kitchen →" [ref=e1557] [cursor=pointer]:
+            - /url: /styles/eclectic/kitchen
+            - img "Eclectic Kitchen interior" [ref=e1558]
+            - generic [ref=e1559]:
+              - generic [ref=e1560]: Eclectic Kitchen
+              - generic [ref=e1561]: →
+          - link "Eclectic Dining Room interior Eclectic Dining Room →" [ref=e1562] [cursor=pointer]:
+            - /url: /styles/eclectic/dining-room
+            - img "Eclectic Dining Room interior" [ref=e1563]
+            - generic [ref=e1564]:
+              - generic [ref=e1565]: Eclectic Dining Room
+              - generic [ref=e1566]: →
+          - link "Eclectic Entryway & Hallway interior Eclectic Entryway & Hallway →" [ref=e1567] [cursor=pointer]:
+            - /url: /styles/eclectic/entryway-hallway
+            - img "Eclectic Entryway & Hallway interior" [ref=e1568]
+            - generic [ref=e1569]:
+              - generic [ref=e1570]: Eclectic Entryway & Hallway
+              - generic [ref=e1571]: →
+          - link "Global Living Room interior Global Living Room →" [ref=e1572] [cursor=pointer]:
+            - /url: /styles/global/living-room
+            - img "Global Living Room interior" [ref=e1573]
+            - generic [ref=e1574]:
+              - generic [ref=e1575]: Global Living Room
+              - generic [ref=e1576]: →
+          - link "Global Home Office interior Global Home Office →" [ref=e1577] [cursor=pointer]:
+            - /url: /styles/global/home-office
+            - img "Global Home Office interior" [ref=e1578]
+            - generic [ref=e1579]:
+              - generic [ref=e1580]: Global Home Office
+              - generic [ref=e1581]: →
+          - link "Global Bedroom interior Global Bedroom →" [ref=e1582] [cursor=pointer]:
+            - /url: /styles/global/bedroom
+            - img "Global Bedroom interior" [ref=e1583]
+            - generic [ref=e1584]:
+              - generic [ref=e1585]: Global Bedroom
+              - generic [ref=e1586]: →
+          - link "Global Kitchen interior Global Kitchen →" [ref=e1587] [cursor=pointer]:
+            - /url: /styles/global/kitchen
+            - img "Global Kitchen interior" [ref=e1588]
+            - generic [ref=e1589]:
+              - generic [ref=e1590]: Global Kitchen
+              - generic [ref=e1591]: →
+          - link "Global Dining Room interior Global Dining Room →" [ref=e1592] [cursor=pointer]:
+            - /url: /styles/global/dining-room
+            - img "Global Dining Room interior" [ref=e1593]
+            - generic [ref=e1594]:
+              - generic [ref=e1595]: Global Dining Room
+              - generic [ref=e1596]: →
+          - link "Global Entryway & Hallway interior Global Entryway & Hallway →" [ref=e1597] [cursor=pointer]:
+            - /url: /styles/global/entryway-hallway
+            - img "Global Entryway & Hallway interior" [ref=e1598]
+            - generic [ref=e1599]:
+              - generic [ref=e1600]: Global Entryway & Hallway
+              - generic [ref=e1601]: →
+          - link "Mediterranean Living Room interior Mediterranean Living Room →" [ref=e1602] [cursor=pointer]:
+            - /url: /styles/mediterranean/living-room
+            - img "Mediterranean Living Room interior" [ref=e1603]
+            - generic [ref=e1604]:
+              - generic [ref=e1605]: Mediterranean Living Room
+              - generic [ref=e1606]: →
+          - link "Mediterranean Home Office interior Mediterranean Home Office →" [ref=e1607] [cursor=pointer]:
+            - /url: /styles/mediterranean/home-office
+            - img "Mediterranean Home Office interior" [ref=e1608]
+            - generic [ref=e1609]:
+              - generic [ref=e1610]: Mediterranean Home Office
+              - generic [ref=e1611]: →
+          - link "Mediterranean Bedroom interior Mediterranean Bedroom →" [ref=e1612] [cursor=pointer]:
+            - /url: /styles/mediterranean/bedroom
+            - img "Mediterranean Bedroom interior" [ref=e1613]
+            - generic [ref=e1614]:
+              - generic [ref=e1615]: Mediterranean Bedroom
+              - generic [ref=e1616]: →
+          - link "Mediterranean Kitchen interior Mediterranean Kitchen →" [ref=e1617] [cursor=pointer]:
+            - /url: /styles/mediterranean/kitchen
+            - img "Mediterranean Kitchen interior" [ref=e1618]
+            - generic [ref=e1619]:
+              - generic [ref=e1620]: Mediterranean Kitchen
+              - generic [ref=e1621]: →
+          - link "Mediterranean Dining Room interior Mediterranean Dining Room →" [ref=e1622] [cursor=pointer]:
+            - /url: /styles/mediterranean/dining-room
+            - img "Mediterranean Dining Room interior" [ref=e1623]
+            - generic [ref=e1624]:
+              - generic [ref=e1625]: Mediterranean Dining Room
+              - generic [ref=e1626]: →
+          - link "Mediterranean Entryway & Hallway interior Mediterranean Entryway & Hallway →" [ref=e1627] [cursor=pointer]:
+            - /url: /styles/mediterranean/entryway-hallway
+            - img "Mediterranean Entryway & Hallway interior" [ref=e1628]
+            - generic [ref=e1629]:
+              - generic [ref=e1630]: Mediterranean Entryway & Hallway
+              - generic [ref=e1631]: →
+          - link "Moroccan Living Room interior Moroccan Living Room →" [ref=e1632] [cursor=pointer]:
+            - /url: /styles/moroccan/living-room
+            - img "Moroccan Living Room interior" [ref=e1633]
+            - generic [ref=e1634]:
+              - generic [ref=e1635]: Moroccan Living Room
+              - generic [ref=e1636]: →
+          - link "Moroccan Home Office interior Moroccan Home Office →" [ref=e1637] [cursor=pointer]:
+            - /url: /styles/moroccan/home-office
+            - img "Moroccan Home Office interior" [ref=e1638]
+            - generic [ref=e1639]:
+              - generic [ref=e1640]: Moroccan Home Office
+              - generic [ref=e1641]: →
+          - link "Moroccan Bedroom interior Moroccan Bedroom →" [ref=e1642] [cursor=pointer]:
+            - /url: /styles/moroccan/bedroom
+            - img "Moroccan Bedroom interior" [ref=e1643]
+            - generic [ref=e1644]:
+              - generic [ref=e1645]: Moroccan Bedroom
+              - generic [ref=e1646]: →
+          - link "Moroccan Kitchen interior Moroccan Kitchen →" [ref=e1647] [cursor=pointer]:
+            - /url: /styles/moroccan/kitchen
+            - img "Moroccan Kitchen interior" [ref=e1648]
+            - generic [ref=e1649]:
+              - generic [ref=e1650]: Moroccan Kitchen
+              - generic [ref=e1651]: →
+          - link "Moroccan Dining Room interior Moroccan Dining Room →" [ref=e1652] [cursor=pointer]:
+            - /url: /styles/moroccan/dining-room
+            - img "Moroccan Dining Room interior" [ref=e1653]
+            - generic [ref=e1654]:
+              - generic [ref=e1655]: Moroccan Dining Room
+              - generic [ref=e1656]: →
+          - link "Moroccan Entryway & Hallway interior Moroccan Entryway & Hallway →" [ref=e1657] [cursor=pointer]:
+            - /url: /styles/moroccan/entryway-hallway
+            - img "Moroccan Entryway & Hallway interior" [ref=e1658]
+            - generic [ref=e1659]:
+              - generic [ref=e1660]: Moroccan Entryway & Hallway
+              - generic [ref=e1661]: →
+          - link "Arabic Living Room interior Arabic Living Room →" [ref=e1662] [cursor=pointer]:
+            - /url: /styles/arabic/living-room
+            - img "Arabic Living Room interior" [ref=e1663]
+            - generic [ref=e1664]:
+              - generic [ref=e1665]: Arabic Living Room
+              - generic [ref=e1666]: →
+          - link "Arabic Home Office interior Arabic Home Office →" [ref=e1667] [cursor=pointer]:
+            - /url: /styles/arabic/home-office
+            - img "Arabic Home Office interior" [ref=e1668]
+            - generic [ref=e1669]:
+              - generic [ref=e1670]: Arabic Home Office
+              - generic [ref=e1671]: →
+          - link "Arabic Bedroom interior Arabic Bedroom →" [ref=e1672] [cursor=pointer]:
+            - /url: /styles/arabic/bedroom
+            - img "Arabic Bedroom interior" [ref=e1673]
+            - generic [ref=e1674]:
+              - generic [ref=e1675]: Arabic Bedroom
+              - generic [ref=e1676]: →
+          - link "Arabic Kitchen interior Arabic Kitchen →" [ref=e1677] [cursor=pointer]:
+            - /url: /styles/arabic/kitchen
+            - img "Arabic Kitchen interior" [ref=e1678]
+            - generic [ref=e1679]:
+              - generic [ref=e1680]: Arabic Kitchen
+              - generic [ref=e1681]: →
+          - link "Arabic Dining Room interior Arabic Dining Room →" [ref=e1682] [cursor=pointer]:
+            - /url: /styles/arabic/dining-room
+            - img "Arabic Dining Room interior" [ref=e1683]
+            - generic [ref=e1684]:
+              - generic [ref=e1685]: Arabic Dining Room
+              - generic [ref=e1686]: →
+          - link "Arabic Entryway & Hallway interior Arabic Entryway & Hallway →" [ref=e1687] [cursor=pointer]:
+            - /url: /styles/arabic/entryway-hallway
+            - img "Arabic Entryway & Hallway interior" [ref=e1688]
+            - generic [ref=e1689]:
+              - generic [ref=e1690]: Arabic Entryway & Hallway
+              - generic [ref=e1691]: →
+          - link "Asian Zen Living Room interior Asian Zen Living Room →" [ref=e1692] [cursor=pointer]:
+            - /url: /styles/asian-zen/living-room
+            - img "Asian Zen Living Room interior" [ref=e1693]
+            - generic [ref=e1694]:
+              - generic [ref=e1695]: Asian Zen Living Room
+              - generic [ref=e1696]: →
+          - link "Asian Zen Home Office interior Asian Zen Home Office →" [ref=e1697] [cursor=pointer]:
+            - /url: /styles/asian-zen/home-office
+            - img "Asian Zen Home Office interior" [ref=e1698]
+            - generic [ref=e1699]:
+              - generic [ref=e1700]: Asian Zen Home Office
+              - generic [ref=e1701]: →
+          - link "Asian Zen Bedroom interior Asian Zen Bedroom →" [ref=e1702] [cursor=pointer]:
+            - /url: /styles/asian-zen/bedroom
+            - img "Asian Zen Bedroom interior" [ref=e1703]
+            - generic [ref=e1704]:
+              - generic [ref=e1705]: Asian Zen Bedroom
+              - generic [ref=e1706]: →
+          - link "Asian Zen Kitchen interior Asian Zen Kitchen →" [ref=e1707] [cursor=pointer]:
+            - /url: /styles/asian-zen/kitchen
+            - img "Asian Zen Kitchen interior" [ref=e1708]
+            - generic [ref=e1709]:
+              - generic [ref=e1710]: Asian Zen Kitchen
+              - generic [ref=e1711]: →
+          - link "Asian Zen Dining Room interior Asian Zen Dining Room →" [ref=e1712] [cursor=pointer]:
+            - /url: /styles/asian-zen/dining-room
+            - img "Asian Zen Dining Room interior" [ref=e1713]
+            - generic [ref=e1714]:
+              - generic [ref=e1715]: Asian Zen Dining Room
+              - generic [ref=e1716]: →
+          - link "Asian Zen Entryway & Hallway interior Asian Zen Entryway & Hallway →" [ref=e1717] [cursor=pointer]:
+            - /url: /styles/asian-zen/entryway-hallway
+            - img "Asian Zen Entryway & Hallway interior" [ref=e1718]
+            - generic [ref=e1719]:
+              - generic [ref=e1720]: Asian Zen Entryway & Hallway
+              - generic [ref=e1721]: →
+          - link "Southwestern Living Room interior Southwestern Living Room →" [ref=e1722] [cursor=pointer]:
+            - /url: /styles/southwestern/living-room
+            - img "Southwestern Living Room interior" [ref=e1723]
+            - generic [ref=e1724]:
+              - generic [ref=e1725]: Southwestern Living Room
+              - generic [ref=e1726]: →
+          - link "Southwestern Home Office interior Southwestern Home Office →" [ref=e1727] [cursor=pointer]:
+            - /url: /styles/southwestern/home-office
+            - img "Southwestern Home Office interior" [ref=e1728]
+            - generic [ref=e1729]:
+              - generic [ref=e1730]: Southwestern Home Office
+              - generic [ref=e1731]: →
+          - link "Southwestern Bedroom interior Southwestern Bedroom →" [ref=e1732] [cursor=pointer]:
+            - /url: /styles/southwestern/bedroom
+            - img "Southwestern Bedroom interior" [ref=e1733]
+            - generic [ref=e1734]:
+              - generic [ref=e1735]: Southwestern Bedroom
+              - generic [ref=e1736]: →
+          - link "Southwestern Kitchen interior Southwestern Kitchen →" [ref=e1737] [cursor=pointer]:
+            - /url: /styles/southwestern/kitchen
+            - img "Southwestern Kitchen interior" [ref=e1738]
+            - generic [ref=e1739]:
+              - generic [ref=e1740]: Southwestern Kitchen
+              - generic [ref=e1741]: →
+          - link "Southwestern Dining Room interior Southwestern Dining Room →" [ref=e1742] [cursor=pointer]:
+            - /url: /styles/southwestern/dining-room
+            - img "Southwestern Dining Room interior" [ref=e1743]
+            - generic [ref=e1744]:
+              - generic [ref=e1745]: Southwestern Dining Room
+              - generic [ref=e1746]: →
+          - link "Southwestern Entryway & Hallway interior Southwestern Entryway & Hallway →" [ref=e1747] [cursor=pointer]:
+            - /url: /styles/southwestern/entryway-hallway
+            - img "Southwestern Entryway & Hallway interior" [ref=e1748]
+            - generic [ref=e1749]:
+              - generic [ref=e1750]: Southwestern Entryway & Hallway
+              - generic [ref=e1751]: →
+          - link "Desert Modern Living Room interior Desert Modern Living Room →" [ref=e1752] [cursor=pointer]:
+            - /url: /styles/desert-modern/living-room
+            - img "Desert Modern Living Room interior" [ref=e1753]
+            - generic [ref=e1754]:
+              - generic [ref=e1755]: Desert Modern Living Room
+              - generic [ref=e1756]: →
+          - link "Desert Modern Home Office interior Desert Modern Home Office →" [ref=e1757] [cursor=pointer]:
+            - /url: /styles/desert-modern/home-office
+            - img "Desert Modern Home Office interior" [ref=e1758]
+            - generic [ref=e1759]:
+              - generic [ref=e1760]: Desert Modern Home Office
+              - generic [ref=e1761]: →
+          - link "Desert Modern Bedroom interior Desert Modern Bedroom →" [ref=e1762] [cursor=pointer]:
+            - /url: /styles/desert-modern/bedroom
+            - img "Desert Modern Bedroom interior" [ref=e1763]
+            - generic [ref=e1764]:
+              - generic [ref=e1765]: Desert Modern Bedroom
+              - generic [ref=e1766]: →
+          - link "Desert Modern Kitchen interior Desert Modern Kitchen →" [ref=e1767] [cursor=pointer]:
+            - /url: /styles/desert-modern/kitchen
+            - img "Desert Modern Kitchen interior" [ref=e1768]
+            - generic [ref=e1769]:
+              - generic [ref=e1770]: Desert Modern Kitchen
+              - generic [ref=e1771]: →
+          - link "Desert Modern Dining Room interior Desert Modern Dining Room →" [ref=e1772] [cursor=pointer]:
+            - /url: /styles/desert-modern/dining-room
+            - img "Desert Modern Dining Room interior" [ref=e1773]
+            - generic [ref=e1774]:
+              - generic [ref=e1775]: Desert Modern Dining Room
+              - generic [ref=e1776]: →
+          - link "Desert Modern Entryway & Hallway interior Desert Modern Entryway & Hallway →" [ref=e1777] [cursor=pointer]:
+            - /url: /styles/desert-modern/entryway-hallway
+            - img "Desert Modern Entryway & Hallway interior" [ref=e1778]
+            - generic [ref=e1779]:
+              - generic [ref=e1780]: Desert Modern Entryway & Hallway
+              - generic [ref=e1781]: →
+          - link "IKEA-Inspired Living Room interior IKEA-Inspired Living Room →" [ref=e1782] [cursor=pointer]:
+            - /url: /styles/ikea/living-room
+            - img "IKEA-Inspired Living Room interior" [ref=e1783]
+            - generic [ref=e1784]:
+              - generic [ref=e1785]: IKEA-Inspired Living Room
+              - generic [ref=e1786]: →
+          - link "IKEA-Inspired Home Office interior IKEA-Inspired Home Office →" [ref=e1787] [cursor=pointer]:
+            - /url: /styles/ikea/home-office
+            - img "IKEA-Inspired Home Office interior" [ref=e1788]
+            - generic [ref=e1789]:
+              - generic [ref=e1790]: IKEA-Inspired Home Office
+              - generic [ref=e1791]: →
+          - link "IKEA-Inspired Bedroom interior IKEA-Inspired Bedroom →" [ref=e1792] [cursor=pointer]:
+            - /url: /styles/ikea/bedroom
+            - img "IKEA-Inspired Bedroom interior" [ref=e1793]
+            - generic [ref=e1794]:
+              - generic [ref=e1795]: IKEA-Inspired Bedroom
+              - generic [ref=e1796]: →
+          - link "IKEA-Inspired Kitchen interior IKEA-Inspired Kitchen →" [ref=e1797] [cursor=pointer]:
+            - /url: /styles/ikea/kitchen
+            - img "IKEA-Inspired Kitchen interior" [ref=e1798]
+            - generic [ref=e1799]:
+              - generic [ref=e1800]: IKEA-Inspired Kitchen
+              - generic [ref=e1801]: →
+          - link "IKEA-Inspired Dining Room interior IKEA-Inspired Dining Room →" [ref=e1802] [cursor=pointer]:
+            - /url: /styles/ikea/dining-room
+            - img "IKEA-Inspired Dining Room interior" [ref=e1803]
+            - generic [ref=e1804]:
+              - generic [ref=e1805]: IKEA-Inspired Dining Room
+              - generic [ref=e1806]: →
+          - link "IKEA-Inspired Entryway & Hallway interior IKEA-Inspired Entryway & Hallway →" [ref=e1807] [cursor=pointer]:
+            - /url: /styles/ikea/entryway-hallway
+            - img "IKEA-Inspired Entryway & Hallway interior" [ref=e1808]
+            - generic [ref=e1809]:
+              - generic [ref=e1810]: IKEA-Inspired Entryway & Hallway
+              - generic [ref=e1811]: →
+          - link "Pottery Barn-Inspired Living Room interior Pottery Barn-Inspired Living Room →" [ref=e1812] [cursor=pointer]:
+            - /url: /styles/pottery-barn/living-room
+            - img "Pottery Barn-Inspired Living Room interior" [ref=e1813]
+            - generic [ref=e1814]:
+              - generic [ref=e1815]: Pottery Barn-Inspired Living Room
+              - generic [ref=e1816]: →
+          - link "Pottery Barn-Inspired Home Office interior Pottery Barn-Inspired Home Office →" [ref=e1817] [cursor=pointer]:
+            - /url: /styles/pottery-barn/home-office
+            - img "Pottery Barn-Inspired Home Office interior" [ref=e1818]
+            - generic [ref=e1819]:
+              - generic [ref=e1820]: Pottery Barn-Inspired Home Office
+              - generic [ref=e1821]: →
+          - link "Pottery Barn-Inspired Bedroom interior Pottery Barn-Inspired Bedroom →" [ref=e1822] [cursor=pointer]:
+            - /url: /styles/pottery-barn/bedroom
+            - img "Pottery Barn-Inspired Bedroom interior" [ref=e1823]
+            - generic [ref=e1824]:
+              - generic [ref=e1825]: Pottery Barn-Inspired Bedroom
+              - generic [ref=e1826]: →
+          - link "Pottery Barn-Inspired Kitchen interior Pottery Barn-Inspired Kitchen →" [ref=e1827] [cursor=pointer]:
+            - /url: /styles/pottery-barn/kitchen
+            - img "Pottery Barn-Inspired Kitchen interior" [ref=e1828]
+            - generic [ref=e1829]:
+              - generic [ref=e1830]: Pottery Barn-Inspired Kitchen
+              - generic [ref=e1831]: →
+          - link "Pottery Barn-Inspired Dining Room interior Pottery Barn-Inspired Dining Room →" [ref=e1832] [cursor=pointer]:
+            - /url: /styles/pottery-barn/dining-room
+            - img "Pottery Barn-Inspired Dining Room interior" [ref=e1833]
+            - generic [ref=e1834]:
+              - generic [ref=e1835]: Pottery Barn-Inspired Dining Room
+              - generic [ref=e1836]: →
+          - link "Pottery Barn-Inspired Entryway & Hallway interior Pottery Barn-Inspired Entryway & Hallway →" [ref=e1837] [cursor=pointer]:
+            - /url: /styles/pottery-barn/entryway-hallway
+            - img "Pottery Barn-Inspired Entryway & Hallway interior" [ref=e1838]
+            - generic [ref=e1839]:
+              - generic [ref=e1840]: Pottery Barn-Inspired Entryway & Hallway
+              - generic [ref=e1841]: →
+          - link "West Elm Modern Living Room interior West Elm Modern Living Room →" [ref=e1842] [cursor=pointer]:
+            - /url: /styles/west-elm-modern/living-room
+            - img "West Elm Modern Living Room interior" [ref=e1843]
+            - generic [ref=e1844]:
+              - generic [ref=e1845]: West Elm Modern Living Room
+              - generic [ref=e1846]: →
+          - link "West Elm Modern Home Office interior West Elm Modern Home Office →" [ref=e1847] [cursor=pointer]:
+            - /url: /styles/west-elm-modern/home-office
+            - img "West Elm Modern Home Office interior" [ref=e1848]
+            - generic [ref=e1849]:
+              - generic [ref=e1850]: West Elm Modern Home Office
+              - generic [ref=e1851]: →
+          - link "West Elm Modern Bedroom interior West Elm Modern Bedroom →" [ref=e1852] [cursor=pointer]:
+            - /url: /styles/west-elm-modern/bedroom
+            - img "West Elm Modern Bedroom interior" [ref=e1853]
+            - generic [ref=e1854]:
+              - generic [ref=e1855]: West Elm Modern Bedroom
+              - generic [ref=e1856]: →
+          - link "West Elm Modern Kitchen interior West Elm Modern Kitchen →" [ref=e1857] [cursor=pointer]:
+            - /url: /styles/west-elm-modern/kitchen
+            - img "West Elm Modern Kitchen interior" [ref=e1858]
+            - generic [ref=e1859]:
+              - generic [ref=e1860]: West Elm Modern Kitchen
+              - generic [ref=e1861]: →
+          - link "West Elm Modern Dining Room interior West Elm Modern Dining Room →" [ref=e1862] [cursor=pointer]:
+            - /url: /styles/west-elm-modern/dining-room
+            - img "West Elm Modern Dining Room interior" [ref=e1863]
+            - generic [ref=e1864]:
+              - generic [ref=e1865]: West Elm Modern Dining Room
+              - generic [ref=e1866]: →
+          - link "West Elm Modern Entryway & Hallway interior West Elm Modern Entryway & Hallway →" [ref=e1867] [cursor=pointer]:
+            - /url: /styles/west-elm-modern/entryway-hallway
+            - img "West Elm Modern Entryway & Hallway interior" [ref=e1868]
+            - generic [ref=e1869]:
+              - generic [ref=e1870]: West Elm Modern Entryway & Hallway
+              - generic [ref=e1871]: →
+          - link "Elven Fantasy Living Room interior Elven Fantasy Living Room →" [ref=e1872] [cursor=pointer]:
+            - /url: /styles/elven/living-room
+            - img "Elven Fantasy Living Room interior" [ref=e1873]
+            - generic [ref=e1874]:
+              - generic [ref=e1875]: Elven Fantasy Living Room
+              - generic [ref=e1876]: →
+          - link "Elven Fantasy Home Office interior Elven Fantasy Home Office →" [ref=e1877] [cursor=pointer]:
+            - /url: /styles/elven/home-office
+            - img "Elven Fantasy Home Office interior" [ref=e1878]
+            - generic [ref=e1879]:
+              - generic [ref=e1880]: Elven Fantasy Home Office
+              - generic [ref=e1881]: →
+          - link "Elven Fantasy Bedroom interior Elven Fantasy Bedroom →" [ref=e1882] [cursor=pointer]:
+            - /url: /styles/elven/bedroom
+            - img "Elven Fantasy Bedroom interior" [ref=e1883]
+            - generic [ref=e1884]:
+              - generic [ref=e1885]: Elven Fantasy Bedroom
+              - generic [ref=e1886]: →
+          - link "Elven Fantasy Kitchen interior Elven Fantasy Kitchen →" [ref=e1887] [cursor=pointer]:
+            - /url: /styles/elven/kitchen
+            - img "Elven Fantasy Kitchen interior" [ref=e1888]
+            - generic [ref=e1889]:
+              - generic [ref=e1890]: Elven Fantasy Kitchen
+              - generic [ref=e1891]: →
+          - link "Elven Fantasy Dining Room interior Elven Fantasy Dining Room →" [ref=e1892] [cursor=pointer]:
+            - /url: /styles/elven/dining-room
+            - img "Elven Fantasy Dining Room interior" [ref=e1893]
+            - generic [ref=e1894]:
+              - generic [ref=e1895]: Elven Fantasy Dining Room
+              - generic [ref=e1896]: →
+          - link "Elven Fantasy Entryway & Hallway interior Elven Fantasy Entryway & Hallway →" [ref=e1897] [cursor=pointer]:
+            - /url: /styles/elven/entryway-hallway
+            - img "Elven Fantasy Entryway & Hallway interior" [ref=e1898]
+            - generic [ref=e1899]:
+              - generic [ref=e1900]: Elven Fantasy Entryway & Hallway
+              - generic [ref=e1901]: →
+      - generic [ref=e1902]:
+        - heading "Full room guides" [level=2] [ref=e1903]
+        - generic [ref=e1904]:
+          - link "Living Room interior Living Room → Browse living room ideas by style, color palette, room size and layout." [ref=e1905] [cursor=pointer]:
+            - /url: /rooms/living-room
+            - img "Living Room interior" [ref=e1906]
+            - generic [ref=e1907]:
+              - generic [ref=e1908]:
+                - generic [ref=e1909]: Living Room
+                - generic [ref=e1910]: →
+              - paragraph [ref=e1911]: Browse living room ideas by style, color palette, room size and layout.
+          - link "Bedroom interior Bedroom → Calm, restful bedroom ideas by style, palette and layout." [ref=e1912] [cursor=pointer]:
+            - /url: /rooms/bedroom
+            - img "Bedroom interior" [ref=e1913]
+            - generic [ref=e1914]:
+              - generic [ref=e1915]:
+                - generic [ref=e1916]: Bedroom
+                - generic [ref=e1917]: →
+              - paragraph [ref=e1918]: Calm, restful bedroom ideas by style, palette and layout.
+          - link "Home Office interior Home Office → Focused, tidy workspace ideas for any square footage." [ref=e1919] [cursor=pointer]:
+            - /url: /rooms/home-office
+            - img "Home Office interior" [ref=e1920]
+            - generic [ref=e1921]:
+              - generic [ref=e1922]:
+                - generic [ref=e1923]: Home Office
+                - generic [ref=e1924]: →
+              - paragraph [ref=e1925]: Focused, tidy workspace ideas for any square footage.
+          - link "Studio Apartment interior Studio Apartment → Smart zoning and storage ideas for compact living." [ref=e1926] [cursor=pointer]:
+            - /url: /rooms/studio-apartment
+            - img "Studio Apartment interior" [ref=e1927]
+            - generic [ref=e1928]:
+              - generic [ref=e1929]:
+                - generic [ref=e1930]: Studio Apartment
+                - generic [ref=e1931]: →
+              - paragraph [ref=e1932]: Smart zoning and storage ideas for compact living.
+          - link "Kitchen interior Kitchen → Cabinets, islands and materials that work and last." [ref=e1933] [cursor=pointer]:
+            - /url: /rooms/kitchen
+            - img "Kitchen interior" [ref=e1934]
+            - generic [ref=e1935]:
+              - generic [ref=e1936]:
+                - generic [ref=e1937]: Kitchen
+                - generic [ref=e1938]: →
+              - paragraph [ref=e1939]: Cabinets, islands and materials that work and last.
+          - link "Bathroom interior Bathroom → Tile, vanities and small-space bathroom ideas." [ref=e1940] [cursor=pointer]:
+            - /url: /rooms/bathroom
+            - img "Bathroom interior" [ref=e1941]
+            - generic [ref=e1942]:
+              - generic [ref=e1943]:
+                - generic [ref=e1944]: Bathroom
+                - generic [ref=e1945]: →
+              - paragraph [ref=e1946]: Tile, vanities and small-space bathroom ideas.
+          - link "Dining Room interior Dining Room → Tables, seating and lighting for gatherings." [ref=e1947] [cursor=pointer]:
+            - /url: /rooms/dining-room
+            - img "Dining Room interior" [ref=e1948]
+            - generic [ref=e1949]:
+              - generic [ref=e1950]:
+                - generic [ref=e1951]: Dining Room
+                - generic [ref=e1952]: →
+              - paragraph [ref=e1953]: Tables, seating and lighting for gatherings.
+          - link "Entryway & Hallway interior Entryway & Hallway → First impressions, storage and narrow-space fixes." [ref=e1954] [cursor=pointer]:
+            - /url: /rooms/entryway-hallway
+            - img "Entryway & Hallway interior" [ref=e1955]
+            - generic [ref=e1956]:
+              - generic [ref=e1957]:
+                - generic [ref=e1958]: Entryway & Hallway
+                - generic [ref=e1959]: →
+              - paragraph [ref=e1960]: First impressions, storage and narrow-space fixes.
+          - link "Nursery & Kids interior Nursery & Kids → Playful, practical rooms that grow with them." [ref=e1961] [cursor=pointer]:
+            - /url: /rooms/nursery-kids
+            - img "Nursery & Kids interior" [ref=e1962]
+            - generic [ref=e1963]:
+              - generic [ref=e1964]:
+                - generic [ref=e1965]: Nursery & Kids
+                - generic [ref=e1966]: →
+              - paragraph [ref=e1967]: Playful, practical rooms that grow with them.
+          - link "Small Spaces interior Small Spaces → Smart layouts, storage and scale for compact rooms and apartments." [ref=e1968] [cursor=pointer]:
+            - /url: /rooms/small-spaces
+            - img "Small Spaces interior" [ref=e1969]
+            - generic [ref=e1970]:
+              - generic [ref=e1971]:
+                - generic [ref=e1972]: Small Spaces
+                - generic [ref=e1973]: →
+              - paragraph [ref=e1974]: Smart layouts, storage and scale for compact rooms and apartments.
+  - contentinfo [ref=e1975]:
+    - generic [ref=e1976]:
+      - navigation [ref=e1977]:
+        - link "About" [ref=e1978] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e1979] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e1980] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e1981] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e1982]: © 2026 Imaginary Interiors — Interior Style Atlas

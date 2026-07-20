@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Gothic
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Gothic Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Vertical form, deep shadow and visible craft create drama with architectural purpose—not darkness for its own sake.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Gothic interior design hero" [ref=e34]
+          - img "Gothic kitchen interior" [ref=e35]
+          - img "Gothic styled corner" [ref=e36]
+          - img "Gothic detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Vertical + contemplative
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Carved oak, slate, leaded glass
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Ink, stone, aubergine, dark oak
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, bedroom, library
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Draw the eye upward
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: One crafted architectural feature
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Light framed by a dark reveal
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Costume-set darkness
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Gothic interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Gothic interior design translates the structural language of medieval European architecture into domestic space: pointed arches, vertical proportions, deep openings, ribbed forms, carved timber and leaded glass. Most homes use the later Gothic Revival interpretation, where those references appear in joinery, furniture and surface detail rather than in cathedral-scale construction."
+        - paragraph [ref=e88]: The style is defined by direction and contrast, not by black paint. A dark oak portal against pale lime plaster, a tall window carrying daylight deep into the room or a high-backed chair repeating a lancet shape can establish the idea. This architectural focus separates Gothic from Victorian eclecticism and from theatrical haunted-house styling.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Use one vertical rhythm
+          - paragraph [ref=e92]: Repeat a pointed or elongated proportion across openings, shelves and furniture without tracing every surface.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Carve where hands meet
+          - paragraph [ref=e95]: Concentrate craft on doors, benches, handles and case furniture rather than applying motifs as flat decoration.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Design the shadow
+          - paragraph [ref=e98]: Combine pale walls, deep timber reveals and focused lamps so relief remains visible throughout the day.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of gothic interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Pointed silhouettes
+          - paragraph [ref=e108]: Lancet arches and steep profiles give openings, chair backs and cabinetry an unmistakable upward pull.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Deep architectural reveals
+          - paragraph [ref=e114]: Windows, doors and fireplaces gain weight through layered stone or dark timber surrounds.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Expressive joinery
+          - paragraph [ref=e120]: Linenfold panels, tracery and iron hinges reveal how an object is assembled and touched.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Directed illumination
+          - paragraph [ref=e126]: Daylight and shaded task lamps cut through shadow, making texture more important than overall brightness.
+      - generic [ref=e127]:
+        - img "Gothic material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Gothic room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Gothic Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/gothic/living-room
+          - img "Gothic Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Gothic Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/gothic/bedroom
+          - img "Gothic Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Gothic Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/gothic/dining-room
+          - img "Gothic Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Gothic Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/gothic/home-office
+          - img "Gothic Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Gothic Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/gothic/kitchen
+          - img "Gothic Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Gothic Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/gothic/entryway-hallway
+          - img "Gothic Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Let a tall window or pointed fireplace set the axis, then keep seating lower and simpler so the architecture retains its lift.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Use one four-poster bed with a restrained carved headboard against warm plaster; aubergine wool adds depth without turning the room black.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: A long refectory table and high-backed chairs work best when daylight, pale walls and generous circulation temper their weight.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Repeat shallow pointed arches only at the top of built-in shelves and support work with a modern task light.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Keep cabinetry flush and functional, using a lancet-panel rhythm and one stone-framed opening rather than medieval props.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: A single dark portal against lime plaster creates more credible drama than filling a narrow hall with ornate furniture.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Balance one dark structural color with a larger pale mineral field. Use aubergine or smoky blue in textile and glass, then keep metal blackened rather than glossy.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Ink blue
+              - paragraph [ref=e196]: A near-dark chromatic field that preserves more depth than flat black.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Warm stone
+              - paragraph [ref=e201]: Reflects daylight and makes carved timber outlines legible.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Dark oak
+              - paragraph [ref=e206]: The structural anchor for portals, furniture and paneled lower walls.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Aubergine
+              - paragraph [ref=e211]: A restrained textile note that brings warmth to slate and timber.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Smoky blue glass
+              - paragraph [ref=e216]: Adds cool translucent color without a bright jewel-tone effect.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Carved oak material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Carved oak
+                - paragraph [ref=e224]: Deep relief catches side light and gives doors or furniture a crafted structural presence.
+            - generic [ref=e225]:
+              - img "Leaded glass material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Leaded glass
+                - paragraph [ref=e229]: Narrow panes and dark cames emphasize vertical rhythm while filtering daylight.
+            - generic [ref=e230]:
+              - img "Honed slate material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Honed slate
+                - paragraph [ref=e234]: A quiet mineral plane grounds elaborate joinery without adding another motif.
+            - generic [ref=e235]:
+              - img "Blackened iron material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Blackened iron
+                - paragraph [ref=e239]: Hand-forged hinges and lanterns bring visible function to the decorative language.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Build the room around one architectural gesture and one clear source of light. Gothic character strengthens when vertical form and material depth are allowed space to register.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Choose the vertical anchor
+            - paragraph [ref=e250]: Start with a portal, window, bed or bookcase whose elongated proportion can organize the view.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Set the light field
+            - paragraph [ref=e255]: Use warm plaster or stone around the anchor so dark carving reads through contrast.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Repeat the contour once
+            - paragraph [ref=e260]: Echo the pointed line in a chair back, cabinet bay or textile border—not across every object.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Add low functional light
+            - paragraph [ref=e265]: Place lamps at reading, dining and work height to reveal texture without flattening the shadows.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Everything is painted black
+          - paragraph [ref=e274]: Move darkness into timber, iron and deep reveals while restoring pale mineral walls and visible daylight.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The room resembles a film set
+          - paragraph [ref=e277]: Remove armor, skulls and faux-medieval props; invest in one convincing piece of joinery instead.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Tracery appears everywhere
+          - paragraph [ref=e280]: Choose one repeated contour and let plain stone, wool and timber provide visual rest.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Drama compromises comfort
+          - paragraph [ref=e283]: Keep seating ergonomic, task surfaces clear and passages generous behind the strong silhouette.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Gothic vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Gothic is an architectural language before it is a mood. Pointed geometry, depth, craft and controlled light distinguish it from any room that is merely dark or antique-filled.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Victorian" [ref=e293] [cursor=pointer]:
+              - /url: /styles/victorian
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More domestic, eclectic and pattern-rich, with divided walls, florals, collections and furniture for many household rituals.
+          - generic [ref=e296]:
+            - text: Choose Gothic if
+            - paragraph [ref=e297]: Choose Gothic for a stronger vertical axis, medieval-derived profiles and concentrated architectural craft.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Lancet forms and deep portals replace broad surface layering.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "European Classic" [ref=e303] [cursor=pointer]:
+              - /url: /styles/european-classic
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More symmetrical, pale and horizontally composed, with refined antiques and measured classical ornament.
+          - generic [ref=e306]:
+            - text: Choose Gothic if
+            - paragraph [ref=e307]: Choose Gothic when the room should feel vertical, shadowed and materially weighty.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Pointed openings and carved relief replace classical panels and balanced axes.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Art Nouveau" [ref=e313] [cursor=pointer]:
+              - /url: /styles/art-nouveau
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More fluid, botanical and continuous, carrying curved organic line through glass, metal and furniture.
+          - generic [ref=e316]:
+            - text: Choose Gothic if
+            - paragraph [ref=e317]: Choose Gothic for angular upward geometry, heavier timber and a more structural atmosphere.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Lancets and ribs replace whiplash curves and stems.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Industrial" [ref=e323] [cursor=pointer]:
+              - /url: /styles/industrial
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More utilitarian and raw, exposing steel, brick and building services with little historical ornament.
+          - generic [ref=e326]:
+            - text: Choose Gothic if
+            - paragraph [ref=e327]: Choose Gothic when darkness should come from craft, masonry and symbolic form rather than factory structure.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Carved oak and leaded glass replace exposed ducts and steel frames.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Look for objects whose construction carries the style. One well-made door, chest or high-backed chair is more useful than a collection of inexpensive Gothic-themed accessories.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Carved four-poster bed for Gothic interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Carved four-poster bed
+            - paragraph [ref=e340]: Choose a clear vertical frame and restrained relief; plain linen keeps the silhouette readable.
+        - article [ref=e341]:
+          - img "Refectory table for Gothic interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Refectory table
+            - paragraph [ref=e345]: A long solid top and visible trestle structure give the room weight without decorative clutter.
+        - article [ref=e346]:
+          - img "Lancet bookcase for Gothic interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Lancet bookcase
+            - paragraph [ref=e350]: Use pointed upper bays over ordinary adjustable shelves so the reference does not reduce storage.
+        - article [ref=e351]:
+          - img "Honed slate surface for Gothic interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Honed slate surface
+            - paragraph [ref=e355]: Its matte dark plane supports oak cabinetry and pale stone without competing pattern.
+        - article [ref=e356]:
+          - img "Carved hall bench for Gothic interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Carved hall bench
+            - paragraph [ref=e360]: A narrow useful seat can carry the room’s strongest piece of handwork.
+        - article [ref=e361]:
+          - img "Leaded-glass panel for Gothic interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Leaded-glass panel
+            - paragraph [ref=e365]: Use smoky, restrained color and place it where real daylight can activate the glass.
+    - generic [ref=e367]:
+      - heading "Gothic FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Gothic interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Does Gothic design require black walls?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is Gothic different from Victorian?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Can Gothic style work in a modern apartment?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which materials work best?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you keep a Gothic room comfortable?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Victorian interior design Victorian →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/victorian
+          - img "Victorian interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Victorian
+            - generic [ref=e402]: →
+        - link "European Classic interior design European Classic →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/european-classic
+          - img "European Classic interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: European Classic
+            - generic [ref=e407]: →
+        - link "Art Nouveau interior design Art Nouveau →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/art-nouveau
+          - img "Art Nouveau interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Art Nouveau
+            - generic [ref=e412]: →
+        - link "Industrial interior design Industrial →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/industrial
+          - img "Industrial interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Industrial
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

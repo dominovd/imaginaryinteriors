@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Tropical
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Tropical Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Deep shade, moving air and grounded natural materials make greenery feel architectural rather than decorative.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Tropical interior design hero" [ref=e34]
+          - img "Tropical kitchen interior" [ref=e35]
+          - img "Tropical styled corner" [ref=e36]
+          - img "Tropical detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Shaded + alive
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Teak, cane, lime plaster, volcanic stone
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Warm bone, teak, leaf, charcoal
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, dining, bedroom
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Create shade before adding plants
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Operable screened louvers
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Teak over charcoal stone
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Printed-leaf resort styling
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Tropical interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Tropical design is strongest when it responds to warm, humid conditions: deep roof shade, generous cross-ventilation, insect screens, ceiling fans and materials selected for moisture and frequent use. Greenery then extends the architecture instead of compensating for a sealed room."
+        - paragraph [ref=e88]: There is no single universal tropical tradition, so avoid reducing the style to “exotic” objects or borrowed motifs. A disciplined contemporary room can use warm plaster, dark stone, timber and cane with just one living green layer. The result is richer than Coastal, calmer than Bohemian and less historically specific than Mediterranean style.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Shade the opening
+          - paragraph [ref=e92]: Use eaves, screens or adjustable louvers to stop heat before relying on curtains inside the room.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Protect the air route
+          - paragraph [ref=e95]: Keep tall storage and dense planting away from the path between operable openings.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Limit the green sources
+          - paragraph [ref=e98]: Choose a garden view and one indoor specimen before adding patterned leaves or more pots.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of tropical interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Deep layered shade
+          - paragraph [ref=e108]: Roof overhangs, screens and planted courtyards cool the light before it reaches interior surfaces.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Screened cross-ventilation
+          - paragraph [ref=e114]: Opposing openings and ceiling fans move air while insect mesh keeps the room usable after dusk.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Breathable enclosure
+          - paragraph [ref=e120]: Louvers, cane fronts and high ceilings prevent storage and sleeping areas from feeling sealed.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Grounded material contrast
+          - paragraph [ref=e126]: Dark stone and deep timber balance pale plaster and focused living green.
+      - generic [ref=e127]:
+        - img "Tropical material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Tropical room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Tropical Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/tropical/living-room
+          - img "Tropical Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Tropical Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/tropical/bedroom
+          - img "Tropical Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Tropical Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/tropical/dining-room
+          - img "Tropical Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Tropical Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/tropical/home-office
+          - img "Tropical Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Tropical Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/tropical/kitchen
+          - img "Tropical Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Tropical Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/tropical/entryway-hallway
+          - img "Tropical Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Aim seating toward a shaded garden opening, maintain the cross-breeze and let one large plant replace many small pots.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Combine screened louvers, a quiet ceiling fan and breathable linen; keep the bed low and clear of the main air route.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Use a substantial timber table under a deep overhang, with light cane chairs and space for air to move around the perimeter.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Place the screen away from direct glare, use adjustable louvers and choose an upholstered ergonomic chair over an all-cane seat.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Ventilate tall storage, specify cleanable stone or terrazzo and connect outdoor preparation without exposing the worktop to rain.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Create a covered wet threshold with a drain, umbrella trough and ventilated storage before the dry interior floor begins.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let warm bone and charcoal define the shell, then use deep teak as the structural middle tone. Green should come primarily from a view or plant; add clay only as a small warming note.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Warm bone
+              - paragraph [ref=e196]: A shaded plaster neutral that reflects light without becoming resort white.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Deep teak
+              - paragraph [ref=e201]: The structural warm tone for screens, tables and ventilated joinery.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Leaf green
+              - paragraph [ref=e206]: A concentrated living or textile accent, not an all-over printed theme.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Volcanic charcoal
+              - paragraph [ref=e211]: Grounds wet routes and large rooms while concealing everyday tropical wear.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Clay
+              - paragraph [ref=e216]: A small earthen note for one vessel or textile edge.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Responsibly sourced teak material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Responsibly sourced teak
+                - paragraph [ref=e224]: Stable dense timber for joinery and furniture when sourcing, finish and exposure are clearly specified.
+            - generic [ref=e225]:
+              - img "Honed dark stone material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Honed dark stone
+                - paragraph [ref=e229]: A durable base for wet thresholds when drainage, slip rating and sealing suit the location.
+            - generic [ref=e230]:
+              - img "Open cane weave material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Open cane weave
+                - paragraph [ref=e234]: Allows air through headboards and cabinet fronts; keep it repairable and protected from driving rain.
+            - generic [ref=e235]:
+              - img "Washed linen material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Washed linen
+                - paragraph [ref=e239]: A breathable upholstery and bedding layer that softens dark materials without trapping visual heat.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Plan shade, ventilation, insect control and rain routes before choosing furniture. Then limit the room to one timber, one dark mineral base and focused greenery.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Map sun and rain
+            - paragraph [ref=e250]: Identify openings exposed to heat or driving rain and size exterior protection for those conditions.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Draw the air path
+            - paragraph [ref=e255]: Connect two operable screened openings and keep storage plus furniture outside that route.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Ground the shell
+            - paragraph [ref=e260]: Choose a dark, maintainable floor and repeat one durable timber across key joinery.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Edit the vegetation
+            - paragraph [ref=e265]: Use the exterior garden as the main green field and add only one necessary indoor plant.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Plants replace climate design
+          - paragraph [ref=e274]: Add exterior shade, screens and air movement before increasing indoor vegetation.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Every object is woven
+          - paragraph [ref=e277]: Keep cane to chair backs or cabinet fronts and balance it with plaster, stone and solid timber.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Dark timber makes rooms heavy
+          - paragraph [ref=e280]: Concentrate it on frames and furniture, then open larger wall areas with warm bone plaster.
+        - generic [ref=e281]:
+          - generic [ref=e282]: The room resembles a resort lobby
+          - paragraph [ref=e283]: Remove leaf prints, tiki objects and theatrical lighting; retain useful climate-responsive elements.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Tropical vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Tropical interiors are not identified by leaf motifs alone. Their distinctiveness comes from architecture that moderates heat, humidity, insects and heavy rain while maintaining a close garden connection.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Coastal" [ref=e293] [cursor=pointer]:
+              - /url: /styles/coastal
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: Paler, drier and cooler, using limestone, bleached oak and sea-grey around strong daylight and sandy routes.
+          - generic [ref=e296]:
+            - text: Choose Tropical if
+            - paragraph [ref=e297]: Choose Tropical for deeper shade, darker timber, lush courtyards and a warm-humid climate response.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Screened teak louvers replace pale shutters and dune tones.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Bohemian" [ref=e303] [cursor=pointer]:
+              - /url: /styles/bohemian
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More collected and textile-led, layering global objects, rugs, pattern and informal personal display.
+          - generic [ref=e306]:
+            - text: Choose Tropical if
+            - paragraph [ref=e307]: Choose Tropical for clearer architecture, less pattern and a stronger focus on air, shade and rain.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Operable screens replace decorative layering.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Mediterranean" [ref=e313] [cursor=pointer]:
+              - /url: /styles/mediterranean
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More sun-baked and historically regional, with lime, terracotta, arches and patterned ceramic traditions.
+          - generic [ref=e316]:
+            - text: Choose Tropical if
+            - paragraph [ref=e317]: Choose Tropical for wetter conditions, deeper vegetation and ventilated timber enclosure.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Dark wet-route stone replaces terracotta and dry-climate mass.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Organic Modern" [ref=e323] [cursor=pointer]:
+              - /url: /styles/organic-modern
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Calmer and more sculptural, using soft forms, pale oak and natural texture in climate-neutral contemporary rooms.
+          - generic [ref=e326]:
+            - text: Choose Tropical if
+            - paragraph [ref=e327]: Choose Tropical when screens, fans, courtyards and humidity visibly shape the architecture.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Climate hardware replaces abstract organic form.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Confirm exposure, repairability and moisture performance for the exact location. “Natural” does not automatically mean suitable for a wet or humid zone.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Screened teak louvers for Tropical interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Screened teak louvers
+            - paragraph [ref=e340]: Check blade operation, insect-mesh access, hardware finish and whether panels can be cleaned or repaired.
+        - article [ref=e341]:
+          - img "Vented kitchen fronts for Tropical interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Vented kitchen fronts
+            - paragraph [ref=e345]: Use slats selectively where airflow helps, while protecting food storage from insects and grease.
+        - article [ref=e346]:
+          - img "Cane dining chair for Tropical interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Cane dining chair
+            - paragraph [ref=e350]: Inspect frame stability and replaceable weave; keep prolonged wet exposure separate from indoor humidity.
+        - article [ref=e351]:
+          - img "Adjustable timber screen for Tropical interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Adjustable timber screen
+            - paragraph [ref=e355]: Match louver direction to glare and breeze, then verify that the desk remains usable when panels are open.
+        - article [ref=e356]:
+          - img "Honed wet-route stone for Tropical interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Honed wet-route stone
+            - paragraph [ref=e360]: Confirm slip rating, drainage falls and sealing; appearance alone cannot determine threshold suitability.
+        - article [ref=e361]:
+          - img "Cane, teak and linen set for Tropical interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Cane, teak and linen set
+            - paragraph [ref=e365]: Compare samples under shaded daylight and request care guidance for local humidity and use.
+    - generic [ref=e367]:
+      - heading "Tropical FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Tropical interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Does Tropical style require many indoor plants?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is Tropical different from Coastal?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Which materials work in Tropical interiors?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "How do you prevent a Tropical room feeling dark?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you avoid resort clichés?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Coastal interior design Coastal →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/coastal
+          - img "Coastal interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Coastal
+            - generic [ref=e402]: →
+        - link "Bohemian interior design Bohemian →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/bohemian
+          - img "Bohemian interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Bohemian
+            - generic [ref=e407]: →
+        - link "Mediterranean interior design Mediterranean →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/mediterranean
+          - img "Mediterranean interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Mediterranean
+            - generic [ref=e412]: →
+        - link "Organic Modern interior design Organic Modern →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/organic-modern
+          - img "Organic Modern interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Organic Modern
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

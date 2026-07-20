@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Victorian
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Victorian Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Color, pattern and collected objects arranged with purpose—the Victorian room is generous, expressive and built for daily rituals.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Victorian interior design hero" [ref=e34]
+          - img "Victorian kitchen interior" [ref=e35]
+          - img "Victorian styled corner" [ref=e36]
+          - img "Victorian detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Layered + intimate
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Walnut, wool, encaustic tile
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Claret, teal, olive, walnut
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, bedroom, study
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Layer surfaces, preserve hierarchy
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: A useful dark-wood case piece
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Pattern below, color above
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Haunted-house darkness
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Victorian interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Victorian interior design reflects the long, inventive period from 1837 to 1901 rather than one fixed look. Industrial production broadened access to wallpaper, tile, cast iron, upholstery and furniture, while expanding trade brought new woods, dyes and decorative influences into the home. The result was layered, but rooms still followed a clear social and functional order.
+        - paragraph [ref=e88]: A useful modern interpretation keeps that appetite for color, pattern and collections while editing density. Deep wall color, a patterned floor and substantial timber furniture can carry the character; every lamp, frame and cushion does not need fringe. Unlike Gothic design, Victorian style is domestic and eclectic first—pointed arches and medieval motifs are only one possible strand.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Layer by plane
+          - paragraph [ref=e92]: Give floor, wall and upholstery different scales of pattern so they read as an ordered stack rather than visual noise.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Furnish for rituals
+          - paragraph [ref=e95]: A reading chair, writing desk, washstand or hall chair should explain how the room is used.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Let light relieve color
+          - paragraph [ref=e98]: Keep windows bright and use shaded lamps at several heights; deep hues need luminous edges.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of victorian interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Divided walls
+          - paragraph [ref=e108]: Dado, picture rail and frieze let color, paper and timber occupy distinct architectural bands.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Pattern at several scales
+          - paragraph [ref=e114]: Small botanical prints, geometric tile and broad upholstery motifs coexist without being identical.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Substantial working furniture
+          - paragraph [ref=e120]: Roll-top desks, extending tables and storage cabinets combine visual weight with real utility.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Pools of warm light
+          - paragraph [ref=e126]: Table lamps and shaded pendants create intimacy while windows keep the room from becoming oppressive.
+      - generic [ref=e127]:
+        - img "Victorian material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Victorian room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Victorian Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/victorian/living-room
+          - img "Victorian Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Victorian Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/victorian/bedroom
+          - img "Victorian Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Victorian Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/victorian/dining-room
+          - img "Victorian Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Victorian Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/victorian/home-office
+          - img "Victorian Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Victorian Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/victorian/kitchen
+          - img "Victorian Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Victorian Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/victorian/entryway-hallway
+          - img "Victorian Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Use the fireplace as the visual center, then form two close seating groups instead of lining ornate furniture against every wall.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: A brass-and-iron bed, divided wall color and one floral textile create period atmosphere without heavy bed drapery.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Ground claret walls with walnut wainscot and keep the table surface mostly clear so the room remains sociable.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Combine a working roll-top desk with low bookcases and a separate reading chair; collections should support the subject of the room.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: "Look to service spaces: plain painted cupboards, a sturdy worktable and black iron feel truer than drawing-room ornament."
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Let encaustic tile and stained glass carry the pattern, leaving the narrow passage lightly furnished.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Choose one deep wall color, one dark timber and one lighter ground. Add a neighboring accent—rose with claret or sage with teal—rather than scattering unrelated jewel tones.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Claret
+              - paragraph [ref=e196]: A warm red with enough brown to support timber, brass and botanical art.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Deep teal
+              - paragraph [ref=e201]: Rich but cleaner than black, especially effective above a walnut dado.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Moss olive
+              - paragraph [ref=e206]: A scholarly middle tone for studies, papers and painted joinery.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Walnut
+              - paragraph [ref=e211]: The consistent structural dark across furniture, rails and frames.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Warm cream
+              - paragraph [ref=e216]: Keeps ceilings, window reveals and lace or linen highlights luminous.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Wool damask material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Wool damask
+                - paragraph [ref=e224]: Dense woven pattern gives upholstery depth and withstands use better than decorative synthetic velvet.
+            - generic [ref=e225]:
+              - img "Encaustic tile material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Encaustic tile
+                - paragraph [ref=e229]: Small repeating geometry creates a durable patterned plane in halls and service rooms.
+            - generic [ref=e230]:
+              - img "Dark walnut material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Dark walnut
+                - paragraph [ref=e234]: Strong grain and rounded edges give case furniture its grounded silhouette.
+            - generic [ref=e235]:
+              - img "Aged brass material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Aged brass
+                - paragraph [ref=e239]: Use on handles, lamps and bed rails where touch naturally creates variation.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Start with the room’s function, then build depth plane by plane. A Victorian interior feels abundant because surfaces relate, not because every available space is filled.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Divide the architecture
+            - paragraph [ref=e250]: Establish dado, wall field and ceiling so strong color and pattern have defined boundaries.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Choose the working anchor
+            - paragraph [ref=e255]: Select the table, bed, desk or sofa that carries the room’s main daily ritual.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Set three pattern scales
+            - paragraph [ref=e260]: Use small on paper or cotton, medium on upholstery and geometric repetition underfoot.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Light the activities
+            - paragraph [ref=e265]: Add focused lamps for reading and work, then edit objects that interrupt those practical zones.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: The room becomes uniformly dark
+          - paragraph [ref=e274]: Expose window reveals, lighten the ceiling and introduce warm cream through textiles and paper.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Every surface carries a competing motif
+          - paragraph [ref=e277]: Repeat two colors across patterns and leave one major plane comparatively quiet.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Victorian turns into Gothic
+          - paragraph [ref=e280]: Prioritize domestic florals, practical furniture and colored tile over pointed arches, black finishes and medieval symbols.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Collections become clutter
+          - paragraph [ref=e283]: Group objects by subject inside a cabinet or on one wall and preserve clear working surfaces.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Victorian vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: "Victorian style is often reduced to darkness and ornament. Its more useful identity is domestic invention: new materials, purposeful rooms and patterns organized across architectural layers."
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Gothic" [ref=e293] [cursor=pointer]:
+              - /url: /styles/gothic
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More medieval, vertical and dramatic, often using pointed forms, tracery, iron and near-black color.
+          - generic [ref=e296]:
+            - text: Choose Victorian if
+            - paragraph [ref=e297]: Choose Victorian for a broader domestic mix of florals, tile, useful furniture and collected objects.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Bay windows, divided walls and household rituals replace ecclesiastical drama.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "European Classic" [ref=e303] [cursor=pointer]:
+              - /url: /styles/european-classic
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More restrained, symmetrical and architectural, with pale envelopes and fewer, finer furnishings.
+          - generic [ref=e306]:
+            - text: Choose Victorian if
+            - paragraph [ref=e307]: Choose Victorian when surface pattern, saturated color and personal collections should be visibly present.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Patterned planes and dense working furniture replace calm formal hierarchy.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Art Nouveau" [ref=e313] [cursor=pointer]:
+              - /url: /styles/art-nouveau
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More fluid and unified, with sinuous plant forms designed across architecture, furniture and glass.
+          - generic [ref=e316]:
+            - text: Choose Victorian if
+            - paragraph [ref=e317]: Choose Victorian for an eclectic mix of historical sources and clearly separated decorative layers.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Multiple pattern languages replace one continuous organic line.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Grandmillennial" [ref=e323] [cursor=pointer]:
+              - /url: /styles/grandmillennial
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Lighter, cheekier and contemporary, using nostalgic florals and trims without strict period architecture.
+          - generic [ref=e326]:
+            - text: Choose Victorian if
+            - paragraph [ref=e327]: Choose Victorian for darker timber, structural wall divisions and a more historically grounded atmosphere.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Encaustic tile and working antiques replace playful granny-chic styling.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Prioritize pieces that still perform their original task. Good Victorian character comes from construction, scale and surface—not from adding tassels to ordinary furniture.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Brass-and-iron bed for Victorian interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Brass-and-iron bed
+            - paragraph [ref=e340]: Look for a strong outline and secure joints; keep bedding simpler than the frame.
+        - article [ref=e341]:
+          - img "Scrubbed pine worktable for Victorian interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Scrubbed pine worktable
+            - paragraph [ref=e345]: A freestanding table gives the kitchen honest utility and a lighter counterpoint to black iron.
+        - article [ref=e346]:
+          - img "Extending dining table for Victorian interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Extending dining table
+            - paragraph [ref=e350]: Choose a robust mechanism and leave room for mismatched but related chairs gathered over time.
+        - article [ref=e351]:
+          - img "Roll-top desk for Victorian interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Roll-top desk
+            - paragraph [ref=e355]: Confirm knee clearance and usable drawers; the mechanism should conceal current work rather than act as a prop.
+        - article [ref=e356]:
+          - img "Encaustic floor tile for Victorian interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Encaustic floor tile
+            - paragraph [ref=e360]: Use a repeating border to fit pattern to the hall’s real dimensions.
+        - article [ref=e361]:
+          - img "Wool damask for Victorian interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Wool damask
+            - paragraph [ref=e365]: Reserve the richest weave for one chair, bench or curtain border and repeat its color elsewhere.
+    - generic [ref=e367]:
+      - heading "Victorian FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Victorian interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Does a Victorian room have to be dark?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How can Victorian style feel current?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Which patterns work best?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Is Victorian the same as Gothic?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "Can Victorian style work in a small room?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Gothic interior design Gothic →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/gothic
+          - img "Gothic interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Gothic
+            - generic [ref=e402]: →
+        - link "European Classic interior design European Classic →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/european-classic
+          - img "European Classic interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: European Classic
+            - generic [ref=e407]: →
+        - link "Art Nouveau interior design Art Nouveau →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/art-nouveau
+          - img "Art Nouveau interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Art Nouveau
+            - generic [ref=e412]: →
+        - link "Grandmillennial interior design Grandmillennial →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/grandmillennial
+          - img "Grandmillennial interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Grandmillennial
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

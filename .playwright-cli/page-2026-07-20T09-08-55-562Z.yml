@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Modern Farmhouse
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Modern Farmhouse Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Contemporary planning gains warmth from familiar profiles, tactile wood and finishes that are precise without feeling precious.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Modern Farmhouse interior design hero" [ref=e34]
+          - img "Modern Farmhouse kitchen interior" [ref=e35]
+          - img "Modern Farmhouse styled corner" [ref=e36]
+          - img "Modern Farmhouse detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Tailored + relaxed
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Warm plaster, oak, soapstone, rush
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Putty, smoke blue, oak, olive
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Kitchen, living, entry
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Modern planning, farmhouse ease
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: One well-resolved storage wall
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Clean volume, tactile material edge
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Default black-and-white contrast
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Modern Farmhouse interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Modern Farmhouse combines the spatial clarity of a contemporary home with the approachable material language of farmhouse interiors. Open routes, integrated appliances, built-in storage and simplified furniture create order; oak, lime plaster, soapstone, rush and aged metal keep that order from feeling clinical.
+        - paragraph [ref=e88]: The strongest version depends on proportion rather than motifs. A broad pantry wall may use traditional inset doors, but its uninterrupted composition is modern. An oak table may feel familiar, yet its softened oval profile is current. This selective translation is more convincing than repeating black windows, shiplap and barn references in every room.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Modernize the system
+          - paragraph [ref=e92]: Use integrated storage, clean circulation and discreet technology as the contemporary foundation.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Keep one familiar profile
+          - paragraph [ref=e95]: An inset cabinet door, spindle chair or cased opening is enough to establish the farmhouse connection.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Warm the junctions
+          - paragraph [ref=e98]: Where plaster meets oak or stone meets painted joinery, make the edge precise and let texture remain visible.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of modern farmhouse interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Architectural storage
+          - paragraph [ref=e108]: Full-height cabinetry absorbs daily clutter and creates calm, continuous room elevations.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Softened contemporary forms
+          - paragraph [ref=e114]: Oval tables, simple upholstered beds and broad linen shades avoid both strict minimalism and period imitation.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Controlled material contrast
+          - paragraph [ref=e120]: Warm plaster and pale oak carry most of the room; soapstone, bronze or painted color defines key working zones.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Selective heritage detail
+          - paragraph [ref=e126]: Inset doors, rush seats and cased openings appear once or twice, not as a decorative theme applied everywhere.
+      - generic [ref=e127]:
+        - img "Modern Farmhouse material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Modern Farmhouse room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Modern Farmhouse Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/modern-farmhouse/living-room
+          - img "Modern Farmhouse Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Modern Farmhouse Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/modern-farmhouse/bedroom
+          - img "Modern Farmhouse Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Modern Farmhouse Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/modern-farmhouse/dining-room
+          - img "Modern Farmhouse Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Modern Farmhouse Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/modern-farmhouse/home-office
+          - img "Modern Farmhouse Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Modern Farmhouse Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/modern-farmhouse/kitchen
+          - img "Modern Farmhouse Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Modern Farmhouse Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/modern-farmhouse/entryway-hallway
+          - img "Modern Farmhouse Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Use contemporary seating around one low timber anchor, then limit black metal to lighting or window frames rather than repeating it on every object.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Combine a plain upholstered bed with integrated oak ledges and one vintage chest; keep paneling to the headboard wall only.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Choose an oval table and clean rush-seat chairs, with a large linen pendant providing softness instead of a rustic chandelier.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Build storage wall-to-wall, leaving a generous oak work surface and enough visual rest around a supportive leather chair.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Assign dark soapstone or smoke blue to one working volume while warm-white cabinetry recedes around integrated appliances.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Use closed floor-to-ceiling storage around an oak bench niche so daily belongings disappear without making the hall sterile.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let lime white and oak occupy most of the room. Use smoke blue or olive on one architectural volume, then reserve charcoal and bronze for small functional lines.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Lime white
+              - paragraph [ref=e196]: A warm architectural field that reads softer than crisp showroom white.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Smoke blue
+              - paragraph [ref=e201]: Defines an island, cabinet bank or niche without relying on pure black.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Pale oak
+              - paragraph [ref=e206]: Brings visible grain to furniture, bench niches and selected ceiling details.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Muted olive
+              - paragraph [ref=e211]: Works on entry storage or one textile plane as a quiet landscape reference.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Aged bronze
+              - paragraph [ref=e216]: Adds narrow warmth through pulls and lights while avoiding shiny decorative brass.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Warm lime plaster material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Warm lime plaster
+                - paragraph [ref=e224]: Subtle hand movement gives broad walls depth without introducing decorative pattern.
+            - generic [ref=e225]:
+              - img "Quarter-sawn oak material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Quarter-sawn oak
+                - paragraph [ref=e229]: Consistent grain keeps large integrated elements calm while retaining natural warmth.
+            - generic [ref=e230]:
+              - img "Honed soapstone material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Honed soapstone
+                - paragraph [ref=e234]: A matte dark worktop grounds preparation zones and develops a quiet, repairable patina.
+            - generic [ref=e235]:
+              - img "Rush + flax material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Rush + flax
+                - paragraph [ref=e239]: Dry woven texture softens precise joinery through seats, shades and light upholstery.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Resolve the modern function first, then introduce farmhouse character through a few material and profile decisions rather than surface decoration.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Simplify the circulation
+            - paragraph [ref=e250]: Clear the main route and consolidate storage into continuous walls or purposeful built-ins.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Choose the warm anchor
+            - paragraph [ref=e255]: Use oak on the table, island end, bench niche or one ceiling plane—not all at once.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Add one heritage profile
+            - paragraph [ref=e260]: Select inset doors, rush seating or a cased opening as the familiar architectural signal.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Break the black-white reflex
+            - paragraph [ref=e265]: Introduce smoke blue, putty, olive or aged bronze before adding another black accent.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Black hardware outlines every surface
+          - paragraph [ref=e274]: Keep dark contrast on one or two functional elements and use aged bronze or painted pulls elsewhere.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Shiplap becomes the whole concept
+          - paragraph [ref=e277]: Panel one meaningful wall or cabinet niche and return the rest to warm plaster.
+        - generic [ref=e278]:
+          - generic [ref=e279]: The open plan feels acoustically hard
+          - paragraph [ref=e280]: Add a large wool rug, linen shades and upholstered seating where conversation happens.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Oversized furniture overwhelms the room
+          - paragraph [ref=e283]: Measure island aisles, chair pull-out space and sofa depth before choosing visually substantial pieces.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Modern Farmhouse vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: "Modern Farmhouse succeeds through translation: contemporary space planning and technology are made approachable with a limited set of familiar forms and tactile, repairable materials."
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Farmhouse" [ref=e293] [cursor=pointer]:
+              - /url: /styles/farmhouse
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More accumulated and domestic, using freestanding painted furniture, modest rooms and storage organized around household routines.
+          - generic [ref=e296]:
+            - text: Choose Modern Farmhouse if
+            - paragraph [ref=e297]: Choose Modern Farmhouse for integrated systems, cleaner elevations and contemporary scale.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Continuous cabinetry replaces a mix of dressers, tables and peg rails.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Modern Rustic" [ref=e303] [cursor=pointer]:
+              - /url: /styles/modern-rustic
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More material-led and architectural, often using rough stone, reclaimed timber and sharper old-new contrast.
+          - generic [ref=e306]:
+            - text: Choose Modern Farmhouse if
+            - paragraph [ref=e307]: Choose Modern Farmhouse for tailored joinery, familiar domestic profiles and a lighter finish.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Inset painted cabinetry replaces exposed rugged structure.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Transitional" [ref=e313] [cursor=pointer]:
+              - /url: /styles/transitional
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More polished and classically balanced, blending traditional moldings with contemporary furniture and refined fabrics.
+          - generic [ref=e316]:
+            - text: Choose Modern Farmhouse if
+            - paragraph [ref=e317]: Choose Modern Farmhouse for simpler rural references, matte working materials and a more relaxed finish.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Rush, oak and soapstone replace formal trim and dressier upholstery.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Scandinavian" [ref=e323] [cursor=pointer]:
+              - /url: /styles/scandinavian
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Lighter and more reductive, favoring pale timber, compact forms and less architectural trim.
+          - generic [ref=e326]:
+            - text: Choose Modern Farmhouse if
+            - paragraph [ref=e327]: Choose Modern Farmhouse when substantial storage and recognizable heritage profiles should remain visible.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Inset joinery and broad cased openings replace lean Nordic detailing.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Buy pieces that bridge clean geometry and touchable material. Avoid products whose only farmhouse credential is a decorative label or artificially distressed finish.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Upholstered platform bed for Modern Farmhouse interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Upholstered platform bed
+            - paragraph [ref=e340]: Choose a simple silhouette in textured flax with enough clearance for the room’s modern circulation.
+        - article [ref=e341]:
+          - img "Soapstone-topped island for Modern Farmhouse interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Soapstone-topped island
+            - paragraph [ref=e345]: Verify aisle widths, appliance openings and seating overhang before treating the island as a visual centerpiece.
+        - article [ref=e346]:
+          - img "Oval oak table for Modern Farmhouse interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Oval oak table
+            - paragraph [ref=e350]: A softened outline improves circulation while natural grain provides the familiar farmhouse note.
+        - article [ref=e351]:
+          - img "Integrated desk wall for Modern Farmhouse interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Integrated desk wall
+            - paragraph [ref=e355]: Balance closed files with a few open niches and keep the worktop deep enough for real equipment.
+        - article [ref=e356]:
+          - img "Olive entry cabinetry for Modern Farmhouse interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Olive entry cabinetry
+            - paragraph [ref=e360]: Use durable matte paint and divide interiors around actual coats, shoes, bags and charging needs.
+        - article [ref=e361]:
+          - img "Aged-bronze hardware for Modern Farmhouse interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Aged-bronze hardware
+            - paragraph [ref=e365]: Repeat one restrained finish at working touch points rather than outlining the entire room.
+    - generic [ref=e367]:
+      - heading "Modern Farmhouse FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Modern Farmhouse interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How is Modern Farmhouse different from Farmhouse?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "Does Modern Farmhouse require black window frames?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Can Modern Farmhouse use color?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which materials keep Modern Farmhouse from feeling sterile?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you avoid Modern Farmhouse clichés?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Farmhouse interior design Farmhouse →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/farmhouse
+          - img "Farmhouse interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Farmhouse
+            - generic [ref=e402]: →
+        - link "Modern Rustic interior design Modern Rustic →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/modern-rustic
+          - img "Modern Rustic interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Modern Rustic
+            - generic [ref=e407]: →
+        - link "Transitional interior design Transitional →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/transitional
+          - img "Transitional interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Transitional
+            - generic [ref=e412]: →
+        - link "Scandinavian interior design Scandinavian →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/scandinavian
+          - img "Scandinavian interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Scandinavian
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

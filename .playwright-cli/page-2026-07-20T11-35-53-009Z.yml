@@ -1,0 +1,398 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Bohemian
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Bohemian Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Personal objects, low relaxed furniture and one confident textile story make a room expressive without sacrificing space or function.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Bohemian interior design hero" [ref=e34]
+          - img "Bohemian kitchen interior" [ref=e35]
+          - img "Bohemian styled corner" [ref=e36]
+          - img "Bohemian detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Collected + relaxed
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Wool, linen, timber, cane, terracotta
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Bone, clay, ochre, indigo, olive
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, bedroom, dining
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Layer by relationship
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: One generous handwoven rug
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Indigo against warm clay
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: A souvenir on every surface
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Bohemian interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Bohemian interior design is an informal way of composing a home from meaningful textiles, useful older furniture, handmade materials and art gathered over time. It values personality over matching sets, but successful rooms still have rules: a repeated color thread, related furniture scale and enough empty floor and wall space for individual pieces to register."
+        - paragraph [ref=e88]: The style is not shorthand for mixing unrelated cultural symbols. Provenance matters when buying craft, and abstract weave, material quality and personal history are stronger foundations than anonymous “tribal” decoration. Modern lighting, cable management and ergonomic seating can sit comfortably beside worn timber and handwoven cloth.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Choose one lead textile
+          - paragraph [ref=e92]: Let a rug, blanket or curtain establish three or four colors, then draw smaller accents from it.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Vary height, not quantity
+          - paragraph [ref=e95]: Combine a low table, standard seating and one taller plant or lamp instead of filling every level.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Buy craft with context
+          - paragraph [ref=e98]: Prefer traceable makers and known materials; avoid treating sacred or culturally specific motifs as generic décor.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of bohemian interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: A repeated color thread
+          - paragraph [ref=e108]: Clay, indigo and ochre recur in different materials so varied pieces still belong together.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Relaxed furniture geometry
+          - paragraph [ref=e114]: Low tables and deep seating create ease, balanced by proper dining and working heights.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Handmade surface variation
+          - paragraph [ref=e120]: Visible weave, thrown ceramic and worn timber bring movement without relying on busy pattern.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Edited personal display
+          - paragraph [ref=e126]: Books, art and keepsakes appear in small groups with open space around them.
+      - generic [ref=e127]:
+        - img "Bohemian material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Bohemian room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Bohemian Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/bohemian/living-room
+          - img "Bohemian Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Bohemian Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/bohemian/bedroom
+          - img "Bohemian Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Bohemian Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/bohemian/dining-room
+          - img "Bohemian Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Bohemian Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/bohemian/home-office
+          - img "Bohemian Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Bohemian Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/bohemian/kitchen
+          - img "Bohemian Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Bohemian Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/bohemian/entryway-hallway
+          - img "Bohemian Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Start with one large rug and comfortable neutral seating; add pattern in two smaller places rather than across every cushion.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Keep the bed and walls quiet, then use one woven blanket, an aged stool and a few plants to create depth without visual noise.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Mixed chairs work when seat heights align and timber tones relate; one strong rug can unite the different silhouettes.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Use an ergonomic chair and focused task light, reserving the handmade character for rug, ceramics and one pinboard.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Group herbs and everyday ceramics by function; keep worktops mostly clear and place color on a runner or table textile.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: A lidded woven basket, bench and hooks should solve storage first; one artwork and one textile accent are enough.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Use bone across the largest planes, choose clay or indigo as the leading textile color and repeat the other twice at smaller scale. Ochre and olive should connect materials rather than compete as new themes.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Plaster bone
+              - paragraph [ref=e196]: A warm, quiet field that gives saturated textiles and dark timber room to breathe.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Fired clay
+              - paragraph [ref=e201]: The main warm note for a rug, throw, pottery group or single painted plane.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Muted ochre
+              - paragraph [ref=e206]: A smaller woven accent that lifts clay and connects naturally to brass and timber.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Deep indigo
+              - paragraph [ref=e211]: The cooling anchor, strongest in one substantial textile rather than many small objects.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Leaf olive
+              - paragraph [ref=e216]: A natural bridge between plants, glazed ceramic and the warmer earth colors.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Handwoven wool material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Handwoven wool
+                - paragraph [ref=e224]: Favor clear construction and a limited palette; one generous weave is more useful than many patterned fragments.
+            - generic [ref=e225]:
+              - img "Washed linen material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Washed linen
+                - paragraph [ref=e229]: A plain breathable layer that calms stronger rugs, pottery and art.
+            - generic [ref=e230]:
+              - img "Aged timber and cane material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Aged timber and cane
+                - paragraph [ref=e234]: Mixed furniture feels coherent when wood warmth, seat height and visual weight remain related.
+            - generic [ref=e235]:
+              - img "Terracotta and brass material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Terracotta and brass
+                - paragraph [ref=e239]: Matte clay and dull metal add warm variation without introducing another printed pattern.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Begin with how the room is used, then choose one textile that sets the palette. Add useful furniture by scale, repeat two colors and stop while walls and walking paths still feel open.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Set the functional zones
+            - paragraph [ref=e250]: Protect circulation, task surfaces and comfortable seating before adding decorative layers.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Choose the lead weave
+            - paragraph [ref=e255]: Select one rug or blanket whose colors can guide wood, art and smaller textiles.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Repeat materials unevenly
+            - paragraph [ref=e260]: Use timber often, clay several times and brass once or twice to avoid a showroom formula.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Edit at standing distance
+            - paragraph [ref=e265]: Step back and remove any object that merges into a dense, unreadable cluster.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every textile has a strong pattern
+          - paragraph [ref=e274]: Keep the largest pattern and replace at least half the others with visible solid weaves.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Plants replace composition
+          - paragraph [ref=e277]: Group healthy plants near suitable light and use furniture or art to balance the remaining room.
+        - generic [ref=e278]:
+          - generic [ref=e279]: The room reads as a souvenir shop
+          - paragraph [ref=e280]: Retain objects with personal meaning or known provenance and remove anonymous themed décor.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Low furniture makes tasks awkward
+          - paragraph [ref=e283]: Use relaxed heights for lounging only; keep desks, dining tables and worktops ergonomic.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Bohemian vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Bohemian is defined by informal, personal composition rather than indiscriminate variety. Textile relationships, relaxed scale and traceable craft give it identity while editing keeps it livable.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Eclectic" [ref=e293] [cursor=pointer]:
+              - /url: /styles/eclectic
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More contrast-led and stylistically broad, often placing polished, historic and contemporary forms in deliberate tension.
+          - generic [ref=e296]:
+            - text: Choose Bohemian if
+            - paragraph [ref=e297]: Choose Bohemian when textiles, relaxed posture and handmade surface are more important than formal style collision.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Tactile continuity replaces designed contrast.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Global" [ref=e303] [cursor=pointer]:
+              - /url: /styles/global
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More explicitly centered on craft traditions and objects from identifiable regions, with provenance as a major organizing idea.
+          - generic [ref=e306]:
+            - text: Choose Bohemian if
+            - paragraph [ref=e307]: Choose Bohemian for a personal, informal composition that need not represent several geographic traditions.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Individual narrative replaces geographic breadth.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "70s Interior Design" [ref=e313] [cursor=pointer]:
+              - /url: /styles/70s-interior-design
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More decade-specific, with stronger period color, molded forms, chrome, shag and recognizable postwar silhouettes.
+          - generic [ref=e316]:
+            - text: Choose Bohemian if
+            - paragraph [ref=e317]: Choose Bohemian for looser chronology, handmade materials and a palette that can evolve over time.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Collected texture replaces a period statement.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Organic Modern" [ref=e323] [cursor=pointer]:
+              - /url: /styles/organic-modern
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More restrained and architecturally quiet, using sculptural natural materials within a tightly reduced palette.
+          - generic [ref=e326]:
+            - text: Choose Bohemian if
+            - paragraph [ref=e327]: Choose Bohemian when art, textiles and visible personal history should carry more of the room.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Expressive layering replaces controlled reduction.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Buy the room slowly. Check fiber, construction, cleaning needs and maker information; a strong rug or useful older table will contribute more than a basket of small themed accessories.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Low oak bed for Bohemian interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Low oak bed
+            - paragraph [ref=e340]: Confirm standard mattress support and comfortable access; let replaceable linen and one blanket carry most of the color.
+        - article [ref=e341]:
+          - img "Vintage kitchen table for Bohemian interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Vintage kitchen table
+            - paragraph [ref=e345]: Check joint movement, height and surface condition before using it as an everyday dining or prep piece.
+        - article [ref=e346]:
+          - img "Handwoven dining rug for Bohemian interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Handwoven dining rug
+            - paragraph [ref=e350]: Choose a flat weave large enough for chairs to remain on it when pulled out, and verify care requirements.
+        - article [ref=e351]:
+          - img "Timber writing desk for Bohemian interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Timber writing desk
+            - paragraph [ref=e355]: Measure knee room and screen depth; pair characterful timber with discreet ergonomic support.
+        - article [ref=e356]:
+          - img "Lidded woven storage for Bohemian interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Lidded woven storage
+            - paragraph [ref=e360]: Look for a stable base, smooth interior and a size that handles real entryway items without blocking passage.
+        - article [ref=e361]:
+          - img "Textile palette set for Bohemian interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Textile palette set
+            - paragraph [ref=e365]: Compare weave, clay, ochre and indigo under room light before adding another patterned layer.
+    - generic [ref=e367]:
+      - heading "Bohemian FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Bohemian interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How many patterns can a Bohemian room use?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is Bohemian different from Eclectic?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Can Bohemian design be uncluttered?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which colors suit Bohemian interiors?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How should cultural craft be used responsibly?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Eclectic interior design Eclectic →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/eclectic
+          - img "Eclectic interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Eclectic
+            - generic [ref=e402]: →
+        - link "Global interior design Global →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/global
+          - img "Global interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Global
+            - generic [ref=e407]: →
+        - link "70s Interior Design interior design 70s Interior Design →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/70s-interior-design
+          - img "70s Interior Design interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: 70s Interior Design
+            - generic [ref=e412]: →
+        - link "Organic Modern interior design Organic Modern →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/organic-modern
+          - img "Organic Modern interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Organic Modern
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas
+  - generic [ref=e428]:
+    - button [ref=e429]
+    - button [ref=e435]
+    - button [ref=e439]
+    - button [ref=e444]

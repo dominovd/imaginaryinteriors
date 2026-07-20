@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Arabic
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Arabic Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Hospitality and privacy shape the plan; screened daylight, perimeter seating and durable local materials give it character.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Arabic interior design hero" [ref=e34]
+          - img "Arabic kitchen interior" [ref=e35]
+          - img "Arabic styled corner" [ref=e36]
+          - img "Arabic detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Hospitable + composed
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Limestone, walnut, palm fiber, wool, aged bronze
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Limestone, sand, walnut, indigo, bronze
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Majlis, dining room, entryway
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Hospitality with privacy
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Effective solar screening
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Perimeter majlis seating
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Generic palace imagery
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Arabic interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Arabic interior design is not one historical style. Arabic-speaking regions span different climates, building traditions and domestic customs, so a useful scheme needs a named place and period. This guide uses a contemporary Gulf residence to show shared priorities that remain relevant: generous hospitality, family privacy, shaded transitions and careful control of strong daylight."
+        - paragraph [ref=e88]: The majlis gives guests a comfortable reception space without exposing private rooms. Deep reveals, screens and indirect routes moderate heat and sightlines, while stone, timber, woven palm fiber and wool support daily use. Geometry belongs in joinery and filtered light rather than being repeated across every surface, and modern cooling, acoustics and lighting should be resolved as part of the architecture.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Choose a regional reference
+          - paragraph [ref=e92]: Define the city, climate and household pattern before selecting arches, screens, textiles or stone.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Separate guest and family routes
+          - paragraph [ref=e95]: A reception room near the entrance can support hospitality while protecting the quieter domestic interior.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Make screens perform
+          - paragraph [ref=e98]: Size the pattern, depth and orientation for glare, privacy, ventilation and the actual view—not decoration alone.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of arabic interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: A dedicated receiving room
+          - paragraph [ref=e108]: The majlis offers ample, conversational seating and a clear route from the entrance.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Layered visual privacy
+          - paragraph [ref=e114]: Turns, screens and offset openings limit direct views without making the home feel closed.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Filtered high-contrast light
+          - paragraph [ref=e120]: Deep openings and mashrabiya soften glare while retaining a changing pattern of daylight.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Durable hospitality surfaces
+          - paragraph [ref=e126]: Stone floors, robust tables and repairable woven materials handle frequent guests with ease.
+      - generic [ref=e127]:
+        - img "Arabic material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Arabic room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Arabic Majlis interior Majlis →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/arabic/majlis
+          - img "Arabic Majlis interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Majlis
+            - generic [ref=e138]: →
+        - link "Arabic Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/arabic/bedroom
+          - img "Arabic Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Arabic Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/arabic/dining-room
+          - img "Arabic Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Arabic Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/arabic/home-office
+          - img "Arabic Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Arabic Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/arabic/kitchen
+          - img "Arabic Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Arabic Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/arabic/entryway-hallway
+          - img "Arabic Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Majlis
+          - paragraph [ref=e167]: Keep the center open, use supportive perimeter seating and provide several reachable tables for coffee, dates and personal items.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Place the bed away from direct views, use a screened window seat and integrate deep closed storage into the walnut wall.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Allow generous chair clearance and a direct service route to the kitchen without sending guests through private rooms.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Put filtered light to the side of the desk, conceal cables and balance open bookshelves with closed storage.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Prioritize worktop length, pantry volume and extraction; keep geometric detail to the screened opening rather than the backsplash.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Use an offset screen or turn to delay the view, then provide a bench and concealed shoe storage beside the door.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let limestone and sand carry most of the room, then use walnut to frame openings and storage. Indigo should identify one textile family; aged bronze works best on handles and a single fitting rather than as an all-over luxury signal.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Pale limestone
+              - paragraph [ref=e196]: A cool-reflective architectural base that carries strong daylight without looking stark.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Dune sand
+              - paragraph [ref=e201]: A practical upholstery and rug tone that bridges pale stone and dark timber.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Walnut screen
+              - paragraph [ref=e206]: The principal joinery color for privacy screens, doors, cabinetry and low tables.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Indigo weave
+              - paragraph [ref=e211]: A concentrated textile note for cushions, a runner or one flat-woven panel.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Aged bronze
+              - paragraph [ref=e216]: A quiet hardware and lighting accent with less glare than polished gold.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Honed limestone material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Honed limestone
+                - paragraph [ref=e224]: Confirm porosity, sealing, slip rating and suitability for the local climate before choosing the finish.
+            - generic [ref=e225]:
+              - img "Walnut mashrabiya material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Walnut mashrabiya
+                - paragraph [ref=e229]: "Treat the screen as joinery: test sightlines, daylight, panel movement, cleaning access and fixings."
+            - generic [ref=e230]:
+              - img "Palm fiber and wool material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Palm fiber and wool
+                - paragraph [ref=e234]: Use documented plant fiber and durable wool where touch, acoustics and repairability matter.
+            - generic [ref=e235]:
+              - img "Indigo and bronze material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Indigo and bronze
+                - paragraph [ref=e239]: Keep both accents matte and limited so their color and patina remain legible against stone and timber.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Start with household routes and the sun, not a decorative motif. Place the reception function, protect private sightlines and engineer the screened openings before choosing textiles or metalwork.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Map guest movement
+            - paragraph [ref=e250]: Draw the route from door to majlis, washroom and dining area without crossing bedrooms or family living space.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Test sun and views
+            - paragraph [ref=e255]: Record glare, heat and outside sightlines at each important opening through the day.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Detail one screen system
+            - paragraph [ref=e260]: Coordinate pattern, depth, frame, ventilation, cleaning and operation with the window and structure.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Furnish for hosting
+            - paragraph [ref=e265]: Check seat count, table reach, acoustic softness, service flow and storage before adding ornament.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Gold becomes the definition
+          - paragraph [ref=e274]: Return large surfaces to stone, timber and textile; use aged metal only at functional touchpoints.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Every plane carries geometry
+          - paragraph [ref=e277]: Choose one screen or textile scale and let plain walls and floors provide visual rest.
+        - generic [ref=e278]:
+          - generic [ref=e279]: The majlis is impressive but awkward
+          - paragraph [ref=e280]: Check back support, table reach, conversation distance, power access and the central walking route.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Privacy blocks all daylight
+          - paragraph [ref=e283]: Layer offset openings and calibrated screens instead of closing rooms behind opaque walls.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Arabic vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Because “Arabic” covers many places, the label is only useful when the project states its regional and domestic frame. A contemporary Gulf interpretation is distinct through hospitality planning, privacy and controlled sun—not through generic arches, gold and lanterns.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Moroccan" [ref=e293] [cursor=pointer]:
+              - /url: /styles/moroccan
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: A specific North African family of traditions associated with riad planning, tadelakt, zellige and cedar craft.
+          - generic [ref=e296]:
+            - text: Choose Arabic if
+            - paragraph [ref=e297]: Choose Arabic as framed here for a contemporary Gulf home organized around majlis hospitality, solar screening and family privacy.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Gulf receiving patterns replace Moroccan courtyard craft.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Mediterranean" [ref=e303] [cursor=pointer]:
+              - /url: /styles/mediterranean
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: A broad hot-climate family centered on mineral mass, shade, airflow and indoor-outdoor thresholds across several coastal regions.
+          - generic [ref=e306]:
+            - text: Choose Arabic if
+            - paragraph [ref=e307]: Choose Arabic when guest reception, protected family routes and screened sightlines need to guide the plan.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Social zoning replaces a general coastal climate language.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Global" [ref=e313] [cursor=pointer]:
+              - /url: /styles/global
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: Brings traceable objects and craft from several regions into a neutral contemporary setting.
+          - generic [ref=e316]:
+            - text: Choose Arabic if
+            - paragraph [ref=e317]: Choose Arabic when one regional household pattern and its architectural responses should shape the whole interior.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: One domestic framework replaces multi-source curation.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Luxe Modern" [ref=e323] [cursor=pointer]:
+              - /url: /styles/luxe-modern
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Uses polished stone, dramatic lighting and high-contrast finishes to signal contemporary luxury without a regional domestic model.
+          - generic [ref=e326]:
+            - text: Choose Arabic if
+            - paragraph [ref=e327]: Choose Arabic when privacy, hospitality and climate performance matter more than visual expense.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Cultural function replaces generic luxury.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Prioritize performance and provenance. Ask how seating supports long visits, how a screen controls real views, whether stone suits the installation and who made the woven or timber work.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Custom majlis seating for Arabic interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Custom majlis seating
+            - paragraph [ref=e340]: Mock up seat height, depth, back angle and table reach before ordering a long built-in run.
+        - article [ref=e341]:
+          - img "Screened window seat for Arabic interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Screened window seat
+            - paragraph [ref=e345]: Test privacy from outside at night as well as daylight, ventilation and safe access to the glazing.
+        - article [ref=e346]:
+          - img "Hospitality dining table for Arabic interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Hospitality dining table
+            - paragraph [ref=e350]: Size for the real guest count and verify knee clearance, chair pullback and the route used for serving.
+        - article [ref=e351]:
+          - img "Walnut work desk for Arabic interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Walnut work desk
+            - paragraph [ref=e355]: Choose durable joinery, comfortable height and a concealed cable path rather than an ornamental front.
+        - article [ref=e356]:
+          - img "Entry pivot screen for Arabic interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Entry pivot screen
+            - paragraph [ref=e360]: Coordinate width, swing, floor fixing and sightline with the door, bench and main circulation path.
+        - article [ref=e361]:
+          - img "Regional material sample set for Arabic interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Regional material sample set
+            - paragraph [ref=e365]: Review limestone, timber, fiber, wool and bronze together under the project’s actual daylight.
+    - generic [ref=e367]:
+      - heading "Arabic FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Arabic interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "What is a majlis?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is Arabic design different from Moroccan?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Does an Arabic interior need arches and gold?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "What does a mashrabiya screen do?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you avoid a themed result?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Moroccan interior design Moroccan →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/moroccan
+          - img "Moroccan interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Moroccan
+            - generic [ref=e402]: →
+        - link "Mediterranean interior design Mediterranean →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/mediterranean
+          - img "Mediterranean interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Mediterranean
+            - generic [ref=e407]: →
+        - link "Global interior design Global →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/global
+          - img "Global interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Global
+            - generic [ref=e412]: →
+        - link "Luxe Modern interior design Luxe Modern →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/luxe-modern
+          - img "Luxe Modern interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Luxe Modern
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

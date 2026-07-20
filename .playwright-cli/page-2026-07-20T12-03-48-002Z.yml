@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Global
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Global Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: A few well-documented crafted pieces, given space and daily purpose, create more depth than a room full of anonymous travel motifs.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Global interior design hero" [ref=e34]
+          - img "Global kitchen interior" [ref=e35]
+          - img "Global styled corner" [ref=e36]
+          - img "Global detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Craft-led + grounded
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Handwoven wool, dark timber, clay, fiber, brass
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Chalk, cocoa, indigo, madder, verdigris
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, dining, entryway
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Provenance before pattern
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: One documented handwoven textile
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Indigo weave over a quiet wall
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Anonymous culture-collage décor
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Global interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Global interior design brings craft, furniture and textiles from identifiable places into a coherent present-day home. The strongest rooms are not geographic collages. They use a calm architectural base and a small number of objects whose maker, material, technique or region can be described accurately. Function and respect matter as much as visual impact.
+        - paragraph [ref=e88]: A label such as “tribal” or “ethnic” is not useful provenance. Ask who made an item, where, with which fibers or clay, and whether the seller can explain its intended use. Avoid sacred, ceremonial or community-specific objects unless you understand the context and have a legitimate reason to care for them. Everyday weaving, pottery and joinery offer ample material depth without turning identity into decoration.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Record what you know
+          - paragraph [ref=e92]: Keep maker, region, material and care information with important purchases instead of relying on vague style labels.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Give craft visual space
+          - paragraph [ref=e95]: One textile or vessel group needs a quiet wall or clear tabletop to be read as work, not inventory.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Use before you display
+          - paragraph [ref=e98]: Favor bowls, baskets, rugs and furniture that can serve their intended everyday purpose safely.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of global interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Traceable material stories
+          - paragraph [ref=e108]: Maker, technique and origin matter more than a broad decorative category.
+        - generic [ref=e112]:
+          - generic [ref=e113]: A calm contemporary base
+          - paragraph [ref=e114]: Simple walls and functional furniture keep crafted pieces distinct and useful.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Regional depth over breadth
+          - paragraph [ref=e120]: A few related works from understood sources replace a superficial tour of many places.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Respectful visual editing
+          - paragraph [ref=e126]: Sacred imagery, replicas and anonymous stereotypes are excluded from the decorative mix.
+      - generic [ref=e127]:
+        - img "Global material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Global room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Global Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/global/living-room
+          - img "Global Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Global Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/global/bedroom
+          - img "Global Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Global Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/global/dining-room
+          - img "Global Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Global Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/global/home-office
+          - img "Global Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Global Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/global/kitchen
+          - img "Global Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Global Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/global/entryway-hallway
+          - img "Global Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Place one major textile on a quiet wall, keep seating plain and group only a few ceramics by material or maker.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Use a documented everyday cloth as the single pattern and let plain linen, timber and clay support its color.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: A large traceable flatweave can lead the room; choose robust chairs and tableware intended for regular use.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Keep the workstation ergonomic and let one wall textile plus a practical basket provide the crafted layer.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Use food-safe pottery and washable cloth; do not overcrowd worktops with objects purchased only for display.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Choose one durable storage basket and one maker-led lamp or textile, leaving the path and landing surface clear.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let chalk and cocoa carry architecture and furniture. Choose indigo as the textile anchor, repeat madder sparingly and use verdigris on one ceramic family rather than scattering many unrelated colors.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Warm chalk
+              - paragraph [ref=e196]: The quiet wall and linen base that gives darker fibers and clay enough visual separation.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Cocoa timber
+              - paragraph [ref=e201]: A grounding furniture tone that connects varied natural materials without simulating a region.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Plant indigo
+              - paragraph [ref=e206]: A deep textile anchor best used in one substantial weave or a limited ceramic group.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Madder red
+              - paragraph [ref=e211]: A warm dyed accent for narrow stripes and small repeated notes.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Verdigris glaze
+              - paragraph [ref=e216]: A cool handmade surface that balances timber, terracotta and brass.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Documented handweave material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Documented handweave
+                - paragraph [ref=e224]: Look for fiber, dye, technique, maker or cooperative and region—not a vague “ethnic” product description.
+            - generic [ref=e225]:
+              - img "Everyday clay material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Everyday clay
+                - paragraph [ref=e229]: Confirm whether vessels are food-safe and intended for use; retain maker information where possible.
+            - generic [ref=e230]:
+              - img "Basket fiber material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Basket fiber
+                - paragraph [ref=e234]: Check the plant fiber, weave stability and practical capacity before treating a basket as decorative storage.
+            - generic [ref=e235]:
+              - img "Dark timber and brass material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Dark timber and brass
+                - paragraph [ref=e239]: Quiet durable furniture and fittings provide continuity without pretending to represent a specific tradition.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Begin with one object whose origin and use you can explain. Build a quiet functional room around it, repeat two of its colors and add further craft only when it contributes a different technique or daily purpose.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Audit provenance
+            - paragraph [ref=e250]: Write down maker, region, material, technique and intended use for each significant crafted piece.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Choose one lead work
+            - paragraph [ref=e255]: Give the strongest textile, vessel or furniture piece a clear wall, floor area or surface.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Build the neutral support
+            - paragraph [ref=e260]: Use simple current furniture, storage and lighting to meet comfort and performance needs.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Add depth, not geography
+            - paragraph [ref=e265]: Choose the next item for material or technique—not merely because it comes from another place.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: The room becomes a world tour
+          - paragraph [ref=e274]: Develop two or three material relationships instead of representing many regions at once.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Origin is replaced by a style label
+          - paragraph [ref=e277]: Ask for maker, technique, material and region; skip sellers who offer only vague descriptors.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Important objects become props
+          - paragraph [ref=e280]: Avoid sacred and ceremonial works; prioritize everyday craft you can use and understand.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Craft disappears into clutter
+          - paragraph [ref=e283]: Reduce small accessories and leave space around each substantial textile, vessel or basket group.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Global vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Global design should describe an approach to sourcing and stewardship, not a look assembled from stereotypes. Its value lies in giving documented craft a useful, legible place within contemporary life.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Bohemian" [ref=e293] [cursor=pointer]:
+              - /url: /styles/bohemian
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More personal and informal, often using layered textiles, plants and relaxed furniture without requiring geographic documentation.
+          - generic [ref=e296]:
+            - text: Choose Global if
+            - paragraph [ref=e297]: Choose Global when maker, place and technique are central to why an object belongs in the home.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Provenance replaces free-form layering.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Eclectic" [ref=e303] [cursor=pointer]:
+              - /url: /styles/eclectic
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More concerned with formal contrast between periods and design languages than with the origins of craft.
+          - generic [ref=e306]:
+            - text: Choose Global if
+            - paragraph [ref=e307]: Choose Global when material tradition and responsible sourcing matter more than stylistic collision.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Craft context replaces period dialogue.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Mediterranean" [ref=e313] [cursor=pointer]:
+              - /url: /styles/mediterranean
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More regionally and climatically coherent, using plaster, stone, timber and tile associated with a connected geographic area.
+          - generic [ref=e316]:
+            - text: Choose Global if
+            - paragraph [ref=e317]: Choose Global for carefully sourced works from more than one region within a neutral contemporary framework.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Curated exchange replaces one regional envelope.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Moroccan" [ref=e323] [cursor=pointer]:
+              - /url: /styles/moroccan
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: A specific design tradition with its own architecture, craft histories, spatial customs and recognizable material vocabulary.
+          - generic [ref=e326]:
+            - text: Choose Global if
+            - paragraph [ref=e327]: Choose Global only when the home is not attempting to reproduce one regional tradition and sources remain explicit.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Multiple documented sources replace a single cultural vocabulary.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Ask better questions than “Where is it inspired by?” Seek maker names, cooperative details, region, fiber or clay, production method, care and intended use before purchasing.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Large handwoven textile for Global interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Large handwoven textile
+            - paragraph [ref=e340]: Request maker, fiber, dye and region information; mount heavy work with a method that distributes weight safely.
+        - article [ref=e341]:
+          - img "Hand-blocked coverlet for Global interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Hand-blocked coverlet
+            - paragraph [ref=e345]: Verify fiber, dye care and production source, then use it as the room’s only major pattern.
+        - article [ref=e346]:
+          - img "Food-safe pottery group for Global interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Food-safe pottery group
+            - paragraph [ref=e350]: Confirm glaze safety, cleaning limits and intended use rather than assuming every handmade vessel is tableware.
+        - article [ref=e351]:
+          - img "Traceable flatweave rug for Global interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Traceable flatweave rug
+            - paragraph [ref=e355]: Check maker or cooperative, fiber and repair options; size it for chairs to remain on the rug when pulled out.
+        - article [ref=e356]:
+          - img "Woven lidded basket for Global interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Woven lidded basket
+            - paragraph [ref=e360]: Look for named plant fiber, stable handles and a structure suited to the items it will store.
+        - article [ref=e361]:
+          - img "Material provenance set for Global interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Material provenance set
+            - paragraph [ref=e365]: Keep samples and maker notes together so future additions can be compared by technique and material.
+    - generic [ref=e367]:
+      - heading "Global FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Global interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How is Global different from Bohemian?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "What provenance should a seller provide?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "How many regions should one room represent?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which objects should be avoided?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you prevent a Global room looking cluttered?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Bohemian interior design Bohemian →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/bohemian
+          - img "Bohemian interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Bohemian
+            - generic [ref=e402]: →
+        - link "Eclectic interior design Eclectic →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/eclectic
+          - img "Eclectic interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Eclectic
+            - generic [ref=e407]: →
+        - link "Mediterranean interior design Mediterranean →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/mediterranean
+          - img "Mediterranean interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Mediterranean
+            - generic [ref=e412]: →
+        - link "Moroccan interior design Moroccan →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/moroccan
+          - img "Moroccan interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Moroccan
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

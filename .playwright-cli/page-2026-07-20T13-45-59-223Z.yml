@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Desert Modern
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Desert Modern Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: "Frame the landscape without importing it indoors: orientation, exterior shade and a disciplined envelope create the calm."
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Desert Modern interior design hero" [ref=e34]
+          - img "Desert Modern kitchen interior" [ref=e35]
+          - img "Desert Modern styled corner" [ref=e36]
+          - img "Desert Modern detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Precise + sheltered
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Rammed earth, low-carbon concrete, white oak, limestone, bronze
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Pale earth, limestone, oak, charcoal, muted clay
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living room, bedroom, home office
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Controlled exposure
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Modeled exterior shading
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: One precisely framed view
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Unshaded glass walls
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Desert Modern interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Desert Modern design uses contemporary architectural clarity to make extreme light, heat, wind and large daily temperature swings manageable. Long roof planes, selective glazing, exterior shade and a compact material palette create the visual identity; sand-colored finishes alone do not. This guide uses a current Mojave house as its frame, distinct from both historic Palm Springs modernism and regional adobe revival.
+        - paragraph [ref=e88]: Rammed earth, concrete and stone can provide useful mass, but they are not automatically high-performance. Insulation, airtightness, thermal bridges, glazing specification, roof design and mechanical systems must be engineered for the site. Inside, oak, wool and muted clay soften the mineral shell while concealed storage and precise lighting prevent minimalism from becoming an empty showroom.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Model the sun before the view
+          - paragraph [ref=e92]: Set opening size and overhang depth from orientation and seasonal solar exposure, not a desire for maximum glass.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Separate mass from insulation
+          - paragraph [ref=e95]: Specify a complete wall and roof assembly; heavy material alone does not guarantee comfort or low energy use.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Keep the desert outside
+          - paragraph [ref=e98]: Frame native landscape through the openings instead of staging indoor cacti, boulders and themed objects.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of desert modern interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Long horizontal shade
+          - paragraph [ref=e108]: Deep roof edges and exterior fins stop high-angle sun before it reaches the glass.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Selective landscape frames
+          - paragraph [ref=e114]: A few deliberate openings capture important views while limiting glare and heat gain.
+        - generic [ref=e118]:
+          - generic [ref=e119]: A continuous mineral base
+          - paragraph [ref=e120]: Concrete, earth and limestone create quiet planes with carefully coordinated joints.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Warm insertions, not rustic layers
+          - paragraph [ref=e126]: Oak cabinetry and wool add touch comfort without turning the architecture Southwestern.
+      - generic [ref=e127]:
+        - img "Desert Modern material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Desert Modern room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Desert Modern Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/desert-modern/living-room
+          - img "Desert Modern Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Desert Modern Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/desert-modern/bedroom
+          - img "Desert Modern Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Desert Modern Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/desert-modern/dining-room
+          - img "Desert Modern Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Desert Modern Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/desert-modern/home-office
+          - img "Desert Modern Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Desert Modern Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/desert-modern/kitchen
+          - img "Desert Modern Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Desert Modern Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/desert-modern/entryway-hallway
+          - img "Desert Modern Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Concentrate glazing under a proven overhang, preserve a clear circulation edge and use wool upholstery to correct hard-surface acoustics.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Favor a smaller shaded morning opening, a true blackout layer and quiet full-height storage over a panoramic glass wall.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Place the table beside an operable but fully shaded opening and confirm that the cross-breeze will not create glare or dust problems.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Orient the monitor across the window, use exterior fins and provide even ambient light for early or late work.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Use a shaded view or clerestory, durable pale worktops and integrated equipment rather than decorative desert objects.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Compress the bright exterior into a shaded threshold with closed storage before opening the view toward the main room.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let earth and limestone define the shell, oak organize storage and charcoal sharpen frames and upholstery. Use muted clay on one chair or textile plane; avoid repeating tan objects merely to make the room look desert-like.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Pale rammed earth
+              - paragraph [ref=e196]: A softly stratified mineral anchor for one major wall, never a synthetic stripe effect.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Desert limestone
+              - paragraph [ref=e201]: A light honed surface for counters and tables that reflects daylight without glare.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Rift white oak
+              - paragraph [ref=e206]: A linear warm insertion for storage, ceilings and furniture against the mineral shell.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Shadow charcoal
+              - paragraph [ref=e211]: A precise tone for frames, seating and wool where depth and glare control are useful.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Muted clay
+              - paragraph [ref=e216]: One dry warm textile accent that keeps the palette from dissolving into beige.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Engineered rammed earth material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Engineered rammed earth
+                - paragraph [ref=e224]: Confirm structural role, insulation strategy, moisture details, mock-up color and the expected variation of each lift.
+            - generic [ref=e225]:
+              - img "Low-carbon concrete material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Low-carbon concrete
+                - paragraph [ref=e229]: Coordinate mix, joints, curing, finish and underfloor systems before treating concrete as a seamless backdrop.
+            - generic [ref=e230]:
+              - img "Oak and charcoal wool material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Oak and charcoal wool
+                - paragraph [ref=e234]: Warm touch surfaces and acoustic fiber balance the mineral architecture without rustic ornament.
+            - generic [ref=e235]:
+              - img "Limestone and bronze frame material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Limestone and bronze frame
+                - paragraph [ref=e239]: Test stone porosity and review the actual thermally broken frame profile, coatings and glass build-up.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Begin with climate data, orientation and the envelope. Only after glass, shade and thermal systems are resolved should material color, furniture and landscape framing be finalized.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Read the climate file
+            - paragraph [ref=e250]: Review seasonal sun, temperature swing, wind, dust, rainfall and nighttime cooling potential.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Set the glazing budget
+            - paragraph [ref=e255]: Give each opening a view, daylight or ventilation job and remove glass that performs none of them.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Model exterior shade
+            - paragraph [ref=e260]: Test overhangs and fins through the year, including low east and west sun.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Coordinate the envelope
+            - paragraph [ref=e265]: Resolve insulation, airtightness, bridges, glazing, roof and mechanical loads as one system.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: The view becomes a heat load
+          - paragraph [ref=e274]: Reduce glass, improve its specification and add external shade tailored to orientation.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Thermal mass is treated as insulation
+          - paragraph [ref=e277]: Design the complete assembly and place insulation and vapor control for the actual climate.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Minimalism becomes echoing and bare
+          - paragraph [ref=e280]: Add wool, curtains where required and timber touch surfaces while retaining clear planes.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Desert props replace architecture
+          - paragraph [ref=e283]: Remove indoor cacti and boulders; frame the living landscape beyond a controlled opening.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Desert Modern vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: "Desert Modern is not simply Southwestern with fewer objects. Its defining layer is contemporary environmental control: each plane, opening and material junction should moderate exposure while preserving a deliberate relationship to the arid landscape."
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Southwestern" [ref=e293] [cursor=pointer]:
+              - /url: /styles/southwestern
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More regionally layered, using clay floors, earth plaster, mesquite and documented craft within shaded vernacular transitions.
+          - generic [ref=e296]:
+            - text: Choose Desert Modern if
+            - paragraph [ref=e297]: Choose Desert Modern for stricter geometry, engineered openings and a reduced contemporary material system.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Abstract performance replaces visible regional craft.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Organic Modern" [ref=e303] [cursor=pointer]:
+              - /url: /styles/organic-modern
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Uses rounded forms and natural materials in a broadly place-neutral language, often prioritizing tactile softness.
+          - generic [ref=e306]:
+            - text: Choose Desert Modern if
+            - paragraph [ref=e307]: Choose Desert Modern when harsh solar exposure and a specific arid landscape must directly shape the architecture.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Climate control replaces universal organic calm.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Minimalist" [ref=e313] [cursor=pointer]:
+              - /url: /styles/minimalist
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: A general reduction-based approach that can apply in any climate and may use a much whiter, more abstract envelope.
+          - generic [ref=e316]:
+            - text: Choose Desert Modern if
+            - paragraph [ref=e317]: Choose Desert Modern when shade, mass and landscape frames are inseparable from the minimal composition.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Arid-site performance replaces generic reduction.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Mid-Century Modern" [ref=e323] [cursor=pointer]:
+              - /url: /styles/mid-century-modern
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Rooted in twentieth-century modernism, with recognizable period furniture, post-and-beam structures and stronger indoor-outdoor openness.
+          - generic [ref=e326]:
+            - text: Choose Desert Modern if
+            - paragraph [ref=e327]: Choose Desert Modern for a current high-performance interpretation without reproducing a historical furniture vocabulary.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Contemporary envelope precision replaces period reference.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Prioritize assemblies and comfort over photogenic objects. Request solar and thermal data for glazing, full samples for mineral surfaces and ergonomic testing for the few pieces of furniture the room keeps.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Wool-upholstered low sofa for Desert Modern interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Wool-upholstered low sofa
+            - paragraph [ref=e340]: Check supportive depth, durable natural fiber and acoustic contribution rather than selecting the lowest silhouette.
+        - article [ref=e341]:
+          - img "Blackout platform bed for Desert Modern interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Blackout platform bed
+            - paragraph [ref=e345]: Confirm mattress ventilation, both-side access and an integrated blackout system at the recessed window.
+        - article [ref=e346]:
+          - img "Honed limestone counter for Desert Modern interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Honed limestone counter
+            - paragraph [ref=e350]: Review the actual slab for porosity, sealing, edges and heat or stain response before fabrication.
+        - article [ref=e351]:
+          - img "Slim dining chair for Desert Modern interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Slim dining chair
+            - paragraph [ref=e355]: Choose a supportive, repairable chair whose narrow profile does not sacrifice comfort during long meals.
+        - article [ref=e356]:
+          - img "Exterior solar fin for Desert Modern interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Exterior solar fin
+            - paragraph [ref=e360]: Specify orientation, depth, finish, fixing and maintenance using modeled sun angles rather than appearance alone.
+        - article [ref=e361]:
+          - img "Envelope sample set for Desert Modern interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Envelope sample set
+            - paragraph [ref=e365]: Review earth, concrete, oak, limestone, wool, clay textile and the real window profile together.
+    - generic [ref=e367]:
+      - heading "Desert Modern FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Desert Modern interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How is Desert Modern different from Southwestern?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "Does a Desert Modern house need floor-to-ceiling glass?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Is rammed earth automatically energy efficient?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "How do you keep the palette from looking bland?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "Can Desert Modern work outside an arid climate?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Southwestern interior design Southwestern →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/southwestern
+          - img "Southwestern interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Southwestern
+            - generic [ref=e402]: →
+        - link "Organic Modern interior design Organic Modern →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/organic-modern
+          - img "Organic Modern interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Organic Modern
+            - generic [ref=e407]: →
+        - link "Minimalist interior design Minimalist →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/minimalist
+          - img "Minimalist interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Minimalist
+            - generic [ref=e412]: →
+        - link "Mid-Century Modern interior design Mid-Century Modern →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/mid-century-modern
+          - img "Mid-Century Modern interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Mid-Century Modern
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

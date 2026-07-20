@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Coastal Grandmother
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Coastal Grandmother Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Generous comfort, useful antiques and faded coastal color create a home made for reading, cooking and lingering guests.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Coastal Grandmother interior design hero" [ref=e34]
+          - img "Coastal Grandmother kitchen interior" [ref=e35]
+          - img "Coastal Grandmother styled corner" [ref=e36]
+          - img "Coastal Grandmother detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Cultivated + relaxed
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Washed linen, old pine, wicker, brass
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Warm cream, faded denim, sage, pine
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, kitchen, reading room
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Comfort first, then edit
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: A truly good reading chair
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Faded blue beside old pine
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Matched blue-and-white décor
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Coastal Grandmother interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Coastal Grandmother style imagines an easy, well-kept seaside home organized around ordinary pleasures: reading by a window, preparing lunch, setting a table and welcoming someone without ceremony. Traditional furniture gives the rooms familiarity, while linen covers, wicker and faded color stop them from feeling formal."
+        - paragraph [ref=e88]: "The name describes an attitude, not the owner’s age. Rooms should feel accumulated but selective: one old pine table, books within reach, a pottery lamp and cloth that improves with washing. Compared with Coastal style, the architecture recedes and the furnishing becomes warmer, softer and more personal."
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Test the comfort
+          - paragraph [ref=e92]: Choose seat depth, arm height and reading light before deciding whether a chair looks appropriately relaxed.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Mix age with restraint
+          - paragraph [ref=e95]: Let one old pine or painted piece carry patina; keep newer upholstery plain and well fitted.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Repeat color loosely
+          - paragraph [ref=e98]: Echo faded blue or sage in two or three materials without buying a coordinated set.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of coastal grandmother interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Conversation-ready seating
+          - paragraph [ref=e108]: A slipcovered sofa and supportive chairs face one another rather than forming a showroom lineup.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Traditional working pieces
+          - paragraph [ref=e114]: Spindle beds, pedestal tables and old desks contribute familiar forms with practical dimensions.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Washed, layered cloth
+          - paragraph [ref=e120]: Linen, ticking and light cotton add softness through removable, maintainable covers.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Collected domestic objects
+          - paragraph [ref=e126]: Books, lamps, pottery and small landscapes appear where they are used, not as themed displays.
+      - generic [ref=e127]:
+        - img "Coastal Grandmother material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Coastal Grandmother room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Coastal Grandmother Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/coastal-grandmother/living-room
+          - img "Coastal Grandmother Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Coastal Grandmother Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/coastal-grandmother/bedroom
+          - img "Coastal Grandmother Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Coastal Grandmother Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/coastal-grandmother/dining-room
+          - img "Coastal Grandmother Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Coastal Grandmother Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/coastal-grandmother/home-office
+          - img "Coastal Grandmother Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Coastal Grandmother Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/coastal-grandmother/kitchen
+          - img "Coastal Grandmother Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Coastal Grandmother Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/coastal-grandmother/entryway-hallway
+          - img "Coastal Grandmother Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Arrange a deep sofa and two genuinely supportive chairs around a reachable table, with a lamp beside every reading seat.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Pair a warm pine bed with washable cream bedding and one faded blue coverlet; reserve the corner for a proper reading chair.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Use a round table to make conversation easy and let compatible Windsor chairs vary slightly instead of forcing a perfect set.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Combine a work desk with a separate reading chair and closed files, keeping books accessible without filling every shelf.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Let an old worktable provide warmth against painted cabinetry; keep the cooking route clear and display only frequently used pottery.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Ground the hall with a painted chest and woven bench, then limit coats and baskets to what the space actually handles.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let cream carry walls and large upholstery, old pine ground the center and faded denim cool one substantial textile. Sage and aged brass should connect smaller working pieces.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Warm cream
+              - paragraph [ref=e196]: A gentle base for beadboard, upholstery and curtains that avoids stark seaside white.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Faded denim
+              - paragraph [ref=e201]: A softened blue for one chair, coverlet or curtain rather than a matching room set.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Sea-salt sage
+              - paragraph [ref=e206]: Adds muted garden color to a chest, pantry door or small textile.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Old pine
+              - paragraph [ref=e211]: Introduces age and warmth through a table, bed or writing desk.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Aged brass
+              - paragraph [ref=e216]: A quiet warm line for lamps, hooks and cabinet pulls.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Washed linen material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Washed linen
+                - paragraph [ref=e224]: A relaxed washable layer for slipcovers and bedding; expect wrinkles rather than fighting them.
+            - generic [ref=e225]:
+              - img "Old pine material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Old pine
+                - paragraph [ref=e229]: Visible wear gives warmth when joints are sound and the surface can still handle daily use.
+            - generic [ref=e230]:
+              - img "Cotton ticking material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Cotton ticking
+                - paragraph [ref=e234]: A small regular stripe that mixes easily with plain linen without turning nautical.
+            - generic [ref=e235]:
+              - img "Natural wicker material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Natural wicker
+                - paragraph [ref=e239]: Best used for one chair, bench or lidded basket where its texture also serves a purpose.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Start with one comfortable daily routine, one useful old piece and one faded color. Add traditional layers only where they improve sitting, storing or hosting.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Build the reading seat
+            - paragraph [ref=e250]: Choose a supportive chair, side surface and shaded lamp before styling the surrounding shelves.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Add one workhorse antique
+            - paragraph [ref=e255]: Use an old pine table, chest or desk with sound construction and dimensions suited to its task.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Choose a loose color echo
+            - paragraph [ref=e260]: Repeat faded blue or sage across unlike materials rather than buying coordinated accessories.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Remove the souvenir layer
+            - paragraph [ref=e265]: Keep landscapes and useful pottery; take away shells, coral and objects that only announce the coast.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every textile is blue and white
+          - paragraph [ref=e274]: Keep one faded blue lead and move the rest toward cream, pine, sage and natural weave.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Relaxed seating lacks support
+          - paragraph [ref=e277]: Check seat depth, cushion density and lamp position instead of relying on loose slipcovers.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Collected becomes crowded
+          - paragraph [ref=e280]: Group books and pottery near their use, then leave shelves and tables partly empty.
+        - generic [ref=e281]:
+          - generic [ref=e282]: The room becomes a beach set
+          - paragraph [ref=e283]: Remove coral, shells and anchors; let views, washed cloth and old timber suggest place.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Coastal Grandmother vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Coastal Grandmother is distinguished by how it furnishes a relaxed life. Traditional comfort, readable personal history and restrained seaside color matter more than coastal architecture or decorative motifs.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Coastal" [ref=e293] [cursor=pointer]:
+              - /url: /styles/coastal
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: Lighter and more architectural, shaped by sun control, airflow, pale mineral surfaces and cleaner furniture lines.
+          - generic [ref=e296]:
+            - text: Choose Coastal Grandmother if
+            - paragraph [ref=e297]: Choose Coastal Grandmother for traditional forms, layered comfort and a stronger sense of personal history.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Slipcovers and old pine replace screens and limestone.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "New Traditional" [ref=e303] [cursor=pointer]:
+              - /url: /styles/new-traditional
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More tailored and current, refining classic shapes with sharper upholstery, stronger art and deliberate contrast.
+          - generic [ref=e306]:
+            - text: Choose Coastal Grandmother if
+            - paragraph [ref=e307]: Choose Coastal Grandmother for softer cloth, quieter color and a less composed relationship with age.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Washed ticking replaces crisp tailored contrast.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Cottagecore" [ref=e313] [cursor=pointer]:
+              - /url: /styles/cottagecore
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More rural and handmade, centered on gardening, mending, baking and botanical domestic rituals.
+          - generic [ref=e316]:
+            - text: Choose Coastal Grandmother if
+            - paragraph [ref=e317]: Choose Coastal Grandmother for seaside ease, reading and hosting rather than productive cottage life.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Conversation seating replaces visible handwork.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Grandmillennial" [ref=e323] [cursor=pointer]:
+              - /url: /styles/grandmillennial
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More decorative and pattern-forward, layering chintz, trim, porcelain and classic statement furniture.
+          - generic [ref=e326]:
+            - text: Choose Coastal Grandmother if
+            - paragraph [ref=e327]: Choose Coastal Grandmother for fewer patterns, more washed texture and less formal arrangement.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Faded linen replaces coordinated chintz and trim.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Prioritize comfort, useful dimensions and fabrics that can be maintained. A convincing room grows from a good chair and worktable, not a collection labeled “coastal.”
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Pine spindle bed for Coastal Grandmother interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Pine spindle bed
+            - paragraph [ref=e340]: Check frame stability and mattress dimensions; use removable bedding rather than a heavily coordinated suite.
+        - article [ref=e341]:
+          - img "Old pine kitchen table for Coastal Grandmother interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Old pine kitchen table
+            - paragraph [ref=e345]: Confirm working height, joint condition and aisle clearance before embracing its surface wear.
+        - article [ref=e346]:
+          - img "Round pedestal table for Coastal Grandmother interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Round pedestal table
+            - paragraph [ref=e350]: Size the diameter for the room and test knee clearance around the base with every chair occupied.
+        - article [ref=e351]:
+          - img "Upholstered reading chair for Coastal Grandmother interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Upholstered reading chair
+            - paragraph [ref=e355]: Sit long enough to judge back support, arm height and cushion recovery; add a lamp at shoulder level.
+        - article [ref=e356]:
+          - img "Painted console chest for Coastal Grandmother interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Painted console chest
+            - paragraph [ref=e360]: Choose real drawer capacity and a depth that preserves the passage from door to stair.
+        - article [ref=e361]:
+          - img "Washed ticking and linen for Coastal Grandmother interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Washed ticking and linen
+            - paragraph [ref=e365]: Review fiber, shrinkage and care instructions; mix the stripe with larger areas of plain cream.
+    - generic [ref=e367]:
+      - heading "Coastal Grandmother FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Coastal Grandmother style?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Is Coastal Grandmother only for seaside homes?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is it different from Coastal style?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Which colors work best?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Does every sofa need a slipcover?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you avoid beach-house clichés?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Coastal interior design Coastal →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/coastal
+          - img "Coastal interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Coastal
+            - generic [ref=e402]: →
+        - link "New Traditional interior design New Traditional →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/new-traditional
+          - img "New Traditional interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: New Traditional
+            - generic [ref=e407]: →
+        - link "Cottagecore interior design Cottagecore →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/cottagecore
+          - img "Cottagecore interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Cottagecore
+            - generic [ref=e412]: →
+        - link "Grandmillennial interior design Grandmillennial →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/grandmillennial
+          - img "Grandmillennial interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Grandmillennial
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Eclectic
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Eclectic Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Different eras become one room when scale, color and line repeat more strongly than the styles disagree.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Eclectic interior design hero" [ref=e34]
+          - img "Eclectic kitchen interior" [ref=e35]
+          - img "Eclectic styled corner" [ref=e36]
+          - img "Eclectic detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Contrasted + composed
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Walnut, wool, leather, lacquer, brass
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Parchment, olive, oxblood, cobalt, black
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, dining, study
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Repeat one linking parameter
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: A strong contemporary artwork
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Classical form beside clean geometry
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Equal emphasis on every object
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Eclectic interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Eclectic interior design deliberately combines furniture, art and lighting from different periods or design languages. It is not a license for random variety. A convincing room establishes a visual contract—perhaps repeated black outlines, related seat heights, one wood family or a limited palette—then uses a few clear departures to create energy.
+        - paragraph [ref=e88]: "Contrast needs hierarchy. One major collision, such as a modern table under traditional molding, should lead; secondary pieces can echo its color or geometry without starting new conversations. Function still sets the limits: mixed dining chairs need compatible heights, an antique desk needs modern ergonomics and every route through the room must remain clear."
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Name the connector
+          - paragraph [ref=e92]: Before buying, identify the color, line, proportion or material that will make the new piece belong.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Create one lead contrast
+          - paragraph [ref=e95]: Choose a single high-impact pairing and let other differences remain quieter.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Match functional dimensions
+          - paragraph [ref=e98]: Seat height, table clearance, lamp performance and storage depth matter even when styles differ.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of eclectic interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Visible period contrast
+          - paragraph [ref=e108]: Old and new silhouettes remain recognizable rather than being disguised as a matching set.
+        - generic [ref=e112]:
+          - generic [ref=e113]: A disciplined connector
+          - paragraph [ref=e114]: Repeated color, dark outline or wood tone carries the eye across unlike forms.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Unequal visual weight
+          - paragraph [ref=e120]: One hero piece leads while supporting furniture and art operate at lower intensity.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Functional compatibility
+          - paragraph [ref=e126]: Different objects still align in working height, comfort, circulation and practical use.
+      - generic [ref=e127]:
+        - img "Eclectic material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Eclectic room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Eclectic Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/eclectic/living-room
+          - img "Eclectic Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Eclectic Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/eclectic/bedroom
+          - img "Eclectic Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Eclectic Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/eclectic/dining-room
+          - img "Eclectic Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Eclectic Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/eclectic/home-office
+          - img "Eclectic Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Eclectic Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/eclectic/kitchen
+          - img "Eclectic Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Eclectic Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/eclectic/entryway-hallway
+          - img "Eclectic Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Let one antique case piece or sculptural chair lead, then repeat its darkest tone in art, lighting or a smaller frame.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Keep the bed visually calm and use the bedside pieces, one chair and artwork for the period contrast.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Mix chair eras only when seat heights align; repeat upholstery color or black frames to make the group intentional.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Pair a characterful desk with an ergonomic current chair and contemporary task lamp instead of recreating an old office suite.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Let modern cabinetry handle performance while a vintage table, pendant or artwork introduces the counterpoint.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Three clear elements—a console, contrasting mirror and simple bench—usually create enough tension in a narrow hall.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Use parchment to quiet the architecture and walnut as the main furniture neutral. Repeat black across several thin outlines, then choose either oxblood or cobalt as the dominant accent; olive can bridge the two.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Parchment
+              - paragraph [ref=e196]: A quiet architectural field that allows unlike furniture forms to remain readable.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Moss olive
+              - paragraph [ref=e201]: A mid-value upholstery tone linking aged wood, modern curves and traditional rugs.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Oxblood
+              - paragraph [ref=e206]: The warm dramatic accent for one artwork, leather chair or small lacquered plane.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Gallery cobalt
+              - paragraph [ref=e211]: A cool contemporary counterpoint best concentrated in art or glazed ceramic.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Ink black
+              - paragraph [ref=e216]: The strongest connector for frames, lamps and slender furniture outlines.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Parchment bouclé material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Parchment bouclé
+                - paragraph [ref=e224]: A current tactile neutral that softens hard antiques without introducing another pattern.
+            - generic [ref=e225]:
+              - img "Oxblood leather material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Oxblood leather
+                - paragraph [ref=e229]: One durable saturated surface can connect traditional wood to contemporary black hardware.
+            - generic [ref=e230]:
+              - img "Olive wool material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Olive wool
+                - paragraph [ref=e234]: Repeat upholstery across different chair frames when their proportions need a common language.
+            - generic [ref=e235]:
+              - img "Lacquer, glaze and brass material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Lacquer, glaze and brass
+                - paragraph [ref=e239]: Small hard finishes create precise contrast; keep each finish to a controlled number of appearances.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Audit what already deserves attention, choose one connector and add a single contrasting era first. Test scale and function before introducing another visual argument.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Choose the visual anchor
+            - paragraph [ref=e250]: Identify the artwork, table, cabinet or sofa that should command the first look.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Define the connector
+            - paragraph [ref=e255]: Select one repeated color, outline, timber tone or proportion to link unlike objects.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Add one deliberate opposite
+            - paragraph [ref=e260]: Contrast the anchor with a clearly different era while matching practical dimensions.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Lower the supporting volume
+            - paragraph [ref=e265]: Use quieter rugs, walls and storage so the strongest relationship remains legible.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Difference becomes the only rule
+          - paragraph [ref=e274]: Repeat one color, material or outline at least three times across the room.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Every item is a focal point
+          - paragraph [ref=e277]: Choose one hero and one counterpoint; let remaining pieces support them.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Mixed chairs do not function together
+          - paragraph [ref=e280]: Align seat height, table clearance and comfort before comparing decorative style.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Small objects create false variety
+          - paragraph [ref=e283]: Remove themed accessories and build contrast through substantial furniture, art or lighting.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Eclectic vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Eclectic design is a method of controlled disagreement. Its identity comes from the relationship between distinct pieces, while repeated visual parameters keep the whole room coherent.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Bohemian" [ref=e293] [cursor=pointer]:
+              - /url: /styles/bohemian
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More relaxed and textile-led, using handmade surfaces, plants and informal furniture to create personal continuity.
+          - generic [ref=e296]:
+            - text: Choose Eclectic if
+            - paragraph [ref=e297]: Choose Eclectic when the room should feature sharper formal collisions between recognizable design languages.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Designed contrast replaces tactile flow.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Maximalist" [ref=e303] [cursor=pointer]:
+              - /url: /styles/maximalist
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Denser and more immersive, often using abundant pattern, saturated color and collections across most visual planes.
+          - generic [ref=e306]:
+            - text: Choose Eclectic if
+            - paragraph [ref=e307]: Choose Eclectic for fewer focal points, more open space and contrast built through form rather than sheer quantity.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Selective tension replaces total visual abundance.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Transitional" [ref=e313] [cursor=pointer]:
+              - /url: /styles/transitional
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: Smoother and more conciliatory, blending traditional and contemporary forms through related neutrals and moderate silhouettes.
+          - generic [ref=e316]:
+            - text: Choose Eclectic if
+            - paragraph [ref=e317]: Choose Eclectic when differences should remain visible and create controlled friction.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Contrast replaces compromise.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Vintage" [ref=e323] [cursor=pointer]:
+              - /url: /styles/vintage
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More age-led and provenance-conscious, usually organized around a narrower historical range and restoration strategy.
+          - generic [ref=e326]:
+            - text: Choose Eclectic if
+            - paragraph [ref=e327]: Choose Eclectic when new, old and cross-period pieces can hold equal legitimacy within one composition.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Stylistic dialogue replaces period continuity.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Do not buy merely because an object is different. Photograph the room, record dimensions and name the connector the candidate will repeat before bringing it home.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Neutral upholstered bed for Eclectic interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Neutral upholstered bed
+            - paragraph [ref=e340]: A quiet contemporary anchor leaves room for older bedside furniture, a sculptural chair and stronger art.
+        - article [ref=e341]:
+          - img "Vintage breakfast table for Eclectic interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Vintage breakfast table
+            - paragraph [ref=e345]: Check height and stability; its warm timber should contrast modern cabinetry without blocking kitchen circulation.
+        - article [ref=e346]:
+          - img "Mixed dining chairs for Eclectic interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Mixed dining chairs
+            - paragraph [ref=e350]: Match seat height and visual weight, then repeat upholstery or black finish across the different frames.
+        - article [ref=e351]:
+          - img "Ergonomic leather chair for Eclectic interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Ergonomic leather chair
+            - paragraph [ref=e355]: Current support can sit beside an older desk when leather color and dark hardware echo the room.
+        - article [ref=e356]:
+          - img "Statement hall mirror for Eclectic interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Statement hall mirror
+            - paragraph [ref=e360]: Use one ornate historic form against a restrained console and modern bench; verify safe wall fixing.
+        - article [ref=e361]:
+          - img "Contrast material set for Eclectic interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Contrast material set
+            - paragraph [ref=e365]: Compare soft, glossy and aged finishes together before repeating them across larger furniture.
+    - generic [ref=e367]:
+      - heading "Eclectic FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Eclectic interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How many styles can one Eclectic room mix?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is Eclectic different from Bohemian?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "How do mixed dining chairs look intentional?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Can an Eclectic room use a neutral palette?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you prevent Eclectic interiors becoming cluttered?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Bohemian interior design Bohemian →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/bohemian
+          - img "Bohemian interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Bohemian
+            - generic [ref=e402]: →
+        - link "Maximalist interior design Maximalist →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/maximalist
+          - img "Maximalist interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Maximalist
+            - generic [ref=e407]: →
+        - link "Transitional interior design Transitional →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/transitional
+          - img "Transitional interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Transitional
+            - generic [ref=e412]: →
+        - link "Vintage interior design Vintage →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/vintage
+          - img "Vintage interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Vintage
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

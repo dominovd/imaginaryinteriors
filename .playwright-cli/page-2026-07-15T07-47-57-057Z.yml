@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Art Nouveau
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Art Nouveau Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: A continuous organic line turns window, furniture, glass and hardware into one composed interior rather than a collection of floral motifs.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Art Nouveau interior design hero" [ref=e34]
+          - img "Art Nouveau kitchen interior" [ref=e35]
+          - img "Art Nouveau styled corner" [ref=e36]
+          - img "Art Nouveau detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Lyrical + integrated
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Ash, opalescent glass, bronze
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Celadon, honey ash, iris, amber
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, entry, dining
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Let one line connect the room
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Integrated glass or joinery
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Asymmetry held in balance
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Applied floral decoration
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Art Nouveau interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Art Nouveau emerged across Europe around 1890–1910 as designers sought a modern language rooted in nature and total design. Architecture, furniture, glass, metalwork and graphics were conceived together. Stems, wings and waves were abstracted into structural curves, often creating an asymmetrical composition that still feels balanced.
+        - paragraph [ref=e88]: The style is more than floral imagery. Its strongest interiors carry one contour from a door frame into a cabinet, lamp or leaded-glass panel, with materials chosen to support the same movement. Unlike Art Deco, it favors supple growth over stepped geometry; unlike Victorian design, it aims for visual unity rather than an eclectic accumulation of objects and historical references.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Trace one continuous gesture
+          - paragraph [ref=e92]: Choose an S-curve, stem or asymmetric arch and repeat its direction rather than copying a literal flower.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Integrate, do not attach
+          - paragraph [ref=e95]: Build the motif into a frame, handle, chair back or glass seam so ornament also explains construction.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Leave calm intervals
+          - paragraph [ref=e98]: Plain plaster and simple textiles make the crafted lines visible and prevent the room from becoming illustrative.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of art nouveau interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Whiplash curves
+          - paragraph [ref=e108]: Long lines accelerate, reverse and taper like stems in motion rather than repeating a fixed geometric module.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Total-room coordination
+          - paragraph [ref=e114]: Openings, fitted furniture, lights and hardware share a visual grammar without becoming a matching retail set.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Luminous craft
+          - paragraph [ref=e120]: Opalescent and stained glass turn daylight into color while lead and bronze provide the drawing.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Botanical abstraction
+          - paragraph [ref=e126]: Iris, ginkgo, vine and insect forms are simplified until growth and movement matter more than literal depiction.
+      - generic [ref=e127]:
+        - img "Art Nouveau material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Art Nouveau room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Art Nouveau Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/art-nouveau/living-room
+          - img "Art Nouveau Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Art Nouveau Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/art-nouveau/bedroom
+          - img "Art Nouveau Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Art Nouveau Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/art-nouveau/dining-room
+          - img "Art Nouveau Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Art Nouveau Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/art-nouveau/home-office
+          - img "Art Nouveau Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Art Nouveau Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/art-nouveau/kitchen
+          - img "Art Nouveau Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Art Nouveau Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/art-nouveau/entryway-hallway
+          - img "Art Nouveau Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Let one window or built-in define the room’s curve, then use simpler upholstery so the architecture stays legible.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Repeat a soft S-curve between the headboard, window reveal and one pendant; keep bedding mostly plain.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Coordinate an oval table, stem-back chairs and a low pendant through line, not through identical ornament.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Curve fitted joinery around a real work zone and use one sculptural task lamp rather than decorative desktop clutter.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Shape upper rails, a rounded peninsula and one glass pantry door while preserving ordinary cabinet function.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: An integrated timber-and-glass door surround can carry the entire style in a small hall.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Start with pale plaster, celadon and honey-toned wood. Let glass introduce translucent green, violet and amber, then repeat only one of those colors in textile.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Celadon
+              - paragraph [ref=e196]: A pale mineral green that supports timber and colored glass without becoming botanical wallpaper.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Honey ash
+              - paragraph [ref=e201]: A luminous wood tone suited to bent profiles, marquetry and fitted joinery.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Dusty iris
+              - paragraph [ref=e206]: A quiet violet for wool, glass or one painted accent.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Leaf olive
+              - paragraph [ref=e211]: Adds depth around pale wood while retaining an organic rather than jewel-toned mood.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Soft amber
+              - paragraph [ref=e216]: Activates glass and shaded lamps in small, warm concentrations.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Ash marquetry material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Ash marquetry
+                - paragraph [ref=e224]: A fine inlaid stem carries line across a cabinet without adding heavy relief.
+            - generic [ref=e225]:
+              - img "Opalescent glass material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Opalescent glass
+                - paragraph [ref=e229]: Color shifts with daylight, making a small panel more dynamic than a large printed motif.
+            - generic [ref=e230]:
+              - img "Patinated bronze material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Patinated bronze
+                - paragraph [ref=e234]: Cast handles and lamps translate leaf structure into touchable, functional details.
+            - generic [ref=e235]:
+              - img "Curved ash material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Curved ash
+                - paragraph [ref=e239]: Visible grain follows the profile, reinforcing movement through the material itself.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Choose one source form and carry its movement through a few connected decisions. Art Nouveau becomes convincing through continuity, not through the number of decorative motifs.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Abstract the source
+            - paragraph [ref=e250]: Study an iris, ginkgo leaf, wing or wave and reduce it to one directional contour.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Place the primary line
+            - paragraph [ref=e255]: "Use that contour in the largest crafted element: a window, door, bed or fitted bookcase."
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Echo it at touch points
+            - paragraph [ref=e260]: Repeat the movement in a handle, lamp arm or chair back without copying the exact drawing.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Quiet the background
+            - paragraph [ref=e265]: Use plain plaster, low-pattern textiles and restrained objects to preserve visual flow.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: The room is covered in flowers
+          - paragraph [ref=e274]: Replace literal prints with one abstract structural line integrated into wood, glass or metal.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Every curve is different
+          - paragraph [ref=e277]: Select one dominant direction and vary its scale rather than introducing unrelated scrolls.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Art Nouveau becomes Art Deco
+          - paragraph [ref=e280]: Remove stepped symmetry, sunbursts and hard fan geometry; restore taper, asymmetry and plant-like movement.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Custom work compromises function
+          - paragraph [ref=e283]: Keep shelves adjustable, doors operable and worktops clear beneath the expressive outer profile.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Art Nouveau vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Art Nouveau is distinctive because every scale can participate in the same movement. Its organic forms are designed into the room rather than added as botanical styling.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Art Deco" [ref=e293] [cursor=pointer]:
+              - /url: /styles/art-deco
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More geometric, symmetrical and polished, using stepped forms, fans, strong contrast and luxurious hard surfaces.
+          - generic [ref=e296]:
+            - text: Choose Art Nouveau if
+            - paragraph [ref=e297]: Choose Art Nouveau for asymmetry, fluid growth and craftsmanship that behaves like a drawn line.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Whiplash curves and stems replace sunbursts and repeated geometry.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Victorian" [ref=e303] [cursor=pointer]:
+              - /url: /styles/victorian
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: More eclectic and densely layered, mixing historical references, pattern scales and collected household objects.
+          - generic [ref=e306]:
+            - text: Choose Art Nouveau if
+            - paragraph [ref=e307]: Choose Art Nouveau when architecture, furniture and decoration should form one coordinated composition.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Integrated joinery and glass replace accumulated pattern and furniture.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Gothic" [ref=e313] [cursor=pointer]:
+              - /url: /styles/gothic
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More vertical, weighty and shadowed, with pointed profiles, carved oak, stone and medieval-derived structure.
+          - generic [ref=e316]:
+            - text: Choose Art Nouveau if
+            - paragraph [ref=e317]: Choose Art Nouveau for lighter timber, organic asymmetry and a more luminous relationship with nature.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Supple curved openings replace lancets and deep reveals.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Organic Modern" [ref=e323] [cursor=pointer]:
+              - /url: /styles/organic-modern
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Quieter and more minimal, emphasizing soft contemporary forms, neutral color and natural texture with little ornament.
+          - generic [ref=e326]:
+            - text: Choose Art Nouveau if
+            - paragraph [ref=e327]: Choose Art Nouveau when organic form should become explicit line, craft and integrated imagery.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Stained glass and marquetry replace unadorned sculptural volumes.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: One authentic crafted element is more effective than a group of themed accessories. Prioritize line quality, material honesty and a useful relationship to the room.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Curved ash headboard for Art Nouveau interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Curved ash headboard
+            - paragraph [ref=e340]: Look for grain that follows the profile and one confident asymmetric sweep rather than applied carving.
+        - article [ref=e341]:
+          - img "Leaded-glass pantry door for Art Nouveau interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Leaded-glass pantry door
+            - paragraph [ref=e345]: A functional opening can introduce translucent color while connecting cabinetry to architecture.
+        - article [ref=e346]:
+          - img "Stem-back dining chair for Art Nouveau interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Stem-back dining chair
+            - paragraph [ref=e350]: The back should feel light and supportive, with the organic line emerging from construction.
+        - article [ref=e351]:
+          - img "Integrated writing desk for Art Nouveau interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Integrated writing desk
+            - paragraph [ref=e355]: Use a custom contour around the window while preserving cable access, knee room and storage.
+        - article [ref=e356]:
+          - img "Stained-glass transom for Art Nouveau interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Stained-glass transom
+            - paragraph [ref=e360]: Place colored glass where daylight makes it useful and visible from adjoining rooms.
+        - article [ref=e361]:
+          - img "Patinated bronze handle for Art Nouveau interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Patinated bronze handle
+            - paragraph [ref=e365]: A small tactile casting can carry more character than a large decorative print.
+    - generic [ref=e367]:
+      - heading "Art Nouveau FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Art Nouveau interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How is Art Nouveau different from Art Deco?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "Does Art Nouveau require floral wallpaper?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Can Art Nouveau work in a modern kitchen?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which woods suit the style?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you keep the room from feeling ornate?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Art Deco interior design Art Deco →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/art-deco
+          - img "Art Deco interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Art Deco
+            - generic [ref=e402]: →
+        - link "Victorian interior design Victorian →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/victorian
+          - img "Victorian interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Victorian
+            - generic [ref=e407]: →
+        - link "Gothic interior design Gothic →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/gothic
+          - img "Gothic interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Gothic
+            - generic [ref=e412]: →
+        - link "Organic Modern interior design Organic Modern →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/organic-modern
+          - img "Organic Modern interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Organic Modern
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

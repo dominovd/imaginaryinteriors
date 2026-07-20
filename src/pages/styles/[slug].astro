@@ -175,6 +175,13 @@ function icon(kind) {
           </a>
         ))}
       </div>
+      {s.roomNotes && s.roomNotes.length > 0 && (
+        <div class="roomnotes">
+          {s.roomNotes.map((item) => (
+            <div class="roomnote"><b>{item.room}</b><p>{item.tip}</p></div>
+          ))}
+        </div>
+      )}
     </section>
   </div>
 
@@ -216,6 +223,38 @@ function icon(kind) {
       </div>
     </section>
   </div>
+
+  {s.quickPlan && s.quickPlan.length > 0 && (
+    <div class="wrap">
+      <section class="compact-guide">
+        <div class="sectionhead">
+          <h2>A practical starting plan</h2>
+          <p>{s.quickPlanIntro || 'Make the high-impact decisions first, then add the styling layer.'}</p>
+        </div>
+        <div class="compact-steps">
+          {s.quickPlan.map((item, i) => (
+            <div class="compact-step"><span>{String(i + 1).padStart(2, '0')}</span><div><b>{item.title}</b><p>{item.text}</p></div></div>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
+
+  {s.compactMistakes && s.compactMistakes.length > 0 && (
+    <div class="wrap">
+      <section class="compact-guide">
+        <div class="sectionhead">
+          <h2>Common mistakes, corrected</h2>
+          <p>When the room feels wrong, change the underlying decision before adding more decor.</p>
+        </div>
+        <div class="mistake-strip">
+          {s.compactMistakes.map((item) => (
+            <div class="mistake-item"><b>{item.problem}</b><p>{item.fix}</p></div>
+          ))}
+        </div>
+      </section>
+    </div>
+  )}
 
   {comparisonRows.length > 0 && (
     <div class="wrap">

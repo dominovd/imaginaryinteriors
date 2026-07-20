@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Cabin
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Cabin Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: A small, climate-ready interior where warmth, storage and easy movement are designed into the shell.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Cabin interior design hero" [ref=e34]
+          - img "Cabin kitchen interior" [ref=e35]
+          - img "Cabin styled corner" [ref=e36]
+          - img "Cabin detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Sheltered + efficient
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Pine, slate, wool, leather
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Pine, charcoal, moss, cream
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, bedroom, entry
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Make the shell do more
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: One integrated storage wall
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Warm timber over a dark floor
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Hunting-lodge decoration
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is cabin interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Cabin design begins with shelter: a compact plan, a clear relationship to the outdoors and materials that can handle weather, gear and repeated use. Timber gives warmth, but storage, drying space, durable floors and furniture that earns its footprint are what make the interior work."
+        - paragraph [ref=e88]: The strongest cabins are not miniature lodges. They keep visual weight near the floor, build functions into walls and let one view or heat source organize the room. Pale pine, charcoal wool, slate and quiet moss green create atmosphere without relying on antlers, plaid overload or novelty signs.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Design the arrival first
+          - paragraph [ref=e92]: Give wet footwear, outerwear and firewood a defined landing zone before furnishing the living room.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Spend the perimeter
+          - paragraph [ref=e95]: Use built-in benches, bed drawers and shallow cupboards so the center of a small plan remains open.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Control the timber
+          - paragraph [ref=e98]: Choose one dominant wood and interrupt it with dark flooring, pale textile and framed views.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of cabin interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Working perimeter
+          - paragraph [ref=e108]: Storage, seating and sleeping functions tuck into the shell rather than consuming the middle of the room.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Weather-ready threshold
+          - paragraph [ref=e114]: Slate, a boot tray, hooks and ventilation turn the entry into useful climate equipment.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Selective timber warmth
+          - paragraph [ref=e120]: One consistent pine or fir family creates enclosure without making every surface compete.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Compact visual anchors
+          - paragraph [ref=e126]: Charcoal wool, blackened metal and stone ground the pale wood in controlled doses.
+      - generic [ref=e127]:
+        - img "Cabin material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Cabin room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Cabin Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/cabin/living-room
+          - img "Cabin Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Cabin Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/cabin/bedroom
+          - img "Cabin Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Cabin Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/cabin/dining-room
+          - img "Cabin Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Cabin Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/cabin/home-office
+          - img "Cabin Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Cabin Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/cabin/kitchen
+          - img "Cabin Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Cabin Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/cabin/entryway-hallway
+          - img "Cabin Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Aim seating toward both the view and heat source; use one low table so the route between door, hearth and sofa stays direct.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Build drawers into the bed platform and use a recessed headboard shelf instead of adding bedside furniture on both sides.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Fit an upholstered corner bench to the wall, then add lightweight chairs that can move to the living area when needed.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Turn a shallow recess into a desk with closed overhead storage, task light and a chair comfortable enough for real work.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Keep the galley route uninterrupted and let a narrow wall ledge handle breakfast, charging and extra preparation.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Separate damp gear from clean storage with a ventilated boot rail, durable slate and hooks above a wipeable bench.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let pale timber carry most of the warmth, then use charcoal below eye level. Cream opens the sleeping and seating zones; moss and leather work best as single, repeatable accents.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Pale pine
+              - paragraph [ref=e196]: The main warm field for walls, ceiling and built-in joinery.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Charcoal
+              - paragraph [ref=e201]: Grounds flooring, upholstery and hardware without the severity of pure black.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Forest moss
+              - paragraph [ref=e206]: Connects cushions or cabinetry to the view without turning the room thematic.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Linen cream
+              - paragraph [ref=e211]: Relieves timber around the bed and seating while staying practical.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Saddle leather
+              - paragraph [ref=e216]: A small durable accent that develops patina through use.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Straight-grain pine material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Straight-grain pine
+                - paragraph [ref=e224]: Use one board width and a low-sheen finish so knots read as texture, not visual noise.
+            - generic [ref=e225]:
+              - img "Dark slate material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Dark slate
+                - paragraph [ref=e229]: A hard-wearing base for entries and kitchens that visually steadies the timber shell.
+            - generic [ref=e230]:
+              - img "Dense wool material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Dense wool
+                - paragraph [ref=e234]: Adds warmth at the body rather than covering every surface in decorative pattern.
+            - generic [ref=e235]:
+              - img "Blackened steel material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Blackened steel
+                - paragraph [ref=e239]: Useful for lights, hooks and rails where a fine dark line clarifies the joinery.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Plan the wet threshold, heat source and circulation before choosing furniture. Then assign each wall a job and keep the center flexible.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Map seasonal gear
+            - paragraph [ref=e250]: List what enters wet, muddy or bulky and give it a ventilated home beside the door.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Fix the warm center
+            - paragraph [ref=e255]: Orient the main seat toward the heat source without turning its back on the view.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Build into one wall
+            - paragraph [ref=e260]: Combine storage with a bed, bench or desk rather than adding several freestanding pieces.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Edit the cabin signals
+            - paragraph [ref=e265]: Keep honest timber and wool; remove novelty wildlife, slogans and decorative outdoor equipment.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Timber covers everything
+          - paragraph [ref=e274]: Interrupt it with charcoal flooring, a pale textile plane and one quiet painted surface.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The entry spills into the living room
+          - paragraph [ref=e277]: Add a boot tray, drying rail and closed cupboard within the first few steps.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Furniture is lodge-sized
+          - paragraph [ref=e280]: Replace deep arms and bulky case goods with fitted seating and shallow storage.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Cabin character becomes a theme
+          - paragraph [ref=e283]: Remove antlers, bears and signs; let construction, climate and the view provide identity.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Cabin vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Cabin is defined less by a rustic look than by compact shelter. Its distinctiveness comes from seasonal routines, integrated furniture and a material palette calibrated to close quarters.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Rustic" [ref=e293] [cursor=pointer]:
+              - /url: /styles/rustic
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: Broader and more material-heavy, with rough beams, fieldstone and freestanding substantial furniture.
+          - generic [ref=e296]:
+            - text: Choose Cabin if
+            - paragraph [ref=e297]: Choose Cabin when the small footprint, weather and storage routines should shape every decision.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Integrated gear storage replaces generalized rough-hewn character.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Scandinavian" [ref=e303] [cursor=pointer]:
+              - /url: /styles/scandinavian
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Lighter and more refined, favoring pale rooms, crisp profiles and softer urban practicality.
+          - generic [ref=e306]:
+            - text: Choose Cabin if
+            - paragraph [ref=e307]: Choose Cabin for a darker floor, stronger enclosure and a more explicit response to outdoor conditions.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Slate threshold and climate storage replace airy domestic polish.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Modern Rustic" [ref=e313] [cursor=pointer]:
+              - /url: /styles/modern-rustic
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More spacious and architectural, pairing rustic texture with large glazing and contemporary volume.
+          - generic [ref=e316]:
+            - text: Choose Cabin if
+            - paragraph [ref=e317]: Choose Cabin when efficiency and intimacy matter more than dramatic scale.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Built-in multipurpose walls replace statement architecture.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Minimalist" [ref=e323] [cursor=pointer]:
+              - /url: /styles/minimalist
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More abstract and visually reduced, often concealing the evidence of daily routines.
+          - generic [ref=e326]:
+            - text: Choose Cabin if
+            - paragraph [ref=e327]: Choose Cabin when objects need visible, robust places and natural wear is welcome.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Useful hooks, wool and timber replace seamless visual purity.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Buy for dimensions, maintenance and more than one use. In a cabin, a well-fitted bench or bed platform improves the room more than a collection of decorative accessories.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Storage platform bed for Cabin interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Storage platform bed
+            - paragraph [ref=e340]: Measure drawer clearance and mattress access; choose solid runners and a headboard shelf deep enough for daily essentials.
+        - article [ref=e341]:
+          - img "Narrow kitchen ledge for Cabin interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Narrow kitchen ledge
+            - paragraph [ref=e345]: Check that seated knees and passing traffic can coexist in the galley before fixing the depth.
+        - article [ref=e346]:
+          - img "Built-in dining bench for Cabin interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Built-in dining bench
+            - paragraph [ref=e350]: Use firm removable cushions and hinged or drawer storage that can open without moving the table.
+        - article [ref=e351]:
+          - img "Wall-mounted desk for Cabin interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Wall-mounted desk
+            - paragraph [ref=e355]: Confirm monitor depth, cable routing and legroom; pair it with an ergonomic chair rather than a decorative stool.
+        - article [ref=e356]:
+          - img "Ventilated boot rail for Cabin interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Ventilated boot rail
+            - paragraph [ref=e360]: Choose corrosion-resistant metal and leave airflow around footwear instead of sealing damp gear in a cupboard.
+        - article [ref=e361]:
+          - img "Honed slate surface for Cabin interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Honed slate surface
+            - paragraph [ref=e365]: Review slip rating, edge finish and sealing requirements for the exact floor or worktop location.
+    - generic [ref=e367]:
+      - heading "Cabin FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines cabin interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How is cabin style different from rustic style?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How do you make a small cabin feel larger?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Can a cabin interior use light wood?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "What belongs in a practical cabin entry?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you avoid a hunting-lodge look?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Rustic interior design Rustic →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/rustic
+          - img "Rustic interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Rustic
+            - generic [ref=e402]: →
+        - link "Scandinavian interior design Scandinavian →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/scandinavian
+          - img "Scandinavian interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Scandinavian
+            - generic [ref=e407]: →
+        - link "Modern Rustic interior design Modern Rustic →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/modern-rustic
+          - img "Modern Rustic interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Modern Rustic
+            - generic [ref=e412]: →
+        - link "Minimalist interior design Minimalist →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/minimalist
+          - img "Minimalist interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Minimalist
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

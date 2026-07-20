@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Grandmillennial
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Grandmillennial Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Familiar pattern, inherited character and tailored detail—edited with enough contrast and breathing room to feel current.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Grandmillennial interior design hero" [ref=e34]
+          - img "Grandmillennial kitchen interior" [ref=e35]
+          - img "Grandmillennial styled corner" [ref=e36]
+          - img "Grandmillennial detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Nostalgic + spirited
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Printed cotton, wicker, mahogany
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Powder blue, coral, leaf green, cream
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, bedroom, dining
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Edit nostalgia, keep personality
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: One useful inherited or antique piece
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Traditional print, crisp outline
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Matching floral everything
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Grandmillennial interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Grandmillennial design is a contemporary return to decorating details once associated with grandparents’ homes: chintz, gingham, pleated shades, wicker, embroidery, scalloped edges and dark wood furniture. Its point is not to recreate a period room. Familiar elements are selected with affection, then sharpened through brighter color, cleaner silhouettes and an obvious mix of old and new."
+        - paragraph [ref=e88]: The best rooms organize nostalgia rather than accumulating it. One lead print sets the palette, a stripe or check supplies contrast and plain upholstery gives the eye somewhere to rest. An antique chest may sit beside lacquered furniture or a contemporary paper lantern. This deliberate generational tension distinguishes Grandmillennial from Victorian layering and from the rural fantasy of Cottagecore.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Choose a lead pattern
+          - paragraph [ref=e92]: Start with one floral, block print or geometric paper and pull only two supporting colors from it.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Change the outline
+          - paragraph [ref=e95]: Pair traditional fabric with a crisp headboard, clean bench or oversized contemporary light.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Keep heirlooms useful
+          - paragraph [ref=e98]: Give an inherited chest, desk or chair a real storage, work or seating role rather than treating it as a prop.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of grandmillennial interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Edited heritage pattern
+          - paragraph [ref=e108]: Chintz, gingham and block prints appear at different scales with clear areas of visual rest.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Tailored decorative edges
+          - paragraph [ref=e114]: Piping, scallops, pleats and gathered panels finish specific objects instead of covering the whole room.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Old-new contrast
+          - paragraph [ref=e120]: Antiques gain energy beside lacquered bamboo forms, paper lanterns and contemporary ergonomic seating.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Collected domestic craft
+          - paragraph [ref=e126]: Wicker, ceramics, needlework and framed botanicals feel personal when grouped with restraint.
+      - generic [ref=e127]:
+        - img "Grandmillennial material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Grandmillennial room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Grandmillennial Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/grandmillennial/living-room
+          - img "Grandmillennial Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Grandmillennial Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/grandmillennial/bedroom
+          - img "Grandmillennial Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Grandmillennial Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/grandmillennial/dining-room
+          - img "Grandmillennial Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Grandmillennial Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/grandmillennial/home-office
+          - img "Grandmillennial Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Grandmillennial Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/grandmillennial/kitchen
+          - img "Grandmillennial Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Grandmillennial Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/grandmillennial/entryway-hallway
+          - img "Grandmillennial Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Let one chintz sofa lead, then use plain chairs, a woven rug and blue-and-white ceramics in one concentrated group.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Use a small block print on the headboard, solid bedding and one antique chest; keep lamps paired and tailored.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Combine a dark inherited table with soft-green lacquered bamboo chairs and one oversized paper lantern.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Give gingham to pinboard and cabinet panels while keeping the desktop clear and the working chair genuinely ergonomic.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Use one saturated pantry, restrained ceramics and a striped café curtain rather than floral motifs on fixed cabinetry.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Limit pattern to the wall above a chair rail and ground it with an antique chest plus one coral-striped bench.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Pull two colors from the lead print, then add cream and natural dark wood. Repeat each accent at least twice, but vary its material and scale rather than matching objects exactly.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Powder blue
+              - paragraph [ref=e196]: A fresh wall field that cools mahogany and supports blue-and-white ceramics.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Coral
+              - paragraph [ref=e201]: A lively trim, stripe or cushion color used in short, confident notes.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Leaf green
+              - paragraph [ref=e206]: Connects botanical prints, wicker and lacquered furniture without becoming sage-on-sage.
+            - generic [ref=e209]:
+              - generic [ref=e210]: China blue
+              - paragraph [ref=e211]: Gives checks, wallpaper and ceramics a consistent graphic anchor.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Warm cream
+              - paragraph [ref=e216]: Provides quiet space around patterned textiles and dark furniture.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Small-scale chintz material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Small-scale chintz
+                - paragraph [ref=e224]: A compact repeat adds nostalgia without swallowing the silhouette of a headboard or chair.
+            - generic [ref=e225]:
+              - img "Gingham piping material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Gingham piping
+                - paragraph [ref=e229]: A graphic check works best as a boundary, panel or small counterpoint to a floral.
+            - generic [ref=e230]:
+              - img "Polished mahogany material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Polished mahogany
+                - paragraph [ref=e234]: One dark case piece gives light pattern and lacquer necessary visual weight.
+            - generic [ref=e235]:
+              - img "Wicker material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Wicker
+                - paragraph [ref=e239]: Its open weave brings casual texture to dining, storage and occasional furniture.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Begin with something personally meaningful, then build a controlled pattern hierarchy around it. The room should feel collected across generations, but edited in the present.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Name the keeper
+            - paragraph [ref=e250]: Choose one antique, inherited object or familiar pattern that deserves to lead the room.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Set the pattern hierarchy
+            - paragraph [ref=e255]: Use one lead print, one smaller check or stripe and a majority of plain surfaces.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Add the contemporary cut
+            - paragraph [ref=e260]: Introduce a crisp light, lacquered chair or modern working piece to prevent period imitation.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Edit the sentimental layer
+            - paragraph [ref=e265]: Group ceramics, books and framed pieces, then remove duplicates and preserve clear daily surfaces.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every textile is floral
+          - paragraph [ref=e274]: Keep one lead floral, introduce a check or stripe and return the largest upholstery plane to solid color.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The room feels like a grandmother’s replica
+          - paragraph [ref=e277]: Add one unmistakably contemporary object and sharpen the palette with coral, cobalt or lacquered green.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Small details turn into clutter
+          - paragraph [ref=e280]: Concentrate ceramics and framed pieces in one display zone instead of scattering them across every table.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Decorative trim becomes fussy
+          - paragraph [ref=e283]: Assign one edge treatment per object and keep adjacent furniture clean-lined.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Grandmillennial vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Grandmillennial is not simply traditional decor made younger. Its identity comes from knowingly selecting nostalgic motifs and placing them in a brighter, sharper and visibly contemporary composition.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "New Traditional" [ref=e293] [cursor=pointer]:
+              - /url: /styles/new-traditional
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More architectural and broadly tailored, often balancing antiques with abstract art, stronger solids and contemporary upholstery.
+          - generic [ref=e296]:
+            - text: Choose Grandmillennial if
+            - paragraph [ref=e297]: Choose Grandmillennial for overt nostalgia, decorative trim and a more playful relationship with familiar domestic pattern.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Chintz, gingham and pleated shades replace the sharper old-new dialogue.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Victorian" [ref=e303] [cursor=pointer]:
+              - /url: /styles/victorian
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Darker, denser and historically grounded, with divided walls, substantial furniture and several pattern scales across the room.
+          - generic [ref=e306]:
+            - text: Choose Grandmillennial if
+            - paragraph [ref=e307]: Choose Grandmillennial for lighter color, cleaner silhouettes and selectively borrowed rather than period-consistent detail.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Bright edited nostalgia replaces nineteenth-century material density.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Cottagecore" [ref=e313] [cursor=pointer]:
+              - /url: /styles/cottagecore
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More rural, handmade and romantic, emphasizing pastoral imagery, aged surfaces and an informal country-life narrative.
+          - generic [ref=e316]:
+            - text: Choose Grandmillennial if
+            - paragraph [ref=e317]: Choose Grandmillennial for polished antiques, tailored edges and a more urban, decorator-led finish.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Lacquer and formal case furniture replace rustic craft and countryside fantasy.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Coastal Grandmother" [ref=e323] [cursor=pointer]:
+              - /url: /styles/coastal-grandmother
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Airier and quieter, using linen, wicker, pale blue and relaxed seaside references with less visible pattern.
+          - generic [ref=e326]:
+            - text: Choose Grandmillennial if
+            - paragraph [ref=e327]: Choose Grandmillennial when the room should be brighter, more decorative and deliberately print-driven.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Layered florals and trim replace breezy tonal restraint.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Shop slowly and mix sources. One real antique, a well-printed textile and a contemporary light will create more tension than buying a coordinated nostalgia-themed collection.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Block-print headboard for Grandmillennial interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Block-print headboard
+            - paragraph [ref=e340]: Choose a compact repeat and tailored outline so pattern reads clearly from across the room.
+        - article [ref=e341]:
+          - img "Saturated pantry cabinet for Grandmillennial interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Saturated pantry cabinet
+            - paragraph [ref=e345]: Use heritage color on one storage volume instead of spreading it across every cupboard.
+        - article [ref=e346]:
+          - img "Lacquered bamboo chair for Grandmillennial interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Lacquered bamboo chair
+            - paragraph [ref=e350]: A fresh painted finish turns a familiar silhouette into the room’s contemporary counterpoint.
+        - article [ref=e351]:
+          - img "Antique writing desk for Grandmillennial interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Antique writing desk
+            - paragraph [ref=e355]: Check working height and drawer function, then pair it with comfortable current seating.
+        - article [ref=e356]:
+          - img "Bow-front chest for Grandmillennial interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Bow-front chest
+            - paragraph [ref=e360]: Use the top as one controlled display and keep drawers available for entry essentials.
+        - article [ref=e361]:
+          - img "Pleated fabric shade for Grandmillennial interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Pleated fabric shade
+            - paragraph [ref=e365]: Repeat one textile color in the shade, keeping the lamp base simpler than the surrounding pattern.
+    - generic [ref=e367]:
+      - heading "Grandmillennial FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Grandmillennial interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "How do you keep Grandmillennial style from feeling dated?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "Does every room need floral fabric?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Which antiques work best?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Can Grandmillennial work in a small room?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How is it different from Cottagecore?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "New Traditional interior design New Traditional →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/new-traditional
+          - img "New Traditional interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: New Traditional
+            - generic [ref=e402]: →
+        - link "Victorian interior design Victorian →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/victorian
+          - img "Victorian interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Victorian
+            - generic [ref=e407]: →
+        - link "Cottagecore interior design Cottagecore →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/cottagecore
+          - img "Cottagecore interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Cottagecore
+            - generic [ref=e412]: →
+        - link "Coastal Grandmother interior design Coastal Grandmother →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/coastal-grandmother
+          - img "Coastal Grandmother interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Coastal Grandmother
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

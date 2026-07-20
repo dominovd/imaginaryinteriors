@@ -212,6 +212,15 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-s
 .idea{border:1px solid var(--line);border-radius:12px;overflow:hidden}
 .idea :is(.ph,.photo){height:150px;border-radius:0}
 .idea .cap{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;font-size:14px}
+.roomnotes{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.roomnote{display:grid;grid-template-columns:92px 1fr;gap:12px;border-top:1px solid var(--line);padding:13px 2px 2px}
+.roomnote b{font-size:12px;font-weight:600}.roomnote p{font-size:12px;line-height:1.45;color:var(--muted)}
+.compact-guide{padding-top:34px}.compact-steps{display:grid;grid-template-columns:repeat(2,1fr);gap:0 28px;border-top:1px solid var(--line)}
+.compact-step{display:grid;grid-template-columns:34px 1fr;gap:12px;padding:16px 0;border-bottom:1px solid var(--line)}
+.compact-step>span{font-size:10px;letter-spacing:.7px;color:var(--muted);padding-top:3px}.compact-step b{display:block;font-size:14px;margin-bottom:3px}
+.compact-step p,.mistake-item p{font-size:12.5px;line-height:1.5;color:var(--muted);margin:0}
+.mistake-strip{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.mistake-item{padding:17px;border-right:1px solid var(--line)}.mistake-item:last-child{border-right:0}.mistake-item b{display:block;font-size:13px;margin-bottom:6px}
 
 /* palette + materials */
 .palette-story{padding-top:34px}
@@ -413,6 +422,8 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-s
   .explain{grid-template-columns:1fr}
   .textgrid,.steps,.shopguide{grid-template-columns:1fr}
   .comparecards{grid-template-columns:1fr}
+  .roomnotes{grid-template-columns:repeat(2,1fr)}
+  .mistake-strip{grid-template-columns:repeat(2,1fr)}.mistake-item:nth-child(2){border-right:0}.mistake-item:nth-child(-n+2){border-bottom:1px solid var(--line)}
   .roomhero{grid-template-columns:1fr}
   .rg-stage{grid-template-columns:1fr}
   .rg-thumbs{flex-direction:row}
@@ -425,6 +436,7 @@ footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-s
 }
 
 @media(max-width:620px){
+  .roomnotes,.compact-steps,.mistake-strip{grid-template-columns:1fr}.roomnote{grid-template-columns:82px 1fr}.mistake-item{border-right:0;border-bottom:1px solid var(--line)}.mistake-item:last-child{border-bottom:0}
   .formula-grid,.mistake-grid,.trend-grid,.trend-stats{grid-template-columns:1fr}
   .trend-hero h1{font-size:36px}
   .combo-stage{height:360px}

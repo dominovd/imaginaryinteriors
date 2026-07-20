@@ -1,0 +1,396 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / West Elm Modern
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "West Elm Modern Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Keep the footprint lean, concentrate color in one tactile piece and let walnut, stone and opal glass supply the warmth.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "West Elm Modern interior design hero" [ref=e34]
+          - img "West Elm Modern kitchen interior" [ref=e35]
+          - img "West Elm Modern styled corner" [ref=e36]
+          - img "West Elm Modern detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Graphic + inviting
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Walnut veneer, wool, cotton velvet, travertine, opal glass
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Warm grey, walnut, deep teal, rust, bone, aged brass
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: City apartments, living rooms, dining zones
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Controlled contrast
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: A correctly scaled sofa
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Walnut + saturated textile
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Every piece making a statement
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is West Elm Modern interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "West Elm Modern-inspired design combines current urban practicality with a softened mid-century vocabulary: raised furniture, warm walnut, rounded geometry, saturated upholstery and sculptural light. It is less about reproducing a historical room than using visually light forms to make a city apartment feel composed and expressive. This independent guide is not affiliated with or endorsed by West Elm."
+        - paragraph [ref=e88]: The successful version depends on editing. Pick one saturated textile, one dominant wood and one pale mineral surface, then repeat each with restraint. Check veneer direction and edge quality, upholstery wear, table clearances and the glare from exposed globes before buying. A few well-proportioned pieces leave more useful negative space than a collection of small “statement” objects.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Design from the aisle inward
+          - paragraph [ref=e92]: Reserve a clear route through the apartment first, then fit seating, tables and storage into the remaining usable zones.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Inspect veneer at the edge
+          - paragraph [ref=e95]: Aligned grain can look rich, but edge treatment, substrate, finish and repair options determine how the piece will age.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Place color by area
+          - paragraph [ref=e98]: Let one chair, banquette or headboard carry the saturated tone; repeat it only in two much smaller moments.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of west elm modern interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Lifted compact silhouettes
+          - paragraph [ref=e108]: Visible floor beneath sofas and cabinets reduces visual weight without sacrificing useful storage.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Concentrated textile color
+          - paragraph [ref=e114]: Deep teal or rust gives the room identity when it belongs to one major upholstered plane.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Soft and strict geometry
+          - paragraph [ref=e120]: Oval tables and globe lights temper straight cabinetry, windows and architectural grids.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Decorative objects with a job
+          - paragraph [ref=e126]: A lamp, tray or vessel should support light, storage or daily ritual instead of filling a styled shelf.
+      - generic [ref=e127]:
+        - img "West Elm Modern material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "West Elm Modern room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "West Elm Modern Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/west-elm-modern/living-room
+          - img "West Elm Modern Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "West Elm Modern Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/west-elm-modern/bedroom
+          - img "West Elm Modern Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "West Elm Modern Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/west-elm-modern/dining-room
+          - img "West Elm Modern Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "West Elm Modern Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/west-elm-modern/home-office
+          - img "West Elm Modern Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "West Elm Modern Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/west-elm-modern/kitchen
+          - img "West Elm Modern Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "West Elm Modern Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/west-elm-modern/entryway-hallway
+          - img "West Elm Modern Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Choose a sofa shallow enough for the plan, keep the main path clear and use an oval table where sharp corners would pinch circulation.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Concentrate teal at the headboard, use slim bedside surfaces and confirm that wardrobe doors and drawers open without narrowing the route.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: An oval pedestal improves corner clearance; test knee room, chair pullback and pendant height before adding a banquette.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: A slender desk still needs adequate depth, monitor distance, cable control and an ergonomic chair that can move freely.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Limit walnut to the island or upper fronts, use a wipeable backsplash and keep brass away from places where a fragile finish will be scrubbed daily.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Use concealed shallow storage, one upholstered perch and a mirror that expands light without projecting into the walking line.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Use warm grey and bone for the largest areas, walnut for one continuous storage or table element and deep teal on one upholstered plane. Muted rust should be smaller than teal, while aged brass works best as a thin line rather than a room-wide finish.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Warm grey
+              - paragraph [ref=e196]: A city-neutral field for walls and cabinetry that accepts both walnut and saturated color.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Walnut
+              - paragraph [ref=e201]: The main warm material, strongest when grain direction is deliberate and repeated sparingly.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Deep teal
+              - paragraph [ref=e206]: A cool anchor for one chair, headboard or work seat rather than every accessory.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Muted rust
+              - paragraph [ref=e211]: A small warm counterpoint that prevents teal and grey from feeling corporate.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Bone
+              - paragraph [ref=e216]: A pale textile and stone bridge that keeps high contrast comfortable.
+            - generic [ref=e219]:
+              - generic [ref=e220]: Aged brass
+              - paragraph [ref=e221]: A low-sheen metal accent for selected light fittings and handles.
+        - generic [ref=e222]:
+          - heading "Texture roles" [level=3] [ref=e223]
+          - generic [ref=e224]:
+            - generic [ref=e225]:
+              - img "Book-matched walnut veneer material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Book-matched walnut veneer
+                - paragraph [ref=e229]: Review grain sequence, substrate, edge banding and finish under side light; a dramatic face cannot compensate for weak construction.
+            - generic [ref=e230]:
+              - img "Wool and cotton velvet material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Wool and cotton velvet
+                - paragraph [ref=e234]: Compare abrasion, pile marking, cleaning and daylight fade before assigning saturated fabric to a high-use seat.
+            - generic [ref=e235]:
+              - img "Honed travertine material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Honed travertine
+                - paragraph [ref=e239]: Ask how voids are filled, test stains and review edge profiles; stone still needs a realistic lifting and maintenance plan.
+            - generic [ref=e240]:
+              - img "Opal glass + aged brass material" [ref=e241]
+              - generic [ref=e242]:
+                - generic [ref=e243]: Opal glass + aged brass
+                - paragraph [ref=e244]: Diffuse the lamp source, confirm dimming and keep warm metal to a few coordinated touchpoints.
+    - generic [ref=e246]:
+      - generic [ref=e247]:
+        - heading "A practical starting plan" [level=2] [ref=e248]
+        - paragraph [ref=e249]: Treat the apartment as a sequence of clear zones, not a display floor. Solve movement, storage and lighting first, then use one color-rich surface to give each zone identity.
+      - generic [ref=e250]:
+        - generic [ref=e251]:
+          - generic [ref=e252]: "01"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Protect negative space
+            - paragraph [ref=e255]: Draw the main route and keep corners near doors, windows and kitchen stools free before sizing furniture.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "02"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Set the wood hierarchy
+            - paragraph [ref=e260]: Choose walnut for the visual anchor, then use quieter oak or painted finishes where another wood note would compete.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "03"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Assign the saturated color
+            - paragraph [ref=e265]: Place teal or rust on the largest suitable textile and echo it only at a much smaller scale.
+        - generic [ref=e266]:
+          - generic [ref=e267]: "04"
+          - generic [ref=e268]:
+            - generic [ref=e269]: Tune evening light
+            - paragraph [ref=e270]: Combine diffused overhead, task and low lamp light; dim globes that would otherwise reflect in windows or screens.
+    - generic [ref=e272]:
+      - generic [ref=e273]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e274]
+        - paragraph [ref=e275]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e276]:
+        - generic [ref=e277]:
+          - generic [ref=e278]: Too many small statement pieces
+          - paragraph [ref=e279]: Keep one sculptural light and one color-rich seat; remove objects that do not support a function.
+        - generic [ref=e280]:
+          - generic [ref=e281]: Walnut covers every surface
+          - paragraph [ref=e282]: Break it with warm-grey cabinetry, pale stone and visible wall so grain remains a focal material.
+        - generic [ref=e283]:
+          - generic [ref=e284]: Brass turns the room glamorous
+          - paragraph [ref=e285]: Reduce it to thin hardware and lamp details, using black or quiet painted metal elsewhere.
+        - generic [ref=e286]:
+          - generic [ref=e287]: Mid-century becomes a costume
+          - paragraph [ref=e288]: Use the lifted proportions and warm wood, but avoid reproducing a complete period furniture set.
+    - generic [ref=e290]:
+      - generic [ref=e291]:
+        - heading "West Elm Modern vs similar styles" [level=2] [ref=e292]
+        - paragraph [ref=e293]: West Elm Modern-inspired rooms borrow mid-century proportions but are not period interiors. Their distinct character comes from compact urban planning, controlled saturated color and a polished mix of walnut, pale mineral surfaces and diffused light.
+      - generic [ref=e294]:
+        - generic [ref=e295]:
+          - generic [ref=e296]:
+            - generic [ref=e297]: Similar style
+            - link "Mid-Century Modern" [ref=e298] [cursor=pointer]:
+              - /url: /styles/mid-century-modern
+          - generic [ref=e299]:
+            - text: How it usually feels
+            - paragraph [ref=e300]: Historically grounded, with recognizable twentieth-century furniture types, architectural ideas and period material logic.
+          - generic [ref=e301]:
+            - text: Choose West Elm Modern if
+            - paragraph [ref=e302]: Choose West Elm Modern for a looser contemporary interpretation suited to current apartment plans and mixed price points.
+          - generic [ref=e303]:
+            - text: Visual signal
+            - paragraph [ref=e304]: Current urban editing replaces period fidelity.
+        - generic [ref=e305]:
+          - generic [ref=e306]:
+            - generic [ref=e307]: Similar style
+            - link "Urban Modern" [ref=e308] [cursor=pointer]:
+              - /url: /styles/urban-modern
+          - generic [ref=e309]:
+            - text: How it usually feels
+            - paragraph [ref=e310]: Rougher and more architectural, often emphasizing concrete, steel, brick and oversized contemporary art.
+          - generic [ref=e311]:
+            - text: Choose West Elm Modern if
+            - paragraph [ref=e312]: Choose West Elm Modern for warmer walnut, softer upholstery and clearer mid-century influence.
+          - generic [ref=e313]:
+            - text: Visual signal
+            - paragraph [ref=e314]: Polished warmth replaces industrial edge.
+        - generic [ref=e315]:
+          - generic [ref=e316]:
+            - generic [ref=e317]: Similar style
+            - link "Contemporary" [ref=e318] [cursor=pointer]:
+              - /url: /styles/contemporary
+          - generic [ref=e319]:
+            - text: How it usually feels
+            - paragraph [ref=e320]: Tracks broader current design and can be more neutral, sculptural or luxurious without a fixed wood-and-color vocabulary.
+          - generic [ref=e321]:
+            - text: Choose West Elm Modern if
+            - paragraph [ref=e322]: Choose West Elm Modern when walnut, raised silhouettes and saturated textiles should organize the room.
+          - generic [ref=e323]:
+            - text: Visual signal
+            - paragraph [ref=e324]: A defined retail-modern vocabulary replaces general newness.
+        - generic [ref=e325]:
+          - generic [ref=e326]:
+            - generic [ref=e327]: Similar style
+            - link "Modern Glam" [ref=e328] [cursor=pointer]:
+              - /url: /styles/modern-glam
+          - generic [ref=e329]:
+            - text: How it usually feels
+            - paragraph [ref=e330]: More reflective and decorative, using polished metal, velvet, glass and stronger luxury signals.
+          - generic [ref=e331]:
+            - text: Choose West Elm Modern if
+            - paragraph [ref=e332]: Choose West Elm Modern for matte stone, restrained brass and everyday apartment practicality.
+          - generic [ref=e333]:
+            - text: Visual signal
+            - paragraph [ref=e334]: Tactile restraint replaces shine.
+    - generic [ref=e336]:
+      - generic [ref=e337]:
+        - heading "Pieces to look for" [level=2] [ref=e338]
+        - paragraph [ref=e339]: Buy by proportion and finish integrity rather than silhouette alone. Check delivery access, veneer edges, seat dimensions, textile performance and lighting glare before committing to the room’s visual anchors.
+      - generic [ref=e340]:
+        - article [ref=e341]:
+          - img "Apartment-scale sofa for West Elm Modern interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Apartment-scale sofa
+            - paragraph [ref=e345]: Compare overall depth, usable seat, arm width, leg attachment, cushion recovery and the route from building entrance to room.
+        - article [ref=e346]:
+          - img "Walnut storage console for West Elm Modern interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Walnut storage console
+            - paragraph [ref=e350]: Inspect grain alignment, ventilation for equipment, cable exits, door clearance and the finish on every visible edge.
+        - article [ref=e351]:
+          - img "Saturated lounge chair for West Elm Modern interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Saturated lounge chair
+            - paragraph [ref=e355]: Test back angle and seat support, then verify abrasion, pile behavior and how the color changes in daylight.
+        - article [ref=e356]:
+          - img "Oval dining table for West Elm Modern interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Oval dining table
+            - paragraph [ref=e360]: Check the pedestal footprint, edge comfort and full chair clearance in the actual dining zone.
+        - article [ref=e361]:
+          - img "Diffused globe lighting for West Elm Modern interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Diffused globe lighting
+            - paragraph [ref=e365]: Confirm bulb access, dimmer compatibility, glare control and safe clearance above work and dining surfaces.
+        - article [ref=e366]:
+          - img "Material sample set for West Elm Modern interior design" [ref=e367]
+          - generic [ref=e368]:
+            - generic [ref=e369]: Material sample set
+            - paragraph [ref=e370]: Review walnut, teal wool, rust velvet, travertine, oak, brass, glass and cabinet finish together at day and night.
+    - generic [ref=e372]:
+      - heading "West Elm Modern FAQ" [level=2] [ref=e373]
+      - generic [ref=e374]:
+        - group [ref=e375]:
+          - generic "What defines West Elm Modern-inspired design?" [ref=e376] [cursor=pointer]
+        - group [ref=e379]:
+          - generic "Is West Elm Modern the same as Mid-Century Modern?" [ref=e380] [cursor=pointer]
+        - group [ref=e383]:
+          - generic "How do you keep the room from looking like a showroom?" [ref=e384] [cursor=pointer]
+        - group [ref=e387]:
+          - generic "Can this style work in a rental?" [ref=e388] [cursor=pointer]
+        - group [ref=e391]:
+          - generic "How much walnut and brass should one room use?" [ref=e392] [cursor=pointer]
+        - group [ref=e395]:
+          - generic "Is this page affiliated with West Elm?" [ref=e396] [cursor=pointer]
+    - generic [ref=e400]:
+      - heading "Explore related styles" [level=2] [ref=e401]
+      - generic [ref=e402]:
+        - link "Mid-Century Modern interior design Mid-Century Modern →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/mid-century-modern
+          - img "Mid-Century Modern interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Mid-Century Modern
+            - generic [ref=e407]: →
+        - link "Urban Modern interior design Urban Modern →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/urban-modern
+          - img "Urban Modern interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Urban Modern
+            - generic [ref=e412]: →
+        - link "Contemporary interior design Contemporary →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/contemporary
+          - img "Contemporary interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Contemporary
+            - generic [ref=e417]: →
+        - link "Modern Glam interior design Modern Glam →" [ref=e418] [cursor=pointer]:
+          - /url: /styles/modern-glam
+          - img "Modern Glam interior design" [ref=e419]
+          - generic [ref=e420]:
+            - generic [ref=e421]: Modern Glam
+            - generic [ref=e422]: →
+  - contentinfo [ref=e423]:
+    - generic [ref=e424]:
+      - navigation [ref=e425]:
+        - link "About" [ref=e426] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e427] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e428] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e429] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e430]: © 2026 Imaginary Interiors — Interior Style Atlas

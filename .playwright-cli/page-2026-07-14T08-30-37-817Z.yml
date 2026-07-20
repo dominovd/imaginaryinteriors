@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / European Classic
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "European Classic Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: European rooms shaped by proportion, provenance and patina—formal enough to feel composed, relaxed enough to remain a home.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "European Classic interior design hero" [ref=e34]
+          - img "European Classic kitchen interior" [ref=e35]
+          - img "European Classic styled corner" [ref=e36]
+          - img "European Classic detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Composed + cultivated
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Walnut, limestone, linen
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Parchment, celadon, walnut, oxblood
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, dining, entry
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Architecture sets the hierarchy
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: One well-proportioned antique
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Quiet envelope, dark furniture
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Palace pastiche and matching suites
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is European Classic interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "European Classic design draws from the shared domestic language of French apartments, English townhouses and Italian palazzi: paneled walls, ordered openings, natural stone, parquet floors and furniture with visible lineage. It is not one strict period. The coherence comes from proportion and material quality rather than from copying a historical room intact."
+        - paragraph [ref=e88]: The most convincing spaces establish a calm architectural frame, then place a few darker, older objects within it. Patina is welcome, but wear should feel genuine rather than manufactured. Ornament has a job—marking an opening, framing a wall or completing a cornice—so the room remains legible even when individual pieces are decorative.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Establish the frame
+          - paragraph [ref=e92]: Align doors, panels, lighting and major furniture before considering decorative objects.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Mix by quality, not country
+          - paragraph [ref=e95]: French, English and Italian pieces can coexist when scale, wood tone and craftsmanship relate.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Leave evidence of age
+          - paragraph [ref=e98]: A softened stone edge or mellow walnut surface gives the room credibility that new distressed finishes cannot.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of european classic interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Architectural hierarchy
+          - paragraph [ref=e108]: Cornices, paneling and centered openings establish order before furniture enters the room.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Dark furniture on a pale field
+          - paragraph [ref=e114]: Walnut and mahogany silhouettes gain presence against parchment, stone and muted grey walls.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Useful ornament
+          - paragraph [ref=e120]: Carving, gilt and molding concentrate around thresholds, mirrors and focal pieces instead of covering every surface.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Natural patina
+          - paragraph [ref=e126]: Stone, timber, leather and metal are allowed to mellow, connecting objects of different origins.
+      - generic [ref=e127]:
+        - img "European Classic material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "European Classic room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "European Classic Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/european-classic/living-room
+          - img "European Classic Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "European Classic Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/european-classic/bedroom
+          - img "European Classic Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "European Classic Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/european-classic/dining-room
+          - img "European Classic Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "European Classic Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/european-classic/home-office
+          - img "European Classic Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "European Classic Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/european-classic/kitchen
+          - img "European Classic Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "European Classic Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/european-classic/entryway-hallway
+          - img "European Classic Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Build the composition around the fireplace or main window, then balance—not mirror—the furniture on either side.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Use a shaped upholstered headboard, one dark commode and plain linen; the architecture should carry most of the formality.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Choose a table with real visual weight and keep the chandelier centered on it, even when the room itself is imperfect.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Paint fitted shelves a muted olive and pair them with a genuinely useful antique desk rather than decorative library props.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: "Treat cabinetry as millwork: consistent stiles, a modest cornice and honed stone are more persuasive than applied ornament."
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Use floor pattern and aligned openings to create arrival; one console and mirror are enough furnishing.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let parchment and stone occupy most of the room, use walnut as the structural dark and reserve celadon or oxblood for one textile story. The palette should appear mellowed, never uniformly beige.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Parchment
+              - paragraph [ref=e196]: A warm architectural neutral that holds paneling and plaster relief without looking yellow.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Celadon
+              - paragraph [ref=e201]: A faded green for textiles, cabinetry or one painted room.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Walnut
+              - paragraph [ref=e206]: The dark anchor that gives pale rooms gravity and historical depth.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Stone grey
+              - paragraph [ref=e211]: Connects limestone, aged silver and cool daylight.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Oxblood
+              - paragraph [ref=e216]: A controlled accent for dining upholstery, a book spine or a narrow border.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Walnut marquetry material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Walnut marquetry
+                - paragraph [ref=e224]: Fine grain and restrained inlay make one case piece a focal point without requiring a matching suite.
+            - generic [ref=e225]:
+              - img "Honed limestone material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Honed limestone
+                - paragraph [ref=e229]: A low-sheen surface brings architectural permanence to floors, mantels and worktops.
+            - generic [ref=e230]:
+              - img "Silk-linen material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Silk-linen
+                - paragraph [ref=e234]: Its slight irregularity keeps tailored curtains and upholstery from feeling ceremonial.
+            - generic [ref=e235]:
+              - img "Aged brass material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Aged brass
+                - paragraph [ref=e239]: Small fittings add warmth; a consistent unlacquered finish matters more than quantity.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Work from the room outward. European Classic succeeds when architecture, furniture and objects form a clear hierarchy rather than competing to look expensive.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Read the axes
+            - paragraph [ref=e250]: Identify the strongest window, fireplace or opening and align the main furniture group with it.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Quiet the envelope
+            - paragraph [ref=e255]: Use one pale wall color and repeat a restrained molding profile at the correct scale.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Add the dark anchors
+            - paragraph [ref=e260]: Place one or two walnut, mahogany or aged leather pieces where their silhouettes remain clear.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Finish with evidence
+            - paragraph [ref=e265]: Introduce art, books, textiles and metalwork slowly; keep only objects that add provenance or use.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Everything is ornate
+          - paragraph [ref=e274]: Concentrate detail at one focal wall and simplify surrounding textiles, lighting and casework.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The room feels like a period set
+          - paragraph [ref=e277]: Mix origins and dates, allow practical contemporary comfort and avoid complete matching furniture suites.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Cream and gold flatten the palette
+          - paragraph [ref=e280]: Add a dark timber anchor, stone grey and one faded chromatic note such as celadon or oxblood.
+        - generic [ref=e281]:
+          - generic [ref=e282]: New finishes look artificially old
+          - paragraph [ref=e283]: Choose honest natural materials and let them age; use true vintage pieces where patina is important.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "European Classic vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: European Classic is not shorthand for any room with molding and antiques. Its distinction lies in architectural order, credible materials and a cross-European mix that has settled over time.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Traditional" [ref=e293] [cursor=pointer]:
+              - /url: /styles/traditional
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: Broader and often more tied to one national or period vocabulary, especially English and American precedents.
+          - generic [ref=e296]:
+            - text: Choose European Classic if
+            - paragraph [ref=e297]: Choose European Classic for a cross-continental architectural mix and stronger emphasis on provenance.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Pale formal architecture supports French, English and Italian pieces together.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "New Traditional" [ref=e303] [cursor=pointer]:
+              - /url: /styles/new-traditional
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Brighter, more conversational and more willing to use graphic pattern, contemporary art and sharp color.
+          - generic [ref=e306]:
+            - text: Choose European Classic if
+            - paragraph [ref=e307]: Choose European Classic when age, restraint and architectural continuity matter more than contrast.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Patina and proportion replace the deliberate old-new juxtaposition.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "French Country" [ref=e313] [cursor=pointer]:
+              - /url: /styles/french-country
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: Softer, more provincial and rustic, with washed finishes, casual linen and rural references.
+          - generic [ref=e316]:
+            - text: Choose European Classic if
+            - paragraph [ref=e317]: Choose European Classic for urban formality, polished timber and a more ordered room plan.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Paneling, parquet and fine case pieces replace weathered farmhouse texture.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Hollywood Regency" [ref=e323] [cursor=pointer]:
+              - /url: /styles/hollywood-regency
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More theatrical, glossy and symmetrical, with lacquer, mirror and high-contrast glamour.
+          - generic [ref=e326]:
+            - text: Choose European Classic if
+            - paragraph [ref=e327]: Choose European Classic for quiet material authority and furniture that looks accumulated rather than staged.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Honed stone and mellow wood replace reflective glamour.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Buy fewer pieces and inspect construction. One correctly scaled antique, a good wool rug and full curtains will contribute more than a room of reproduction accessories.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Antique walnut commode for European Classic interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Antique walnut commode
+            - paragraph [ref=e340]: Look for useful storage, balanced proportions and a surface whose age does not depend on heavy distressing.
+        - article [ref=e341]:
+          - img "Oval dining table for European Classic interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Oval dining table
+            - paragraph [ref=e345]: A strong perimeter and extending mechanism make formal dining adaptable to everyday use.
+        - article [ref=e346]:
+          - img "Linen-width curtains for European Classic interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Linen-width curtains
+            - paragraph [ref=e350]: Hang them high and full, using simple headings so fabric softens the architecture without hiding it.
+        - article [ref=e351]:
+          - img "Honed stone surface for European Classic interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Honed stone surface
+            - paragraph [ref=e355]: Accept subtle etching and variation; a low sheen is integral to the room’s mature character.
+        - article [ref=e356]:
+          - img "Library task lamp for European Classic interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Library task lamp
+            - paragraph [ref=e360]: A focused brass light gives an antique desk contemporary usefulness without changing its visual language.
+        - article [ref=e361]:
+          - img "Restrained gilt mirror for European Classic interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Restrained gilt mirror
+            - paragraph [ref=e365]: Use gilt once, where it can mark arrival or reflect daylight rather than act as a room-wide finish.
+    - generic [ref=e367]:
+      - heading "European Classic FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines European Classic interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Can European Classic work in a modern apartment?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "Which colors suit the style?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Do all furniture pieces need to be antique?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "How much ornament is appropriate?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How is it different from French Country?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Traditional interior design Traditional →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/traditional
+          - img "Traditional interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Traditional
+            - generic [ref=e402]: →
+        - link "New Traditional interior design New Traditional →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/new-traditional
+          - img "New Traditional interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: New Traditional
+            - generic [ref=e407]: →
+        - link "French Country interior design French Country →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/french-country
+          - img "French Country interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: French Country
+            - generic [ref=e412]: →
+        - link "Hollywood Regency interior design Hollywood Regency →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/hollywood-regency
+          - img "Hollywood Regency interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Hollywood Regency
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

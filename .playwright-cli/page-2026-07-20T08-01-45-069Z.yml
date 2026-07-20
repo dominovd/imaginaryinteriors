@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Bauhaus
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Bauhaus Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: "A room designed as a useful system: clear routes, economical construction and color that explains space instead of decorating it."
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Bauhaus interior design hero" [ref=e34]
+          - img "Bauhaus kitchen interior" [ref=e35]
+          - img "Bauhaus styled corner" [ref=e36]
+          - img "Bauhaus detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Rational + energetic
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Tubular steel, plywood, linoleum
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: White, charcoal, birch, signal color
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, office, kitchen
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Function generates the composition
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Flexible storage or work furniture
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: One color plane with a task
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Primary-color pastiche
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Bauhaus interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Bauhaus interior design grows from the German school active from 1919 to 1933, where art, craft, architecture and industrial production were taught as connected disciplines. Rooms were treated as systems for living: circulation, light, storage and repeated construction mattered more than inherited ornament. Workshops tested steel tube, plywood, glass, woven textiles and standardized components for modern manufacture."
+        - paragraph [ref=e88]: The style is often reduced to primary colors and geometric art, but those are secondary tools. A convincing Bauhaus room first solves a practical problem with legible structure and economical material. Color may identify a door or balance a wall; it does not need to appear on every cabinet. This distinguishes Bauhaus from broader Modern interiors and from the warmer, more sculptural Mid-Century Modern tradition.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Map the activity first
+          - paragraph [ref=e92]: Place sitting, working and storage zones according to movement and daylight before choosing visual accents.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Make construction readable
+          - paragraph [ref=e95]: Let frames, joints and edges show how furniture carries weight and can be reproduced or repaired.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Give color a function
+          - paragraph [ref=e98]: Use one saturated plane to mark an entrance, organize storage or correct visual balance.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of bauhaus interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Functional zoning
+          - paragraph [ref=e108]: Furniture and wall planes define activities without unnecessary partitions or decorative symmetry.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Industrial lightness
+          - paragraph [ref=e114]: Tubular steel and glass reduce visual mass while making structure explicit.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Standardized modules
+          - paragraph [ref=e120]: Repeatable storage bays and consistent dimensions adapt as household needs change.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Disciplined contrast
+          - paragraph [ref=e126]: White and grey fields carry most of the room; black structure and small color planes clarify the composition.
+      - generic [ref=e127]:
+        - img "Bauhaus material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Bauhaus room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Bauhaus Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/bauhaus/living-room
+          - img "Bauhaus Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Bauhaus Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/bauhaus/bedroom
+          - img "Bauhaus Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Bauhaus Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/bauhaus/dining-room
+          - img "Bauhaus Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Bauhaus Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/bauhaus/home-office
+          - img "Bauhaus Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Bauhaus Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/bauhaus/kitchen
+          - img "Bauhaus Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Bauhaus Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/bauhaus/entryway-hallway
+          - img "Bauhaus Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Float lightweight seating around a compact table and leave the route between window, door and storage unobstructed.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Combine a simple steel bed with full-height plywood storage and an integrated writing shelf; color belongs on one textile plane.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Repeat one chair structure around a plain table, then use a charcoal wall and opal pendant to define the zone.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Build an open grid for prototypes and supplies, with closed modules only where visual noise interferes with work.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Use a compact galley, continuous worktop and standardized drawer widths to shorten preparation routes.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Combine coat rail, bench and shoe storage into one shallow system, using color to make the doorway immediately legible.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let white, grey and material color occupy most of the room. Select one signal hue for orientation and, if needed, a second smaller hue to balance it across the composition.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Warm white
+              - paragraph [ref=e196]: The primary light field for walls and large cabinet planes.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Charcoal
+              - paragraph [ref=e201]: Makes frames, task zones and structural grids easy to read.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Birch ply
+              - paragraph [ref=e206]: Adds economical warmth while exposing honest laminated construction.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Signal red
+              - paragraph [ref=e211]: Marks one active plane or movable element rather than becoming a decorative theme.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Cobalt
+              - paragraph [ref=e216]: A spatial cue for a door, recess or storage bay used in a controlled amount.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Tubular steel material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Tubular steel
+                - paragraph [ref=e224]: A bent continuous frame creates strength with less material and visual weight.
+            - generic [ref=e225]:
+              - img "Birch plywood material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Birch plywood
+                - paragraph [ref=e229]: Visible laminations connect economical production with a warm, durable surface.
+            - generic [ref=e230]:
+              - img "Linoleum material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Linoleum
+                - paragraph [ref=e234]: A resilient matte floor supports movement without imitating a more expensive material.
+            - generic [ref=e235]:
+              - img "Ribbed glass material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Ribbed glass
+                - paragraph [ref=e239]: Diffuses light and screens contents while retaining industrial clarity.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Treat the room as a small design problem. Decide what must happen, reduce the number of elements and let every material or color choice explain how the solution works.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Diagram the routes
+            - paragraph [ref=e250]: Mark doors, windows and daily movement, then keep those paths free of furniture.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Choose repeatable units
+            - paragraph [ref=e255]: Use consistent storage widths and furniture frames that can move or expand.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Expose the logic
+            - paragraph [ref=e260]: Prefer visible joints, thin frames and honest surfaces over decorative cladding.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Apply one signal color
+            - paragraph [ref=e265]: Assign color to a door, cabinet or rug that clarifies the spatial composition.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every object is red, blue or yellow
+          - paragraph [ref=e274]: Return most surfaces to neutral and keep one color plane tied to orientation or zoning.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The room resembles an office showroom
+          - paragraph [ref=e277]: Add woven wool, books, plants and comfortable proportions without hiding the structural system.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Minimal appearance compromises storage
+          - paragraph [ref=e280]: Use standardized closed modules where items require protection and open grids only for active tools.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Furniture is geometric but uncomfortable
+          - paragraph [ref=e283]: Test seat depth, back angle and table clearance; functionalism includes the body.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Bauhaus vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Bauhaus is not simply geometric modernism. Its distinctive value lies in solving daily needs through teaching, experimentation, repeatable construction and a disciplined relationship between art and industry.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Modern" [ref=e293] [cursor=pointer]:
+              - /url: /styles/modern
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: Broader and more polished, often using seamless planes, premium stone and sculptural furniture without an explicit social-production agenda.
+          - generic [ref=e296]:
+            - text: Choose Bauhaus if
+            - paragraph [ref=e297]: Choose Bauhaus for economical systems, visible construction and a stronger relationship between design and manufacture.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Repeatable steel-and-plywood components replace bespoke luxury surfaces.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Mid-Century Modern" [ref=e303] [cursor=pointer]:
+              - /url: /styles/mid-century-modern
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Warmer and more domestic, with walnut, tapered legs, organic silhouettes and a strong postwar lifestyle character.
+          - generic [ref=e306]:
+            - text: Choose Bauhaus if
+            - paragraph [ref=e307]: Choose Bauhaus for earlier industrial rigor, lighter frames and more abstract spatial contrast.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Tubular steel and primary planes replace sculpted timber bodies.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Industrial" [ref=e313] [cursor=pointer]:
+              - /url: /styles/industrial
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: Rougher and building-led, exposing brick, concrete, ducts and heavy factory structure.
+          - generic [ref=e316]:
+            - text: Choose Bauhaus if
+            - paragraph [ref=e317]: Choose Bauhaus when industry should produce precision, efficiency and visual lightness rather than raw atmosphere.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Standardized furniture frames replace distressed shells and exposed services.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Minimalist" [ref=e323] [cursor=pointer]:
+              - /url: /styles/minimalist
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Quieter and more reductive, often concealing storage, joints and visual information to create calm.
+          - generic [ref=e326]:
+            - text: Choose Bauhaus if
+            - paragraph [ref=e327]: Choose Bauhaus when reduction should remain active, adaptable and visibly constructed.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Legible frames and signal color replace seamless neutral silence.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Buy for adaptability and construction quality rather than icon status. A modest modular cabinet or correctly bent chair frame is more useful than a room full of famous-looking replicas.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Tubular lounge chair for Bauhaus interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Tubular lounge chair
+            - paragraph [ref=e340]: Inspect welds, tube bends and seat tension; the frame should appear light while remaining stable.
+        - article [ref=e341]:
+          - img "Plywood storage wall for Bauhaus interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Plywood storage wall
+            - paragraph [ref=e345]: Use repeatable doors and drawers from floor to ceiling to combine sleeping, dressing and work needs.
+        - article [ref=e346]:
+          - img "Cantilever dining chair for Bauhaus interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Cantilever dining chair
+            - paragraph [ref=e350]: Choose consistent flex and supportive woven or upholstered contact surfaces.
+        - article [ref=e351]:
+          - img "Steel shelving grid for Bauhaus interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Steel shelving grid
+            - paragraph [ref=e355]: Mix open bays with a few closed modules so active materials remain accessible without permanent clutter.
+        - article [ref=e356]:
+          - img "Continuous metal worktop for Bauhaus interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Continuous metal worktop
+            - paragraph [ref=e360]: A hygienic uninterrupted surface supports preparation better than decorative material changes.
+        - article [ref=e361]:
+          - img "Integrated hall system for Bauhaus interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Integrated hall system
+            - paragraph [ref=e365]: Combine hooks, bench and shoe storage in a shallow frame sized to actual daily belongings.
+    - generic [ref=e367]:
+      - heading "Bauhaus FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Bauhaus interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Does Bauhaus require primary colors?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is Bauhaus different from Mid-Century Modern?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Can a Bauhaus room feel comfortable?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which materials suit Bauhaus interiors?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How can Bauhaus work in a small apartment?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Modern interior design Modern →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/modern
+          - img "Modern interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Modern
+            - generic [ref=e402]: →
+        - link "Mid-Century Modern interior design Mid-Century Modern →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/mid-century-modern
+          - img "Mid-Century Modern interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Mid-Century Modern
+            - generic [ref=e407]: →
+        - link "Industrial interior design Industrial →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/industrial
+          - img "Industrial interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Industrial
+            - generic [ref=e412]: →
+        - link "Minimalist interior design Minimalist →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/minimalist
+          - img "Minimalist interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Minimalist
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

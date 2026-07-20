@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Rustic
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Rustic Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Weight, grain and useful wear give the room its character—not a collection of country-themed decorations.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Rustic interior design hero" [ref=e34]
+          - img "Rustic kitchen interior" [ref=e35]
+          - img "Rustic styled corner" [ref=e36]
+          - img "Rustic detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Grounded + enduring
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Aged timber, fieldstone, iron, wool
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Limestone, oak, charcoal, moss
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, kitchen, entry
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Let construction become decoration
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: One genuinely substantial timber piece
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Rough shell, calm functional layout
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Manufactured “rustic” distressing
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is rustic interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Rustic design draws character from materials that reveal how they were made and how they age: irregular stone, sawn or hewn timber, forged iron, lime plaster, leather and dense natural textiles. The architecture usually carries more visual weight than the accessories. Grain, tool marks, joints and softened edges supply the detail that polished rooms often add through ornament."
+        - paragraph [ref=e88]: A convincing rustic room is sturdy but not necessarily dark, old or rural. Clear walkways, pale mineral walls and a limited number of large pieces keep heavy materials from feeling oppressive. The goal is useful permanence—a table that welcomes daily wear, a slate floor that tolerates boots and storage placed where life actually happens—not a staged imitation of a cabin.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Read the building first
+          - paragraph [ref=e92]: Preserve a real beam, stone reveal or plank floor, then let new furniture support that element rather than compete with it.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Choose mass deliberately
+          - paragraph [ref=e95]: Use one thick table, bench or chest as an anchor and balance it with open space and visually lighter seating.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Accept useful variation
+          - paragraph [ref=e98]: Knots, mineral shifts and wear are valuable when the surface remains sound, cleanable and suited to its job.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of rustic interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Construction you can read
+          - paragraph [ref=e108]: Pegged joints, thick lintels and forged hardware make assembly visible instead of disguising it behind trim.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Material weight
+          - paragraph [ref=e114]: Substantial timber and stone create permanence, while limewash and linen prevent the palette from becoming heavy.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Honest signs of use
+          - paragraph [ref=e120]: Patina belongs on contact points and working surfaces; random factory distressing does not tell a believable story.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Practical restraint
+          - paragraph [ref=e126]: Fewer, larger objects leave room for cooking, gathering, working and arriving with outdoor gear.
+      - generic [ref=e127]:
+        - img "Rustic material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Rustic room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Rustic Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/rustic/living-room
+          - img "Rustic Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Rustic Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/rustic/bedroom
+          - img "Rustic Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Rustic Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/rustic/dining-room
+          - img "Rustic Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Rustic Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/rustic/home-office
+          - img "Rustic Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Rustic Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/rustic/kitchen
+          - img "Rustic Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Rustic Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/rustic/entryway-hallway
+          - img "Rustic Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Anchor seating with the fireplace or masonry wall, then keep the coffee table low enough that timber mass does not block conversation.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Let one stone wall or ceiling beam lead; use plain linen, a wool blanket and compact iron lighting to keep the room restful.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Choose a refectory table with real joinery, then vary chair shapes slightly while matching their seat height and scale.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Pair a sturdy trestle desk with an ergonomic chair and closed boxes; rustic character should never compromise long working hours.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Reserve reclaimed wood for fronts and the preparation table, using soapstone and tile where water, heat and cleaning demand resilience.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: "Plan for wet footwear first: slate underfoot, open boot clearance, reachable hooks and a bench deep enough to sit on."
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Start with the actual colors of stone and timber. Add one pale mineral wall tone, one dark metal note and a muted textile accent; avoid staining every wood surface into the same artificial brown.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Limestone
+              - paragraph [ref=e196]: A mineral neutral for plaster and masonry that reflects light without looking bright white.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Weathered oak
+              - paragraph [ref=e201]: The central wood tone; let natural variation provide movement instead of mixing many stains.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Iron charcoal
+              - paragraph [ref=e206]: Defines hardware, lamps and window frames in narrow, functional lines.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Oat wool
+              - paragraph [ref=e211]: Softens stone and leather through rugs, throws and upholstery with visible weave.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Muted moss
+              - paragraph [ref=e216]: A restrained natural accent for one chair, coat or textile rather than a themed forest palette.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Reclaimed oak material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Reclaimed oak
+                - paragraph [ref=e224]: Use sound boards with visible grain and joinery; seal working surfaces with a repairable matte finish.
+            - generic [ref=e225]:
+              - img "Fieldstone material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Fieldstone
+                - paragraph [ref=e229]: Irregular size and mineral color create depth, but selective exposure is calmer than covering every wall.
+            - generic [ref=e230]:
+              - img "Blackened iron material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Blackened iron
+                - paragraph [ref=e234]: Forged latches, hooks and lamps add precise dark punctuation without decorative scrollwork.
+            - generic [ref=e235]:
+              - img "Undyed wool material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Undyed wool
+                - paragraph [ref=e239]: Dense weave introduces warmth, acoustic softness and comfort against hard floors and masonry.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Build the room from what is permanent to what is portable. Rustic character is strongest when every layer has a practical reason to be there.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Audit the shell
+            - paragraph [ref=e250]: Identify stone, beams, floors or deep openings worth revealing, and repair them before adding decorative finishes.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Set one heavy anchor
+            - paragraph [ref=e255]: Choose the table, bed, hearth or bench that will carry most of the visual weight.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Design for wear
+            - paragraph [ref=e260]: Place stone, iron and sealed wood where shoes, water, heat and hands will test the room.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Soften the contact points
+            - paragraph [ref=e265]: Add wool, linen, leather and warm task lighting where the body sits, sleeps or works.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every surface is rough and brown
+          - paragraph [ref=e274]: Keep one major texture exposed, lighten adjacent walls and introduce plain oatmeal textiles.
+        - generic [ref=e275]:
+          - generic [ref=e276]: The room looks like a themed lodge
+          - paragraph [ref=e277]: Remove signs, antlers and novelty objects; let structural timber, stone and useful hardware tell the story.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Reclaimed materials are hard to maintain
+          - paragraph [ref=e280]: Use them away from standing water or seal them with a matte, repairable finish appropriate to the surface.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Massive furniture blocks movement
+          - paragraph [ref=e283]: Retain one substantial anchor and verify door swings, chair pull-out space and daily walking routes.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Rustic vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Rustic is defined less by a historical period than by material honesty, readable construction and tolerance for useful wear. That makes it broader—and often more restrained—than country styles built around a specific decorative narrative.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Modern Rustic" [ref=e293] [cursor=pointer]:
+              - /url: /styles/modern-rustic
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: Cleaner and lighter, pairing natural texture with contemporary lines, larger glazing and more precise detailing.
+          - generic [ref=e296]:
+            - text: Choose Rustic if
+            - paragraph [ref=e297]: Choose Rustic when age, material mass and visible handwork should lead instead of polished modern contrast.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Hewn beams and substantial joinery replace slim profiles and seamless surfaces.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Farmhouse" [ref=e303] [cursor=pointer]:
+              - /url: /styles/farmhouse
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Brighter and more domestic, with painted cabinetry, apron sinks, cotton checks and familiar agricultural references.
+          - generic [ref=e306]:
+            - text: Choose Rustic if
+            - paragraph [ref=e307]: Choose Rustic for heavier stone, darker timber and less decorative storytelling.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Structural weight replaces white-painted country charm.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Industrial" [ref=e313] [cursor=pointer]:
+              - /url: /styles/industrial
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More urban and mechanical, exposing steel, brick, concrete and building services from factory architecture.
+          - generic [ref=e316]:
+            - text: Choose Rustic if
+            - paragraph [ref=e317]: Choose Rustic when craft, natural irregularity and tactile warmth matter more than engineered repetition.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Fieldstone and hand-hewn oak replace steel grids, ducts and warehouse brick.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Cottagecore" [ref=e323] [cursor=pointer]:
+              - /url: /styles/cottagecore
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Softer and more romantic, using florals, collected ceramics, handmade detail and a pastoral domestic narrative.
+          - generic [ref=e326]:
+            - text: Choose Rustic if
+            - paragraph [ref=e327]: Choose Rustic for functional restraint, architectural material and a less decorative relationship with rural life.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: A heavy worktable and plain wool replace florals, dainty furniture and sentimental displays.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Inspect construction before surface character. A sound joint, stable frame and repairable finish matter more than knots, nail holes or a distressed label.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Solid timber bed for Rustic interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Solid timber bed
+            - paragraph [ref=e340]: Look for stable rails, readable joinery and enough under-bed clearance; avoid thick decorative timber that adds weight without strength.
+        - article [ref=e341]:
+          - img "Oak prep table for Rustic interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Oak prep table
+            - paragraph [ref=e345]: Choose a comfortable working height and a surface that can be scrubbed, sanded and resealed over years of use.
+        - article [ref=e346]:
+          - img "Refectory dining table for Rustic interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Refectory dining table
+            - paragraph [ref=e350]: Check leg placement against every chair and allow the top to develop an even, honest patina.
+        - article [ref=e351]:
+          - img "Forged task lamp for Rustic interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Forged task lamp
+            - paragraph [ref=e355]: Use adjustable light with a simple dark finish; the mechanism should remain easy to operate and repair.
+        - article [ref=e356]:
+          - img "Full-grain leather chair for Rustic interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Full-grain leather chair
+            - paragraph [ref=e360]: Prioritize supportive proportions and leather that will crease naturally rather than a uniformly antiqued finish.
+        - article [ref=e361]:
+          - img "Entry bench with boot space for Rustic interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Entry bench with boot space
+            - paragraph [ref=e365]: Measure seat depth, footwear height and hook reach so the piece solves arrivals instead of becoming another display surface.
+    - generic [ref=e367]:
+      - heading "Rustic FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines rustic interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Can rustic interiors feel light and contemporary?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is rustic different from farmhouse style?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Does rustic design require reclaimed wood?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which materials soften a rustic room?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you avoid a rustic room looking themed?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Modern Rustic interior design Modern Rustic →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/modern-rustic
+          - img "Modern Rustic interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Modern Rustic
+            - generic [ref=e402]: →
+        - link "Farmhouse interior design Farmhouse →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/farmhouse
+          - img "Farmhouse interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Farmhouse
+            - generic [ref=e407]: →
+        - link "Industrial interior design Industrial →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/industrial
+          - img "Industrial interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Industrial
+            - generic [ref=e412]: →
+        - link "Cottagecore interior design Cottagecore →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/cottagecore
+          - img "Cottagecore interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Cottagecore
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

@@ -1,0 +1,393 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Coastal
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Coastal Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Filtered light, open air routes and sand-tolerant materials create coastal ease without a single nautical motif.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Coastal interior design hero" [ref=e34]
+          - img "Coastal kitchen interior" [ref=e35]
+          - img "Coastal styled corner" [ref=e36]
+          - img "Coastal detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Airy + sheltered
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Bleached oak, limestone, linen, seagrass
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Chalk, sand, sea-glass, pale oak
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living, bedroom, entry
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Design for light, air and sand
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Adjustable exterior shade
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Sea-grey cloth against chalk plaster
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Literal nautical decoration
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Coastal interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Coastal design responds to the conditions around the shore: intense daylight, views, moving air, wet towels and sand carried indoors. Pale mineral surfaces and light timber support that response, while shutters, screens and washable fabrics make the room comfortable beyond the photograph."
+        - paragraph [ref=e88]: Blue is optional and white needs warmth. A successful palette uses chalk, limestone and bleached oak as the field, then adds a small sea-glass or ink note for depth. This is lighter and more architectural than Coastal Grandmother, less regionally historic than Mediterranean and far more restrained than Tropical style.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Filter before decorating
+          - paragraph [ref=e92]: Control glare with exterior screens, shutters or lined curtains before choosing pale upholstery.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Plan the sandy route
+          - paragraph [ref=e95]: Connect the outdoor door, rinse point, towel storage and hard floor without crossing the main seating area.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Warm the white
+          - paragraph [ref=e98]: Use limestone, pale oak and natural weave so chalk walls feel dimensional rather than clinical.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of coastal interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Layered sun control
+          - paragraph [ref=e108]: Screens and adjustable shutters temper direct light while preserving air and partial views.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Clear cross-breeze paths
+          - paragraph [ref=e114]: Furniture stays out of the line between openings, allowing air to move through the room.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Dry, tactile neutrals
+          - paragraph [ref=e120]: Limestone, oak, linen and seagrass add enough texture that the palette can stay quiet.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Recoverable soft surfaces
+          - paragraph [ref=e126]: Washable slipcovers and removable textiles handle sunscreen, damp clothing and everyday wear.
+      - generic [ref=e127]:
+        - img "Coastal material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Coastal room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Coastal Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/coastal/living-room
+          - img "Coastal Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Coastal Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/coastal/bedroom
+          - img "Coastal Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Coastal Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/coastal/dining-room
+          - img "Coastal Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Coastal Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/coastal/home-office
+          - img "Coastal Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Coastal Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/coastal/kitchen
+          - img "Coastal Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Coastal Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/coastal/entryway-hallway
+          - img "Coastal Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Keep the view axis open and place washable seating outside the strongest glare; let a woven rug and pale oak warm the white shell.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Use shutters for daytime sun, lined linen for sleep and a low bed so both openings can ventilate the room.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Choose an oval table for easy movement toward the terrace and light woven chairs that dry quickly after humid weather.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Place the screen perpendicular to the window, then add an exterior filter and task light instead of fighting reflections all day.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Specify wipeable pale fronts, a low-sheen stone top and ventilated pantry doors; protect the terrace opening from direct sun.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Keep wet towels, footwear and rinsing on a hard-floor route with ventilated storage before the living space begins.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Build most of the room from chalk, limestone and pale oak. Use dune sand to connect the textures, sea-glass grey once or twice and soft ink only where the composition needs an edge.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Chalk white
+              - paragraph [ref=e196]: A softened mineral white that reflects light without turning cold blue.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Dune sand
+              - paragraph [ref=e201]: The mid-tone for weave, flooring and shadow between paler surfaces.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Sea-glass grey
+              - paragraph [ref=e206]: A muted blue-green accent for one cloth plane rather than an entire theme.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Bleached oak
+              - paragraph [ref=e211]: Adds dry warmth and visible grain to furniture and screens.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Soft ink
+              - paragraph [ref=e216]: A restrained dark note for art, task surfaces or fine metal lines.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Bleached oak material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Bleached oak
+                - paragraph [ref=e224]: A matte, low-yellow timber that warms the shell; specify a finish appropriate to humidity and exposure.
+            - generic [ref=e225]:
+              - img "Honed limestone material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Honed limestone
+                - paragraph [ref=e229]: A quiet hard surface for sandy routes when slip rating, sealing and local maintenance are considered.
+            - generic [ref=e230]:
+              - img "Washable linen blend material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Washable linen blend
+                - paragraph [ref=e234]: Keeps the relaxed hand of linen while improving recovery and care in frequently used rooms.
+            - generic [ref=e235]:
+              - img "Seagrass weave material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Seagrass weave
+                - paragraph [ref=e239]: Introduces dry texture on chairs or mats; keep it away from persistently wet zones.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Solve sun, airflow and the path from outdoors first. Then choose three pale materials and one muted color instead of collecting seaside symbols.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Trace the sun
+            - paragraph [ref=e250]: Mark when each opening causes heat or glare and choose adjustable protection for that exposure.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Protect the breeze
+            - paragraph [ref=e255]: Keep tall storage and deep seating clear of the route between operable windows and doors.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Build a dry palette
+            - paragraph [ref=e260]: Combine one mineral, one pale wood and one washable cloth before adding blue.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Contain the beach route
+            - paragraph [ref=e265]: Give sand, towels and wet shoes a short hard-surface path with ventilation and easy cleaning.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: The room is white and overexposed
+          - paragraph [ref=e274]: Add exterior shade, dune mid-tones and pale timber before increasing decorative contrast.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Blue becomes a visual theme
+          - paragraph [ref=e277]: Keep sea-glass color to one textile plane and let mineral neutrals carry the room.
+        - generic [ref=e278]:
+          - generic [ref=e279]: Natural weave sits in wet zones
+          - paragraph [ref=e280]: Move seagrass and rattan inward; use stone, tile and suitable metal beside exterior doors.
+        - generic [ref=e281]:
+          - generic [ref=e282]: The coast appears as merchandise
+          - paragraph [ref=e283]: Remove shells, anchors and signs; express place through light control, views and material performance.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Coastal vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: Coastal is not simply a pale palette. Its identity comes from solving shore conditions—sun, air, humidity and sand—with a quieter material and furniture language.
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "Coastal Grandmother" [ref=e293] [cursor=pointer]:
+              - /url: /styles/coastal-grandmother
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: More traditional and layered, with slipcovered comfort, woven antiques, soft blue and familiar New England references.
+          - generic [ref=e296]:
+            - text: Choose Coastal if
+            - paragraph [ref=e297]: Choose Coastal for cleaner architecture, stronger sun control and less nostalgic furnishing.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Slatted screens and limestone replace traditional layers.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Mediterranean" [ref=e303] [cursor=pointer]:
+              - /url: /styles/mediterranean
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Warmer and more historic, using lime plaster, terracotta, arches and stronger regional craft.
+          - generic [ref=e306]:
+            - text: Choose Coastal if
+            - paragraph [ref=e307]: Choose Coastal for a cooler, lighter envelope with pale timber and restrained geometry.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Dune neutrals replace baked clay and ornamental tile.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Tropical" [ref=e313] [cursor=pointer]:
+              - /url: /styles/tropical
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: Lusher and more saturated, with broad-leaf greenery, dark or golden timber and stronger woven contrast.
+          - generic [ref=e316]:
+            - text: Choose Coastal if
+            - paragraph [ref=e317]: Choose Coastal for dry texture, muted vegetation and lower color intensity.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Sea grass and pale oak replace palms and dense tropical color.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - link "Scandinavian" [ref=e323] [cursor=pointer]:
+              - /url: /styles/scandinavian
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: Similarly light but more inland and domestic, emphasizing Nordic practicality, wool and crisp pale-wood furniture.
+          - generic [ref=e326]:
+            - text: Choose Coastal if
+            - paragraph [ref=e327]: Choose Coastal when glare, salt air, sand and outdoor wet routes are the real design constraints.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Shutters and rinse storage replace winter-focused softness.
+    - generic [ref=e331]:
+      - generic [ref=e332]:
+        - heading "Pieces to look for" [level=2] [ref=e333]
+        - paragraph [ref=e334]: Buy for exposure and maintenance before appearance. Verify cleanability, corrosion resistance and sun performance for the exact location rather than trusting a “coastal” label.
+      - generic [ref=e335]:
+        - article [ref=e336]:
+          - img "Adjustable timber shutters for Coastal interior design" [ref=e337]
+          - generic [ref=e338]:
+            - generic [ref=e339]: Adjustable timber shutters
+            - paragraph [ref=e340]: Match slat angle and finish to the exposure; verify hardware, clearance and airflow when the panels are open.
+        - article [ref=e341]:
+          - img "Low-sheen stone worktop for Coastal interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Low-sheen stone worktop
+            - paragraph [ref=e345]: Review stain sensitivity, sealing and glare under direct daylight before selecting a pale slab.
+        - article [ref=e346]:
+          - img "Light woven dining chair for Coastal interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Light woven dining chair
+            - paragraph [ref=e350]: Check seat comfort and whether the fiber suits indoor humidity; avoid leaving natural weave exposed outdoors.
+        - article [ref=e351]:
+          - img "Glare-controlled desk for Coastal interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Glare-controlled desk
+            - paragraph [ref=e355]: Size the desk around a screen perpendicular to the window and include cable routing plus a real task light.
+        - article [ref=e356]:
+          - img "Ventilated towel cupboard for Coastal interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Ventilated towel cupboard
+            - paragraph [ref=e360]: Provide air gaps and washable internal surfaces so damp textiles are not sealed into a shallow cabinet.
+        - article [ref=e361]:
+          - img "Exposure-suitable hardware for Coastal interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Exposure-suitable hardware
+            - paragraph [ref=e365]: Confirm the metal grade and coating for interior, sheltered exterior or direct salt exposure—these are not interchangeable.
+    - generic [ref=e367]:
+      - heading "Coastal FAQ" [level=2] [ref=e368]
+      - generic [ref=e369]:
+        - group [ref=e370]:
+          - generic "What defines Coastal interior design?" [ref=e371] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Does a Coastal room have to use blue?" [ref=e375] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "How is Coastal different from Coastal Grandmother?" [ref=e379] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "How do you keep a white Coastal room warm?" [ref=e383] [cursor=pointer]
+        - group [ref=e386]:
+          - generic "Which flooring works near a beach entry?" [ref=e387] [cursor=pointer]
+        - group [ref=e390]:
+          - generic "How do you avoid nautical clichés?" [ref=e391] [cursor=pointer]
+    - generic [ref=e395]:
+      - heading "Explore related styles" [level=2] [ref=e396]
+      - generic [ref=e397]:
+        - link "Coastal Grandmother interior design Coastal Grandmother →" [ref=e398] [cursor=pointer]:
+          - /url: /styles/coastal-grandmother
+          - img "Coastal Grandmother interior design" [ref=e399]
+          - generic [ref=e400]:
+            - generic [ref=e401]: Coastal Grandmother
+            - generic [ref=e402]: →
+        - link "Mediterranean interior design Mediterranean →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/mediterranean
+          - img "Mediterranean interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Mediterranean
+            - generic [ref=e407]: →
+        - link "Tropical interior design Tropical →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/tropical
+          - img "Tropical interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Tropical
+            - generic [ref=e412]: →
+        - link "Scandinavian interior design Scandinavian →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/scandinavian
+          - img "Scandinavian interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Scandinavian
+            - generic [ref=e417]: →
+  - contentinfo [ref=e418]:
+    - generic [ref=e419]:
+      - navigation [ref=e420]:
+        - link "About" [ref=e421] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e422] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e423] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e424] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e425]: © 2026 Imaginary Interiors — Interior Style Atlas

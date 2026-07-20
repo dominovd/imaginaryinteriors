@@ -1,0 +1,357 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Tuscan
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Tuscan Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Earth-baked floors, mineral walls and dark timber create warmth balanced by light, space and a disciplined material palette.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Tuscan interior design hero" [ref=e34]
+          - img "Tuscan kitchen interior" [ref=e35]
+          - img "Tuscan styled corner" [ref=e36]
+          - img "Tuscan detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Sun-warmed + grounded
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Cotto, lime plaster, walnut, travertine
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Terracotta, lime, olive, walnut
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Kitchen, dining, living
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Balance baked warmth with mineral light
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Authentic handmade cotto floor
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Terracotta base, olive textile note
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Themed wine-country decoration
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Tuscan interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: "Tuscan design reflects central Italian rural houses through materials that moderate heat and age visibly: lime plaster, handmade terracotta tile, local stone, dark walnut, linen and forged iron. Arches and deep openings shape the space, but the strongest rooms rely on material proportion rather than ornamental “Old World” effects."
+        - paragraph [ref=e88]: The key challenge is temperature. Cotto, ochre and walnut can make every surface feel orange or heavy, so pale plaster, travertine, daylight and muted olive provide relief. This grounded contrast separates Tuscan interiors from the paler elegance of French Country and from the brighter coastal references of broader Mediterranean style.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Ground the room once
+          - paragraph [ref=e92]: Let cotto or dark timber provide the main warm field; do not repeat both at maximum intensity everywhere.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Use plaster as light
+          - paragraph [ref=e95]: Warm limewash reflects daylight and gives heavy wood and iron enough breathing room.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Edit the ironwork
+          - paragraph [ref=e98]: Choose one pendant, rail or set of hooks with simple forged geometry instead of scrollwork on every object.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of tuscan interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Handmade earthen floors
+          - paragraph [ref=e108]: Variation in cotto tile creates movement underfoot without requiring patterned surfaces.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Thick mineral envelope
+          - paragraph [ref=e114]: Lime plaster, travertine and stone openings make the architecture feel protective and cool.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Dark useful timber
+          - paragraph [ref=e120]: Walnut tables, doors and storage anchor pale walls through clear, substantial forms.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Restrained iron structure
+          - paragraph [ref=e126]: Forged lighting and rails add fine dark lines while avoiding decorative excess.
+      - generic [ref=e127]:
+        - img "Tuscan material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Tuscan room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Tuscan Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/tuscan/living-room
+          - img "Tuscan Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Tuscan Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/tuscan/bedroom
+          - img "Tuscan Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Tuscan Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/tuscan/dining-room
+          - img "Tuscan Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Tuscan Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/tuscan/home-office
+          - img "Tuscan Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Tuscan Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/tuscan/kitchen
+          - img "Tuscan Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Tuscan Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/tuscan/entryway-hallway
+          - img "Tuscan Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Use stone and cotto as the architectural base, then choose simpler linen seating and one dark timber table.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Pair a plain walnut bed with pale linen and a muted olive coverlet; keep iron lighting compact.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Let a substantial walnut table lead, with rush chairs and one low ceramic bowl rather than a styled tablescape.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Place a clear walnut desk against pale plaster and use a supportive leather chair plus one closed storage niche.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Keep the work route simple, using travertine near water and heat while a freestanding table handles preparation.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Combine a narrow table, closed olive storage and durable cotto, preserving the path between door and stair.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Allow cotto to provide the warm base, then use lime and travertine across larger vertical surfaces. Keep walnut concentrated and introduce olive as the cooling accent.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Limewash
+              - paragraph [ref=e196]: Reflects daylight and keeps warm floors from making the room visually dense.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Cotto
+              - paragraph [ref=e201]: The earthen anchor for floors, used with natural variation rather than uniform orange.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Olive leaf
+              - paragraph [ref=e206]: Cools terracotta through one textile, cabinet or ceramic accent.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Walnut
+              - paragraph [ref=e211]: Adds structural depth to doors, tables and work furniture.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Travertine
+              - paragraph [ref=e216]: A quieter stone note for benches, worktops and thresholds.
+        - generic [ref=e217]:
+          - heading "Texture roles" [level=3] [ref=e218]
+          - generic [ref=e219]:
+            - generic [ref=e220]:
+              - img "Handmade cotto material" [ref=e221]
+              - generic [ref=e222]:
+                - generic [ref=e223]: Handmade cotto
+                - paragraph [ref=e224]: Uneven edges and firing variation create depth; use a breathable matte seal appropriate to the room.
+            - generic [ref=e225]:
+              - img "Lime plaster material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Lime plaster
+                - paragraph [ref=e229]: Soft variation catches daylight while allowing walls to remain visually quiet.
+            - generic [ref=e230]:
+              - img "Dark walnut material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Dark walnut
+                - paragraph [ref=e234]: Dense grain provides permanence when limited to a few substantial pieces.
+            - generic [ref=e235]:
+              - img "Travertine material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Travertine
+                - paragraph [ref=e239]: Honed mineral texture balances cotto and timber without adding another strong color.
+    - generic [ref=e241]:
+      - generic [ref=e242]:
+        - heading "A practical starting plan" [level=2] [ref=e243]
+        - paragraph [ref=e244]: Choose one earthen floor, one pale mineral wall finish and one concentrated timber family before adding iron or decorative objects.
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]: "01"
+          - generic [ref=e248]:
+            - generic [ref=e249]: Set the temperature
+            - paragraph [ref=e250]: Decide whether cotto or walnut will be the dominant warm field.
+        - generic [ref=e251]:
+          - generic [ref=e252]: "02"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Increase mineral light
+            - paragraph [ref=e255]: Use lime plaster and travertine to balance the darker materials.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "03"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Add olive restraint
+            - paragraph [ref=e260]: Introduce one muted green textile, cabinet or ceramic piece.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "04"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Remove villa props
+            - paragraph [ref=e265]: Keep useful pottery and iron; omit wine barrels, grapes and faux frescoes.
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e269]
+        - paragraph [ref=e270]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - generic [ref=e273]: Every surface turns orange-brown
+          - paragraph [ref=e274]: Lighten walls, reduce dark timber and add travertine plus muted olive.
+        - generic [ref=e275]:
+          - generic [ref=e276]: Ironwork becomes theatrical
+          - paragraph [ref=e277]: Keep one simple forged fixture and remove scrollwork from secondary objects.
+        - generic [ref=e278]:
+          - generic [ref=e279]: The room resembles a themed restaurant
+          - paragraph [ref=e280]: Remove wine and grape motifs; rely on real cotto, plaster and proportion.
+        - generic [ref=e281]:
+          - generic [ref=e282]: Heavy furniture blocks circulation
+          - paragraph [ref=e283]: Retain one substantial table or bed and verify clear paths around it.
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - heading "Tuscan vs similar styles" [level=2] [ref=e287]
+        - paragraph [ref=e288]: "Tuscan interiors are regionally specific: earthen floors, limewashed mass, walnut and olive tones express the inland Italian landscape more clearly than generic Old World decoration."
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic [ref=e292]: Similar style
+            - link "French Country" [ref=e293] [cursor=pointer]:
+              - /url: /styles/french-country
+          - generic [ref=e294]:
+            - text: How it usually feels
+            - paragraph [ref=e295]: Paler and more graceful, with blue-grey paint, curved provincial furniture and faded printed linen.
+          - generic [ref=e296]:
+            - text: Choose Tuscan if
+            - paragraph [ref=e297]: Choose Tuscan for stronger earthen color, heavier walnut and central Italian mineral architecture.
+          - generic [ref=e298]:
+            - text: Visual signal
+            - paragraph [ref=e299]: Cotto and olive replace chalk, faded blue and shapely fruitwood.
+        - generic [ref=e300]:
+          - generic [ref=e301]:
+            - generic [ref=e302]: Similar style
+            - link "Mediterranean" [ref=e303] [cursor=pointer]:
+              - /url: /styles/mediterranean
+          - generic [ref=e304]:
+            - text: How it usually feels
+            - paragraph [ref=e305]: Broader and often brighter, including coastal white, blue, patterned tile and influences from several regions.
+          - generic [ref=e306]:
+            - text: Choose Tuscan if
+            - paragraph [ref=e307]: Choose Tuscan for a landlocked, earthier palette and more concentrated timber weight.
+          - generic [ref=e308]:
+            - text: Visual signal
+            - paragraph [ref=e309]: Walnut and handmade terracotta replace coastal blue and white.
+        - generic [ref=e310]:
+          - generic [ref=e311]:
+            - generic [ref=e312]: Similar style
+            - link "Rustic" [ref=e313] [cursor=pointer]:
+              - /url: /styles/rustic
+          - generic [ref=e314]:
+            - text: How it usually feels
+            - paragraph [ref=e315]: More universal and rough-hewn, emphasizing exposed structure, fieldstone and visible construction.
+          - generic [ref=e316]:
+            - text: Choose Tuscan if
+            - paragraph [ref=e317]: Choose Tuscan for limewashed enclosure, Italian cotto and a warmer, region-specific material balance.
+          - generic [ref=e318]:
+            - text: Visual signal
+            - paragraph [ref=e319]: Plastered arches and cotto replace exposed rugged structure.
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Similar style
+            - generic [ref=e323]: Old World
+          - generic [ref=e324]:
+            - text: How it usually feels
+            - paragraph [ref=e325]: More ornate and theatrical, mixing European references, carved furniture, tapestries and heavier decoration.
+          - generic [ref=e326]:
+            - text: Choose Tuscan if
+            - paragraph [ref=e327]: Choose Tuscan for regional clarity and a quieter relationship with age.
+          - generic [ref=e328]:
+            - text: Visual signal
+            - paragraph [ref=e329]: Useful regional materials replace generalized historic opulence.
+    - generic [ref=e331]:
+      - heading "Tuscan FAQ" [level=2] [ref=e332]
+      - generic [ref=e333]:
+        - group [ref=e334]:
+          - generic "What defines Tuscan interior design?" [ref=e335] [cursor=pointer]
+        - group [ref=e338]:
+          - generic "How is Tuscan different from Mediterranean style?" [ref=e339] [cursor=pointer]
+        - group [ref=e342]:
+          - generic "How do you stop a Tuscan room feeling too dark?" [ref=e343] [cursor=pointer]
+        - group [ref=e346]:
+          - generic "Does Tuscan style require arches?" [ref=e347] [cursor=pointer]
+        - group [ref=e350]:
+          - generic "Which colors work in Tuscan interiors?" [ref=e351] [cursor=pointer]
+        - group [ref=e354]:
+          - generic "How do you avoid Tuscan décor clichés?" [ref=e355] [cursor=pointer]
+    - generic [ref=e359]:
+      - heading "Explore related styles" [level=2] [ref=e360]
+      - generic [ref=e361]:
+        - link "French Country interior design French Country →" [ref=e362] [cursor=pointer]:
+          - /url: /styles/french-country
+          - img "French Country interior design" [ref=e363]
+          - generic [ref=e364]:
+            - generic [ref=e365]: French Country
+            - generic [ref=e366]: →
+        - link "Mediterranean interior design Mediterranean →" [ref=e367] [cursor=pointer]:
+          - /url: /styles/mediterranean
+          - img "Mediterranean interior design" [ref=e368]
+          - generic [ref=e369]:
+            - generic [ref=e370]: Mediterranean
+            - generic [ref=e371]: →
+        - link "Rustic interior design Rustic →" [ref=e372] [cursor=pointer]:
+          - /url: /styles/rustic
+          - img "Rustic interior design" [ref=e373]
+          - generic [ref=e374]:
+            - generic [ref=e375]: Rustic
+            - generic [ref=e376]: →
+        - link "Country interior design Country →" [ref=e377] [cursor=pointer]:
+          - /url: /styles/country
+          - img "Country interior design" [ref=e378]
+          - generic [ref=e379]:
+            - generic [ref=e380]: Country
+            - generic [ref=e381]: →
+  - contentinfo [ref=e382]:
+    - generic [ref=e383]:
+      - navigation [ref=e384]:
+        - link "About" [ref=e385] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e386] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e387] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e388] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e389]: © 2026 Imaginary Interiors — Interior Style Atlas

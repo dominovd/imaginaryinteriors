@@ -1,0 +1,396 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Imaginary Interiors" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e6]:
+        - link "Styles" [ref=e7] [cursor=pointer]:
+          - /url: /styles
+        - link "Rooms" [ref=e8] [cursor=pointer]:
+          - /url: /rooms
+        - link "Colors" [ref=e9] [cursor=pointer]:
+          - /url: /colors
+        - link "Trends" [ref=e10] [cursor=pointer]:
+          - /url: /trends
+        - link "Quiz" [ref=e11] [cursor=pointer]:
+          - /url: /quiz
+      - generic [ref=e12]:
+        - link "Saved styles" [ref=e13] [cursor=pointer]:
+          - /url: /saved
+          - generic [ref=e16]: "0"
+        - img "Menu" [ref=e17]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - link "Styles" [ref=e22] [cursor=pointer]:
+          - /url: /styles
+        - text: / Elven Fantasy
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Style hub
+          - heading "Elven Fantasy Interior Design" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Abstract the woodland into arches, grain, filtered light and quiet bronze detail—never into a room full of borrowed fantasy props.
+          - button "Save style" [ref=e29] [cursor=pointer]
+        - generic [ref=e33]:
+          - img "Elven Fantasy interior design hero" [ref=e34]
+          - img "Elven Fantasy kitchen interior" [ref=e35]
+          - img "Elven Fantasy styled corner" [ref=e36]
+          - img "Elven Fantasy detail interior" [ref=e37]
+    - generic [ref=e40]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: Mood
+        - generic [ref=e47]: Luminous + crafted
+      - generic [ref=e51]:
+        - generic [ref=e52]: Materials
+        - generic [ref=e53]: Steam-bent ash, lime plaster, slate, wool, linen, patinated bronze
+      - generic [ref=e60]:
+        - generic [ref=e61]: Palette
+        - generic [ref=e62]: Pale ash, sage, slate, moss, lichen, muted bronze
+      - generic [ref=e66]:
+        - generic [ref=e67]: Best rooms
+        - generic [ref=e68]: Living room, bedroom, study
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: Core principle
+        - generic [ref=e73]: Botanical geometry, not props
+      - generic [ref=e74]:
+        - generic [ref=e75]: Best investment
+        - generic [ref=e76]: Full-scale joinery mock-up
+      - generic [ref=e77]:
+        - generic [ref=e78]: Signature move
+        - generic [ref=e79]: Pale ribs framing daylight
+      - generic [ref=e80]:
+        - generic [ref=e81]: Avoid
+        - generic [ref=e82]: Franchise replicas
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "What is Elven Fantasy interior design?" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Elven Fantasy interior design is an imaginative, nature-led language rather than a historical style. Slender arches, branching lattices, pale timber, mineral walls and filtered landscape views suggest an ethereal woodland culture without requiring characters, heraldry or replicas from an existing fictional world. The strongest rooms feel like original architecture, not a film set.
+        - paragraph [ref=e88]: Translate the idea into buildable layers. Curved ribs can be laminated or steam-bent by a qualified fabricator; botanical relief can stay shallow enough to clean; lime plaster and slate need assemblies suited to the actual climate. Keep kitchens, bathrooms, glazing, wiring and circulation fully contemporary. One crafted gesture per view is more convincing—and more maintainable—than vines, faux roots and symbols on every surface.
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]: Choose an abstraction level
+          - paragraph [ref=e92]: Decide whether the woodland appears through silhouette, material or carving, then stop before all three compete at full intensity.
+        - generic [ref=e93]:
+          - generic [ref=e94]: Mock up the curve
+          - paragraph [ref=e95]: Test one full-size rib, junction and finish sample so radius, grain, shadow and fixing strategy can be judged together.
+        - generic [ref=e96]:
+          - generic [ref=e97]: Keep the envelope real
+          - paragraph [ref=e98]: Custom-shaped windows still require tested glazing, drainage, structure, insulation and safe cleaning access.
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "Key features of elven fantasy interiors" [level=2] [ref=e102]
+        - generic [ref=e106]:
+          - generic [ref=e107]: Tapered leaf-like arches
+          - paragraph [ref=e108]: Repeated ribs pull the eye upward while their pale finish prevents the room from becoming Gothic or heavy.
+        - generic [ref=e112]:
+          - generic [ref=e113]: Abstract botanical craft
+          - paragraph [ref=e114]: Branching lattice and shallow relief reference growth without copying literal trunks, leaves or fictional symbols.
+        - generic [ref=e118]:
+          - generic [ref=e119]: Landscape as the focal art
+          - paragraph [ref=e120]: Clear framed views contribute changing color and movement, reducing the need for themed decoration.
+        - generic [ref=e124]:
+          - generic [ref=e125]: Low, shielded warm light
+          - paragraph [ref=e126]: Bronze lamps reveal grain and plaster after dark without relying on glowing fantasy objects.
+      - generic [ref=e127]:
+        - img "Elven Fantasy material board" [ref=e128]
+        - generic [ref=e129]: Material board
+    - generic [ref=e131]:
+      - heading "Elven Fantasy room ideas" [level=2] [ref=e132]
+      - generic [ref=e133]:
+        - link "Elven Fantasy Living room interior Living room →" [ref=e134] [cursor=pointer]:
+          - /url: /styles/elven/living-room
+          - img "Elven Fantasy Living room interior" [ref=e135]
+          - generic [ref=e136]:
+            - generic [ref=e137]: Living room
+            - generic [ref=e138]: →
+        - link "Elven Fantasy Bedroom interior Bedroom →" [ref=e139] [cursor=pointer]:
+          - /url: /styles/elven/bedroom
+          - img "Elven Fantasy Bedroom interior" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]: Bedroom
+            - generic [ref=e143]: →
+        - link "Elven Fantasy Dining room interior Dining room →" [ref=e144] [cursor=pointer]:
+          - /url: /styles/elven/dining-room
+          - img "Elven Fantasy Dining room interior" [ref=e145]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Dining room
+            - generic [ref=e148]: →
+        - link "Elven Fantasy Home office interior Home office →" [ref=e149] [cursor=pointer]:
+          - /url: /styles/elven/home-office
+          - img "Elven Fantasy Home office interior" [ref=e150]
+          - generic [ref=e151]:
+            - generic [ref=e152]: Home office
+            - generic [ref=e153]: →
+        - link "Elven Fantasy Kitchen interior Kitchen →" [ref=e154] [cursor=pointer]:
+          - /url: /styles/elven/kitchen
+          - img "Elven Fantasy Kitchen interior" [ref=e155]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Kitchen
+            - generic [ref=e158]: →
+        - link "Elven Fantasy Entryway interior Entryway →" [ref=e159] [cursor=pointer]:
+          - /url: /styles/elven/entryway-hallway
+          - img "Elven Fantasy Entryway interior" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Entryway
+            - generic [ref=e163]: →
+      - generic [ref=e164]:
+        - generic [ref=e165]:
+          - generic [ref=e166]: Living room
+          - paragraph [ref=e167]: Use one clear arch rhythm, keep seating genuinely supportive and leave the forest view free of competing plants and ornament.
+        - generic [ref=e168]:
+          - generic [ref=e169]: Bedroom
+          - paragraph [ref=e170]: Limit branching detail to the headboard or wardrobe profile, add full light control and preserve clear access on both sides of the bed.
+        - generic [ref=e171]:
+          - generic [ref=e172]: Dining room
+          - paragraph [ref=e173]: Allow adequate chair pullback, use acoustic wool on seats and place a shielded branching light where it illuminates faces rather than dazzling them.
+        - generic [ref=e174]:
+          - generic [ref=e175]: Home office
+          - paragraph [ref=e176]: Position the screen across the window, not against it; pair a crafted desk with a truly adjustable chair and concealed cable route.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Kitchen
+          - paragraph [ref=e179]: Put fantasy into cabinet profiles and a curved island end while worktops, backsplash, extraction and appliance clearances remain conventional.
+        - generic [ref=e180]:
+          - generic [ref=e181]: Entryway
+          - paragraph [ref=e182]: Use slate, a proper mat, boot tray and closed coat storage so woodland mud and moisture never become part of the theme.
+    - generic [ref=e184]:
+      - generic [ref=e185]:
+        - heading "Palette and materials" [level=2] [ref=e186]
+        - paragraph [ref=e187]: Let pale ash and lichen carry most of the light, sage define the envelope and slate ground the floor. Moss belongs to one or two tactile surfaces; bronze should trace details rather than turn the room golden. Keep the real woodland visible as the most saturated green.
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - heading "Color roles" [level=3] [ref=e190]
+          - generic [ref=e191]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Pale ash
+              - paragraph [ref=e196]: A light structural wood tone that makes repeated ribs feel fine rather than cavernous.
+            - generic [ref=e199]:
+              - generic [ref=e200]: Sage limewash
+              - paragraph [ref=e201]: A breathing-looking mineral green for broad wall fields, always specified for the real substrate.
+            - generic [ref=e204]:
+              - generic [ref=e205]: Grey-green slate
+              - paragraph [ref=e206]: A durable grounded plane for floors and thresholds with tested slip resistance.
+            - generic [ref=e209]:
+              - generic [ref=e210]: Moss wool
+              - paragraph [ref=e211]: A tactile upholstery anchor deeper than the walls but quieter than emerald.
+            - generic [ref=e214]:
+              - generic [ref=e215]: Lichen linen
+              - paragraph [ref=e216]: A pale textile bridge that keeps the green palette luminous and restful.
+            - generic [ref=e219]:
+              - generic [ref=e220]: Muted bronze
+              - paragraph [ref=e221]: A warm low-sheen line for lights, hooks and select joinery details.
+        - generic [ref=e222]:
+          - heading "Texture roles" [level=3] [ref=e223]
+          - generic [ref=e224]:
+            - generic [ref=e225]:
+              - img "Laminated or steam-bent ash material" [ref=e226]
+              - generic [ref=e227]:
+                - generic [ref=e228]: Laminated or steam-bent ash
+                - paragraph [ref=e229]: Specify species, moisture, radius, lamination lines, spring-back, joint tolerances and the finish on a full-scale sample.
+            - generic [ref=e230]:
+              - img "Lime plaster + shallow relief material" [ref=e231]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Lime plaster + shallow relief
+                - paragraph [ref=e234]: Coordinate substrate and repair method, then keep carved depth low enough to dust without fragile edges.
+            - generic [ref=e235]:
+              - img "Honed slate + wool material" [ref=e236]
+              - generic [ref=e237]:
+                - generic [ref=e238]: Honed slate + wool
+                - paragraph [ref=e239]: Test floor slip and sealing while wool adds acoustic and thermal comfort where bodies actually touch.
+            - generic [ref=e240]:
+              - img "Patinated bronze + seeded glass material" [ref=e241]
+              - generic [ref=e242]:
+                - generic [ref=e243]: Patinated bronze + seeded glass
+                - paragraph [ref=e244]: Use protected low-sheen metal and safely rated glass in small details, not as imitation enchanted artifacts.
+    - generic [ref=e246]:
+      - generic [ref=e247]:
+        - heading "A practical starting plan" [level=2] [ref=e248]
+        - paragraph [ref=e249]: Begin with one architectural gesture and a disciplined material system. The fantasy becomes more credible when every curve has a structural, spatial or lighting purpose.
+      - generic [ref=e250]:
+        - generic [ref=e251]:
+          - generic [ref=e252]: "01"
+          - generic [ref=e253]:
+            - generic [ref=e254]: Write the translation rule
+            - paragraph [ref=e255]: Choose two ideas—such as branching structure and filtered light—that will carry the woodland reference through the home.
+        - generic [ref=e256]:
+          - generic [ref=e257]: "02"
+          - generic [ref=e258]:
+            - generic [ref=e259]: Set a repeatable arch
+            - paragraph [ref=e260]: Use one family of radii and junctions for openings, ribs and joinery rather than inventing a new curve in every room.
+        - generic [ref=e261]:
+          - generic [ref=e262]: "03"
+          - generic [ref=e263]:
+            - generic [ref=e264]: Protect daily performance
+            - paragraph [ref=e265]: Resolve glazing, ventilation, wet areas, lighting, cleanability and accessible paths before decorative carving.
+        - generic [ref=e266]:
+          - generic [ref=e267]: "04"
+          - generic [ref=e268]:
+            - generic [ref=e269]: Build one prototype view
+            - paragraph [ref=e270]: Mock up timber, plaster, slate, textile and light together, then remove any element that makes the composition literal or dark.
+    - generic [ref=e272]:
+      - generic [ref=e273]:
+        - heading "Common mistakes, corrected" [level=2] [ref=e274]
+        - paragraph [ref=e275]: When the room feels wrong, change the underlying decision before adding more decor.
+      - generic [ref=e276]:
+        - generic [ref=e277]:
+          - generic [ref=e278]: The room becomes murky green
+          - paragraph [ref=e279]: Increase pale ash, lichen textile and clear daylight; keep deep moss to a few touch surfaces.
+        - generic [ref=e280]:
+          - generic [ref=e281]: Every surface is carved
+          - paragraph [ref=e282]: Reserve botanical work for one headboard, screen or relief per view and leave adjacent planes quiet.
+        - generic [ref=e283]:
+          - generic [ref=e284]: Indoor vines replace architecture
+          - paragraph [ref=e285]: Frame healthy exterior landscape and keep indoor planting limited to species the light and humidity can support.
+        - generic [ref=e286]:
+          - generic [ref=e287]: Fantasy lighting causes glare
+          - paragraph [ref=e288]: Hide or diffuse sources, provide dimming and direct task light to actual reading, cooking and work surfaces.
+    - generic [ref=e290]:
+      - generic [ref=e291]:
+        - heading "Elven Fantasy vs similar styles" [level=2] [ref=e292]
+        - paragraph [ref=e293]: Elven Fantasy can borrow curves from Art Nouveau and verticality from Gothic, but it should not collapse into either. Its specific task is original world-building through light, slender craft and an unusually close—but still buildable—relationship with woodland.
+      - generic [ref=e294]:
+        - generic [ref=e295]:
+          - generic [ref=e296]:
+            - generic [ref=e297]: Similar style
+            - link "Art Nouveau" [ref=e298] [cursor=pointer]:
+              - /url: /styles/art-nouveau
+          - generic [ref=e299]:
+            - text: How it usually feels
+            - paragraph [ref=e300]: A documented historical movement with whiplash curves, floral ornament, stained glass and period-specific craft traditions.
+          - generic [ref=e301]:
+            - text: Choose Elven Fantasy if
+            - paragraph [ref=e302]: Choose Elven Fantasy for an invented woodland world, lighter structural ribs and fewer historically fixed motifs.
+          - generic [ref=e303]:
+            - text: Visual signal
+            - paragraph [ref=e304]: World-building replaces period authenticity.
+        - generic [ref=e305]:
+          - generic [ref=e306]:
+            - generic [ref=e307]: Similar style
+            - link "Gothic" [ref=e308] [cursor=pointer]:
+              - /url: /styles/gothic
+          - generic [ref=e309]:
+            - text: How it usually feels
+            - paragraph [ref=e310]: More vertical, masonry-led and shadowed, using pointed arches, tracery and medieval ecclesiastical associations.
+          - generic [ref=e311]:
+            - text: Choose Elven Fantasy if
+            - paragraph [ref=e312]: Choose Elven Fantasy for pale timber, botanical abstraction, lower visual weight and brighter landscape connection.
+          - generic [ref=e313]:
+            - text: Visual signal
+            - paragraph [ref=e314]: Woodland luminosity replaces stone solemnity.
+        - generic [ref=e315]:
+          - generic [ref=e316]:
+            - generic [ref=e317]: Similar style
+            - link "Cottagecore" [ref=e318] [cursor=pointer]:
+              - /url: /styles/cottagecore
+          - generic [ref=e319]:
+            - text: How it usually feels
+            - paragraph [ref=e320]: Domestic and nostalgic, built from rural craft, florals, gathered objects, painted furniture and everyday pastoral life.
+          - generic [ref=e321]:
+            - text: Choose Elven Fantasy if
+            - paragraph [ref=e322]: Choose Elven Fantasy when architecture and invented craft should feel elevated rather than cozy and collected.
+          - generic [ref=e323]:
+            - text: Visual signal
+            - paragraph [ref=e324]: Ethereal structure replaces rural nostalgia.
+        - generic [ref=e325]:
+          - generic [ref=e326]:
+            - generic [ref=e327]: Similar style
+            - link "Organic Modern" [ref=e328] [cursor=pointer]:
+              - /url: /styles/organic-modern
+          - generic [ref=e329]:
+            - text: How it usually feels
+            - paragraph [ref=e330]: Broadly nature-led and contemporary, favoring soft forms and natural materials without narrative fantasy or symbolic craft.
+          - generic [ref=e331]:
+            - text: Choose Elven Fantasy if
+            - paragraph [ref=e332]: Choose Elven Fantasy when repeated arches and botanical joinery should construct a distinct imagined culture.
+          - generic [ref=e333]:
+            - text: Visual signal
+            - paragraph [ref=e334]: Narrative geometry replaces neutral biophilia.
+    - generic [ref=e336]:
+      - generic [ref=e337]:
+        - heading "Pieces to look for" [level=2] [ref=e338]
+        - paragraph [ref=e339]: Most of the character comes from commissioned or carefully adapted elements, not themed accessories. Ask fabricators for mock-ups and engineers for tested assemblies; buy furniture only after the spatial rhythm is established.
+      - generic [ref=e340]:
+        - article [ref=e341]:
+          - img "Curved supportive sofa for Elven Fantasy interior design" [ref=e342]
+          - generic [ref=e343]:
+            - generic [ref=e344]: Curved supportive sofa
+            - paragraph [ref=e345]: Check seat support, access route, fabric durability and whether the curve strengthens conversation instead of consuming floor area.
+        - article [ref=e346]:
+          - img "Branch-lattice headboard for Elven Fantasy interior design" [ref=e347]
+          - generic [ref=e348]:
+            - generic [ref=e349]: Branch-lattice headboard
+            - paragraph [ref=e350]: Use smooth cleanable edges, secure fixings and a motif abstract enough to avoid literal tree scenery.
+        - article [ref=e351]:
+          - img "Oval crafted dining table for Elven Fantasy interior design" [ref=e352]
+          - generic [ref=e353]:
+            - generic [ref=e354]: Oval crafted dining table
+            - paragraph [ref=e355]: Review base stability, knee space, edge comfort and the full footprint of eight pulled-back chairs.
+        - article [ref=e356]:
+          - img "Shielded bronze task light for Elven Fantasy interior design" [ref=e357]
+          - generic [ref=e358]:
+            - generic [ref=e359]: Shielded bronze task light
+            - paragraph [ref=e360]: Specify warm dimmable output, glare control, replaceable components and a stable adjustable arm.
+        - article [ref=e361]:
+          - img "Durable slate threshold for Elven Fantasy interior design" [ref=e362]
+          - generic [ref=e363]:
+            - generic [ref=e364]: Durable slate threshold
+            - paragraph [ref=e365]: Confirm frost, water and slip performance, grout or joint strategy and safe transition height.
+        - article [ref=e366]:
+          - img "Full material mock-up for Elven Fantasy interior design" [ref=e367]
+          - generic [ref=e368]:
+            - generic [ref=e369]: Full material mock-up
+            - paragraph [ref=e370]: Review bent ash, relief, lime plaster, slate, moss wool, linen, bronze and seeded glass under real day and evening light.
+    - generic [ref=e372]:
+      - heading "Elven Fantasy FAQ" [level=2] [ref=e373]
+      - generic [ref=e374]:
+        - group [ref=e375]:
+          - generic "What defines Elven Fantasy interior design?" [ref=e376] [cursor=pointer]
+        - group [ref=e379]:
+          - generic "Does the room need to copy a fantasy film or book?" [ref=e380] [cursor=pointer]
+        - group [ref=e383]:
+          - generic "Can Elven Fantasy work without custom architecture?" [ref=e384] [cursor=pointer]
+        - group [ref=e387]:
+          - generic "How many plants should the room contain?" [ref=e388] [cursor=pointer]
+        - group [ref=e391]:
+          - generic "Can this style work in a rental?" [ref=e392] [cursor=pointer]
+        - group [ref=e395]:
+          - generic "How do you keep Elven Fantasy from looking childish?" [ref=e396] [cursor=pointer]
+    - generic [ref=e400]:
+      - heading "Explore related styles" [level=2] [ref=e401]
+      - generic [ref=e402]:
+        - link "Art Nouveau interior design Art Nouveau →" [ref=e403] [cursor=pointer]:
+          - /url: /styles/art-nouveau
+          - img "Art Nouveau interior design" [ref=e404]
+          - generic [ref=e405]:
+            - generic [ref=e406]: Art Nouveau
+            - generic [ref=e407]: →
+        - link "Gothic interior design Gothic →" [ref=e408] [cursor=pointer]:
+          - /url: /styles/gothic
+          - img "Gothic interior design" [ref=e409]
+          - generic [ref=e410]:
+            - generic [ref=e411]: Gothic
+            - generic [ref=e412]: →
+        - link "Cottagecore interior design Cottagecore →" [ref=e413] [cursor=pointer]:
+          - /url: /styles/cottagecore
+          - img "Cottagecore interior design" [ref=e414]
+          - generic [ref=e415]:
+            - generic [ref=e416]: Cottagecore
+            - generic [ref=e417]: →
+        - link "Organic Modern interior design Organic Modern →" [ref=e418] [cursor=pointer]:
+          - /url: /styles/organic-modern
+          - img "Organic Modern interior design" [ref=e419]
+          - generic [ref=e420]:
+            - generic [ref=e421]: Organic Modern
+            - generic [ref=e422]: →
+  - contentinfo [ref=e423]:
+    - generic [ref=e424]:
+      - navigation [ref=e425]:
+        - link "About" [ref=e426] [cursor=pointer]:
+          - /url: /about
+        - link "Contact" [ref=e427] [cursor=pointer]:
+          - /url: /contact
+        - link "Privacy" [ref=e428] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e429] [cursor=pointer]:
+          - /url: /terms
+      - generic [ref=e430]: © 2026 Imaginary Interiors — Interior Style Atlas
